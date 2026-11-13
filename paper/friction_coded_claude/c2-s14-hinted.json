@@ -1,0 +1,516 @@
+{
+ "trial": "c2-s14-hinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 1,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 88",
+     "what": "Harby says it can solder/insulate module-to-jack heads; parts left; 20 heads delivered correctly joined",
+     "happened": false
+    },
+    {
+     "cite": "log 59",
+     "what": "Lampatronics printed OUTPUT DC-12V / plug-fit check; sets bought, but no head was ever powered",
+     "happened": "unclear"
+    },
+    {
+     "cite": "log 115",
+     "what": "El Gammal says modules match the 12V white module; bought, never powered",
+     "happened": "unclear"
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 32,
+   "happened": 25,
+   "items": [
+    {
+     "cite": "log 25",
+     "what": "Mostafa, New Maadi mobile shop 1: tall heavy-base stand; only low cradle and short folding stand",
+     "happened": true
+    },
+    {
+     "cite": "log 45",
+     "what": "Mostafa, New Maadi mobile shop 2: tall stand; only low cradles",
+     "happened": true
+    },
+    {
+     "cite": "log 57",
+     "what": "Mostafa, New Maadi hardware shop: tall stand/base; only tape and terminal strips",
+     "happened": true
+    },
+    {
+     "cite": "log 47",
+     "what": "Abdelrahman, Lampatronics: white 12V LED modules; 13 in stock, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 47",
+     "what": "Abdelrahman, Lampatronics: USB 5-12V boost cables and jacks; 29 in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 94",
+     "what": "Abdelrahman, downtown mobile shop 1: freestanding tall stand; only clamp arm at 548, rejected as dear",
+     "happened": true
+    },
+    {
+     "cite": "log 115",
+     "what": "Abdelrahman, El Gammal: seven white 12V modules; 28 in stock at 5 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 123",
+     "what": "Abdelrahman, Lampatronics: seven jacks and seven boost cables; bought",
+     "happened": false
+    },
+    {
+     "cite": "log 118",
+     "what": "Mostafa, El Tamimi: tall freestanding stand; only low cradles",
+     "happened": true
+    },
+    {
+     "cite": "log 135",
+     "what": "Mostafa, El Tamimi: selfie-tripod / ring-light stand asked by name; none",
+     "happened": true
+    },
+    {
+     "cite": "log 163",
+     "what": "Mostafa, downtown mobile shop 1: gooseneck/tripod types; absent",
+     "happened": true
+    },
+    {
+     "cite": "log 168",
+     "what": "Abdelrahman, El Tamimi: tall stand / selfie tripod; none",
+     "happened": true
+    },
+    {
+     "cite": "log 177",
+     "what": "Abdelrahman, El Tamimi: mic stand / helping-hands holder; none",
+     "happened": true
+    },
+    {
+     "cite": "log 184",
+     "what": "Abdelrahman, El Gammal: mic stand / magnifier-base holder; none",
+     "happened": true
+    },
+    {
+     "cite": "log 189",
+     "what": "Mostafa, downtown electronics shop: mic stand / magnifier holder; none",
+     "happened": true
+    },
+    {
+     "cite": "log 349",
+     "what": "Mostafa, Carrefour: tall stand types; only five low cradles",
+     "happened": true
+    },
+    {
+     "cite": "log 383",
+     "what": "Abdelrahman, Harby: USB charger; none for sale",
+     "happened": true
+    },
+    {
+     "cite": "log 383",
+     "what": "Abdelrahman, Lampatronics: USB charger; none",
+     "happened": true
+    },
+    {
+     "cite": "log 378",
+     "what": "Abdelrahman, Harby: cable ties / double-sided tape; none",
+     "happened": true
+    },
+    {
+     "cite": "log 378",
+     "what": "Abdelrahman, Lampatronics: cable ties / double-sided tape; only insulating tape",
+     "happened": true
+    },
+    {
+     "cite": "log 410",
+     "what": "Abdelrahman, downtown mobile shop 1: up to five clamp arms; only three",
+     "happened": true
+    },
+    {
+     "cite": "log 410",
+     "what": "Abdelrahman, downtown mobile shop 1: USB charger; none",
+     "happened": true
+    },
+    {
+     "cite": "log 410",
+     "what": "Abdelrahman, downtown mobile shop 1: cable ties / mounting tape; none",
+     "happened": true
+    },
+    {
+     "cite": "log 405",
+     "what": "Mostafa, New Maadi mobile shop 2 (Sunday detour): tall stand; only low cradles",
+     "happened": true
+    },
+    {
+     "cite": "log 441",
+     "what": "Mostafa, New Maadi hardware shop (Sunday): tall stand; none",
+     "happened": true
+    },
+    {
+     "cite": "log 441",
+     "what": "Mostafa, New Maadi hardware shop (Sunday): cable ties / double-sided tape; none",
+     "happened": true
+    },
+    {
+     "cite": "log 449",
+     "what": "Mostafa, [street removed] shop: the two 121 EGP folding stands; bought",
+     "happened": false
+    },
+    {
+     "cite": "log 449",
+     "what": "Mostafa, [street removed] shop: up to four more folding stands or clamp arms; none",
+     "happened": true
+    },
+    {
+     "cite": "log 449",
+     "what": "Mostafa, [street removed] shop: cable ties / mounting tape; none",
+     "happened": true
+    },
+    {
+     "cite": "log 457",
+     "what": "Mostafa, [street removed] shop: 5V USB charger; 5V 2A at 122 bought",
+     "happened": false
+    },
+    {
+     "cite": "log 563",
+     "what": "Mostafa, Carrefour: five 61 EGP low cradles; all five bought",
+     "happened": false
+    },
+    {
+     "cite": "log 563",
+     "what": "Mostafa, Carrefour: charged power bank; none offered",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 3,
+   "happened": 2,
+   "items": [
+    {
+     "cite": "log 79",
+     "what": "Lampatronics asked to join modules to jacks; cannot do it, refers next door",
+     "happened": false
+    },
+    {
+     "cite": "log 88",
+     "what": "Harby agrees to solder 13 heads: ten Thursday, three Sunday",
+     "happened": true
+    },
+    {
+     "cite": "log 123",
+     "what": "Harby agrees to seven more heads for Sunday",
+     "happened": true
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 3,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 63",
+     "what": "Lampatronics staff say joining 'within an hour'; finally refuse at 15:12",
+     "happened": true
+    },
+    {
+     "cite": "log 305",
+     "what": "Harby: ten heads ready by about 17:42 Thursday; done 17:42",
+     "happened": false
+    },
+    {
+     "cite": "log 347",
+     "what": "Harby: ten Sunday heads 11:00-13:10; twentieth done 13:10",
+     "happened": false
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 11,
+   "happened": 11,
+   "items": [
+    {
+     "cite": "log 33",
+     "what": "b Uber Dokki to Bab El Louk",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 20
+    },
+    {
+     "cite": "log 103",
+     "what": "a Uber New Maadi to Bab El Louk",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 49,
+     "long": true
+    },
+    {
+     "cite": "log 289",
+     "what": "a Thursday return to New Maadi",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 48,
+     "long": true
+    },
+    {
+     "cite": "log 290",
+     "what": "b Thursday return to Hadayek October",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 96,
+     "long": true
+    },
+    {
+     "cite": "log 333",
+     "what": "a Sunday ride to Carrefour City Centre Maadi",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 23
+    },
+    {
+     "cite": "log 341",
+     "what": "b Sunday Uber Manial to Bab El Louk",
+     "happened": true,
+     "quoted_min": 27,
+     "actual_min": 42,
+     "long": true
+    },
+    {
+     "cite": "log 370",
+     "what": "a Carrefour to New Maadi counter",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 22
+    },
+    {
+     "cite": "log 423",
+     "what": "b Bab El Louk to Carrefour Maadi",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 49,
+     "long": true
+    },
+    {
+     "cite": "log 474",
+     "what": "a [street removed] to Carrefour",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 22
+    },
+    {
+     "cite": "log 690",
+     "what": "a Sunday return to New Maadi",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 21
+    },
+    {
+     "cite": "log 690",
+     "what": "b Sunday return to Hadayek October",
+     "happened": true,
+     "quoted_min": 51,
+     "actual_min": 82,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 3,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "Carrefour 16061 for stand stock/prices; busy",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Carrefour 16061 retry; busy",
+     "happened": false
+    },
+    {
+     "cite": "call#3",
+     "what": "Carrefour 16061 Saturday; busy",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 32,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "chat#6",
+     "what": "ride quote Dokki",
+     "happened": false
+    },
+    {
+     "cite": "chat#12",
+     "what": "low cradle, rejected for height not photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#15",
+     "what": "folding stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#21",
+     "what": "Lampatronics module",
+     "happened": false
+    },
+    {
+     "cite": "chat#26",
+     "what": "Lampatronics invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#28",
+     "what": "ride quote Maadi",
+     "happened": false
+    },
+    {
+     "cite": "chat#40",
+     "what": "Harby scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#42",
+     "what": "clamp arm",
+     "happened": false
+    },
+    {
+     "cite": "chat#51",
+     "what": "El Gammal module",
+     "happened": false
+    },
+    {
+     "cite": "chat#57",
+     "what": "El Gammal invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#64",
+     "what": "Lampatronics invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#66",
+     "what": "parts scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#72",
+     "what": "Harby handover scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#117",
+     "what": "ride quote Manial",
+     "happened": false
+    },
+    {
+     "cite": "chat#125",
+     "what": "Carrefour low cradle",
+     "happened": false
+    },
+    {
+     "cite": "chat#136",
+     "what": "twenty heads",
+     "happened": false
+    },
+    {
+     "cite": "chat#143",
+     "what": "arms invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#157",
+     "what": "charger; worker asked amps, Seb answered",
+     "happened": false
+    },
+    {
+     "cite": "chat#160",
+     "what": "folding stands bought",
+     "happened": false
+    },
+    {
+     "cite": "chat#185",
+     "what": "Carrefour invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#195",
+     "what": "F1 lamp unlit; Seb called it lit, no redo",
+     "happened": false
+    },
+    {
+     "cite": "chat#199",
+     "what": "C1 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#202",
+     "what": "F2 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#204",
+     "what": "C2 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#206",
+     "what": "C3 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#208",
+     "what": "M1 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#210",
+     "what": "C4 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#212",
+     "what": "M2 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#214",
+     "what": "C5 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#217",
+     "what": "a handover scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#219",
+     "what": "M3 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#221",
+     "what": "b handover scene",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "No head was ever powered (no charger at Harby, no outlet at the address, power bank unavailable), so K5 has no opportunities and the 12V spec claims in K1 are unclear. Lampatronics' 'within an hour' joining claim is counted under K4, not K1. K2 counts one opportunity per item group per shop visit, including Mostafa's repeat visits on Sunday; asks for wholesale referrals and bulk discounts are left out. K6 Thursday return times are door-to-door from 17:00 as the log states (log 289-290); Sunday returns are from pickup (log 690). No emails were sent."
+}

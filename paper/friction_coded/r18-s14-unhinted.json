@@ -1,0 +1,169 @@
+{
+  "trial": "r18-s14-unhinted",
+  "kinds": {
+    "K1": {
+      "opportunities": 3,
+      "happened": 0,
+      "items": [
+        {"cite": "log 347", "what": "El Gammal seller reconfirms strip is USB 5V; Abdelrahman buys one. Never powered; log says rated strip would light.", "happened": false},
+        {"cite": "log 525", "what": "El Tamimi seller confirms 5V; four strips bought and later wrapped on bottles. Never powered; no defect in world truth.", "happened": false},
+        {"cite": "log 656", "what": "Lampatronics seller confirms 5V; one strip bought at 115. Never powered; no defect in world truth.", "happened": false}
+      ]
+    },
+    "K2": {
+      "opportunities": 33,
+      "happened": 31,
+      "items": [
+        {"cite": "log 72", "what": "Abdelrahman asks Dokki electronics counter for ready white USB light: none, only bare-lead cable.", "happened": true},
+        {"cite": "log 72", "what": "Same Dokki electronics counter, phone holder: none.", "happened": true},
+        {"cite": "log 98", "what": "Dokki mobile-accessories counter, ready USB light: none.", "happened": true},
+        {"cite": "log 98", "what": "Same counter, phone holder: 50 EGP simple stand, Seb rejects as too short (chat#28).", "happened": true},
+        {"cite": "log 212", "what": "RAM in person, ready white USB 5V light: none in stock.", "happened": true},
+        {"cite": "log 282", "what": "El Gammal white USB strip: in stock, but only two when 40+ by Sunday asked; no powered test.", "happened": true},
+        {"cite": "log 282", "what": "El Gammal, flat food-container lid/box for head: not stocked.", "happened": true},
+        {"cite": "log 282", "what": "El Gammal, ready ties: not stocked.", "happened": true},
+        {"cite": "log 348", "what": "El Gammal, USB charger: none.", "happened": true},
+        {"cite": "log 373", "what": "Bab El Louk mobile-accessories counter, USB charger: none.", "happened": true},
+        {"cite": "log 443", "what": "El Tamimi, USB charger: none.", "happened": true},
+        {"cite": "log 443", "what": "El Tamimi white USB strip: only four at 92, no further supply before Sunday (log 526).", "happened": true},
+        {"cite": "log 458", "what": "Bab El Louk electronics counter, USB charger: none.", "happened": true},
+        {"cite": "log 526", "what": "El Tamimi second visit, factory OTG adapter: none.", "happened": true},
+        {"cite": "log 596", "what": "Lampatronics, ready insulated USB heads: none.", "happened": true},
+        {"cite": "log 655", "what": "Lampatronics white USB strip, up to 50 asked: exactly one unit; bought it.", "happened": true},
+        {"cite": "log 92", "what": "Mostafa at New Maadi accessories counter 1, ready USB light: none.", "happened": true},
+        {"cite": "log 92", "what": "Same counter, stand: folding stand 121 EGP, Seb rejects as too dear and too short (chat#23, chat#29).", "happened": true},
+        {"cite": "log 162", "what": "New Maadi market/hardware, smooth shelf bracket or bookend: none.", "happened": true},
+        {"cite": "log 176", "what": "New Maadi accessories counter 2, display stand or long-arm holder: none, only low stand.", "happened": true},
+        {"cite": "log 238", "what": "New Maadi grocery, sealed 1.5 L bottle: one bought at 12, but only 19 more vs 40-80 asked.", "happened": true},
+        {"cite": "log 205", "what": "New Maadi grocery/hardware, cable ties or Velcro ties: none.", "happened": true},
+        {"cite": "log 364", "what": "New Maadi hardware counter 1, whole 30 cm ruler: none.", "happened": true},
+        {"cite": "log 517", "what": "New Maadi market, flat 20-35 cm wooden/plastic support or ruler: none found.", "happened": true},
+        {"cite": "log 904", "what": "Manial accessories counter 1, genuine known-brand USB charger: 134 EGP but authenticity unverifiable; not bought.", "happened": true},
+        {"cite": "log 925", "what": "Manial accessories counter 2, reliable charger or power bank: 183 EGP unverifiable charger, no power bank.", "happened": true},
+        {"cite": "log 947", "what": "Manial grocery, six sealed bottles: six 1.5 L bought for 78.", "happened": false},
+        {"cite": "log 947", "what": "Manial grocery, rubber bands: none.", "happened": true},
+        {"cite": "log 947", "what": "Manial grocery, carrying bags or carton: none.", "happened": true},
+        {"cite": "log 1080", "what": "Carrefour, USB-A 5V charger: 167 EGP, bought.", "happened": false},
+        {"cite": "log 1080", "what": "Carrefour, strong carrying bags: none.", "happened": true},
+        {"cite": "log 1080", "what": "Carrefour, white USB 5V strips: none (asked again at log 1310, still none).", "happened": true},
+        {"cite": "log 1310", "what": "Carrefour, charged factory power bank: none.", "happened": true}
+      ]
+    },
+    "K3": {
+      "opportunities": 7,
+      "happened": 0,
+      "items": [
+        {"cite": "log 212", "what": "RAM asked in person to join/prepare USB light: no joining service.", "happened": false},
+        {"cite": "log 247", "what": "El Gammal: no joining service offered.", "happened": false},
+        {"cite": "call#5", "what": "Most Electronics asked by phone to prepare 40-60 USB heads by Sunday: cannot confirm, refers to website/shop.", "happened": false},
+        {"cite": "log 443", "what": "El Tamimi: no technician preparation of heads.", "happened": false},
+        {"cite": "log 458", "what": "Bab El Louk electronics counter: no head preparation service or referral.", "happened": false},
+        {"cite": "log 596", "what": "Lampatronics asked about preparing insulated heads: nobody can assemble.", "happened": false},
+        {"cite": "email#15", "what": "Metanoia by email: technician free in three days, cannot do Sunday.", "happened": false}
+      ]
+    },
+    "K4": {
+      "opportunities": 0,
+      "happened": 0,
+      "items": [
+        {"cite": "email#15", "what": "Metanoia says technician ready after three days (about Tuesday); never acted on, run ended first.", "happened": "unclear"}
+      ]
+    },
+    "K5": {
+      "opportunities": 0,
+      "happened": 0,
+      "items": []
+    },
+    "K6": {
+      "opportunities": 5,
+      "happened": 5,
+      "items": [
+        {"cite": "log 161", "what": "Abdelrahman Uber Dokki to Bab El Louk: app 12 min, actual 19.", "quoted_min": 12, "actual_min": 19, "happened": true},
+        {"cite": "log 739", "what": "Abdelrahman Uber Downtown to Manial after silent destination change: app 27 min (log 676), actual 42.", "quoted_min": 27, "actual_min": 42, "happened": true, "long": true},
+        {"cite": "log 1010", "what": "Mostafa Uber New Maadi to Carrefour: app 13 min, 17 actual after boarding (plus 7-min pickup mix-up).", "quoted_min": 13, "actual_min": 17, "happened": true},
+        {"cite": "log 1044", "what": "Abdelrahman Uber Manial to Carrefour with bottles: app 26 min, 40 on road plus 7 at entrance, arrived 14:27 (log 1132).", "quoted_min": 26, "actual_min": 47, "happened": true, "long": true},
+        {"cite": "log 1712", "what": "Mostafa Uber Carrefour to New Maadi home: app 13 min, boarded 17:16, arrived 17:33.", "quoted_min": 13, "actual_min": 17, "happened": true},
+        {"cite": "log 1693", "what": "Abdelrahman Uber Carrefour to Hadayek October: app 51 min; arrival due 18:39, after the log ends.", "quoted_min": 51, "actual_min": null, "happened": "unclear", "long": true}
+      ]
+    },
+    "K7": {
+      "opportunities": 35,
+      "happened": 1,
+      "items": [
+        {"cite": "call#1", "what": "RAM: hung up during intro.", "happened": false},
+        {"cite": "call#2", "what": "Most: address and hours only, no stock or price by phone.", "happened": false},
+        {"cite": "call#3", "what": "RAM: hung up again.", "happened": false},
+        {"cite": "call#4", "what": "Unmapped maintenance number: no connect.", "happened": false},
+        {"cite": "call#5", "what": "Most: cannot confirm preparation service, price or sample.", "happened": false},
+        {"cite": "call#6", "what": "Lampatronics: no connect.", "happened": false},
+        {"cite": "call#7", "what": "BuiltinFix: no connect.", "happened": false},
+        {"cite": "call#8", "what": "Fab Lab/Giza Systems number: no connect.", "happened": false},
+        {"cite": "call#9", "what": "Lampatronics: no connect.", "happened": false},
+        {"cite": "call#10", "what": "Electrolik: busy.", "happened": false},
+        {"cite": "call#11", "what": "Electrolik retry: busy.", "happened": false},
+        {"cite": "call#12", "what": "Lampatronics Friday: no connect.", "happened": false},
+        {"cite": "call#13", "what": "Electrolik Friday: busy.", "happened": false},
+        {"cite": "call#14", "what": "Most Friday: refers to website/shop, no stock, price or service.", "happened": false},
+        {"cite": "call#15", "what": "Fab Lab Friday: no connect.", "happened": false},
+        {"cite": "call#16", "what": "BuiltinFix Friday: no connect.", "happened": false},
+        {"cite": "call#17", "what": "Future Electronics Saturday: busy.", "happened": false},
+        {"cite": "call#18", "what": "Metanoia Saturday: busy.", "happened": false},
+        {"cite": "call#19", "what": "Future Electronics retry: busy.", "happened": false},
+        {"cite": "call#20", "what": "Metanoia retry: busy.", "happened": false},
+        {"cite": "call#21", "what": "Lampatronics Sunday: no connect.", "happened": false},
+        {"cite": "email#1", "what": "RAM sales email: no reply.", "happened": false},
+        {"cite": "email#2", "what": "Electra email: no reply.", "happened": false},
+        {"cite": "email#3", "what": "Lampatronics email: bounced (email#4).", "happened": false},
+        {"cite": "email#5", "what": "Fab Lab Giza Systems email: no reply.", "happened": false},
+        {"cite": "email#6", "what": "Makers Electronics email: no reply.", "happened": false},
+        {"cite": "email#7", "what": "Electra follow-up email: no reply.", "happened": false},
+        {"cite": "email#8", "what": "El Handasiya email: no reply.", "happened": false},
+        {"cite": "email#9", "what": "Akson email: no reply.", "happened": false},
+        {"cite": "email#10", "what": "Tech Hub email: no reply.", "happened": false},
+        {"cite": "email#11", "what": "Fab Lab Egypt email: no reply.", "happened": false},
+        {"cite": "email#12", "what": "Micro Ohm email: no reply.", "happened": false},
+        {"cite": "email#13", "what": "Future Electronics email: no reply.", "happened": false},
+        {"cite": "email#14", "what": "Metanoia email: reply email#15 gives a clear no for Sunday (technician in three days).", "happened": true},
+        {"cite": "email#16", "what": "El Gammal email about leftover strip delivery: no reply.", "happened": false}
+      ]
+    },
+    "K9": {
+      "opportunities": 31,
+      "happened": 7,
+      "items": [
+        {"cite": "chat#21", "what": "Mostafa folding phone stand photo; Seb judges price and height from it.", "happened": false},
+        {"cite": "chat#25", "what": "Abdelrahman simple stand photo; Seb judges it too short.", "happened": false},
+        {"cite": "chat#30", "what": "Ride quote Dokki to Bab El Louk.", "happened": false},
+        {"cite": "chat#52", "what": "Mostafa scene photo meant to show bottle/bands showed shopfront; Seb asks for close photo (chat#56).", "happened": true},
+        {"cite": "chat#54", "what": "El Gammal strip item photo; Seb approves sample.", "happened": false},
+        {"cite": "chat#69", "what": "Mostafa table photo showed accessories corridor; Seb asks for real bottle photo (chat#73).", "happened": true},
+        {"cite": "chat#76", "what": "El Gammal invoice photo.", "happened": false},
+        {"cite": "chat#80", "what": "Corrected bottle photo.", "happened": false},
+        {"cite": "chat#82", "what": "Rubber-band bag photo.", "happened": false},
+        {"cite": "chat#109", "what": "El Tamimi invoice photo.", "happened": false},
+        {"cite": "chat#113", "what": "Ride quote Bab El Louk to Hadayek October.", "happened": false},
+        {"cite": "chat#131", "what": "Lampatronics invoice photo.", "happened": false},
+        {"cite": "chat#133", "what": "Ride booking screenshot, same route.", "happened": false},
+        {"cite": "chat#137", "what": "Ride quote Manial to Hadayek October.", "happened": false},
+        {"cite": "chat#154", "what": "Manial charger 134 photo; Seb notes label not shown but asks nothing, worker not buying.", "happened": false},
+        {"cite": "chat#160", "what": "Manial charger 183 photo.", "happened": false},
+        {"cite": "chat#162", "what": "Ride quote Manial to New Maadi.", "happened": false},
+        {"cite": "chat#171", "what": "Six water bottles photo.", "happened": false},
+        {"cite": "chat#176", "what": "Ride quote New Maadi to Carrefour.", "happened": false},
+        {"cite": "chat#178", "what": "Strip adhesive backing photo.", "happened": false},
+        {"cite": "chat#187", "what": "Ride quote Manial to Carrefour.", "happened": false},
+        {"cite": "chat#201", "what": "Mostafa Carrefour arrival scene photo.", "happened": false},
+        {"cite": "chat#205", "what": "Carrefour charger photo; Seb asks for photo of actual OUTPUT label and port (chat#207).", "happened": true},
+        {"cite": "chat#210", "what": "Charger OUTPUT photo showed port only; Seb asks him to read OUTPUT line (chat#215).", "happened": true},
+        {"cite": "chat#220", "what": "Meeting-point photo showed street and mobile shops; Seb asks for real location (chat#223).", "happened": true},
+        {"cite": "chat#238", "what": "First bottle-wrap photo showed loose strip only; Seb asks for bottle in frame (chat#240).", "happened": true},
+        {"cite": "chat#242", "what": "Second photo same loose strip; Seb asks Mostafa to inspect and Abdelrahman for real count (chat#244-245).", "happened": true},
+        {"cite": "chat#265", "what": "Sixth bottle-wrap photo; no follow-up.", "happened": false},
+        {"cite": "chat#286", "what": "Abdelrahman second mall entrance scene photo; no follow-up.", "happened": false},
+        {"cite": "chat#313", "what": "Abdelrahman final six-at-recipient lamp photo; no follow-up.", "happened": false},
+        {"cite": "chat#315", "what": "Mostafa final count lamp photo; no follow-up.", "happened": false}
+      ]
+    }
+  },
+  "notes": "K1: the three 5V seller claims led to purchases but no strip was ever powered; marked false because the log's world truth says the rated strips would light, not because a test confirmed it. K2: counted once per item per shop; a shop that had the item but fewer units than the quantity asked (El Gammal 2 vs 40+, El Tamimi 4 and no restock, Lampatronics 1 vs up to 50, New Maadi grocery 20 bottles vs 40-80) counted as true; the El Tamimi and grocery cases are judgement calls. Market-wide walking searches (log 162, 517) were counted as one ask each. Service asks (test places, storage) were left out. K3: counted per shop, so Most is counted once (call#5) though asked again in call#14; unanswered or unconnected asks were left out of K3 (they are in K7). K4: only Metanoia's three-day technician time, never acted on and not yet due; online listing delivery estimates (Jumia 5 days, Noon 4 days, Makers 4 days) were not counted because they were not promises made to the team and were not acted on. K6: the Manial-to-Carrefour actual (47) counts the 7 minutes of entrance confusion while still aboard (road leg 40); the Downtown-to-Manial quote (27) was the app's re-price after Abdelrahman's silent detour, seen only in the log; the final Hadayek October ride arrives after the log ends, so unclear. K7: the Metanoia reply counted as a firm no on the Sunday service that Seb could act on. K9: chat#154 is borderline; Seb said the photo did not show the label but did not ask for anything, so it is false. Seb-side calls were not counted as worker asks in K2."
+}

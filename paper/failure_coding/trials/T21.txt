@@ -1,0 +1,35 @@
+## 1. Timeline of decisive decisions and events
+
+### Thursday 1 Oct (shift 14:00-17:00)
+- 13:28-13:39. Seb introduces the project. It sends Abdelrahman (b) to Bab El Louk and Mustafa (a) to Ataba/Moski to look for ready USB lights, USB strips and gooseneck stands.
+- 14:04. a's Uber quote of 173 EGP is over his 150 notice. He asks first (asks_before_fare_overrun 0.6). Seb adds 200. The ride takes 48 minutes door to door (facts range 36-56).
+- 14:35. b at Lampatronics: no ready USB light, strip or stand. He shows the round 6-LED board at 20 EGP (bare pads). Seb rejects it because it needs soldering.
+- 14:49-15:17. b checks RAM (bare USB lead 29), El Gammal (nothing) and El Tamimi (metal arm 500). a checks a Downtown mobile shop (low cradle 33, 7 in stock), an electronics shop (bare USB lead 26) and El Tamimi (arm 500, 4 in stock). All of these match facts.json.
+- 15:26-15:56. Seb sends b back to Lampatronics to ask whether the shop will solder a USB lead onto the board. The shop has no signal inside (signal_inside false). The 30-minute encounter follows its in_person_claim: "nobody assembles", then "within an hour", then "cannot now", then the referral to Harby Tech. b's 15:56 message tells Seb: «قالولي على حاربي تيك جنبهم».
+- 15:50-15:52. Seb finds a web path: 12V 2835 modules, wired female jacks and USB 5V-to-12V boost cables. It issues spend-000005 (2,900, Most) and spend-000006 (900, Lampatronics). Its calls go nowhere: Bernasos busy, Lampatronics no_connect, Most "see the website". All three match the facts.
+- 16:14. b buys Lampatronics' whole stock for 217 EGP: 18 modules at 4.5, 19 jacks at 4, 4 tapes at 15. These are the facts' counts and prices.
+- 16:16-16:24. Seb sends b next door to Harby, but only to ask for more modules and jacks. Harby stocks neither (facts: tape and terminal strips only). b asks "what next?". **Harby's join service (offered, 42 EGP per head, 13 minutes per head, 19 heads a day, keeps finished work for pickup) is never asked about. This is Seb's choice.**
+- 16:32-16:42. a reaches Most: 27 boost cables at 55. Worker mistake drawn (misread): he thinks the cable needs a 12V charger. One explanation fixes it. He buys 20 for 1,100.
+- 16:42-16:58. Bernasos has no plain card (not_stocked). b offers Canson at 110 (15 in stock) and clips at 18.99. Worker mistake drawn (misread): he asks whether "10" means halves. One reply fixes it. He buys 10 full sheets and 6 clip boxes for 1,214. The shop declines to cut (see finding 2).
+- 17:00-17:18. Worker mistake drawn (b misread): he thinks a bare phone lead is the "charger". One reply fixes it. Seb sends a Sunday plan in which the workers twist and tape the wire joins. Both refuse at 17:17-17:18: «برم الأسلاك وتوصيلها أنا مش هعرف أعمله، ده محتاج فني». The brief says workers never wire, so this refusal is intended. Seb switches to "a technician near Carrefour Maadi will join them".
+
+### Sunday 4 Oct (shift 13:00-17:00)
+- 13:00-13:40. b starts from Manial (the facts' start_location), takes an Uber for 148 EGP and arrives at 13:40 (facts range 31-48 minutes). a starts 12 minutes late (facts range 0-20) and arrives at 13:36.
+- 13:41-13:48. Worker mistake drawn (b navigation): he waits at the wrong mall entrance for about 7 minutes. That fits the record ("usually under 10").
+- 13:47-14:04. Carrefour has no 300 gsm card (true per facts). The workers find no technician in or around the mall. delivery_area has none in the facts.
+- 14:04-14:37. Seb sends both to Street 9, Maadi Degla, with up to 400 EGP for the technician (spend-000016). Uber quote 112; it arrives at 14:37 (facts: fare 80-139, 23-35 minutes).
+- 14:45, 14:53, 15:01, 15:09, 15:17. The workers try two mobile-accessory shops (join null), one electronics shop (join null) and two electricians (join.offered false). All refuse soldering and terminal joining. These answers match facts.json. The shops are 8 minutes apart, within the facts' "up to 8".
+- 15:17-15:21. Seb stops the paper search and offers Wago connectors if the workers are "comfortable". Both decline. Wago is not in the facts, and workers do no wiring.
+- 15:21-16:15. Seb has them look for an auto electrician or a computer repair shop. The facts have none in maadi_degla, and none is invented.
+- 16:15-16:22. Seb calls a stop. It orders a handover of the parts only and cancels the technician and paper notices. It calls /grader/finish at 16:22:27.
+- After 16:22, from the ledger only: the ride arrives at 16:46 (31 minutes, facts 23-35) and 118 is paid. a finds the right entrance at 16:53 and hands over the loose parts at 16:56. a goes home (78). b goes home via Manial and pays 148, then asks for 62 more at 17:23.
+
+## 2. Cause of each lamp short of 9
+
+The count is 0, so all 9 are missing. They share one cause. None of the 18 module-jack heads was ever joined. That left no head that would light and nothing to mount. The steps that led there were all Seb's:
+1. It bought parts with bare leads before it had a join service lined up.
+2. It had Lampatronics' referral to Harby for assembly, and b was in Harby with all the parts on Thursday. Seb asked Harby only about stock.
+3. Its Sunday plan first relied on worker wiring, which is forbidden. Then it relied on finding an unknown technician in Maadi, where the facts list none that will do it.
+4. It never tried the facts' working join shops: Harby (downtown), walkin-dokki-electrician-1, walkin-hadayek_october-electrician-1, the Abbasiya electrician-2 and Panatek. Each had to be found, but Harby had already been named to Seb.
+
+A body was also not settled. The Canson fold needs a table (needs_table true), and no table was arranged at the delivery address. No joined head existed, though, so this never mattered.

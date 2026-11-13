@@ -1,0 +1,83 @@
+## 1. Timeline of decisive decisions and events
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 14:00 Abdelrahman (worker-b) starts on time in Dokki. Mostafa (worker-a) starts 5 min late in New Maadi (facts
+  0-20) (log 5).
+- 14:09 drawn worker-b mistake: he shortens Seb's script and asks a Dokki counter for "a USB cable". He is shown the
+  35 EGP bare-lead cable. Seb corrects him at 14:16 (log 23, 33, 36). Cost about 4 min.
+- 14:15 drawn worker-a mistake: a wrong side street, 6 min lost (log 34).
+- 14:24 New Maadi mobile shop 1: folding stand 121 x2, low cradle 26 x5, charger 122 x10 (log 51). Facts match.
+  Seb: "don't buy holders until we find the light" (log 55). Mostafa cannot say if the face tilts down far enough
+  (14:32, no ruler). That is a fair non-technical answer.
+- 14:31 Thabet, Dokki: arm 500 x2, folding stand 180 x5 (log 59). Facts match. 14:35 Seb: don't buy the expensive
+  supports; go to Bab El Louk (log 71).
+- 14:35 drawn worker-b mistake: he leaves Thabet without saying. Seb's destination message lands 5 s later, so it
+  costs nothing (log 68, 72). (E2)
+- 14:39-14:59 Abdelrahman's ride to Bab El Louk: 72 EGP, 21 min (facts 50-88, 15-24) (log 74-95).
+- 15:00-15:48 Mostafa's ride: 168 EGP, 49 min, app 30 (facts 126-219, 38-59) (log 88, 151).
+- 15:07-15:35 two market counters and RAM: raw parts only, no ready light, no joining service (log 100, 115, 126).
+  Facts match.
+- 15:43 Abdelrahman finds Harby by walking (discover: walk): 43 a head, 13 min a head, busy 8 min, 10 a day, no
+  test, no receipt (log 136). All in Harby's join facts.
+- 15:54-16:10 Lampatronics (no signal inside, facts): he buys the 1 m USB strip 115, all 13 modules at 4.5, 1 jack 4,
+  1 boost cable 50. Total 228 (log 164, 210). Facts match.
+- 16:10 Bab El Louk mobile shop 1: low cradle 26 x9, metal arm 548 x3 (log 213). Facts match.
+- 16:18 Seb buys all 3 arms, 1,644 (log 228, 241). 16:31 one low cradle, 26 (log 272).
+- 16:29 Harby finishes the sample head on time (promised_vs_actual_minutes: 0) (log 262). 16:41 collected, 43 paid
+  (log 307). Harby agrees to 12 more by Friday 12:00: 9 today, 3 Friday (log 308). Within 10 a day.
+- 16:50 Abdelrahman buys 12 jacks and 12 boost cables, 648 (log 343). 16:55 all 12 sets handed to Harby (log 357).
+- 16:46 Mostafa's search for a table and USB port would take the facts' 68 min, so no Thursday test (log 334).
+- 17:00 rides home: Mostafa 184 EGP, 49 min. Abdelrahman 326 EGP to Hadayek October, 97 min (facts 248-431, 74-116)
+  (log 382, 401-402).
+- Harby finishes heads 2-9 by 18:52 and heads 10-12 on Friday by 11:39 (log 400, 412-414).
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 13:00 Abdelrahman starts in Manial (start_location) with his own charger, as agreed Thursday. Mostafa starts 9
+  min late at home (log 459).
+- 13:03-13:47 Abdelrahman's ride to Harby: 155 EGP, 44 min, app 27 (facts 113-197, 34-53) (log 468, 527).
+- 13:17-13:21 Mostafa buys a 122 EGP charger at New Maadi mobile shop 1 (log 483, 486). He reports "no arm or ties
+  here". The shop still had the 2 folding stands at 121. Seb had asked for a holed arm, ties, a bottle, or a 20-30 cm
+  shelf or stool, not a phone holder. He does not mention them (relays_shop_alternatives: 0.15).
+- 13:27-13:47 two New Maadi hardware shops: tape, terminal strips, conduit only (log 494, 506). Facts match.
+- 13:48-13:51 plug test at home: charger to boost cable to prepared head, lights (log 534, 542).
+- 13:51-13:58 lamp 1 built: module stuck by its own adhesive on the back of the tablet holder, lenses down, about
+  25 cm over an open A4 area, clamp on the desk edge (log 543, 562).
+- 13:55 Abdelrahman collects 12 heads, pays 516 (log 553). 13:56-14:45 ride to Mostafa's home, 184 EGP, 49 min
+  (facts 126-219, 38-59) (log 554, 620).
+- 13:58-14:13 lamp 1 passes a 15-minute test (log 582). 14:13 Seb approves copying it on the other two arms.
+- 14:21 Mostafa buys a sealed 1.5 L bottle, 12 (log 588).
+- 14:23 drawn worker-b mistake (a missing arrival text). At 14:35 Seb asks for his ETA and the simulator writes "the
+  slip has not occurred" (log 590, 613). (E2)
+- 14:45 drawn worker-b mistake: he first aims arm 3's holder outward. Mostafa catches it, +3 min (log 622).
+- 14:48 drawn worker-a mistake: forgets the 14:55 progress text, sends it at 14:59 (log 635).
+- 14:48-14:51 Abdelrahman re-inspects lamp 1 because the photos showed two modules (log 633). (I1)
+- 15:03 lamps 2 and 3 built (log 667). 15:04-15:07 low-cradle trial fails: under 15 cm, far half of the page dim
+  (log 675, 683). Facts: phone-stand-simple-30 height_ok: false.
+- 15:09 lamp 2 passes. 15:12 lamp 3 passes (log 698, 718).
+- 15:21-15:42 ride to Carrefour City Centre Maadi, 80 EGP, 21 min (facts 55-95, 16-26) (log 755, 761).
+- 15:45-15:56 walk to the door, 11 min (facts 8-12) (log 771). 15:56-15:59 three lamps handed over (log 790-798).
+- 16:00 the client hands the delivered charger back to Mostafa for testing more heads (log 805, 812). (E3)
+- 16:11-16:34 Carrefour: no power bank, no box or stool, only the 61 EGP low cradle; no ruler (log 827, 854, 887).
+  Facts match. No electronics shop exists in the delivery area.
+- 16:38-16:41 cradle strapped to the bottle with bands: it rocks and turns, no useful aim (log 912, 919). Not counted.
+- 16:53 charger returned. 16:58 spare parts handed over as parts (log 942, 955).
+
+
+
+## 2. Why 3 lamps, not 9
+
+Each lamp short of 9 is missing a structure. Nothing else ran out.
+- Heads: 13 were prepared and power paths were proven. 10 went unused.
+- Money: 2,574 EGP was unspent at 17:00.
+- Time: delivery finished at 15:59, 61 minutes before the deadline.
+- Structures: Seb bought 3. The facts held more valid ones. Seb knew about the first three groups below from worker
+  reports on Thursday:
+  - New Maadi mobile shop 1: 2 folding stands at 121, a 6-minute walk from the Sunday assembly desk.
+  - Thabet, Dokki: 2 arms at 500 and 5 folding stands at 180.
+  - Bab El Louk stationery: Canson 300 g sheets and binder clips for the card fold.
+  - Not found by this run: Abbasiya (4 arms, 6 folding stands), Hadayek October (2 arms, 1 folding stand), Sixth
+    of October (2 folding stands).
+- Seb's Sunday plan for extra supports was a bottle, a ruler, a box, or more low cradles. The facts say none of
+  these can hold a light over a desk. These were Seb's choices, and the world gave the results the facts require.
+
+So lamps 4 to 9 are all lost to Seb's decisions. None is lost to the simulator.

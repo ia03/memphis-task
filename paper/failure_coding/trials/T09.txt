@@ -1,0 +1,31 @@
+## 1. Timeline
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 13:28. Seb briefs both workers and asks for check-ins at shift start.
+- 14:02 / 14:09. Check-ins. Mostafa is 9 minutes late, inside his 0-20 minute range. Seb gives both workers the address.
+- 14:05-14:27. Abdelrahman takes an Uber from Dokki to Bab El Louk: 70 EGP, quoted 12 minutes, took 19. Facts give 50-88 EGP and 15-23 minutes.
+- 14:20-14:37. Mostafa tries two New Maadi mobile shops. He finds chargers (195 and 149 EGP) and the tall folding stand (189 and 136 EGP). Both match facts. Seb at 14:26: "الحامل ده غالي ومش مناسب، ماتشتريهوش" (that stand is expensive and unsuitable, don't buy it).
+- 14:32-15:24. Abdelrahman tries electronics shop 1 (round boards, 23 EGP, last 3), RAM (no ready light), El Gammal (bare-lead USB cable 16 EGP, 12V module 7 EGP), El Tamimi (low cradle 42 EGP) and mobile shop 1 (folding stand 204 EGP). Every price and count matches facts. At 14:55 a drawn worker mistake: he takes "USB extension" to mean the bare-lead cable. It cost one question.
+- 15:13-16:06. Seb sends Abdelrahman to Ataba / Abdel Aziz St, which facts.json does not contain. Abdelrahman never boards a taxi in 50 minutes. Seb also sends him to look for a "FUTURE Electrotech" in Tahrir St, which does not exist. He finds nothing. At 16:06 Seb calls it off and Abdelrahman rides back to Dokki (75 EGP).
+- 15:37. A drawn worker mistake for Mostafa: he asks whether to go home and prepare his table. Seb says yes. It cost nothing.
+- 17:00. Abdelrahman asks for 320 EGP to get home to Hadayek October. Seb refuses twice.
+
+Fri 2 / Sat 3 Oct. Seb makes calls. Future and Carrefour are busy, RAM hangs up, Most points to its website, and Fares repeats its unreliable phone claim. Emails get no replies. All of this matches the facts' channel settings. Seb sends both workers a Sunday plan.
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 13:01 / 13:09. Starts (Abdelrahman 1 minute late, Mostafa 9). Both workers ask for higher fare caps (150 EGP from Manial, 85 EGP each way to Carrefour). Seb raises Mostafa's cap only at 13:45. That cost Mostafa 32 minutes, and it was Seb's delay.
+- 13:45 / 14:17 / 14:48 / 15:49. Four drawn worker-b mistakes: a ready-strip misread, getting the pay order backwards, double-sided tape versus insulation, and expecting Mostafa to collect the goods. Each cost one exchange of 3-6 minutes.
+- 14:09-14:36. At Carrefour, Mostafa finds 1 USB strip (244 EGP) and the low cradle (44 EGP). Seb buys both.
+- 14:33 / 14:45. Abdelrahman buys 4 bare-lead cables (64 EGP) and 3 round boards (69 EGP). The second payment is rejected because spend-000008 had already settled. Seb issues spend-000011 to cover it.
+- 14:54-15:00. Fares in person: "We do not connect or assemble" (facts `in_person_claim`). Seb then sends him to buy cradles at El Tamimi (126 EGP) and to find a technician.
+- 15:18-15:36. Abdelrahman reaches FEC Egypt (tape 11 EGP, no service), then the market-street electrician: 75 EGP a head, busy until 16:02, 9 minutes a head. This matches facts exactly. Seb offers 300 EGP to jump the queue and is refused.
+- 15:28. Mostafa buys the 149 EGP charger at New Maadi mobile shop 2, the shop that also has the 136 EGP tall stand. Seb did not ask for the stand.
+- 15:34-15:54. Mostafa winds the strip onto the low cradle using its factory adhesive. It lights. The photo labels are `cannot_hold` and then `low`.
+- 15:49. Seb ends Abdelrahman's shift. Abdelrahman keeps the boards, cables and cradles downtown.
+- 16:00-16:36. Mostafa rides to Carrefour (85 EGP), walks 10 minutes (facts say 8-12) and hands over the low unit at 16:36.
+
+
+## 2. Why each of the 9 lamps is missing
+
+- Lamp 1 (the strip unit). It was delivered but it is a low unit. The cause is Seb's stand choice. A tall folding stand was on sale in the shop where Mostafa bought the charger. With it, this unit very likely counts.
+- Lamps 2-9. No second light source that needs no wiring existed (Carrefour had 1 strip). The round boards needed a technician and have an unknown rating ("rated voltage not stated"), so any unit from them is doubtful. Seb also ended the downtown work at 15:49. The only fully valid wiring route was 12V modules plus female jack plus USB boost cable at Lampatronics, joined by Harby Tech next door (49 EGP a head, up to 8 a day). Seb never found it. These are agent decisions.

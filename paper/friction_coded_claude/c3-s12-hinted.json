@@ -1,0 +1,485 @@
+{
+ "trial": "c3-s12-hinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 2,
+   "happened": 2,
+   "items": [
+    {
+     "cite": "log 59",
+     "what": "Lampatronics said assembly possible within an hour; b waited 36 min, then refused and referred to Harby",
+     "happened": true
+    },
+    {
+     "cite": "log 148",
+     "what": "Harby quoted joining our boost cables and modules for Sunday; after purchase, female jacks turned out to be missing",
+     "happened": true
+    },
+    {
+     "cite": "log 57",
+     "what": "Lampatronics sold strips as 5V USB; bought but never powered in the run",
+     "happened": "unclear"
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 28,
+   "happened": 20,
+   "items": [
+    {
+     "cite": "chat#13",
+     "what": "b asks Lampatronics for ~20 5V USB strips; only 6 in stock",
+     "happened": true
+    },
+    {
+     "cite": "chat#17",
+     "what": "b asks Lampatronics for 12V modules (20); 25 in stock",
+     "happened": false
+    },
+    {
+     "cite": "chat#17",
+     "what": "b asks Lampatronics for USB 5-12V boost cables (20); 28 in stock",
+     "happened": false
+    },
+    {
+     "cite": "chat#41",
+     "what": "b asks Harby about heat-shrink; none",
+     "happened": true
+    },
+    {
+     "cite": "chat#41",
+     "what": "b asks Harby whether he supplies cables/modules; he does not",
+     "happened": true
+    },
+    {
+     "cite": "chat#67",
+     "what": "b asks Lampatronics for 16 female DC jacks; in stock at 4 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 203",
+     "what": "b asks mobile-accessories-2 for USB charger; 187 EGP, over 150 cap",
+     "happened": true
+    },
+    {
+     "cite": "chat#78",
+     "what": "b asks El Tamimi for USB charger; bought at 96",
+     "happened": false
+    },
+    {
+     "cite": "log 209",
+     "what": "b asks Harby for cable ties Thursday; none",
+     "happened": true
+    },
+    {
+     "cite": "log 209",
+     "what": "b asks Harby for foam pads Thursday; none",
+     "happened": true
+    },
+    {
+     "cite": "chat#122",
+     "what": "b asks Lampatronics for cable ties Sunday; none",
+     "happened": true
+    },
+    {
+     "cite": "chat#122",
+     "what": "b asks Lampatronics for foam pads Sunday; none",
+     "happened": true
+    },
+    {
+     "cite": "chat#124",
+     "what": "b asks Harby for insulating tape; available, bought 3 rolls",
+     "happened": false
+    },
+    {
+     "cite": "chat#129",
+     "what": "b asks Downtown hardware shop for cable ties; none",
+     "happened": true
+    },
+    {
+     "cite": "chat#129",
+     "what": "b asks Downtown hardware shop for foam pads; none",
+     "happened": true
+    },
+    {
+     "cite": "chat#131",
+     "what": "b asks Downtown mobile-accessories-1 for tall stand Sunday; low cradles only",
+     "happened": true
+    },
+    {
+     "cite": "chat#134",
+     "what": "b asks Downtown mobile-accessories-2 for tall stand Sunday; sold out",
+     "happened": true
+    },
+    {
+     "cite": "chat#26",
+     "what": "a asks Downtown mobile-accessories-1 for stand; only low cradle (wrong spec)",
+     "happened": true
+    },
+    {
+     "cite": "chat#30",
+     "what": "a asks mobile-accessories-2 for tall stand; 5 telescopic at 138",
+     "happened": false
+    },
+    {
+     "cite": "chat#34",
+     "what": "a asks mobile-accessories-2 for metal arm/gooseneck; none",
+     "happened": true
+    },
+    {
+     "cite": "chat#49",
+     "what": "a asks El Tamimi for tall stand; 3 telescopic at 175",
+     "happened": false
+    },
+    {
+     "cite": "chat#49",
+     "what": "a asks El Tamimi for metal arm/gooseneck; none",
+     "happened": true
+    },
+    {
+     "cite": "log 278",
+     "what": "a asks New Maadi mobile-accessories-1 for tall stand; none",
+     "happened": true
+    },
+    {
+     "cite": "chat#108",
+     "what": "a asks New Maadi mobile-accessories-2 for tall stand; one at 181",
+     "happened": false
+    },
+    {
+     "cite": "chat#118",
+     "what": "a asks New Maadi hardware shop for tall stand; none",
+     "happened": true
+    },
+    {
+     "cite": "chat#143",
+     "what": "a asks Carrefour Maadi for tall stand; low cradles only",
+     "happened": true
+    },
+    {
+     "cite": "chat#158",
+     "what": "a asks Degla accessories shop 1 for stands; chargers only",
+     "happened": true
+    },
+    {
+     "cite": "chat#164",
+     "what": "a asks Degla accessories shop 2; only low 38 EGP cradle (wrong spec)",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 2,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#32",
+     "what": "Lampatronics asked to join/insulate heads; refused, referred elsewhere",
+     "happened": false
+    },
+    {
+     "cite": "chat#41",
+     "what": "Harby Tech asked to join 16 heads; agreed, sample same day, all done by Friday",
+     "happened": true
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 2,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "chat#71",
+     "what": "Harby promises 16 heads ready Sunday 13:00 with jacks; 15 + sample ready at pickup",
+     "happened": false
+    },
+    {
+     "cite": "chat#71",
+     "what": "Harby says sample head in about 11 minutes; finished 16:21 as promised",
+     "happened": false
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 11,
+   "happened": 10,
+   "items": [
+    {
+     "cite": "log 20",
+     "what": "b Dokki to Bab El Louk Thursday",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 18
+    },
+    {
+     "cite": "log 29",
+     "what": "a New Maadi to Downtown Thursday",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 46,
+     "long": true
+    },
+    {
+     "cite": "log 234",
+     "what": "a Downtown to New Maadi Thursday return",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 42,
+     "long": true
+    },
+    {
+     "cite": "log 256",
+     "what": "b Downtown to Hadayek October Thursday return",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 90,
+     "long": true
+    },
+    {
+     "cite": "log 285",
+     "what": "b Manial to Bab El Louk Sunday",
+     "happened": true,
+     "quoted_min": 27,
+     "actual_min": 41,
+     "long": true
+    },
+    {
+     "cite": "log 372",
+     "what": "a New Maadi to Carrefour Sunday (in-car 20 min)",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 20
+    },
+    {
+     "cite": "log 422",
+     "what": "b Downtown to Carrefour near delivery (in-car 39 min)",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 39,
+     "long": true
+    },
+    {
+     "cite": "log 448",
+     "what": "a Carrefour to Degla (29 min from booking)",
+     "happened": true,
+     "quoted_min": 19,
+     "actual_min": 29
+    },
+    {
+     "cite": "log 536",
+     "what": "a Degla to Carrefour (31 min from booking)",
+     "happened": true,
+     "quoted_min": 19,
+     "actual_min": 31
+    },
+    {
+     "cite": "chat#200",
+     "what": "a Carrefour to New Maadi Sunday; booked 17:03, home 17:23",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 20
+    },
+    {
+     "cite": "chat#201",
+     "what": "b Carrefour to Hadayek October Sunday; booked 17:08, home 18:00",
+     "happened": false,
+     "quoted_min": 51,
+     "actual_min": 52,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K9": {
+   "opportunities": 35,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#12",
+     "what": "file-000001 USB strip",
+     "happened": false
+    },
+    {
+     "cite": "chat#16",
+     "what": "file-000002 12V module",
+     "happened": false
+    },
+    {
+     "cite": "chat#19",
+     "what": "file-000003 boost cable",
+     "happened": false
+    },
+    {
+     "cite": "chat#21",
+     "what": "file-000004 strip invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#25",
+     "what": "file-000005 low cradle; Seb rejected as too low, not a photo problem",
+     "happened": false
+    },
+    {
+     "cite": "chat#29",
+     "what": "file-000006 telescopic stand; Seb asked its maximum height in cm",
+     "happened": true
+    },
+    {
+     "cite": "chat#39",
+     "what": "file-000007 stand invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#48",
+     "what": "file-000008 El Tamimi stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#52",
+     "what": "file-000009 cable/module invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#54",
+     "what": "file-000010 El Tamimi invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#58",
+     "what": "file-000011 Harby shop scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#66",
+     "what": "file-000012 jack invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#72",
+     "what": "file-000013 first head; Seb asked for lit photo after testing (test request)",
+     "happened": false
+    },
+    {
+     "cite": "chat#77",
+     "what": "file-000014 charger",
+     "happened": false
+    },
+    {
+     "cite": "chat#81",
+     "what": "file-000015 ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#89",
+     "what": "file-000016 ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#101",
+     "what": "file-000017 ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#107",
+     "what": "file-000018 Maadi stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#111",
+     "what": "file-000019 stand invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#121",
+     "what": "file-000020 sixteen heads",
+     "happened": false
+    },
+    {
+     "cite": "chat#125",
+     "what": "file-000021 ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#135",
+     "what": "file-000022 first mounted lamp; approved",
+     "happened": false
+    },
+    {
+     "cite": "chat#138",
+     "what": "file-000023 ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#145",
+     "what": "file-000024 ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#150",
+     "what": "file-000025 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#152",
+     "what": "file-000026 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#154",
+     "what": "file-000027 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#159",
+     "what": "file-000028 delivered lamp; Seb asked for powered test",
+     "happened": false
+    },
+    {
+     "cite": "chat#163",
+     "what": "file-000029 low cradle; rejected on height",
+     "happened": false
+    },
+    {
+     "cite": "chat#169",
+     "what": "file-000030 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#171",
+     "what": "file-000031 ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#173",
+     "what": "file-000032 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#175",
+     "what": "file-000033 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#179",
+     "what": "file-000034 lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#183",
+     "what": "file-000035 ninth lamp",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "comms.md is empty: Seb made no calls or emails, so K7 has no opportunities. No head was ever powered (no socket anywhere), so K5 has none and the strip-spec claim is unclear. Lampatronics' 'within an hour' joining claim is counted under K1 only (the brief lists it as a K1 example), not also under K4. Seb's stand counts were totals across shops, so a shop with fewer stands than the total was not counted as K2 'fewer units'. The 12V-module ask (20) is false even though Seb later wanted 32. Seb's requests for lit photos (file-000013, -000028) were requests for a test, not photo redos. The two Sunday return rides come from chat times only (booking to arrival), with pickup wait included; the other actual times are from the log."
+}

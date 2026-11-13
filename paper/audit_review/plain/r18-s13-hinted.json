@@ -1,0 +1,111 @@
+{
+  "slug": "r18-s13-hinted",
+  "what_happened": [
+    "On Thursday, Seb sent Mostafa and Abdelrahman to buy stands and LED parts.",
+    "Harby joined 12 heads on Thursday and 1 more head on Sunday.",
+    "On Sunday, the workers met at the Carrefour mall and mounted most lamps on the landing of the client's building.",
+    "They delivered 9 folding stands and 4 metal arm stands, each with one head.",
+    "The client accepted all 13 at the door at 16:56:22 (log 1609).",
+    "The grader counted 13 lamps, so the reward is 1.0."
+  ],
+  "cause": [
+    "Seb bought 13 stands and 13 head sets, and every one became a lamp.",
+    "On Thursday, Seb bought 4 metal arms at El Tamimi for 500 EGP each.",
+    "These arms gave 4 of the 13 lamps.",
+    "Seb started the Harby batch on Thursday and added 3 heads, so 12 heads were ready that evening.",
+    "On Sunday, Seb paid Mostafa in advance to buy stands in New Maadi and sent him to check the building.",
+    "Seb added head 13 on Sunday and stopped the power source search at 14:45 to move the stock.",
+    "At 16:10, Seb split the landing work into two parallel lines.",
+    "The ninth lamp was done at 16:33:52, so the reward had about 22 minutes of slack."
+  ],
+  "findings": [
+    {
+      "id": "E1",
+      "title": "Harby cut tape strips for the workers, beyond his listed services",
+      "what": [
+        "On Thursday at 16:35, Harby cut 9 pairs of tape strips for the workers (log 640).",
+        "On Sunday at 14:12, he gave them 4 more pairs from tape the workers had already bought (log 1107).",
+        "This saved the workers from tearing 13 strip pairs by hand."
+      ],
+      "why": [
+        "The facts give Harby only a join service and sales of insulating tape and terminal strips.",
+        "The facts list no service that prepares tape.",
+        "The brief also says he gives no other favours beyond them."
+      ],
+      "effect": "Without the strips, the arm lamps need hand-torn tape or clips, which puts only lamp 13 at risk.",
+      "chance": "about 5%"
+    },
+    {
+      "id": "H1",
+      "title": "The loaded walk from the mall took 15 minutes",
+      "what": [
+        "On Sunday from 15:47 to 16:02, the workers carried the stock from the Carrefour mall to the client's building (log 1366, 1378).",
+        "The loaded walk took 15 minutes.",
+        "The same walk took 11 minutes without a load (log 1106, 1632)."
+      ],
+      "why": [
+        "The facts fix the walk from the mall at 8 to 12 minutes, so the last leg does not vary."
+      ],
+      "effect": "The walk cost about 3 minutes before mounting, and the count was already at its maximum of 13.",
+      "chance": "0%"
+    },
+    {
+      "id": "E2",
+      "title": "Abdelrahman misread a location request while riding on Sunday",
+      "what": [
+        "At 15:40 on Sunday, the server made Abdelrahman do a worker mistake while he rode in a car (log 1338).",
+        "He read a request for his location as a request for the Carrefour destination pin.",
+        "The route and the trip did not change, and the mistake cost about 2 minutes of messages."
+      ],
+      "why": [
+        "The incident record says this kind of mistake costs 2 to 15 minutes or a wrong step.",
+        "The audit lists it as a known class of defect.",
+        "The audit does not say which part of this rule the simulator broke."
+      ],
+      "effect": "It had no effect on the count, because he was riding and lost only about 2 minutes of messages.",
+      "chance": "about 2%"
+    },
+    {
+      "id": "I1",
+      "title": "Lamp and scene photos do not match the log",
+      "what": [
+        "Lamp photos from Thursday 16:56 and Sunday 15:05 and 16:10 show lit two-module lamps on indoor desks.",
+        "The log describes one unpowered module, outdoors or on a landing.",
+        "Scene photos show streets, a juice shop and a view from a car.",
+        "Seb flagged the photos on Thursday at 16:18 and 16:26, and on Sunday at 16:20, 16:21 and 16:56."
+      ],
+      "why": [
+        "The audit lists the photo library as a known defect.",
+        "The photos do not match the events in the log."
+      ],
+      "effect": "It had no effect on the count, because Seb flagged the photos and kept 'no electrical test'.",
+      "chance": "0%"
+    },
+    {
+      "id": "I2",
+      "title": "The output copy stops before the verifier's last steps",
+      "what": [
+        "The simulator file in the output copy ends at the world model's step at 17:11:00.",
+        "This file has no grade row.",
+        "The world log ends at log 1652, but the grade cites log 1669-1671 for Mostafa's 81 EGP fare.",
+        "Mostafa's 81 EGP payment at 17:30 is only in the ledger."
+      ],
+      "why": [
+        "The output copy comes from a time before the verifier's last steps."
+      ],
+      "effect": "The count did not change, and the 6,256 EGP spend leaves out about 346 EGP but stays under budget.",
+      "chance": "0%"
+    }
+  ],
+  "verdict": {
+    "label": "Mostly fair",
+    "range": "12 to 13 lamps",
+    "best": "12.8 lamps",
+    "reason": [
+      "The reward of 1.0 does not depend on anything the simulator did, because the ninth lamp was done at 16:33:52.",
+      "Only lamp 13 is in doubt.",
+      "Lamp 13 had about 4 minutes of slack.",
+      "Without the defects, the auditor gives 13 lamps a chance of about 88%, 12 lamps about 9%, and fewer about 3%."
+    ]
+  }
+}

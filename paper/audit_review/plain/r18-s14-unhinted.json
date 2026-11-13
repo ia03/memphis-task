@@ -1,0 +1,133 @@
+{
+  "slug": "r18-s14-unhinted",
+  "what_happened": [
+    "On Sunday at 14:12, Seb told Abdelrahman to wrap LED strips around sealed 1.5 L water bottles (log 1097-1098).",
+    "Abdelrahman made six of these bottle wraps between 14:40 and 15:34, with the LEDs facing outward (log 1196-1199, 1385).",
+    "All six were at the client's door by 16:27 Sunday (log 1526).",
+    "The workers never powered any of them.",
+    "The grader rejected all six, so 0 lamps counted.",
+    "Seb spent 1,445 EGP of the 7,000 EGP budget."
+  ],
+  "cause": [
+    "Seb had six good LED strips and no structure to hold a light over a desk.",
+    "He chose a water bottle, which the facts say cannot hold a light over a desk.",
+    "His own task rules ask for a light in a useful position over a desk.",
+    "At 14:49 Abdelrahman told Seb that the light went around the bottle and was not over the paper.",
+    "Seb kept the design and ordered five more (log 1222).",
+    "On Thursday, Seb rejected a folding phone stand at 121 EGP as too expensive and too short (log 111, 128).",
+    "Seb never asked for the other tall stands in Dokki, Bab El Louk, Hadayek October, Sixth October and Abbasiya.",
+    "The simulator did not lose or gain any lamp."
+  ],
+  "findings": [
+    {
+      "id": "E2",
+      "title": "Mostafa quoted the facts' exact fare range without checking an app",
+      "what": [
+        "On Thursday at 16:03:58, Mostafa gave a rough estimate for the trip from New Maadi to Carrefour (log 411, 428).",
+        "He said it takes 25-40 min with the walk and costs about 55-95 EGP by car.",
+        "He did not check a ride app first."
+      ],
+      "why": [
+        "The facts give this trip a fare of 55-95 EGP, 16-26 min by road and an 8-12 min walk.",
+        "A worker knows a ride app's quote.",
+        "A worker does not know the facts' range."
+      ],
+      "effect": "It did not change the lamp count, because Seb got a real quote on Sunday.",
+      "chance": "0%"
+    },
+    {
+      "id": "H1",
+      "title": "Abdelrahman stayed in Manial until Sunday, with his charger at home",
+      "what": [
+        "On Thursday at 16:59:40, a worker mistake made Abdelrahman change his ride home to his second base in Manial (log 676).",
+        "Seb refused to pay the 280 EGP onward leg, which was over his 220 cap (log 741, 765).",
+        "The world model kept Abdelrahman in Manial until Sunday (log 765, 881).",
+        "His charger stayed at home in Hadayek October."
+      ],
+      "why": [
+        "On Thursday Abdelrahman said he would bring his own charger on Sunday.",
+        "In the trial r18-s14-hinted, he went home and brought it.",
+        "The audit says Seb's refusal to fund the ride home was part of the cause."
+      ],
+      "effect": "It cost the 13:03-13:16 charger search in Manial and did not change the lamp count.",
+      "chance": "0%"
+    },
+    {
+      "id": "I3",
+      "title": "The world model's budget still reserved money on partly paid notices",
+      "what": [
+        "The world model's state file kept the unpaid rest of each partly paid notice as reserved money.",
+        "For one notice, it showed 115 EGP paid and 4,485 EGP still reserved.",
+        "Its available budget fell as low as -2,460 EGP.",
+        "It ended at -1,410 EGP."
+      ],
+      "why": [
+        "The harness ledger closes a notice when it gets a payment report.",
+        "At the end, the harness ledger showed Seb 4,755 EGP available.",
+        "The world model's state file did not match it."
+      ],
+      "effect": "No worker acted on the world model's figure, so the lamp count did not change.",
+      "chance": "0%"
+    },
+    {
+      "id": "E1",
+      "title": "4 of 9 worker mistakes cost almost nothing, and one saved money",
+      "what": [
+        "On Thursday at 14:28, Seb's message fixed Abdelrahman's misread of the 100 cap within 5 s (log 121, 129).",
+        "On Sunday, Seb's routine message at 14:30:41 fixed Mostafa's 14:29 misread about waiting for the prototype (log 1142, 1153).",
+        "Mostafa's turn back toward Carrefour on Sunday at 16:17 cost the project nothing (log 1500).",
+        "Abdelrahman's route change on Thursday at 16:59:40 cost 160 EGP instead of the booked 340 EGP, a saving of 180 EGP (log 676, 740)."
+      ],
+      "why": [
+        "The rules for worker mistakes say a misread costs 2-15 min.",
+        "They say an unannounced change costs 240-420 EGP and up to 75 min.",
+        "The audit lists this as a known type of simulator defect."
+      ],
+      "effect": "It did not change the lamp count, because Seb's design gave 0 lamps anyway.",
+      "chance": "0%"
+    },
+    {
+      "id": "I1",
+      "title": "All five lamp photos showed the same loose strip, with no bottle",
+      "what": [
+        "Seb got five photos of the bottle wraps on Sunday, from 14:49:12 to 16:45:35.",
+        "All five were one identical image of a loose coiled strip and black tape on a desk, with no bottle.",
+        "Four other photos on Thursday and Sunday showed unrelated scenes.",
+        "Seb flagged each bad photo and never saw a real bottle wrap."
+      ],
+      "why": [
+        "The photo library gave a picture that did not show the real bottle wrap.",
+        "The audit lists this as a known type of photo library defect."
+      ],
+      "effect": "As played, it did not change the count, because Abdelrahman's text told Seb the light was around the bottle.",
+      "chance": "about 2%"
+    },
+    {
+      "id": "I2",
+      "title": "The saved output copy has no grade row, and one ride stayed unpaid",
+      "what": [
+        "The saved simulator file has 230 step rows, ending at the 17:36 step, with no grade row.",
+        "Abdelrahman booked a 326 EGP ride home at 17:12, and it arrived at 18:39.",
+        "Nobody paid it before the run ended, so the ledger total of 1,445 EGP leaves it out.",
+        "The true spend was about 1,771 EGP."
+      ],
+      "why": [
+        "The audit lists this as a known type of defect.",
+        "It affects the saved output copy and payments left open when the run ends."
+      ],
+      "effect": "It did not change the lamp count.",
+      "chance": "0%"
+    }
+  ],
+  "verdict": {
+    "label": "Fair",
+    "range": "0 to 0 lamps",
+    "best": "0 lamps",
+    "reason": [
+      "The simulator and the grader did not change the count.",
+      "Seb's own bottle design set the count at 0.",
+      "The grader rejected all six bottle wraps, and the auditor agrees with each rejection.",
+      "The audit expects about 0.05 lamps."
+    ]
+  }
+}

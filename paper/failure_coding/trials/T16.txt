@@ -1,0 +1,84 @@
+## 1. Timeline of decisive decisions and events
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 13:27 Seb briefs both. Mostafa (worker-a) is in New Maadi, Abdelrahman (worker-b) in Dokki. Both are the facts'
+  start places (log 1). Mostafa starts 9 minutes late (facts 0-20) (log 10).
+- 14:12 El Nour, Dokki: no light or holder; conduit 29 without fittings (log 44). Facts match.
+- 14:20-14:28 New Maadi electrician: joins supplied parts at 59 a head, 17 minutes a head, 11 a day, busy until
+  15:18 (facts 58 minutes after arrival), no testing (log 70, 84). Seb drops this route at 14:29 (log 100).
+- 14:24-14:29 Thabet, Dokki: folding holder 180 x5, cradle 30 (broken), metal arm 500 (350 only for 50), one 5V USB
+  strip 146 (log 77-78). Facts match.
+- 14:28:37 Seb to Abdelrahman: "180 and 500 are too expensive for the budget, don't buy them" (log 92). This is the
+  decision that capped the score.
+- 14:36 Abdelrahman buys the 146 strip (log 149). 14:44-15:12: Dokki housewares has nothing; Dokki mobile shop has 2
+  holders at 201; Thabet charger 186, cradle broken (log 212, 271, 303). Facts match.
+- 14:49-15:47 Mostafa by DiDi to Lampatronics: 176 EGP, 58 minutes (facts 126-219, 43-68) (log 262, 385).
+- 15:19 Abdelrahman buys one 180 holder for a prototype (log 347). 15:23 he rides home to Hadayek October to test
+  there: 312 EGP, 101 minutes (facts 227-394, 78-122). He arrives at 17:04, after the shift (log 355).
+- 15:47-15:56 Lampatronics: 3 strips at 157, no signal inside (facts). Mostafa buys all 3 for 471 (log 409, 423).
+  Harby Tech next door is only a referral. Seb allowed "one minute", and the hop takes 1-2 (log 432).
+- 15:59-16:54 Mostafa rides home, 183 EGP, 55 minutes (facts 43-68). He has no charger at home (facts
+  `owns_usb_charger` false) (log 448, 463).
+- 16:54 The ledger rejects his 183 report because spend-000004 closed after the first fare. Seb reconciles it with
+  spend-000011 at 16:59 (I1, log 464, 478-485).
+- End of Thursday: 4 strips, 1 tall holder, nothing assembled or tested.
+
+Friday-Saturday
+- All of Seb's calls and emails end the way the facts set them: RAM hangs up, Lampatronics does not connect and its
+  email bounces, Future and Electrolik are busy, Metanoia needs 3 days, Fares gives its phone claim and refuses a
+  table (log 502-603). Mostafa will not host a joint build at home (record in-001032) (log 594). Abdelrahman has no
+  workspace in Manial (record in-000748, in-000773) (log 612).
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 13:00 Starts at the facts' places: Mostafa New Maadi (12 minutes late, facts 0-20), Abdelrahman Manial with his
+  own 5V 2A charger (log 642-645).
+- 13:08-13:57 Abdelrahman by DiDi to Bab El Louk to find a table and socket: 164 EGP, 49 minutes (facts 113-197,
+  39-61) (log 663, 721).
+- 13:28 Mostafa buys a 98 charger. 13:43 he buys 3 low cradles at 39 (facts `height_ok` false) (log 686, 707).
+- 14:05 Dry fit on a cradle fails: a metre will not lie flat on the small back without overlap (facts: bends along
+  its length only) (log 722).
+- 13:57-14:42 Abdelrahman's venue, power bank and public-seat search finds nothing. Seb stops it at 14:42 (H2,
+  log 730, 756, 780, 822).
+- 14:24 New Maadi housewares has no containers (facts: no stock). 14:47 Mostafa buys 3 bottles at 8; 14:52
+  Abdelrahman buys one at 14 (log 768, 854, 876).
+- 14:57-15:49 Abdelrahman by Uber to Algeria Square, New Maadi: 184 EGP, 52 minutes (facts 126-219, 43-68) (log 883,
+  1032).
+- 15:03-15:13 Mostafa's bottle light: strip wrapped around a filled bottle 5-12 cm up, LEDs facing out. It lights.
+  The page is weak and shadowed (log 904, 925). Not a lamp; facts say a bottle cannot hold a light over a desk.
+- 15:20-15:44 Empty bottle head rolls off a low cradle without a fastener. New Maadi stationery has no bands (facts)
+  (log 969, 995).
+- 15:47 Seb proposes the black holder's plate as the head (log 1027). 15:49-16:07 Abdelrahman asks his driver for a
+  car workspace (no), walks to the stationery (no bands) and back (log 1040, 1059).
+- 16:01 Seb sends Mostafa to the square. 16:13 they meet and dry-route the strip (log 1098-1100).
+- 16:15 Seb's own rule ("if nothing is ready at 16:15, leave") ends the work. 16:16 Uber booked, 78 EGP (facts
+  55-95). 16:16-16:19 they stick the plate turns during the pickup wait (log 1114, 1122, 1143).
+- 16:20-16:40 ride. 16:41-16:49 walk to the door. The client lets them work on the landing (facts) (log 1172, 1186).
+- 16:49-16:54 They secure the rest of the strip and check the unit. 16:54 the client takes it (log 1187, 1202-1204).
+  Drawn slip (b) at 16:49: Abdelrahman skips a report; Mostafa sends it (log 1188).
+- 16:54-16:58 One try of the empty bottle on a low cradle fails (log 1210). 16:59:30 all other goods handed over.
+- 17:16-18:48 Shared ride home, 318 EGP, 92 minutes (facts 214-372, 74-115) (log 1270).
+
+
+## 2. Why 1 and not 9
+
+Lamp 1 counted (section 3).
+
+Lamps 2-4: strips, but no tall support.
+- Mostafa held 3 working strips. Only one tall support existed, and it carried Abdelrahman's strip.
+- Seb declined the 180 holders on Thursday at 14:28. On Sunday he asked for "3 stable holders" near Mostafa and
+  accepted low ones ("no specific height", 13:24). New Maadi has only low cradles in the facts.
+- Tall holders existed: Thabet (4 more at 180, known to Seb), Dokki mobile shop (2 at 201, known), Manial mobile
+  shop 1 (2 at 213, Abdelrahman's Sunday start, never surveyed), Maadi Degla (2 at 168).
+- Low cradles, bottles, food boxes and a shoebox cannot pass the 20 cm test in the facts. The simulator told Seb the
+  honest results. Cause: Seb.
+
+Lamps 5-9: no light source.
+- Seb found 4 strips: Thabet's only one and Lampatronics' 3.
+- More existed: FEC (4 at 139) and El Gammal (4 at 159) in Bab El Louk, both found on foot; downtown mobile shop 2
+  (1 at 118, seen by Abdelrahman on Sunday and not reported, within his relay rate); Abbasiya (4 at 119). Online
+  stock took 4 days.
+- Seb dropped the in-person technician route (Harby 41 a head, 19 a day; New Maadi electrician 59 a head) on Thursday
+  at 14:29.
+  He sent Mostafa back home before 16:00 instead of on to El Gammal. Cause: Seb.
+
+Time and money were not the limit for the count. 4,853 EGP was unspent.

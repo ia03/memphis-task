@@ -1,0 +1,527 @@
+{
+ "trial": "c2-s10-hinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 3,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 50",
+     "what": "Lampatronics: 12V white module runs from USB via its 5V-12V boost cable; b bought 28 modules/16 cables",
+     "happened": false
+    },
+    {
+     "cite": "log 59",
+     "what": "Lampatronics: modules need a female jack; b bought 11 jacks and Harby used them",
+     "happened": false
+    },
+    {
+     "cite": "log 107",
+     "what": "Harby: can join two modules in parallel per boost cable at 41/head; commissioned, all 14 heads lit",
+     "happened": false
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 27,
+   "happened": 24,
+   "items": [
+    {
+     "cite": "log 59",
+     "what": "Lampatronics Thu: white 12V modules (28 in stock, enough)",
+     "happened": false
+    },
+    {
+     "cite": "log 59",
+     "what": "Lampatronics Thu: USB boost cables (20 in stock, enough for 16-20)",
+     "happened": false
+    },
+    {
+     "cite": "log 59",
+     "what": "Lampatronics Thu: heat-shrink; none, only tape offered",
+     "happened": true
+    },
+    {
+     "cite": "log 105",
+     "what": "a at El Tamimi: arm/gooseneck desk stand; none",
+     "happened": true
+    },
+    {
+     "cite": "log 137",
+     "what": "a at accessory shop 1: arm/gooseneck stand; chargers only",
+     "happened": true
+    },
+    {
+     "cite": "log 146",
+     "what": "a at accessory shop 2: arm/clamp stand; none",
+     "happened": true
+    },
+    {
+     "cite": "log 160",
+     "what": "a at accessory shop 2: tabletop tripod/lazy arm/telescoping stand; none",
+     "happened": true
+    },
+    {
+     "cite": "log 131",
+     "what": "b at accessory shop 2: arm/clamp stand; none",
+     "happened": true
+    },
+    {
+     "cite": "log 193",
+     "what": "b at fec-egypt: gooseneck/clamp/mini tripod; none",
+     "happened": true
+    },
+    {
+     "cite": "log 208",
+     "what": "b at el-gammal-electronics: arm/clamp/mini tripod; none",
+     "happened": true
+    },
+    {
+     "cite": "log 232",
+     "what": "b at electronics retail 1: arm/clamp/mini tripod; none",
+     "happened": true
+    },
+    {
+     "cite": "log 239",
+     "what": "b at electronics retail 2: arm/clamp/mini tripod; none",
+     "happened": true
+    },
+    {
+     "cite": "log 315",
+     "what": "b at electronics retail 3: stand; none",
+     "happened": true
+    },
+    {
+     "cite": "log 367",
+     "what": "a at Carrefour electronics: elevated phone holder/tripod; none",
+     "happened": true
+    },
+    {
+     "cite": "log 395",
+     "what": "a at Carrefour other aisles: document holder, selfie tripod, gooseneck; none",
+     "happened": true
+    },
+    {
+     "cite": "log 439",
+     "what": "a at New Maadi accessory shop 1: elevated stand; chargers only",
+     "happened": true
+    },
+    {
+     "cite": "log 439",
+     "what": "a at New Maadi accessory shop 2: elevated stand; only low cradles (wrong spec)",
+     "happened": true
+    },
+    {
+     "cite": "log 459",
+     "what": "a at New Maadi shop 2: selfie-stick tripod/lazy/gooseneck by name; none",
+     "happened": true
+    },
+    {
+     "cite": "log 459",
+     "what": "a at New Maadi shop 1: selfie-stick tripod/lazy/gooseneck by name; none",
+     "happened": true
+    },
+    {
+     "cite": "log 492",
+     "what": "a at New Maadi shop 2: plastic cable ties; none",
+     "happened": true
+    },
+    {
+     "cite": "log 424",
+     "what": "b at Lampatronics Sun: cable ties; none",
+     "happened": true
+    },
+    {
+     "cite": "log 424",
+     "what": "b at Lampatronics Sun: double-sided tape; none",
+     "happened": true
+    },
+    {
+     "cite": "log 424",
+     "what": "b at Lampatronics Sun: insulating tape; bought one roll",
+     "happened": false
+    },
+    {
+     "cite": "log 472",
+     "what": "b at housewares shop 1: arm holder/selfie tripod; none",
+     "happened": true
+    },
+    {
+     "cite": "log 472",
+     "what": "b at housewares shop 1: plastic ties; none",
+     "happened": true
+    },
+    {
+     "cite": "log 472",
+     "what": "b at housewares shop 2: arm holder/selfie tripod; none",
+     "happened": true
+    },
+    {
+     "cite": "log 472",
+     "what": "b at housewares shop 2: plastic ties; none",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 2,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 59",
+     "what": "Lampatronics asked to join modules to cables; said within an hour, then cannot, referred to Harby",
+     "happened": false
+    },
+    {
+     "cite": "log 116",
+     "what": "Harby Tech agreed to join 14 heads same day, rest held for Sunday",
+     "happened": true
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 4,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 59",
+     "what": "Lampatronics: technician joining 'within an hour', withdrawn as 'not now' in same visit",
+     "happened": true
+    },
+    {
+     "cite": "log 147",
+     "what": "Harby: busy until 15:41 then ~11 min/head, first head ~15:52; done 15:52",
+     "happened": false
+    },
+    {
+     "cite": "log 325",
+     "what": "Harby: seven heads before 17:00; head 7 done 16:58",
+     "happened": false
+    },
+    {
+     "cite": "log 330",
+     "what": "Harby: all 14 heads ready for Sunday 13:00 pickup; ready, collected 14:18",
+     "happened": false
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 14,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 161",
+     "what": "Head 1 powered with b's charger Thursday; both modules lit",
+     "happened": false
+    },
+    {
+     "cite": "log 397",
+     "what": "Head 2 individually charger-tested Sunday at Harby; both modules lit",
+     "happened": false
+    },
+    {
+     "cite": "log 397",
+     "what": "Head 3 individually charger-tested Sunday at Harby; both modules lit",
+     "happened": false
+    },
+    {
+     "cite": "log 397",
+     "what": "Head 4 individually charger-tested Sunday at Harby; both modules lit",
+     "happened": false
+    },
+    {
+     "cite": "log 397",
+     "what": "Head 5 individually charger-tested Sunday at Harby; both modules lit",
+     "happened": false
+    },
+    {
+     "cite": "log 397",
+     "what": "Head 6 individually charger-tested Sunday at Harby; both modules lit",
+     "happened": false
+    },
+    {
+     "cite": "log 397",
+     "what": "Head 7 individually charger-tested Sunday at Harby; both modules lit",
+     "happened": false
+    },
+    {
+     "cite": "log 410",
+     "what": "Head 8 individually charger-tested Sunday at Harby; both modules lit",
+     "happened": false
+    },
+    {
+     "cite": "log 410",
+     "what": "Head 9 individually charger-tested Sunday at Harby; both modules lit",
+     "happened": false
+    },
+    {
+     "cite": "log 410",
+     "what": "Head 10 individually charger-tested Sunday at Harby; both modules lit",
+     "happened": false
+    },
+    {
+     "cite": "log 410",
+     "what": "Head 11 individually charger-tested Sunday at Harby; both modules lit",
+     "happened": false
+    },
+    {
+     "cite": "log 416",
+     "what": "Head 12 individually charger-tested Sunday at Harby; both modules lit",
+     "happened": false
+    },
+    {
+     "cite": "log 416",
+     "what": "Head 13 individually charger-tested Sunday at Harby; both modules lit",
+     "happened": false
+    },
+    {
+     "cite": "log 416",
+     "what": "Head 14 individually charger-tested Sunday at Harby; both modules lit",
+     "happened": false
+    }
+   ]
+  },
+  "K6": {
+   "opportunities": 11,
+   "happened": 11,
+   "items": [
+    {
+     "cite": "log 48",
+     "what": "b DiDi Dokki-Bab El Louk, quoted 12, actual 22",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 22
+    },
+    {
+     "cite": "log 73",
+     "what": "a Uber New Maadi-Bab El Louk, quoted 30, actual 56",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 56,
+     "long": true
+    },
+    {
+     "cite": "log 331",
+     "what": "a Uber return downtown-New Maadi, quoted 30, actual 55",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 55,
+     "long": true
+    },
+    {
+     "cite": "log 331",
+     "what": "b Uber return downtown-Hadayek October, quoted 59, actual 109",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 109,
+     "long": true
+    },
+    {
+     "cite": "log 381",
+     "what": "b Uber Manial-Bab El Louk Sun, quoted 27, actual 50",
+     "happened": true,
+     "quoted_min": 27,
+     "actual_min": 50,
+     "long": true
+    },
+    {
+     "cite": "log 360",
+     "what": "a Uber New Maadi-City Centre, quoted 13, actual 24",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 24
+    },
+    {
+     "cite": "log 438",
+     "what": "a Uber City Centre-Laselky, quoted 13, actual 24",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 24
+    },
+    {
+     "cite": "log 470",
+     "what": "b Uber Bab El Louk-Carrefour Maadi, quoted 28, actual 51",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 51,
+     "long": true
+    },
+    {
+     "cite": "log 502",
+     "what": "a Uber Laselky-Carrefour, quoted 13, actual 24",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 24
+    },
+    {
+     "cite": "chat#171",
+     "what": "a DiDi return Carrefour-New Maadi, quoted 13, actual 24",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 24
+    },
+    {
+     "cite": "log 597",
+     "what": "b Uber return Carrefour-Hadayek October, quoted 51, actual 98 per log (chat#172 says 18:00, 59)",
+     "happened": true,
+     "quoted_min": 51,
+     "actual_min": 98,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 2,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "Carrefour hotline 16061 about phone holders/tripods; busy",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Carrefour hotline 16061 retry; busy",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 26,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "chat#11",
+     "what": "Photo: ride quote; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#13",
+     "what": "Photo: ride quote; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#15",
+     "what": "Photo: LED module; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#23",
+     "what": "Photo: purchase scene; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#31",
+     "what": "Photo: Harby shop scene; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#40",
+     "what": "Photo: head 1 lit; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#63",
+     "what": "Photo: ride quote; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#69",
+     "what": "Photo: ride quote; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#88",
+     "what": "Photo: ride quote; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#93",
+     "what": "Photo: ride quote; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#95",
+     "what": "Photo: ride quote; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#105",
+     "what": "Photo: ride quote; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#108",
+     "what": "Photo: 14 heads, one lit; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#112",
+     "what": "Photo: ride quote; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#116",
+     "what": "Photo: low phone cradle; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#129",
+     "what": "Photo: shop scene after cradle purchase; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#133",
+     "what": "Photo: ride quote; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#141",
+     "what": "Photo: mounted unit 1; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#145",
+     "what": "Photo: mounted unit 2; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#148",
+     "what": "Photo: mounted unit 3; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#150",
+     "what": "Photo: mounted unit 4; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#152",
+     "what": "Photo: mounted unit 5; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#156",
+     "what": "Photo: five units group; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#158",
+     "what": "Photo: Lampatronics invoice; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#167",
+     "what": "Photo: ride quote; no redo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#169",
+     "what": "Photo: ride quote; no redo or photo-driven follow-up",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "Lampatronics 'joining within an hour' was retracted in the same visit and never acted on, so it is counted under K3/K4, not K1. K2: stand asks re-made at the same shop for new named items count as separate opportunities; Ataba/mall/street 'visual searches' with no specific shop and referral-only questions are left out. K5 counts the 14 heads (head 1 was tested twice); the mounted units were never powered. K6 final b return: log 589/597 puts arrival at 18:39 (98 min), but chat#172 shows an 18:00 arrival message (59 min); late either way. K9: Seb read the unpowered unit-1 photo as lit (chat#143) but asked no redo; workers corrected him themselves."
+}

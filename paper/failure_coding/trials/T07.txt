@@ -1,0 +1,81 @@
+## 1. Timeline of decisive decisions and events
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 13:28-13:34 Seb briefs both workers: find a ready white 5V USB light and a cheap stand. No 12V, no raw LEDs.
+- 14:13-14:26 Abdelrahman in Dokki: round LED board 29 (rejected), 12V module 8, screw jack 13; no USB light, no boost
+  cable, no technician at that counter (log 45-110). Facts match `walkin-dokki-electronics_retail-1/-2`.
+- 14:24 Mostafa finds the folding stand at 131 in New Maadi. Seb: "too expensive, don't buy it" (out-000014). He sends
+  Mostafa after ruler, bottle, pipes and hangers instead (14:24-15:22). Mostafa buys a bottle and bands (22).
+- 14:39 Seb sends Abdelrahman by metro to Most Electronics in Abbasiya (spend 60) with a 130 sample notice.
+- 14:42-15:04 Abdelrahman cannot find the Dokki metro entrance for 8 minutes, then declines the metro and takes an
+  Uber (148). No worker mistake was drawn here (finding H2).
+- 15:23 Seb reverses on the stand. Mostafa buys it (131) at 15:34. The shop has 3 left.
+- 15:23 drawn worker mistake (Abdelrahman, misread): he reverses the boost cable's direction. One explanation, about
+  3 min (log 345).
+- 15:47 Abdelrahman at Abdo Basha. Drawn worker mistake (navigation): walks the wrong way and cannot find Most. Seb
+  stops the search at 15:50 (log 359, 424).
+- 16:06 Abdelrahman buys the only boost cable (73) and a screw jack (15) at an Abbasiya counter. Facts match
+  `walkin-abbasiya-electronics_retail-2` (cable 73 x1).
+- 16:07-16:10 Mostafa reaches the door and knocks; nobody answers. Facts promise the client only on Sunday (log 500).
+- 16:12-16:19 Abbasiya electricians: one does no joins; the other joins at 39 but is busy until 17:12 and does not
+  test (facts `walkin-abbasiya-electrician-2`: busy 57 min after arrival). Neither sells modules.
+- 16:27 Seb sends Abdelrahman to Lampatronics (Uber 124, app ETA 16:46).
+- 16:31 drawn worker mistake (Abdelrahman, unannounced change): he reroutes the Uber home. 370 EGP; Seb learns at
+  16:53 (log 598, 648). Within the record's 240-420 EGP and up to 75 min.
+- 16:58 Mostafa back in New Maadi, too late for the ruler. Shift ends with 0 lamps.
+
+Fri-Sat: all of Seb's calls and emails follow the facts' channels (busy, no_connect, hangs_up, silent; Metanoia "three
+days"; Fares' misleading phone claim; Most "see the website"). A conditional 60-cable request to Most was never
+confirmed and was cancelled Sat 12:05.
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 12:50 Seb sends Abdelrahman from Manial straight to Lampatronics and Mostafa to the ruler shop.
+- 13:03-13:45 Abdelrahman's Uber: 164 EGP, 42 min (facts 113-197, 32-50). Mostafa starts 20 min late (facts 0-20).
+- 13:46-13:52 Lampatronics (no signal inside): module 4.5 x18, cables 50 x28, jacks; "nobody can assemble here"
+  (log 1080). That is only the first stage of the facts' claim.
+- 13:51 and 13:58 Mostafa's two "scene" photos show a street and a drinks shop, not his table (finding I1).
+- 13:59 Abdelrahman buys one module (5). 14:02:26 he writes "I'll ask about the cover and the preparation"
+  (in-000115).
+- 14:02:46-14:06:46 He asks. The simulator rules: "preparation claim/referral sequence is not triggered by a
+  parts/ready-cover inquiry" (log 1140). No "within an hour", no refusal, no referral.
+- 14:07 Mostafa's ruler-on-stand mount slips at a light touch; he stops (first try of new handwork).
+- 14:06-14:32 Fares PCB ("we don't connect or assemble") and FEC (no service). Both per facts.
+- 14:24 Mostafa buys the shop's last 3 stands (393). He now has 4.
+- 14:33-14:43 Seb sends Abdelrahman on a 10-minute search near Bostan Mall for a technician to measure the cable,
+  fix the module leads into the jack, insulate and test. Result: "without finding a factual business offering the
+  complete required service" (log 1219). Harby Tech, next to Lampatronics on the same street, never appears.
+- 14:45-14:50 A narrower measurement-only ask: Abdelrahman only rechecks a counter he already visited (log 1226).
+- 14:57 Seb asks Mostafa to check LED strips inside Carrefour. 15:05 one white USB strip at 179, the only one
+  (facts count 1). Bought 15:14.
+- 15:16-15:26 Mostafa builds the lamp at the Carrefour entrance, unpowered (log 1305).
+- 15:26 drawn worker mistake (Mostafa, misread): he takes "power bank" to mean a wall charger. About 8-12 min.
+- 15:44 No socket or table at Carrefour (facts: cafe search 77 min). Seb sends Mostafa home to test, with a
+  charger (194).
+- 15:55 drawn worker mistake (Mostafa, misread): he plans a 5-min cooling wait. Seb corrects it at 16:01. Cost 0.
+- 15:55-16:17 ride home (22 min, facts 15-24). 16:19-16:24 powered test passes (log 1418).
+- 16:04 Abdelrahman reaches Carrefour (49 min, facts 33-52), after Mostafa has left. 16:27 he finds the door and
+  the client confirms.
+- 16:24-16:42 ride back (18 min plus 5 min pickup).
+- 16:41 drawn worker mistake (Mostafa, misread): he thinks Abdelrahman waits at Carrefour and asks at 16:42:36.
+  Seb fixes it at 16:43:27. He leaves at 16:43:57 (log 1454, 1475).
+- 16:54:57 at the door (11 min walk, facts 8-12). 16:56:57 handover of one lamp.
+
+
+## 2. Why 1 lamp and not 9
+
+Lamp 1 was counted. Lamps 2-9 were never built, because there was no second light source.
+- Seb's choices (not simulator defects):
+  - Thursday went on cheap improvised bodies (bottle, ruler, pipe, hanger, card) and on a 12V route that needs a
+    technician. The ready 131 stand was refused at first.
+  - Seb never searched Manial for USB strips. Abdelrahman started there Sunday. The facts put 6 white USB strips
+    (98 x2, 155 x4) and 2 folding stands (126) in two Manial accessory shops.
+  - The Carrefour strip question came at 14:57 Sunday. Mostafa had stood in that mall on Thursday 15:57-16:35.
+  - On Sunday Seb required one technician to measure, join, insulate and test, all within 15 minutes. That ruled
+    out partial offers.
+  - On Thursday Seb did not pair the Abbasiya electrician's 39 EGP join (free after 17:12, keeps work for pickup)
+    with modules from another counter.
+- World friction within the record's rates: Fares' misleading phone claim (about 16 min), Most's storefront not
+  found (drawn worker mistake), Abdelrahman's Thursday reroute home (drawn worker mistake), no table at Carrefour
+  (facts' 77-min cafe search), Lampatronics without signal.
+- Simulator choice that may have cost lamps: Harby Tech never surfaced (H1). With it, up to 4 heads for the 4 stands
+  were possible from about 15:00.

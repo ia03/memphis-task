@@ -1,0 +1,130 @@
+[
+ {
+  "kind": "K1",
+  "label": "A phone or counter claim is wrong when acted on",
+  "oct_k": 4,
+  "oct_n": 9,
+  "oct_interval": [
+   0.22,
+   0.7
+  ],
+  "sim_k": 10,
+  "sim_n": 38,
+  "sim_rate": 0.2631578947368421,
+  "sim_lo": 0.16694413388404142,
+  "sim_hi": 0.39616843774661037,
+  "inside": true
+ },
+ {
+  "kind": "K2",
+  "label": "The first ask for a specific item fails",
+  "oct_k": 12,
+  "oct_n": 19,
+  "oct_interval": [
+   0.44,
+   0.78
+  ],
+  "sim_k": 289,
+  "sim_n": 348,
+  "sim_rate": 0.8304597701149425,
+  "sim_lo": 0.7943491666400867,
+  "sim_hi": 0.860633003968563,
+  "inside": false
+ },
+ {
+  "kind": "K3",
+  "label": "A shop does small custom electrical work within one or two days",
+  "oct_k": 2,
+  "oct_n": 8,
+  "oct_interval": [
+   0.1,
+   0.55
+  ],
+  "sim_k": 14,
+  "sim_n": 56,
+  "sim_rate": 0.25,
+  "sim_lo": 0.16981476069180615,
+  "sim_hi": 0.3570494401685292,
+  "inside": true
+ },
+ {
+  "kind": "K4",
+  "label": "A technician's time promise slips or breaks",
+  "oct_k": 3,
+  "oct_n": 5,
+  "oct_interval": [
+   0.27,
+   0.85
+  ],
+  "sim_k": 6,
+  "sim_n": 26,
+  "sim_rate": 0.23076923076923078,
+  "sim_lo": 0.12848417280257537,
+  "sim_hi": 0.3922575983679026,
+  "inside": true
+ },
+ {
+  "kind": "K5",
+  "label": "A technician's join fails",
+  "oct_k": 0,
+  "oct_n": 2,
+  "oct_interval": [
+   0.02,
+   0.63
+  ],
+  "sim_k": 0,
+  "sim_n": 8,
+  "sim_rate": 0.0,
+  "sim_lo": 0.005791949969784819,
+  "sim_hi": 0.2844710462940909,
+  "inside": true
+ },
+ {
+  "kind": "K6",
+  "label": "A long car ride takes longer than the app's estimate",
+  "oct_k": 4,
+  "oct_n": 6,
+  "oct_interval": [
+   0.34,
+   0.87
+  ],
+  "sim_k": 44,
+  "sim_n": 44,
+  "sim_rate": 1.0,
+  "sim_lo": 0.935174001297646,
+  "sim_hi": 0.9988365901417399,
+  "inside": false
+ },
+ {
+  "kind": "K7",
+  "label": "A remote call or email gives a usable quote",
+  "oct_k": 0,
+  "oct_n": 30,
+  "oct_interval": [
+   0.0,
+   0.09
+  ],
+  "sim_k": 14,
+  "sim_n": 251,
+  "sim_rate": 0.055776892430278883,
+  "sim_lo": 0.03708582166722844,
+  "sim_hi": 0.08544103435818966,
+  "inside": true
+ },
+ {
+  "kind": "K9",
+  "label": "A worker photo needs a redo or a follow-up question",
+  "oct_k": 9,
+  "oct_n": 53,
+  "oct_interval": [
+   0.1,
+   0.27
+  ],
+  "sim_k": 47,
+  "sim_n": 330,
+  "sim_rate": 0.14242424242424243,
+  "sim_lo": 0.11420259612099004,
+  "sim_hi": 0.17747670306894353,
+  "inside": true
+ }
+]

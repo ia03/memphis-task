@@ -1,0 +1,92 @@
+## 1. Timeline of decisive decisions and events
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 13:28 Seb briefs both workers (log 3-8).
+- 14:00:50 Abdelrahman (worker-b) checks in from Dokki, on time. 14:11:20 Mustafa (worker-a) checks in from New Maadi,
+  11 min late (facts 0-20) (log 24, 43).
+- 14:13-14:31 Abdelrahman: El Nour has no ready light. Thabet has the folding holder 180 x5, a metal arm 500 x3, a
+  broken 30 cradle, one white USB strip at 146, chargers at 186 x16, and no testing (log 29-30, 54, 67-69). Seb refuses
+  the holder at 14:24:23 (out-000007) and the untested strip at 14:29 (log 61, 76).
+- 14:24 worker mistake (a): his cradle report arrives 12 min late (log 63).
+- 14:37-15:02 Seb funds a car trip. Dokki to Bab El Louk: 65 EGP, 22 min (facts 50-88, 17-27) (log 113-114, 135).
+- 15:02-15:10 RAM: bare boards 29 x5, bare USB cables 29 x16, boost cable out of stock (log 136-138).
+- 15:09-15:42 Mustafa in New Maadi: stationery has Canson 100x70 at 106 x6, plain 100x70 card at 30 x9, clips 19 x7,
+  A3 300 gsm at 6 x8. Housewares has nothing (log 128, 153, 162, 169).
+- 15:18-15:44 Lampatronics: module 4.5, jack 4, boost 50; "nobody can assemble", then "within an hour", then no;
+  referral to Harby next door. The full 25-min runaround was played (facts claim_minutes: 25) (log 139, 186).
+- 15:43 Seb's design: two A3 sheets, a tent with ridge 16-17 cm, base about 20 cm, 29.7 cm long (out-000020, log
+  179). Mustafa buys 8 A3 sheets (48) and 12 clips (19) (log 201).
+- 15:50-16:11 Lampatronics has 3 white USB strips at 157. Abdelrahman buys 1, then 2 more untested (157 + 314) (log
+  181, 226, 277). Harby: 41 a head, 11 min a head, 15-min queue, 19 a day, no tests (log 242).
+- 16:10 Mustafa's first fold goes the wrong way (ridge 9.6 cm). Seb corrects it. 16:24 the corrected tent stands at
+  16.7 cm (log 221, 270-272, 292). Every tent photo Seb receives is a street scene (I1).
+- 16:12-17:56 Abdelrahman rides home with the strips: 320 EGP, 104 min from booking (facts 248-431, 85-133) (log 286-287,
+  359).
+- 16:24:54 Seb gives both workers the address (log 293).
+- 16:30-16:49 Mustafa makes two more tents. Three in all; all 12 clips used (log 294, 340). 16:34 worker mistake (a): he
+  leaves out the itemized count. He sends it at 16:53 when Seb asks (log 334, 341).
+
+Between shifts
+- Seb's calls and emails hit silent, busy, bouncing or unconnected channels, all per the facts (log 361-423).
+- Sat 10:30 and 10:42 Fares answers by phone: it does the preparation if parts are brought; price after a visit (facts
+  join.phone_claim) (log 404, 411).
+- Sat 16:01-16:04 Seb's Sunday plan: Mustafa takes the tents downtown to Bernasos for large card. Abdelrahman takes the
+  strips to Fares (log 430-446).
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 13:00 both start at the facts' start locations: Mustafa New Maadi, Abdelrahman Manial (log 466-468).
+- 13:05-13:55 Abdelrahman: Manial to Fares, 155 EGP, 50 min (facts 113-197, 39-61) (log 495, 563).
+- 13:09-14:03 Mustafa: New Maadi to Bernasos, 180 EGP, 54 min (facts 126-219, 43-68) (log 502, 570).
+- 13:39 worker mistake (a): no update on his late ETA. Seb learns it at 13:47 (log 517, 544).
+- 13:55-14:01 Fares in person: "we do not connect or assemble", board design 21 days (facts in_person_claim) (log 564).
+- 14:03-14:11 Bernasos: no plain 300 gsm card, no A3 300 gsm. Canson 100x70 at 110 x14, clips 18.99, ruler 29 (log 571).
+  14:18 Mustafa buys 3 Canson, 3 clip boxes and a ruler: 416 (log 612).
+- 14:10-14:12 Harby: 15-min queue, then 11 min a head (log 592). 14:12 worker mistake (b): he takes a conditional handoff
+  as a firm meeting and waits outside (log 594). 14:14-14:18 Lampatronics: no more strips (log 593, 613).
+- 14:20 Seb cancels the batch. One source only, if ready by 14:45 (log 620). 14:22 worker mistake (b): he walks back to
+  Harby without saying so (log 621). 14:24 Harby again: a fresh 15-min queue, earliest 14:50. No (log 634; H1).
+- 14:25:26 Seb sends the 28 cm Canson tent instructions (out-000081, log 640). 14:26 no table at the Lampatronics
+  entrance (log 646). 14:28 Abdelrahman hands Mustafa the 3 strips and his charger (log 652). 14:28 worker mistake (a):
+  no handoff or booking report until 14:38 (log 654, 684).
+- 14:30-15:22 Mustafa rides to Carrefour City Centre Maadi: 174 EGP, 52 min (facts 118-204, 40-63) (log 664, 796).
+- 14:29-14:50 Abdelrahman checks IKEA. Only the 6th of October branch exists in this world, and its strip is
+  colour-changing with 0 in stock (log 665, 686, 706; I3).
+- 15:05:30 Abdelrahman back at Harby: queue to 15:20:30 (log 738). 15:17 Seb sends him to buy 2 module sets at
+  Lampatronics (117) (log 770, 805). 15:26:30 back at Harby: a new queue to 15:41:30 (log 806; H1). 15:43 Harby can do
+  the first by 15:55, after Seb's 15:50 limit; nothing ordered (log 827, 833).
+- 15:22-15:33:45 Mustafa at the mall: Seb's 5-min table search finds nothing (facts cafe_search_minutes: 62). Worker
+  mistake (a): a wrong turn adds 6 min (log 797, 804, 812).
+- 15:40-15:41 Seb sends him home: "start with the three ready A3 frames instead of wasting time on a new fold"
+  (out-000107, log 813, 820). 15:46-16:10 home ride 78 EGP, 24 min (facts 55-95, 19-29) (log 835, 909).
+- 15:53-16:05 Harby joins one module set, 41 EGP, ready 16:04 (log 861, 888, 902). 16:03-16:52 Abdelrahman rides to
+  Carrefour: 168 EGP, 49 min (log 877, 1036).
+- 16:12-16:16 the first strip mount fails. Seb asked for a flat zigzag; the strip bends only along its length (item
+  facts bends) (log 925). 16:16 Seb changes to a "belt" route around the roof edges (log 939).
+- 16:15 worker mistake (b): no update on his late ETA; resolved 16:25:30 (log 932, 987).
+- 16:23-16:24 the first unit is done. It lights for one minute; a receipt is readable; it survives a lift. Mustafa:
+  tight for the hand (log 966, 972; in-000124). 16:24:46 Seb: keep it unchanged (out-000128).
+- 16:21-16:42 ride New Maadi to Carrefour, 78 EGP, 21 min from booking (log 953, 1019). 16:42-16:52 walk to the door,
+  10 min (facts 8-12) (log 1020).
+- 16:52:30 unit 1 handed over (log 1034). 16:53-16:58 Mustafa mounts strip 2 on his lap on the landing. 16:59 unit 2
+  handed over (log 1048, 1055).
+- 17:00 shift ends; the third tent is empty (log 1062). 17:02 Abdelrahman reaches the door with the unmounted module
+  (log 1084).
+
+
+
+## 2. Why all 9 lamps are missing
+
+
+Two units were delivered. Both fail for the same reason: the body. The other 7 were never built.
+
+Cause 1, the body (Seb's design). The A3 tent gives no room to write under the light (section 3). Every unit on it
+  fails. That alone fixes the score at 0.
+
+Cause 2, light sources. Seb had 3 ready strips (all of Lampatronics' stock) plus one late joined module. He left
+  Thabet's single strip (146) on Thursday. So at most 4 light sources existed. All would have gone into A3 tents.
+
+Cause 3, time. Mustafa spent 13:00-16:10 on rides, a downtown paper purchase and a mall table search. Assembly began
+  at 16:12, and the departure target was 16:25.
+
+The simulator lost no lamp. The only simulator-side delay on the light path (H1) touched a module that would also
+  have gone into a low tent.

@@ -1,0 +1,433 @@
+{
+ "version": 1,
+ "items": {
+  "led-module-2835-12v-1w5-white": [
+   "gen-item-led-module-2835-12v-1w5-white-1.jpg",
+   "gen-item-led-module-2835-12v-1w5-white-2.jpg",
+   "gen-item-led-module-2835-12v-1w5-white-3.jpg"
+  ],
+  "dc-female-jack-5521-20cm": [
+   "gen-item-dc-female-jack-5521-20cm-1.jpg",
+   "gen-item-dc-female-jack-5521-20cm-2.jpg"
+  ],
+  "usb-5v-12v-boost-cable-5521": [
+   "gen-item-usb-5v-12v-boost-cable-5521-1.jpg",
+   "gen-item-usb-5v-12v-boost-cable-5521-2.jpg",
+   "gen-item-usb-5v-12v-boost-cable-5521-3.jpg"
+  ],
+  "touch-led-board-ttp223-5730": [
+   "gen-item-touch-led-board-ttp223-5730-1.jpg",
+   "gen-item-touch-led-board-ttp223-5730-2.jpg"
+  ],
+  "usb-led-strip-ikea": [
+   "gen-item-usb-led-strip-ikea-1.jpg",
+   "gen-item-usb-led-strip-ikea-2.jpg"
+  ],
+  "usb-led-strip-5v-white-1m": [
+   "gen-item-usb-led-strip-5v-white-1m-1.jpg",
+   "gen-item-usb-led-strip-5v-white-1m-2.jpg"
+  ],
+  "insulating-tape": [
+   "gen-item-insulating-tape-1.jpg",
+   "gen-item-insulating-tape-2.jpg"
+  ],
+  "phone-stand-simple-30": [
+   "gen-item-phone-stand-simple-30-1.jpg",
+   "gen-item-phone-stand-simple-30-2.jpg"
+  ],
+  "mic-stand-mobile-holder-30cm": [
+   "gen-item-mic-stand-mobile-holder-30cm-1.jpg",
+   "gen-item-mic-stand-mobile-holder-30cm-2.jpg"
+  ],
+  "display-stand-clear-10pack": [
+   "gen-item-display-stand-clear-10pack-1.jpg",
+   "gen-item-display-stand-clear-10pack-2.jpg"
+  ],
+  "card-300g-plain-100x70": [
+   "gen-item-card-300g-plain-100x70-1.jpg",
+   "gen-item-card-300g-plain-100x70-2.jpg"
+  ],
+  "card-a3-300g-loose": [
+   "gen-item-card-a3-300g-loose-1.jpg",
+   "gen-item-card-a3-300g-loose-2.jpg"
+  ],
+  "canson-sketch-pad-a3-300g-10": [
+   "gen-item-canson-sketch-pad-a3-300g-10-1.jpg",
+   "gen-item-canson-sketch-pad-a3-300g-10-2.jpg"
+  ],
+  "card-a3-150g": [
+   "gen-item-card-a3-150g-1.jpg",
+   "gen-item-card-a3-150g-2.jpg"
+  ],
+  "pvc-conduit-20mm": [
+   "gen-item-pvc-conduit-20mm-1.jpg",
+   "gen-item-pvc-conduit-20mm-2.jpg"
+  ],
+  "conduit-t-elbow-fittings": [
+   "gen-item-conduit-t-elbow-fittings-1.jpg",
+   "gen-item-conduit-t-elbow-fittings-2.jpg"
+  ],
+  "usb-cable-bare-leads-5v": [
+   "gen-item-usb-cable-bare-leads-5v-1.jpg",
+   "gen-item-usb-cable-bare-leads-5v-2.jpg"
+  ],
+  "dc-female-jack-screw-terminal": [
+   "gen-item-dc-female-jack-screw-terminal-1.jpg",
+   "gen-item-dc-female-jack-screw-terminal-2.jpg"
+  ],
+  "terminal-block-strip-12": [
+   "gen-item-terminal-block-strip-12-1.jpg",
+   "gen-item-terminal-block-strip-12-2.jpg"
+  ],
+  "bottled-water": [
+   "gen-item-bottled-water-1.jpg",
+   "gen-item-bottled-water-2.jpg"
+  ],
+  "rubber-bands": [
+   "gen-item-rubber-bands-1.jpg",
+   "gen-item-rubber-bands-2.jpg"
+  ],
+  "ruler-30cm": [
+   "gen-item-ruler-30cm-1.jpg",
+   "gen-item-ruler-30cm-2.jpg"
+  ]
+ },
+ "lamps": {
+  "folding-stand|module|ok": [
+   "file-000453.jpg",
+   "gen-lamp-folding-stand-module-ok-1.jpg",
+   "gen-lamp-folding-stand-module-ok-2.jpg"
+  ],
+  "folding-stand|strip|ok": [
+   "gen-lamp-folding-stand-strip-ok-1.jpg",
+   "gen-lamp-folding-stand-strip-ok-2.jpg"
+  ],
+  "folding-stand|colour|ok": [
+   "gen-lamp-folding-stand-colour-ok-1.jpg",
+   "gen-lamp-folding-stand-colour-ok-2.jpg"
+  ],
+  "folding-stand|round|ok": [
+   "gen-lamp-folding-stand-round-ok-1.jpg",
+   "gen-lamp-folding-stand-round-ok-2.jpg"
+  ],
+  "metal-arm|module|ok": [
+   "gen-lamp-metal-arm-module-ok-1.jpg",
+   "gen-lamp-metal-arm-module-ok-2.jpg"
+  ],
+  "metal-arm|strip|ok": [
+   "gen-lamp-metal-arm-strip-ok-1.jpg",
+   "gen-lamp-metal-arm-strip-ok-2.jpg"
+  ],
+  "metal-arm|colour|ok": [
+   "gen-lamp-metal-arm-colour-ok-1.jpg",
+   "gen-lamp-metal-arm-colour-ok-2.jpg"
+  ],
+  "metal-arm|round|ok": [
+   "gen-lamp-metal-arm-round-ok-1.jpg",
+   "gen-lamp-metal-arm-round-ok-2.jpg"
+  ],
+  "mic-stand|module|ok": [
+   "gen-lamp-mic-stand-module-ok-1.jpg",
+   "gen-lamp-mic-stand-module-ok-2.jpg"
+  ],
+  "mic-stand|strip|ok": [
+   "gen-lamp-mic-stand-strip-ok-1.jpg",
+   "gen-lamp-mic-stand-strip-ok-2.jpg"
+  ],
+  "mic-stand|colour|ok": [
+   "gen-lamp-mic-stand-colour-ok-1.jpg",
+   "gen-lamp-mic-stand-colour-ok-2.jpg"
+  ],
+  "mic-stand|round|ok": [
+   "gen-lamp-mic-stand-round-ok-1.jpg",
+   "gen-lamp-mic-stand-round-ok-2.jpg"
+  ],
+  "card-fold|module|ok": [
+   "file-001157.jpg",
+   "gen-lamp-card-fold-module-ok-1.jpg",
+   "gen-lamp-card-fold-module-ok-2.jpg"
+  ],
+  "card-fold|strip|ok": [
+   "gen-lamp-card-fold-strip-ok-1.jpg",
+   "gen-lamp-card-fold-strip-ok-2.jpg"
+  ],
+  "card-fold|colour|ok": [
+   "gen-lamp-card-fold-colour-ok-1.jpg",
+   "gen-lamp-card-fold-colour-ok-2.jpg"
+  ],
+  "card-fold|round|ok": [
+   "gen-lamp-card-fold-round-ok-1.jpg",
+   "gen-lamp-card-fold-round-ok-2.jpg"
+  ],
+  "card-fold|module|misfold": [
+   "gen-lamp-card-fold-module-misfold-1.jpg",
+   "gen-lamp-card-fold-module-misfold-2.jpg"
+  ],
+  "card-fold|strip|misfold": [
+   "gen-lamp-card-fold-strip-misfold-1.jpg",
+   "gen-lamp-card-fold-strip-misfold-2.jpg"
+  ],
+  "card-fold|colour|misfold": [
+   "gen-lamp-card-fold-colour-misfold-1.jpg",
+   "gen-lamp-card-fold-colour-misfold-2.jpg"
+  ],
+  "card-fold|round|misfold": [
+   "gen-lamp-card-fold-round-misfold-1.jpg",
+   "gen-lamp-card-fold-round-misfold-2.jpg"
+  ],
+  "a3-fold|module|low": [
+   "gen-lamp-a3-fold-module-low-1.jpg",
+   "gen-lamp-a3-fold-module-low-2.jpg"
+  ],
+  "a3-fold|strip|low": [
+   "gen-lamp-a3-fold-strip-low-1.jpg",
+   "gen-lamp-a3-fold-strip-low-2.jpg"
+  ],
+  "a3-fold|colour|low": [
+   "gen-lamp-a3-fold-colour-low-1.jpg",
+   "gen-lamp-a3-fold-colour-low-2.jpg"
+  ],
+  "a3-fold|round|low": [
+   "gen-lamp-a3-fold-round-low-1.jpg",
+   "gen-lamp-a3-fold-round-low-2.jpg"
+  ],
+  "simple-stand|module|low": [
+   "gen-lamp-simple-stand-module-low-1.jpg",
+   "gen-lamp-simple-stand-module-low-2.jpg"
+  ],
+  "simple-stand|strip|low": [
+   "gen-lamp-simple-stand-strip-low-1.jpg",
+   "gen-lamp-simple-stand-strip-low-2.jpg"
+  ],
+  "simple-stand|colour|low": [
+   "gen-lamp-simple-stand-colour-low-1.jpg",
+   "gen-lamp-simple-stand-colour-low-2.jpg"
+  ],
+  "simple-stand|round|low": [
+   "gen-lamp-simple-stand-round-low-1.jpg",
+   "gen-lamp-simple-stand-round-low-2.jpg"
+  ],
+  "clear-easel|module|cannot_hold": [
+   "gen-lamp-clear-easel-module-cannot_hold-1.jpg",
+   "gen-lamp-clear-easel-module-cannot_hold-2.jpg"
+  ],
+  "clear-easel|strip|cannot_hold": [
+   "gen-lamp-clear-easel-strip-cannot_hold-1.jpg",
+   "gen-lamp-clear-easel-strip-cannot_hold-2.jpg"
+  ],
+  "clear-easel|colour|cannot_hold": [
+   "gen-lamp-clear-easel-colour-cannot_hold-1.jpg",
+   "gen-lamp-clear-easel-colour-cannot_hold-2.jpg"
+  ],
+  "clear-easel|round|cannot_hold": [
+   "gen-lamp-clear-easel-round-cannot_hold-1.jpg",
+   "gen-lamp-clear-easel-round-cannot_hold-2.jpg"
+  ],
+  "thin-paper|module|unstable": [
+   "gen-lamp-thin-paper-module-unstable-1.jpg",
+   "gen-lamp-thin-paper-module-unstable-2.jpg"
+  ],
+  "thin-paper|strip|unstable": [
+   "gen-lamp-thin-paper-strip-unstable-1.jpg",
+   "gen-lamp-thin-paper-strip-unstable-2.jpg"
+  ],
+  "thin-paper|colour|unstable": [
+   "gen-lamp-thin-paper-colour-unstable-1.jpg",
+   "gen-lamp-thin-paper-colour-unstable-2.jpg"
+  ],
+  "thin-paper|round|unstable": [
+   "gen-lamp-thin-paper-round-unstable-1.jpg",
+   "gen-lamp-thin-paper-round-unstable-2.jpg"
+  ],
+  "pipe|module|unstable": [
+   "gen-lamp-pipe-module-unstable-1.jpg",
+   "gen-lamp-pipe-module-unstable-2.jpg"
+  ],
+  "pipe|strip|unstable": [
+   "gen-lamp-pipe-strip-unstable-1.jpg",
+   "gen-lamp-pipe-strip-unstable-2.jpg"
+  ],
+  "pipe|colour|unstable": [
+   "gen-lamp-pipe-colour-unstable-1.jpg",
+   "gen-lamp-pipe-colour-unstable-2.jpg"
+  ],
+  "pipe|round|unstable": [
+   "gen-lamp-pipe-round-unstable-1.jpg",
+   "gen-lamp-pipe-round-unstable-2.jpg"
+  ],
+  "conduit|module|unstable": [
+   "gen-lamp-conduit-module-unstable-1.jpg",
+   "gen-lamp-conduit-module-unstable-2.jpg"
+  ],
+  "conduit|strip|unstable": [
+   "gen-lamp-conduit-strip-unstable-1.jpg",
+   "gen-lamp-conduit-strip-unstable-2.jpg"
+  ],
+  "conduit|colour|unstable": [
+   "gen-lamp-conduit-colour-unstable-1.jpg",
+   "gen-lamp-conduit-colour-unstable-2.jpg"
+  ],
+  "conduit|round|unstable": [
+   "gen-lamp-conduit-round-unstable-1.jpg",
+   "gen-lamp-conduit-round-unstable-2.jpg"
+  ],
+  "bottle|module|unstable": [
+   "gen-lamp-bottle-module-unstable-1.jpg",
+   "gen-lamp-bottle-module-unstable-2.jpg"
+  ],
+  "bottle|strip|unstable": [
+   "gen-lamp-bottle-strip-unstable-1.jpg",
+   "gen-lamp-bottle-strip-unstable-2.jpg"
+  ],
+  "bottle|colour|unstable": [
+   "gen-lamp-bottle-colour-unstable-1.jpg",
+   "gen-lamp-bottle-colour-unstable-2.jpg"
+  ],
+  "bottle|round|unstable": [
+   "gen-lamp-bottle-round-unstable-1.jpg",
+   "gen-lamp-bottle-round-unstable-2.jpg"
+  ]
+ },
+ "parts": {
+  "module": [
+   "gen-parts-module-1.jpg"
+  ],
+  "strip": [
+   "gen-parts-strip-1.jpg"
+  ],
+  "colour": [
+   "gen-parts-colour-1.jpg"
+  ],
+  "round": [
+   "gen-parts-round-1.jpg"
+  ]
+ },
+ "heads": {
+  "led-module-2835-12v-1w5-white": {
+   "1": [
+    "file-000400.jpg",
+    "gen-heads-led-module-2835-12v-1w5-white-1-1.jpg"
+   ],
+   "few": [
+    "file-001085.jpg",
+    "gen-heads-led-module-2835-12v-1w5-white-few-1.jpg",
+    "gen-heads-led-module-2835-12v-1w5-white-few-2.jpg"
+   ],
+   "many": [
+    "gen-heads-led-module-2835-12v-1w5-white-many-1.jpg",
+    "gen-heads-led-module-2835-12v-1w5-white-many-2.jpg"
+   ]
+  },
+  "led-pcb-round-6x7530": {
+   "1": [
+    "gen-heads-led-pcb-round-6x7530-1-1.jpg"
+   ],
+   "few": [
+    "gen-heads-led-pcb-round-6x7530-few-1.jpg"
+   ],
+   "many": [
+    "gen-heads-led-pcb-round-6x7530-many-1.jpg"
+   ]
+  },
+  "touch-led-board-ttp223-5730": {
+   "1": [
+    "gen-heads-touch-led-board-ttp223-5730-1-1.jpg"
+   ],
+   "few": [
+    "gen-heads-touch-led-board-ttp223-5730-few-1.jpg"
+   ],
+   "many": [
+    "gen-heads-touch-led-board-ttp223-5730-many-1.jpg"
+   ]
+  }
+ },
+ "scene": [
+  "gen-scene-1.jpg",
+  "gen-scene-2.jpg",
+  "gen-scene-3.jpg",
+  "gen-scene-4.jpg",
+  "gen-scene-5.jpg",
+  "gen-scene-6.jpg"
+ ],
+ "neutral": [
+  "gen-neutral-1.jpg",
+  "gen-neutral-2.jpg",
+  "gen-neutral-3.jpg"
+ ],
+ "invoice_backdrops": [
+  "gen-backdrop-1.jpg",
+  "gen-backdrop-2.jpg",
+  "gen-backdrop-3.jpg",
+  "gen-backdrop-4.jpg"
+ ],
+ "light_groups": {
+  "led-module-2835-12v-1w5-white": "module",
+  "usb-led-strip-5v-white-1m": "strip",
+  "usb-led-strip-ikea": "colour",
+  "led-pcb-round-6x7530": "round",
+  "touch-led-board-ttp223-5730": "round"
+ },
+ "structure_groups": {
+  "phone-stand-folding-180": "folding-stand",
+  "phone-stand-simple-30": "simple-stand",
+  "metal-arm-tablet-stand": "metal-arm",
+  "mic-stand-mobile-holder-30cm": "mic-stand",
+  "display-stand-clear-10pack": "clear-easel",
+  "canson-300g-ribbed-100x70": "card-fold",
+  "card-300g-plain-100x70": "card-fold",
+  "card-a3-300g-loose": "a3-fold",
+  "canson-sketch-pad-a3-300g-10": "a3-fold",
+  "card-a3-150g": "thin-paper",
+  "black-plumbing-pipe": "pipe",
+  "pvc-conduit-20mm": "conduit",
+  "bottled-water": "bottle"
+ },
+ "reachable_states": {
+  "folding-stand": [
+   "ok"
+  ],
+  "metal-arm": [
+   "ok"
+  ],
+  "mic-stand": [
+   "ok"
+  ],
+  "simple-stand": [
+   "low"
+  ],
+  "clear-easel": [
+   "cannot_hold"
+  ],
+  "card-fold": [
+   "ok",
+   "misfold"
+  ],
+  "a3-fold": [
+   "low"
+  ],
+  "thin-paper": [
+   "unstable"
+  ],
+  "pipe": [
+   "unstable"
+  ],
+  "conduit": [
+   "unstable"
+  ],
+  "bottle": [
+   "unstable"
+  ]
+ },
+ "real_item_overrides": {
+  "metal-arm-tablet-stand": [
+   "file-000054-nosticker.jpg"
+  ],
+  "binder-clips-19mm-box12": [
+   "file-000693-clipsbox.jpg"
+  ],
+  "usb-charger-5v": [
+   "gen-item-usb-charger-5v-1.jpg",
+   "gen-item-usb-charger-5v-2.jpg"
+  ]
+ }
+}

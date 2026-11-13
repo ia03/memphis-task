@@ -1,0 +1,476 @@
+{
+ "trial": "c3-s13-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 1,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 121",
+     "what": "Lampatronics staff said they could assemble within an hour; finally could not; Abdelrahman waited in shop",
+     "happened": true
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 31,
+   "happened": 29,
+   "items": [
+    {
+     "cite": "log 47",
+     "what": "Abdelrahman asks Lampatronics for ready USB 5V light",
+     "happened": true
+    },
+    {
+     "cite": "log 47",
+     "what": "Abdelrahman asks Lampatronics for white USB LED strip",
+     "happened": true
+    },
+    {
+     "cite": "log 47",
+     "what": "Abdelrahman asks Lampatronics for freestanding gooseneck stand",
+     "happened": true
+    },
+    {
+     "cite": "log 47",
+     "what": "Abdelrahman asks Lampatronics for cable ties/double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 60",
+     "what": "Abdelrahman asks RAM for ready USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 60",
+     "what": "Abdelrahman asks RAM for ready USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 71",
+     "what": "Abdelrahman asks El Gammal for ready USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 71",
+     "what": "Abdelrahman asks El Gammal for ready USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 77",
+     "what": "Mustafa asks Bab El Louk accessories shop for ready USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 77",
+     "what": "Mustafa asks same shop for white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 77",
+     "what": "Mustafa asks same shop for high freestanding holder; only low 33 EGP cradle",
+     "happened": true
+    },
+    {
+     "cite": "log 77",
+     "what": "Mustafa asks same shop for cable ties/double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 88",
+     "what": "Abdelrahman asks El Tamimi for ready USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 88",
+     "what": "Abdelrahman asks El Tamimi for USB/5V strip",
+     "happened": true
+    },
+    {
+     "cite": "log 88",
+     "what": "Abdelrahman asks El Tamimi for USB-to-DC cable",
+     "happened": true
+    },
+    {
+     "cite": "log 88",
+     "what": "Abdelrahman asks El Tamimi for screw-terminal female DC connector",
+     "happened": true
+    },
+    {
+     "cite": "log 94",
+     "what": "Mustafa asks electronics retailer for ready USB lamp",
+     "happened": true
+    },
+    {
+     "cite": "log 94",
+     "what": "Mustafa asks electronics retailer for USB LED stick",
+     "happened": true
+    },
+    {
+     "cite": "log 94",
+     "what": "Mustafa asks electronics retailer for ready white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 116",
+     "what": "Mustafa asks El Tamimi for flexible gooseneck holder; only 500 EGP arm, four units",
+     "happened": true
+    },
+    {
+     "cite": "log 127",
+     "what": "Mustafa asks housewares shop for gooseneck/clamp/heavy-base holder",
+     "happened": true
+    },
+    {
+     "cite": "log 121",
+     "what": "Abdelrahman re-asks Lampatronics about 20 EGP board: 26 in stock, 5V suitability unconfirmed",
+     "happened": "unclear"
+    },
+    {
+     "cite": "log 169",
+     "what": "Abdelrahman asks Lampatronics for 110 12V modules; only 18",
+     "happened": true
+    },
+    {
+     "cite": "log 169",
+     "what": "Abdelrahman asks Lampatronics for 55 wired female jacks; only 19",
+     "happened": true
+    },
+    {
+     "cite": "log 169",
+     "what": "Abdelrahman asks Lampatronics for 3-4 tape rolls; four available",
+     "happened": false
+    },
+    {
+     "cite": "log 184",
+     "what": "Abdelrahman asks Harby Tech for matching 12V modules",
+     "happened": true
+    },
+    {
+     "cite": "log 184",
+     "what": "Abdelrahman asks Harby Tech for wired female jacks",
+     "happened": true
+    },
+    {
+     "cite": "log 191",
+     "what": "Mustafa asks Most for 20 boost cables; 27 in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 190",
+     "what": "Abdelrahman asks Bernasos for 14 Simba FT-300 sheets; unavailable",
+     "happened": true
+    },
+    {
+     "cite": "log 190",
+     "what": "Abdelrahman asks Bernasos for 7 boxes 19mm clips; in stock but 18.99 vs instructed 10.5",
+     "happened": true
+    },
+    {
+     "cite": "log 190",
+     "what": "Abdelrahman asks Bernasos for double-sided tape; none",
+     "happened": true
+    },
+    {
+     "cite": "log 343",
+     "what": "Mustafa asks Carrefour for large 300gsm card; none",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 6,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 121",
+     "what": "Lampatronics asked to solder USB cable onto boards; finally cannot",
+     "happened": false
+    },
+    {
+     "cite": "log 399",
+     "what": "Street 9 mobile-accessory shop 1 asked to join module to jack; no service",
+     "happened": false
+    },
+    {
+     "cite": "log 404",
+     "what": "Street 9 mobile-accessory shop 2 asked to join; declines",
+     "happened": false
+    },
+    {
+     "cite": "log 415",
+     "what": "Street 9 electronics retailer asked to solder or use terminals; declines",
+     "happened": false
+    },
+    {
+     "cite": "log 421",
+     "what": "Street 9 electrician 1 asked to solder/terminal-join; declines",
+     "happened": false
+    },
+    {
+     "cite": "log 427",
+     "what": "Street 9 electrician 2 asked to solder/terminal-join; declines",
+     "happened": false
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 10,
+   "happened": 10,
+   "items": [
+    {
+     "cite": "log 28",
+     "what": "Abdelrahman DiDi Dokki-Bab El Louk, 12 quoted, 18 actual",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 18
+    },
+    {
+     "cite": "log 37",
+     "what": "Mustafa Uber New Maadi-Downtown, 30 quoted, 48 actual",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 48,
+     "long": true
+    },
+    {
+     "cite": "log 174",
+     "what": "Mustafa Uber Bab El Louk-Abbasia, 19 quoted, 29 actual",
+     "happened": true,
+     "quoted_min": 19,
+     "actual_min": 29
+    },
+    {
+     "cite": "log 254",
+     "what": "Mustafa Uber Abbasia-New Maadi, 28 quoted, 44 actual",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 44,
+     "long": true
+    },
+    {
+     "cite": "log 259",
+     "what": "Abdelrahman Uber Downtown-Hadayek October, 59 quoted, 91 actual",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 91,
+     "long": true
+    },
+    {
+     "cite": "log 325",
+     "what": "Abdelrahman Uber Manial-Carrefour Maadi, 26 quoted, ~39 actual (13:01-13:40)",
+     "happened": true,
+     "quoted_min": 26,
+     "actual_min": 39,
+     "long": true
+    },
+    {
+     "cite": "log 331",
+     "what": "Mustafa Uber New Maadi-Carrefour, 13 quoted, 20 actual (booked 13:16, arrived 13:36)",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 20
+    },
+    {
+     "cite": "log 371",
+     "what": "Joint Uber Carrefour-Street 9, 19 quoted, 29 actual",
+     "happened": true,
+     "quoted_min": 19,
+     "actual_min": 29
+    },
+    {
+     "cite": "log 461",
+     "what": "Joint Uber Street 9-delivery street, 19 quoted, 31 actual (chat#179 arrival 16:46)",
+     "happened": true,
+     "quoted_min": 19,
+     "actual_min": 31
+    },
+    {
+     "cite": "chat#184",
+     "what": "Mustafa Uber delivery area-New Maadi, 13 quoted, booked 16:56, home 17:15 (19)",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 19
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 7,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "Call to RAM; hung up, no answer",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Call to Most; price 55 repeated but stock/availability not confirmed",
+     "happened": false
+    },
+    {
+     "cite": "call#3",
+     "what": "Call to Lampatronics; no connect",
+     "happened": false
+    },
+    {
+     "cite": "call#4",
+     "what": "Call to Bernasos; busy",
+     "happened": false
+    },
+    {
+     "cite": "call#5",
+     "what": "Second call to Lampatronics; no connect",
+     "happened": false
+    },
+    {
+     "cite": "email#1",
+     "what": "Email to Lampatronics on restock; bounced (email#3)",
+     "happened": false
+    },
+    {
+     "cite": "email#2",
+     "what": "Email to Bernasos on card and cutting; no reply",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 24,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "chat#13",
+     "what": "Worker photo: ride quote DiDi; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#17",
+     "what": "Worker photo: ride quote Uber; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#23",
+     "what": "Worker photo: round LED PCB; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#30",
+     "what": "Worker photo: low phone cradle; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#34",
+     "what": "Worker photo: metal tablet stand; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#40",
+     "what": "Worker photo: metal tablet stand; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#49",
+     "what": "Worker photo: ride quote Abbasia; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#54",
+     "what": "Worker photo: 12V LED module; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#58",
+     "what": "Worker photo: Lampatronics invoice; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#63",
+     "what": "Worker photo: boost cable; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#66",
+     "what": "Worker photo: Most invoice; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#68",
+     "what": "Worker photo: Canson sheet; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#74",
+     "what": "Worker photo: Bernasos invoice; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#80",
+     "what": "Worker photo: ride quote home; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#82",
+     "what": "Worker photo: ride quote home; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#91",
+     "what": "Worker photo: ride quote to delivery area; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#96",
+     "what": "Worker photo: ride quote to delivery area; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#120",
+     "what": "Worker photo: ride quote Manial; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#126",
+     "what": "Worker photo: ride quote Carrefour; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#140",
+     "what": "Worker photo: ride quote Street 9; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#163",
+     "what": "Worker photo: ride quote return; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#181",
+     "what": "Worker photo: delivery scene; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#183",
+     "what": "Worker photo: ride quote home; no re-shoot or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#186",
+     "what": "Worker photo: ride quote Manial-Hadayek; no re-shoot or photo-driven follow-up",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "Lampatronics 'within an hour' joining claim counted under K1 (matches its example), not K4; no other time promises. No heads were ever made, so K5 is empty. K2: RAM/El Gammal counted only for lights/strips (Seb's redirect). Bernasos clips counted as failed because price nearly doubled Seb's 10.5/box. Lampatronics board re-ask left unclear (stock fine, 5V unconfirmed). Most cable quantity counted at the reduced 20 asked on arrival. Carrefour shelf-riser search was interrupted before any ask, so not counted. Mustafa's Most question about the 12V marking (chat#64) was his misreading, not a photo redo."
+}

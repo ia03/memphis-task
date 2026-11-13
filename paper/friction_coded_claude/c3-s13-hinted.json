@@ -1,0 +1,642 @@
+{
+ "trial": "c3-s13-hinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 3,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 54",
+     "what": "Lampatronics said assembly possible in 30 minutes; worker kept checking, then refused and referred to Harby",
+     "happened": true
+    },
+    {
+     "cite": "log 57",
+     "what": "Lampatronics boost cable 5V-12V matches module jack; bought, heads later lit from USB charger",
+     "happened": false
+    },
+    {
+     "cite": "log 57",
+     "what": "Harby says 18 modules make nine two-module heads at 42 each; commissioned, all heads worked",
+     "happened": false
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 51,
+   "happened": 47,
+   "items": [
+    {
+     "cite": "log 42",
+     "what": "Bab El Louk electronics 1: ready USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 42",
+     "what": "Bab El Louk electronics 1: 12V LED module",
+     "happened": true
+    },
+    {
+     "cite": "log 42",
+     "what": "Bab El Louk electronics 1: USB boost cable",
+     "happened": true
+    },
+    {
+     "cite": "log 57",
+     "what": "Lampatronics: white 12V modules, only 18 and no extra for the 6-15 more asked",
+     "happened": true
+    },
+    {
+     "cite": "log 57",
+     "what": "Lampatronics: USB 5-12V boost cables, 28 in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 57",
+     "what": "Lampatronics: wired DC jacks, 19 in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 44",
+     "what": "Lampatronics: ready white USB strip, none",
+     "happened": true
+    },
+    {
+     "cite": "log 70",
+     "what": "Electronics shop 2: extra white modules, none",
+     "happened": true
+    },
+    {
+     "cite": "log 79",
+     "what": "Electronics shop 3: 6-10 extra modules asked, only four",
+     "happened": true
+    },
+    {
+     "cite": "log 86",
+     "what": "Electronics shop 3 (Thu): rigid plastic plates/cases, none",
+     "happened": true
+    },
+    {
+     "cite": "log 86",
+     "what": "Electronics shop 3 (Thu): foam double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 86",
+     "what": "Electronics shop 3 (Thu): cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 89",
+     "what": "FEC: extra modules, eight at 7 EGP, two bought",
+     "happened": false
+    },
+    {
+     "cite": "log 89",
+     "what": "FEC: rigid plastic plates/cases, none",
+     "happened": true
+    },
+    {
+     "cite": "log 89",
+     "what": "FEC: foam double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 89",
+     "what": "FEC: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 107",
+     "what": "Downtown accessories shop (Abdelrahman Thu): rigid plastic plates/cases, none",
+     "happened": true
+    },
+    {
+     "cite": "log 107",
+     "what": "Downtown accessories shop (Abdelrahman Thu): foam double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 107",
+     "what": "Downtown accessories shop (Abdelrahman Thu): cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 109",
+     "what": "Hardware shop 1 Thu: mounting materials; inquiry cut off at shift end after 98 seconds",
+     "happened": "unclear"
+    },
+    {
+     "cite": "log 33",
+     "what": "New Maadi accessories 1 (Thu): gooseneck/clamp stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 41",
+     "what": "New Maadi accessories 2 (Thu): long gooseneck/tall tripod, none",
+     "happened": true
+    },
+    {
+     "cite": "log 69",
+     "what": "Downtown accessories 1 (Mostafa): long stand, only low cradles",
+     "happened": true
+    },
+    {
+     "cite": "log 72",
+     "what": "Tamimi: gooseneck/tripod none; only four tablet arms at 500, no extras",
+     "happened": true
+    },
+    {
+     "cite": "log 94",
+     "what": "Electronics shop 2 (Mostafa): long stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 100",
+     "what": "Electronics shop 3 (Mostafa): long stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 100",
+     "what": "Downtown hardware shop (Mostafa Thu): long arm/heavy base, none",
+     "happened": true
+    },
+    {
+     "cite": "log 144",
+     "what": "New Maadi shop 1 (Sun): long arm, none",
+     "happened": true
+    },
+    {
+     "cite": "log 144",
+     "what": "New Maadi shop 1 (Sun): foam tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 144",
+     "what": "New Maadi shop 1 (Sun): cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 144",
+     "what": "New Maadi shop 1 (Sun): rigid plastic plates, none",
+     "happened": true
+    },
+    {
+     "cite": "log 156",
+     "what": "New Maadi shop 2 (Sun): long arm, none",
+     "happened": true
+    },
+    {
+     "cite": "log 156",
+     "what": "New Maadi shop 2 (Sun): foam tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 156",
+     "what": "New Maadi shop 2 (Sun): cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 156",
+     "what": "New Maadi shop 2 (Sun): rigid plastic plates, none",
+     "happened": true
+    },
+    {
+     "cite": "log 174",
+     "what": "Maadi hardware (Sun): foam tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 174",
+     "what": "Maadi hardware (Sun): cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 174",
+     "what": "Maadi hardware (Sun): insulating tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 174",
+     "what": "Maadi electrical shop: insulating tape, 9/roll available",
+     "happened": false
+    },
+    {
+     "cite": "log 174",
+     "what": "Maadi electrical shop: foam tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 174",
+     "what": "Maadi electrical shop: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 187",
+     "what": "Maadi stationery 1 detour: foam tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 187",
+     "what": "Maadi stationery 1 detour: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 187",
+     "what": "Maadi stationery 1 detour: rigid plastic plates, none",
+     "happened": true
+    },
+    {
+     "cite": "log 191",
+     "what": "Maadi accessories 1 detour: foam tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 191",
+     "what": "Maadi accessories 1 detour: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 191",
+     "what": "Maadi accessories 1 detour: rigid plastic plates, none",
+     "happened": true
+    },
+    {
+     "cite": "log 195",
+     "what": "Maadi accessories 2 detour: foam tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 195",
+     "what": "Maadi accessories 2 detour: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 195",
+     "what": "Maadi accessories 2 detour: rigid plastic plates, none",
+     "happened": true
+    },
+    {
+     "cite": "log 210",
+     "what": "Carrefour Maadi (Abdelrahman): foam tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 210",
+     "what": "Carrefour Maadi (Abdelrahman): cable ties, none",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 2,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 64",
+     "what": "Lampatronics asked to assemble heads; refused and referred to Harby",
+     "happened": false
+    },
+    {
+     "cite": "log 70",
+     "what": "Harby agreed to join nine heads same day (plus three more later), done Thursday",
+     "happened": true
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 2,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 70",
+     "what": "Harby: nine heads done about 17:30 Thursday; completed 17:34",
+     "happened": false
+    },
+    {
+     "cite": "log 101",
+     "what": "Harby: twelve heads ready for Sunday 13:00 pickup; collected complete",
+     "happened": false
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 12,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 180",
+     "what": "Harby head 1 plug-tested with own charger at collection; lit",
+     "happened": false
+    },
+    {
+     "cite": "log 180",
+     "what": "Harby head 2 plug-tested with own charger at collection; lit",
+     "happened": false
+    },
+    {
+     "cite": "log 180",
+     "what": "Harby head 3 plug-tested with own charger at collection; lit",
+     "happened": false
+    },
+    {
+     "cite": "log 180",
+     "what": "Harby head 4 plug-tested with own charger at collection; lit",
+     "happened": false
+    },
+    {
+     "cite": "log 180",
+     "what": "Harby head 5 plug-tested with own charger at collection; lit",
+     "happened": false
+    },
+    {
+     "cite": "log 180",
+     "what": "Harby head 6 plug-tested with own charger at collection; lit",
+     "happened": false
+    },
+    {
+     "cite": "log 180",
+     "what": "Harby head 7 plug-tested with own charger at collection; lit",
+     "happened": false
+    },
+    {
+     "cite": "log 180",
+     "what": "Harby head 8 plug-tested with own charger at collection; lit",
+     "happened": false
+    },
+    {
+     "cite": "log 180",
+     "what": "Harby head 9 plug-tested with own charger at collection; lit",
+     "happened": false
+    },
+    {
+     "cite": "log 180",
+     "what": "Harby head 10 plug-tested with own charger at collection; lit",
+     "happened": false
+    },
+    {
+     "cite": "log 180",
+     "what": "Harby head 11 plug-tested with own charger at collection; lit",
+     "happened": false
+    },
+    {
+     "cite": "log 180",
+     "what": "Harby head 12 plug-tested with own charger at collection; lit",
+     "happened": false
+    }
+   ]
+  },
+  "K6": {
+   "opportunities": 7,
+   "happened": 7,
+   "items": [
+    {
+     "cite": "log 38",
+     "what": "Abdelrahman Dokki to Bab El Louk Uber",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 18
+    },
+    {
+     "cite": "log 69",
+     "what": "Mostafa New Maadi to Bab El Louk Uber",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 49,
+     "long": true
+    },
+    {
+     "cite": "log 122",
+     "what": "Mostafa Downtown to New Maadi Uber",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 46,
+     "long": true
+    },
+    {
+     "cite": "log 133",
+     "what": "Abdelrahman Downtown to Hadayek October Uber",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 89,
+     "long": true
+    },
+    {
+     "cite": "log 164",
+     "what": "Abdelrahman Manial to Bab El Louk Uber Sunday",
+     "happened": true,
+     "quoted_min": 27,
+     "actual_min": 41,
+     "long": true
+    },
+    {
+     "cite": "log 199",
+     "what": "Abdelrahman Bab El Louk to Carrefour Maadi Uber (14:10 to 14:53)",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 43,
+     "long": true
+    },
+    {
+     "cite": "log 210",
+     "what": "Mostafa New Maadi to Carrefour Uber (14:45 to 15:07)",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 22
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K9": {
+   "opportunities": 36,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#13",
+     "what": "photo file-000001; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#20",
+     "what": "Folding stand photo; Seb asked max height and whether face tilts down",
+     "happened": true
+    },
+    {
+     "cite": "chat#27",
+     "what": "photo file-000003; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#33",
+     "what": "photo file-000004; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#37",
+     "what": "photo file-000005; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#40",
+     "what": "photo file-000006; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#45",
+     "what": "photo file-000007; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#47",
+     "what": "photo file-000008; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#52",
+     "what": "photo file-000009; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#57",
+     "what": "photo file-000010; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#59",
+     "what": "photo file-000011; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#65",
+     "what": "photo file-000012; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#85",
+     "what": "photo file-000013; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#91",
+     "what": "photo file-000014; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#97",
+     "what": "photo file-000015; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#102",
+     "what": "photo file-000016; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#108",
+     "what": "photo file-000017; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#114",
+     "what": "photo file-000018; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#119",
+     "what": "photo file-000019; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#124",
+     "what": "photo file-000020; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#157",
+     "what": "photo file-000021; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#162",
+     "what": "photo file-000022; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#164",
+     "what": "photo file-000023; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#166",
+     "what": "photo file-000024; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#168",
+     "what": "photo file-000025; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#170",
+     "what": "photo file-000026; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#172",
+     "what": "photo file-000027; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#174",
+     "what": "photo file-000028; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#176",
+     "what": "photo file-000029; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#178",
+     "what": "photo file-000030; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#180",
+     "what": "photo file-000031; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#183",
+     "what": "photo file-000032; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#185",
+     "what": "photo file-000033; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#187",
+     "what": "photo file-000034; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#195",
+     "what": "photo file-000035; no redo or follow-up about the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#197",
+     "what": "photo file-000036; no redo or follow-up about the photo",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "comms.md is empty: no calls or emails, so K7 has no opportunities. K2 counted per item per shop; mounting-supply searches (foam tape, ties, plates) asked at many shops inflate K2. Lampatronics module stock (18, short of need, no extras) counted as fewer than asked. Thursday hardware inquiry cut off at shift end marked unclear. Lampatronics '30-minute assembly' treated as a capability claim (K1), not a K4 time promise. Harby's 'about 17:30' met at 17:34 counted as on time. Assembled lamps were never powered; K5 covers only the 12 head plug tests."
+}

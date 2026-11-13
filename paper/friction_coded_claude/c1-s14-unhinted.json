@@ -1,0 +1,477 @@
+{
+ "trial": "c1-s14-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K2": {
+   "opportunities": 35,
+   "happened": 33,
+   "items": [
+    {
+     "cite": "log 85",
+     "what": "worker-b at RAM: intact white USB light, none",
+     "happened": true
+    },
+    {
+     "cite": "log 85",
+     "what": "worker-b at RAM: desktop stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 85",
+     "what": "worker-b at RAM: fasteners/cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 91",
+     "what": "worker-b at Lampatronics: USB strip for 30-50 units, only one in stock",
+     "happened": true
+    },
+    {
+     "cite": "log 91",
+     "what": "worker-b at Lampatronics: desktop stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 91",
+     "what": "worker-b at Lampatronics: ties/double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 111",
+     "what": "worker-b at Lampatronics: small plug-in USB LED stick, none",
+     "happened": true
+    },
+    {
+     "cite": "log 144",
+     "what": "worker-b at electronics_retail-1: USB strip/stick, none",
+     "happened": true
+    },
+    {
+     "cite": "log 144",
+     "what": "worker-b at electronics_retail-1: desktop stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 138",
+     "what": "worker-a at mobile_accessories-1: USB light, none",
+     "happened": true
+    },
+    {
+     "cite": "log 138",
+     "what": "worker-a at mobile_accessories-1: desktop stands for 30-50; metal 548 too dear (Seb), plastic only 9",
+     "happened": true
+    },
+    {
+     "cite": "log 138",
+     "what": "worker-a at mobile_accessories-1: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 152",
+     "what": "worker-a at mobile_accessories-1 follow-up: gooseneck stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 179",
+     "what": "worker-b at mobile_accessories-1: USB strip/light, none",
+     "happened": true
+    },
+    {
+     "cite": "log 179",
+     "what": "worker-b at mobile_accessories-1: gooseneck stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 184",
+     "what": "worker-a at El Tamimi: USB strip for bulk, only 4 units",
+     "happened": true
+    },
+    {
+     "cite": "log 184",
+     "what": "worker-a at El Tamimi: gooseneck stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 246",
+     "what": "worker-a at El Gammal: USB strip for bulk, only 2 units",
+     "happened": true
+    },
+    {
+     "cite": "log 246",
+     "what": "worker-a at El Gammal: USB lamp/stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 252",
+     "what": "worker-b at electronics_retail-2: USB strip, none",
+     "happened": true
+    },
+    {
+     "cite": "log 252",
+     "what": "worker-b at electronics_retail-2: USB lamp, none",
+     "happened": true
+    },
+    {
+     "cite": "log 252",
+     "what": "worker-b at electronics_retail-2: gooseneck holder, none",
+     "happened": true
+    },
+    {
+     "cite": "log 282",
+     "what": "worker-b at electronics_retail-3: USB strip for bulk, last single unit",
+     "happened": true
+    },
+    {
+     "cite": "log 282",
+     "what": "worker-b at electronics_retail-3: USB lamp/gooseneck, none",
+     "happened": true
+    },
+    {
+     "cite": "log 288",
+     "what": "worker-a at stationery-1: metal book stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 304",
+     "what": "worker-a at stationery-1: A4 clipboard, none",
+     "happened": true
+    },
+    {
+     "cite": "log 304",
+     "what": "worker-a at stationery-1: folding book/Quran stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 493",
+     "what": "worker-a at Carrefour: USB white strips, none",
+     "happened": true
+    },
+    {
+     "cite": "log 493",
+     "what": "worker-a at Carrefour: tall adjustable stand/tripod, none",
+     "happened": true
+    },
+    {
+     "cite": "log 493",
+     "what": "worker-a at Carrefour: rulers, none",
+     "happened": true
+    },
+    {
+     "cite": "log 493",
+     "what": "worker-a at Carrefour: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 533",
+     "what": "worker-a at Carrefour: heavy freestanding 25-40 cm household holder, none",
+     "happened": true
+    },
+    {
+     "cite": "log 542",
+     "what": "worker-a at Carrefour: strong double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 559",
+     "what": "worker-a at Carrefour: cheapest 5V USB charger, in stock at 167",
+     "happened": false
+    },
+    {
+     "cite": "log 565",
+     "what": "worker-a at Carrefour: insulating tape roll, bought",
+     "happened": false
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K4": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 7,
+   "happened": 7,
+   "items": [
+    {
+     "cite": "log 71",
+     "what": "worker-b Thu Uber Dokki-downtown",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 21
+    },
+    {
+     "cite": "log 95",
+     "what": "worker-a Thu DiDi New Maadi-Bab El Louk",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 49,
+     "long": true
+    },
+    {
+     "cite": "log 376",
+     "what": "worker-b Thu Uber home to Hadayek October",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 94,
+     "long": true
+    },
+    {
+     "cite": "log 376",
+     "what": "worker-a Thu DiDi home to New Maadi",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 47,
+     "long": true
+    },
+    {
+     "cite": "log 433",
+     "what": "worker-a Sun DiDi New Maadi-Carrefour",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 21
+    },
+    {
+     "cite": "log 609",
+     "what": "worker-a Sun DiDi Carrefour-home New Maadi",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 21
+    },
+    {
+     "cite": "log 751",
+     "what": "worker-a Sun DiDi home-delivery address; quote 4 min pickup + 13 trip, actual 24 from booking",
+     "happened": true,
+     "quoted_min": 17,
+     "actual_min": 24
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 8,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "comms call#1",
+     "what": "Call RAM: hung up during opening question",
+     "happened": false
+    },
+    {
+     "cite": "comms call#2",
+     "what": "Call Kimo Store: busy",
+     "happened": false
+    },
+    {
+     "cite": "comms call#3",
+     "what": "Call Carrefour: busy",
+     "happened": false
+    },
+    {
+     "cite": "comms call#4",
+     "what": "Call Carrefour retry: busy",
+     "happened": false
+    },
+    {
+     "cite": "comms call#5",
+     "what": "Call RAM retry: hung up",
+     "happened": false
+    },
+    {
+     "cite": "comms call#6",
+     "what": "Call Carrefour third try: busy",
+     "happened": false
+    },
+    {
+     "cite": "comms email#1",
+     "what": "Email El Gammal for bulk strips: no reply",
+     "happened": false
+    },
+    {
+     "cite": "comms email#2",
+     "what": "Email Kimo Store for stands/strips: no reply",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 32,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#14",
+     "what": "file-000001 ride-quote:dokki:downtown_bab_el_louk:72:12:Uber",
+     "happened": false
+    },
+    {
+     "cite": "chat#22",
+     "what": "file-000002 ride-quote:new_maadi:downtown_bab_el_louk:143:30:DiDi",
+     "happened": false
+    },
+    {
+     "cite": "chat#38",
+     "what": "file-000003 item:usb-led-strip-5v-white-1m",
+     "happened": false
+    },
+    {
+     "cite": "chat#47",
+     "what": "file-000004 invoice:lampatronics-downtown:usb-led-strip-5v-white-1m:1:125",
+     "happened": false
+    },
+    {
+     "cite": "chat#49",
+     "what": "file-000005 item:metal-arm-tablet-stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#60",
+     "what": "file-000006 item:phone-stand-simple-30",
+     "happened": false
+    },
+    {
+     "cite": "chat#63",
+     "what": "file-000007 item:phone-stand-simple-30",
+     "happened": false
+    },
+    {
+     "cite": "chat#67",
+     "what": "file-000008 item:usb-led-strip-5v-white-1m",
+     "happened": false
+    },
+    {
+     "cite": "chat#75",
+     "what": "file-000009 invoice:el-tamimi-group:usb-led-strip-5v-white-1m:4:368",
+     "happened": false
+    },
+    {
+     "cite": "chat#85",
+     "what": "file-000010 item:usb-led-strip-5v-white-1m",
+     "happened": false
+    },
+    {
+     "cite": "chat#90",
+     "what": "file-000011 invoice:el-gammal-electronics:usb-led-strip-5v-white-1m:2:304",
+     "happened": false
+    },
+    {
+     "cite": "chat#92",
+     "what": "file-000012 item:usb-led-strip-5v-white-1m",
+     "happened": false
+    },
+    {
+     "cite": "chat#98",
+     "what": "file-000013 invoice:walkin-downtown_bab_el_louk-electronics_retail-3:usb-led-strip-5v-white-",
+     "happened": false
+    },
+    {
+     "cite": "chat#106",
+     "what": "file-000014 ride-quote:downtown_bab_el_louk:hadayek_october:326:59:Uber",
+     "happened": false
+    },
+    {
+     "cite": "chat#108",
+     "what": "file-000015 ride-quote:downtown_bab_el_louk:new_maadi:184:30:DiDi",
+     "happened": false
+    },
+    {
+     "cite": "chat#124",
+     "what": "file-000016 ride-quote:manial:downtown_bab_el_louk:154:27:Uber",
+     "happened": false
+    },
+    {
+     "cite": "chat#129",
+     "what": "file-000017 ride-quote:new_maadi:delivery_area:76:13:DiDi",
+     "happened": false
+    },
+    {
+     "cite": "chat#141",
+     "what": "file-000018 item:phone-stand-simple-30",
+     "happened": false
+    },
+    {
+     "cite": "chat#158",
+     "what": "file-000019 invoice:carrefour-city-centre-maadi:phone-stand-simple-30:5:493",
+     "happened": false
+    },
+    {
+     "cite": "chat#182",
+     "what": "file-000020 lamp:phone-stand-simple-30:usb-led-strip-5v-white-1m:low",
+     "happened": false
+    },
+    {
+     "cite": "chat#189",
+     "what": "file-000021 lamp:phone-stand-simple-30:usb-led-strip-5v-white-1m:low",
+     "happened": false
+    },
+    {
+     "cite": "chat#191",
+     "what": "file-000022 lamp:phone-stand-simple-30:usb-led-strip-5v-white-1m:low",
+     "happened": false
+    },
+    {
+     "cite": "chat#193",
+     "what": "file-000023 lamp:phone-stand-simple-30:usb-led-strip-5v-white-1m:low",
+     "happened": false
+    },
+    {
+     "cite": "chat#195",
+     "what": "file-000024 lamp:phone-stand-simple-30:usb-led-strip-5v-white-1m:low",
+     "happened": false
+    },
+    {
+     "cite": "chat#197",
+     "what": "file-000025 ride-quote:new_maadi:delivery_area:82:13:DiDi",
+     "happened": false
+    },
+    {
+     "cite": "chat#199",
+     "what": "file-000026 lamp:phone-stand-simple-30:usb-led-strip-5v-white-1m:low",
+     "happened": false
+    },
+    {
+     "cite": "chat#204",
+     "what": "file-000027 scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#214",
+     "what": "file-000028 scene of six at door; Seb said it showed only the street, asked redo (chat#216)",
+     "happened": true
+    },
+    {
+     "cite": "chat#219",
+     "what": "file-000029 heads:2:usb-led-strip-5v-white-1m",
+     "happened": false
+    },
+    {
+     "cite": "chat#221",
+     "what": "file-000030 lamp:phone-stand-simple-30:usb-led-strip-5v-white-1m:low",
+     "happened": false
+    },
+    {
+     "cite": "chat#226",
+     "what": "file-000031 ride-quote:delivery_area:hadayek_october:318:51:Uber",
+     "happened": false
+    },
+    {
+     "cite": "chat#228",
+     "what": "file-000032 ride-quote:delivery_area:new_maadi:78:13:DiDi",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "No shop/technician spec claims acted on (workers reported stock they saw; strips lit when tested), so K1 empty. No technician custom work, time promises or technician-made heads: workers wrapped intact strips themselves, so K3/K4/K5 empty. Shops gave no restock commitments. K2 strip asks counted as fewer-than-asked because Seb sought 30-50 units/wholesale; grouped related items per shop. Sunday taxi (150 EGP) had no quoted duration; final Sunday 16:57/16:58 ride quotes had no ride in the log."
+}

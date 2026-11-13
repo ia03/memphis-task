@@ -1,0 +1,12 @@
+jobs_dir: ./jobs
+job_name: example
+n_attempts: 1
+n_concurrent_trials: 8
+agents:
+- import_path: harbor_ext.memphis_codex:MemphisCodex
+  model_name: openai/gpt-6.1-sol
+  kwargs:
+    reasoning_effort: medium
+    web_search: disabled
+tasks:
+- path: ./tasks/memphis-seed10

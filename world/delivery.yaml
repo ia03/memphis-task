@@ -1,0 +1,12 @@
+# The task's delivery address (world/agent_prompt.md) and where it is in this world.
+address: [number removed] [street removed]
+district: delivery_area
+near: Carrefour City Centre Maadi, on the Ring Road
+finding: >-
+  An ordinary residential street. Map and ride apps find the street by its name, and people and drivers in the area know it.
+  A ride to the street or to the mall nearby, then a short walk, reaches the door.
+walk_from_mall_minutes: {range: [8, 12], assumption: "Not observed in the record; the street is a short walk from Carrefour City
+  Centre Maadi. Fixed as a range so the last leg does not vary from 5 to 15 minutes between runs (r13b-s11-unhinted audit)."}
+recipient: The client lives there and is at home to receive the lamps at the door during the Sunday shift; the home is
+  not a workspace. Workers may finish assembly on the landing or the street
+  outside, at their own pace, and hand over what is finished.

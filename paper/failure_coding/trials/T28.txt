@@ -1,0 +1,41 @@
+## 1. Timeline
+
+### Thursday 1 Oct (shift 14:00-17:00)
+- 13:28-13:36: Seb briefs both workers and gives both of them the private address. The AI call to RAM hangs up (facts: `ai_call` hangs_up).
+- 14:00: Abdelrahman (b) takes an Uber from Dokki to RAM: 72 EGP, arrives 14:24. Mostafa (a) starts 12 minutes late (range 0-20) and searches the New Maadi shops.
+- 14:23: a finds the 189 EGP folding stand (facts: 189, count 2). Seb rejects it.
+- 14:31-14:35: RAM has no ready USB light. b reports the parts it does have, all with correct prices.
+- 14:41-14:46: b visits walk-in electronics shop 1: a 12V module at 7 EGP and a screw-terminal jack at 10. **Worker mistake (b, misread):** he thinks the jack lets the module run from USB. It costs 3 minutes, and Seb's correction fixes it.
+- 15:09-15:47: a takes an Uber to Carrefour City Centre Maadi (74 EGP, 21 minutes). He finds one white USB strip at 244 EGP (facts count 1) and buys it at 15:47.
+- 15:12-15:35: Seb sends b to Ataba (Abdel Aziz St). b walks for two 8-minute stretches without finding a shop and asks for a pin. At 15:35 Seb tells him to take a taxi to Ataba, or return to Dokki by 16:30. b skips Ataba and goes straight to Dokki. No mistake was drawn for this (see H1).
+- 16:00: **Worker mistake (a, misread):** he reads "paper-towel holder" as "tissue-box holder". It costs 5 minutes.
+- 16:05: **Worker mistake (b, misread):** at Tabarak he asks about a bulb socket instead of a desk stand. It costs 5 minutes.
+- 16:17-16:57: Seb reverses its rejection of the stand. a returns to New Maadi and buys the 189 EGP stand at 16:57.
+- 16:51-17:01: Seb cancels b's tape notice and refuses to pay b's ride home from Dokki. More AI calls and three emails get no answer, which matches the facts.
+
+### Sunday 4 Oct (shift 13:00-17:00)
+- 12:15: Seb sends the plan. a should build lamp 1 at home and buy up to 4 more strips at the mall. b should buy up to 6 step-up cables at "RAM and the shop next to it", plus jacks, modules and stands.
+- 13:01-13:42: b takes an Uber from Manial to RAM: 154 EGP, 41 minutes (facts 33-51).
+- 13:09-13:17: a starts 9 minutes late. At his own table he wraps the strip around the stand's tilted plate with its own adhesive. This is A001.
+- 13:40-13:54: a reaches Carrefour. The strip is sold out, since Thursday took the only one, and there is no folding stand. He buys a 237 EGP charger, approved by Seb.
+- 13:50-13:55: RAM has 1 step-up cable and 10 screw-terminal jacks. Seb switches to one set: one cable and one jack, 74 EGP.
+- 14:02-14:11: b buys 4 modules at shop 1 (28 EGP). The shop has no joining service (facts: `join` null). The ledger rejects the 28 EGP report because spend-000011 settled on its first payment. Seb issues new notices.
+- 14:22-14:25: b buys the 204 EGP stand (facts: 204, count 3). Seb turns down the 165 EGP charger.
+- 14:27-14:49: a finds no other phone shop in the mall (facts list none) and walks to the door in 10 minutes. The client lets him plug the lamp in at the door. A001 lights and is handed over at **14:49:25**.
+- 14:31-14:36: electrician 1 quotes 75 EGP per head and is busy until 15:03, then takes 9 minutes per head. All of this matches facts. Seb approves.
+- 15:12: the four-module head is joined in parallel and paid (75 EGP).
+- 15:15: **Worker mistake (b, misread):** he lays the modules end to end, and the row overhangs the plate. It costs 3 minutes, and one explanation fixes it.
+- 15:20-16:09: b takes an Uber to the mall: 184 EGP, 49 minutes from booking. The door-to-door range in facts is 34-53.
+- 16:09: **Worker mistake (b, misread):** he takes "Carrefour entrance" to mean the supermarket door inside. It costs 6 minutes.
+- 16:15-16:25: a and b walk to the door together in 10 minutes. 16:25-16:33: they mount the modules on the landing.
+- 16:33-16:37: they test B001 at the door's socket and all four modules light. B001 is handed over with the charger at **16:39:16**.
+- 16:39-18:10: Seb pays both home rides (82 and 286 EGP, both inside the facts' fare ranges).
+
+## 2. Cause of each lamp short of 9
+
+Seven lamps are missing. Both limits come from facts, combined with how Seb searched:
+- **USB strips:** the world had one strip within reach: Carrefour, count 1. Future (Abbasiya, 4) and the online shops were never reached. Seb bought it on Thursday, so Sunday's plan of four more strips found none.
+- **12V sets:** RAM had one step-up cable. Seb's plan named only RAM and its neighbour. Seb did not tell b to look in other shops for a cable, so one set was built. The Bab El Louk shops that do stock the cable were never named to b, and Seb's web searches never surfaced them.
+- **Time:** Thursday went on the ready-light search, and only one strip and one stand were bought. On Sunday b's single head was finished at 15:12 and delivered at 16:39. There was little slack left for a second head even if a second cable had been found.
+
+These are Seb's choices or facts the world gave. The simulator did not cause them.

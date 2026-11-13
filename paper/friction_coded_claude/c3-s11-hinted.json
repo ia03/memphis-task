@@ -1,0 +1,477 @@
+{
+ "trial": "c3-s11-hinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 2,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 41",
+     "what": "Lampatronics states 12V module and USB 5V-to-12V boost cable; bought 24 each, worked when joined and powered",
+     "happened": false
+    },
+    {
+     "cite": "log 60",
+     "what": "Harby says he can join module to boost cable and insulate; commissioned, joins correct and all heads lit",
+     "happened": false
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 15,
+   "happened": 12,
+   "items": [
+    {
+     "cite": "log 37",
+     "what": "Lampatronics first ask for ready USB/5V light: only bare round board, no USB, voltage unknown",
+     "happened": true
+    },
+    {
+     "cite": "log 41",
+     "what": "Lampatronics 12V LED module: 24 in stock at 4.5 EGP, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 41",
+     "what": "Lampatronics USB 5V-12V boost cable: 24 in stock at 50 EGP, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 70",
+     "what": "Heat-shrink asked at Harby: none, tape only",
+     "happened": true
+    },
+    {
+     "cite": "log 58",
+     "what": "El Tamimi tall desk stand: only low cradle under 15 cm",
+     "happened": true
+    },
+    {
+     "cite": "log 76",
+     "what": "Mobile-accessory shop 1 tall stand: telescopic 204 EGP but only 3 of ~20; no gooseneck",
+     "happened": true
+    },
+    {
+     "cite": "log 136",
+     "what": "Electronics counter: no gooseneck arm, empty lamp body or stand",
+     "happened": true
+    },
+    {
+     "cite": "log 207",
+     "what": "Downtown hardware counter zip ties: none",
+     "happened": true
+    },
+    {
+     "cite": "log 207",
+     "what": "Downtown hardware counter foam double-sided tape: none",
+     "happened": true
+    },
+    {
+     "cite": "log 416",
+     "what": "New Maadi accessory shop 1 stands: only 2 of up to 20 wanted",
+     "happened": true
+    },
+    {
+     "cite": "log 444",
+     "what": "New Maadi accessory shop 2 stands: only 2 at 136 EGP",
+     "happened": true
+    },
+    {
+     "cite": "log 487",
+     "what": "New Maadi hardware zip ties: none",
+     "happened": true
+    },
+    {
+     "cite": "log 487",
+     "what": "New Maadi hardware foam double-sided tape: none",
+     "happened": true
+    },
+    {
+     "cite": "log 516",
+     "what": "New Maadi hardware insulating tape: 3 rolls bought at 12 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 612",
+     "what": "Carrefour tall stand: only low cradles under 15 cm",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 1,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 60",
+     "what": "Harby agrees to join 24 heads (8/day), sample done same day, rest by Sunday",
+     "happened": true
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 1,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 103",
+     "what": "Harby promises 24 heads ready Sunday 13:00; all ready Saturday 12:36, handed over on arrival",
+     "happened": false
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 24,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 93",
+     "what": "Sample head powered on worker's USB charger: lit steadily",
+     "happened": false
+    },
+    {
+     "cite": "log 485",
+     "what": "Batch head 1 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 485",
+     "what": "Batch head 2 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 3 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 4 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 5 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 6 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 7 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 8 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 9 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 10 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 11 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 12 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 13 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 14 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 15 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 16 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 17 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 18 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 19 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 20 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 21 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 22 powered on charger at collection: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 524",
+     "what": "Batch head 23 powered on charger at collection: lit",
+     "happened": false
+    }
+   ]
+  },
+  "K6": {
+   "opportunities": 9,
+   "happened": 7,
+   "items": [
+    {
+     "cite": "log 25",
+     "what": "b Uber Dokki-Bab El Louk, quoted 12, pickup-to-arrival 19",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 19
+    },
+    {
+     "cite": "log 31",
+     "what": "a Uber New Maadi-Bab El Louk, quoted 30, actual 49",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 49,
+     "long": true
+    },
+    {
+     "cite": "log 172",
+     "what": "a inDrive home Thu, quoted 30, actual 48 incl. pickup",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 48,
+     "long": true
+    },
+    {
+     "cite": "log 214",
+     "what": "b inDrive home Hadayek October Thu, quoted 59, actual 91 door to door",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 91,
+     "long": true
+    },
+    {
+     "cite": "log 399",
+     "what": "b inDrive Manial-Harby, quoted 27, boarding-to-arrival 38 (43 from acceptance)",
+     "happened": true,
+     "quoted_min": 27,
+     "actual_min": 38,
+     "long": true
+    },
+    {
+     "cite": "log 540",
+     "what": "b inDrive Harby-delivery, quoted 28, pickup-to-arrival 39 (44 from booking)",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 39,
+     "long": true
+    },
+    {
+     "cite": "log 548",
+     "what": "a inDrive New Maadi-delivery, quoted 13, pickup-to-arrival 15 (20 from booking)",
+     "happened": false,
+     "quoted_min": 13,
+     "actual_min": 15
+    },
+    {
+     "cite": "log 739",
+     "what": "a inDrive home Sun, quoted 13, pickup-to-arrival 15",
+     "happened": false,
+     "quoted_min": 13,
+     "actual_min": 15
+    },
+    {
+     "cite": "log 740",
+     "what": "b inDrive home Sun, quoted 51, pickup-to-arrival 75",
+     "happened": true,
+     "quoted_min": 51,
+     "actual_min": 75,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K9": {
+   "opportunities": 28,
+   "happened": 3,
+   "items": [
+    {
+     "cite": "chat#11",
+     "what": "file-000001: ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#13",
+     "what": "file-000002: ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#18",
+     "what": "Round LED board photo; Seb asks its voltage and stock",
+     "happened": true
+    },
+    {
+     "cite": "chat#19",
+     "what": "file-000004: 12V module; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#23",
+     "what": "file-000005: Lampatronics invoice; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#64",
+     "what": "Tamimi low stand photo; Seb later asks holder height and base weight",
+     "happened": true
+    },
+    {
+     "cite": "chat#38",
+     "what": "Telescopic stand photo; Seb asks if extended height reaches 25 cm and base is stable",
+     "happened": true
+    },
+    {
+     "cite": "chat#40",
+     "what": "file-000008: stand invoice; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#42",
+     "what": "file-000009: sample head; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#46",
+     "what": "file-000010: parts left at Harby; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#50",
+     "what": "file-000011: Harby shop; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#79",
+     "what": "file-000012: home ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#103",
+     "what": "file-000013: ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#110",
+     "what": "file-000014: telescopic stand; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#116",
+     "what": "file-000015: stand invoice; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#118",
+     "what": "file-000016: stand invoice; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#131",
+     "what": "file-000017: 24 heads, one lit; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#152",
+     "what": "file-000018: Carrefour low stand; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#159",
+     "what": "file-000019: unlit mounted lamp; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#162",
+     "what": "file-000020: unlit mounted lamp; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#164",
+     "what": "file-000021: unlit mounted lamp; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#166",
+     "what": "file-000022: unlit mounted lamp; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#168",
+     "what": "file-000023: unlit mounted lamp; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#170",
+     "what": "file-000024: unlit mounted lamp; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#174",
+     "what": "file-000025: unlit mounted lamp; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#181",
+     "what": "file-000026: ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#183",
+     "what": "file-000027: ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#192",
+     "what": "file-000028: ride quote sent as invoice; no redo asked",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "comms.md is empty: Seb made no calls or emails, so K7 has no opportunities. K6 actual times use pickup-to-arrival where the log gives pickup; for Thursday home rides only booking-to-arrival is given. On the booking basis, worker-a's Sunday ride to the delivery address (20 vs 13) would count as slow. K3: Harby agreed to the work and started the same day, but the batch was spread over Thursday to Saturday. The 7 mounted lamps were never powered, so they are not in K5. K9 photos 6 and 7 are judgment calls: Seb's height/base questions arose because the photos could not show height."
+}

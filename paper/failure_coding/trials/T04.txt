@@ -1,0 +1,104 @@
+## 1. Timeline of decisive decisions and events (Cairo time, log line or chat time)
+
+### Thursday 1 Oct (shift 14:00-17:00)
+- 13:28: Seb briefs both workers. RAM's AI line hangs up (facts `ai_call: hangs_up`). Email silent.
+- 14:03: Abdelrahman starts in Dokki. 14:09: Mustafa starts in New Maadi, 9 min late (facts 0-20).
+- 14:13: Mustafa phones RAM himself. RAM truthfully says no white 5V LED (facts `phone_claims` truthful).
+- 14:15-14:22 (log 65-66): Abdelrahman finds Thabet on foot. Folding stand 180 (5), metal arm 500 (3), one white USB
+  strip 146, charger 186. All match facts. Free test refused (Thabet has no testing service).
+- 14:31: Mustafa's New Maadi mobile shop: no strip, charger 98. Matches facts.
+- 14:30-14:35 (log 137-139): Seb waives the shop test. Abdelrahman buys the only Thabet strip, 146.
+- 14:40 (log 140): Abdelrahman dry-checks the stand by hand. He sees no way to fit a full metre without folds. He does
+  not buy it. A cautious non-technical choice, and Seb's own rule then forbade folds and overlap.
+- 14:40-15:42: cafe search for a test table (facts `cafe_search_minutes` 62). Seb pulls him back at 15:40.
+- 14:42-14:49 (log 190): New Maadi electrician joins customer parts at 59/head, busy to 15:40, 17 min/head. Matches
+  facts (busy 58 min after arrival). Seb keeps it as backup and never uses it.
+- 14:56-15:07: Abdelrahman buys A3 card and clips, 34, at Samir & Ali Dokki. Matches facts.
+- 15:02-15:18 (log 240-251): Mustafa phones Lampatronics twice. It repeats the false "5V Type-C board" claim (facts
+  `truthful: false`). DiDi quote 143, app 30 min.
+- 15:22-16:16 (log 267, 337): Mustafa rides to Lampatronics. 54 min actual (facts 43-68). Pays 143.
+- 15:51-16:00 (log 295): worker mistake 1 (drawn, Abdelrahman misread). He asks Thabet's clerk to assemble the lamp.
+  About 5 min plus one clarification. Thabet then refuses counter space and charger use (facts).
+- 16:16-16:28 (log 338): Lampatronics. The board has bare pads, no socket. Three USB strips at 157. No signal inside
+  (facts `signal_inside: false`), so he steps out to report.
+- 16:23-16:29 (log 352): Abdelrahman again declines the stand. Clips cannot hold card face down. This is the attach
+  rule applied correctly (stand `attach: adhesive_or_tape`).
+- 16:36-16:47 (log 409): worker mistake 2 (drawn, Abdelrahman misread). Velcro ties read as cable ties. About 4 min.
+- 16:39-16:46 (log 423, 430): Mustafa buys the three strips, 471. Asked for 20-30 more, the shop has none and cannot
+  promise more by Sunday. Matches facts (count 3).
+- 16:48-16:53 (log 467; chat 16:53): Harby next door: 41/head labour, 11 min/head, busy to 17:03, max 19/day, no
+  test, no receipt, no boost cable or source. All match facts except the hedge "not sure he can finish 20 or 40 before
+  Sunday 13:00" (finding H-1).
+- 16:55-16:59:40 (log 543, 550): Seb buys 11 raw modules and 11 jacks (94) and authorises labour-only joining at
+  Harby. Mustafa completes the purchase at 16:59:40. Seb's 16:57 message set a strict 17:00 cutoff, so there is no
+  handover to Harby. The parts go home unused.
+- Rides home: Mustafa 174 (55 min, facts 43-68). Abdelrahman 287 (99 min, facts 78-122).
+
+### Between shifts
+- Seb's remote calls and emails all fail as the facts say: busy, hang-up, no connect, silent, bounce. Fares PCB
+  repeats its misleading "we prepare with your parts" phone claim (facts `phone_claim`). Emails to businesses not in
+  the facts get no reply.
+- Host sleep (see the paragraph below). Project time Thursday 18:15-18:21.
+
+### Sunday 4 Oct (shift 13:00-17:00)
+- 13:00-13:03: Abdelrahman starts in Manial (facts start_location). DiDi to Thabet 89, actual 29 min (facts 23-36).
+- 13:12: Mustafa starts 12 min late (facts 0-20). 13:22 buys a charger, 98. 13:29 buys 3 A3 sheets and clips, 37.
+  No strips, foam or extension in New Maadi. Matches facts.
+- 13:38-13:41 (log 871-872): Abdelrahman inspects and buys 4 stands, 720. Thabet stock 5 to 1. No more strips.
+- 13:41 (log 894): Seb proposes sticking the strip directly to the stand plastic with its own adhesive, front/back
+  passes. This is Seb's idea, not the worker's.
+- 13:43-14:00: Mustafa runs the three Lampatronics strips 5 min each on the charger. All pass.
+- 13:51-14:38 (log 924): Abdelrahman rides Dokki to New Maadi, 158, 47 min (facts 37-59).
+- 14:38-14:44 (log 962, 1011): worker mistake 3 (drawn, Abdelrahman wrong turn). Wrong end of the street, 6 min. This
+  delayed the handoff and so the start of assembly.
+- 14:17-14:20: the New Maadi stationery has no adhesive and refuses a table. Matches facts.
+- 14:44-14:47: handoff of 4 stands and the Thabet strip. Mustafa home 14:58.
+- 14:50-15:12: Abdelrahman rides to Carrefour, 78, 22 min (facts 19-29), to scout the last walk.
+- 14:58-15:04 (log 1061): paper sleeve on the stand slides off. Clips are not a fastener. Rule applied.
+- 15:04-15:10: dry routing of the strip on the plastic.
+- 15:10-15:21 (log 1081, 1108, 1128): worker mistake 4 (drawn, Mustafa unannounced change). He walks out for packaging.
+  Seb recalls him at 15:15. About 11 min of assembly time lost.
+- 15:12-15:16 (log 1082, 1115): worker mistake 5 (drawn, Abdelrahman misread). Shops in Carrefour before scouting.
+- 15:18-15:24 (log 1121): worker mistake 6 (drawn, Abdelrahman wrong turn). Wrong way along the mall, 6 min.
+- 15:21-15:28 (log 1141): Mustafa mounts the prototype with the strip's own adhesive. Released, it stands.
+- 15:28-15:31 (log 1148-1149): photo trouble (finding I-2). Test start slips from 15:29 to 15:32.
+- 15:32-15:47 (log 1223): 15-minute powered test passes.
+- 15:33-15:36 (log 1157): worker mistake 7 (drawn, Abdelrahman misread). He waits for a street name. About 3 min.
+- 15:37-15:39 (log 1182, 1203): Abdelrahman reaches the door. Walk from the mall 10 min (facts 8-12). The client will
+  receive at the door; no table or socket. Matches facts.
+- 15:42-15:46 (log 1211): worker mistake 8 (drawn, Abdelrahman misread). USB strip taken for a banned kit. About 4 min.
+- 15:40-16:09 (log 1224-1272): three copies mounted 7 min each; each passes a 5-min powered test.
+- 15:53-15:58 (log 1245): Carrefour has no strips, stands or power banks. Matches facts (chargers and water only).
+- 16:09-16:12 (log 1280): carry checks pass. DiDi booked 16:12, 82.
+- 16:17-16:36 (log 1296-1316): loading 4 min, road 15 min, 24 min from booking (facts 19-29).
+- 16:39-16:49 (log 1326, 1331): both workers walk 10 min, two lamps each. Door at 16:49.
+- 16:52 (log 1339): the client takes all four, with the charger and receipts.
+
+### Host sleep (26 Oct 19:00-19:25 PDT, 02:00-02:25 UTC 27 Oct)
+- From the Codex session log: at real 01:57:13Z the project clock had slept to Thursday 18:15:00 Cairo. At real
+  02:27:19Z it read 18:20:51. That is 5 min 51 s of project time over 30 min of real time, so the pause was frozen.
+- At 02:27:19Z Codex logged `write_stdin failed: Unknown process id 83676`. Process 83676 was a sleep call that had
+  already returned at 01:57:29Z. The failure only lost a stale poll.
+- No worker was on shift. Sunday's shift was 67 hours away. Seb's next actions were the same web research on DC
+  jacks it was doing before, then two emails at 18:30 to businesses not in the facts. No decision changed.
+
+
+## 2. Why 4 and not 9
+
+Each lamp needed one light source and one stand. Seb had four light sources. That set the count.
+- Lamps 1-4: built and delivered (section 3).
+- Lamps 5-9 (all five short): no fifth ready light source.
+  - Every shop Seb asked had the stock the facts give: Thabet 1 strip, Lampatronics 3, New Maadi shops none,
+    Carrefour none.
+  - Other strips were in the facts but only by walking: FEC Egypt (19 Youssef El-Gendy, the same street as
+    Lampatronics) 4 at 139, El Gammal (Bab El Louk) 4 at 159, two downtown walk-ins 1 each, Abbasiya 4, Maadi Degla 2.
+    Mustafa was downtown 16:16-17:00 Thursday but was sent only to Lampatronics and Harby. Seb asked Lampatronics for
+    more strips but never asked a worker to walk the street. Mustafa's facts give `relays_shop_alternatives` 0.15.
+    The shop not pointing him next door is ordinary.
+  - The 12V module route (Harby joins, boost cable) needed the parts left with Harby on Thursday. Seb bought them at
+    16:59:40 with a strict 17:00 cutoff. On Sunday Seb chose not to go downtown. Seb also never learned that
+    Lampatronics sells boost cables (facts: 20 at 50). Seb asked Harby, not Lampatronics, about a cable source.
+  - Stands were a second limit beyond five: Thabet had 5. Other shops had the same stand at 168-216 (a Dokki walk-in,
+    Manial, Maadi Degla, Abbasiya and others), found only by walking.
+- Time was not the limit. All four were tested by 16:09. The worker mistakes cost about 17 min on the critical path
+  (6 on the handoff, 11 on assembly). They cut the delivery margin, not the count.

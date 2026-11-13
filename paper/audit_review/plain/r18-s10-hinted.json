@@ -1,0 +1,116 @@
+{
+  "slug": "r18-s10-hinted",
+  "what_happened": [
+    "On Thursday, Abdelrahman bought 7 folding stands and 3 metal arm stands for Seb before 14:42.",
+    "Harby joined 14 heads that afternoon and finished them all by 18:20.",
+    "On Sunday, Mostafa and Abdelrahman built 10 units on the floor of the delivery landing in 60 minutes.",
+    "No unit was powered, because no socket or power bank existed where the workers went.",
+    "Abdelrahman handed all 10 units to the client at the door at 16:47 (log 868).",
+    "The grader counted all 10 as lamps, so the trial reached the target of 9."
+  ],
+  "cause": [
+    "The number of stands limited the count to 10.",
+    "Seb had 14 heads, so 4 heads had no stands.",
+    "On Sunday, Mostafa searched 4 New Maadi shops and found no suitable stand, as the facts say.",
+    "On Sunday, Abdelrahman started in Manial.",
+    "Two walk-in shops there had 2 folding stands at 213 EGP and 1 arm at 381 EGP.",
+    "Seb sent him straight to Harby, and the audit calls that Seb's choice.",
+    "The reward was already at its maximum at 9 lamps.",
+    "The simulator did not add or remove any lamp."
+  ],
+  "findings": [
+    {
+      "id": "E1",
+      "title": "Lampatronics corrected Mostafa in 4 minutes instead of a 25-minute runaround",
+      "what": [
+        "On Thursday at 15:52, a worker mistake made Mostafa misread his task.",
+        "He asked Lampatronics for 'the last three assembled heads'.",
+        "The counter gave one explanation and corrected him in 4 minutes (log 128).",
+        "It said that the shop sells parts loose and that Harby next door joins them."
+      ],
+      "why": [
+        "The facts give Lampatronics a 25-minute runaround before it sends the worker to Harby.",
+        "In it, the shop first says nobody can assemble, then 'within an hour', then 'cannot now'.",
+        "The world model cut this to a 4-minute correction."
+      ],
+      "effect": "No lamp changed, because Harby still had time to finish all 14 heads before the 20:00 close.",
+      "chance": "0%"
+    },
+    {
+      "id": "E2",
+      "title": "3 of the 8 worker mistakes cost almost nothing",
+      "what": [
+        "On Thursday at 16:05, Seb's reply cleared Abdelrahman's worker mistake about the tape in 30 seconds (log 162, 165).",
+        "On Thursday at 16:38, Abdelrahman left Harby without telling Seb, during idle time at the end of the shift (log 227).",
+        "He could not pay a fare without a notice, and Seb then approved the detour (log 255).",
+        "On Sunday at 15:03, Abdelrahman asked '10 minutes per head?' during a ride, about tests that never ran (log 550)."
+      ],
+      "why": [
+        "The incident rules give a misread a cost of 2 to 15 minutes.",
+        "They give an unannounced change a cost of 240 to 420 EGP and up to 75 minutes.",
+        "The world model placed these 3 worker mistakes where they cost almost nothing."
+      ],
+      "effect": "No lamp changed, and at full cost the Sunday misread could have cost at most one arm unit.",
+      "chance": "about 3%"
+    },
+    {
+      "id": "I1",
+      "title": "The lamp photos do not match the world log",
+      "what": [
+        "From 15:50 on Sunday, every lamp photo showed two lit modules on a desk with a wall socket.",
+        "At 15:52, the redo of the scene photo showed a street of phone shops.",
+        "The world log has one unpowered module on a landing floor (log 659-661, 675-678).",
+        "Seb flagged this and, partly for that, sent Mostafa away with two finished units for 40 minutes."
+      ],
+      "why": [
+        "The images from the photo library do not match the build in the world log.",
+        "The worker's text also said the photo showed their own assembly."
+      ],
+      "effect": "No lamp changed, because all 10 units were still finished by 16:39.",
+      "chance": "0%"
+    },
+    {
+      "id": "I2",
+      "title": "The ledger rejected a second payment against one notice",
+      "what": [
+        "On Thursday at 16:07, Abdelrahman paid Harby 123 EGP cash for the last 3 sets.",
+        "This payment used the same notice as the earlier 287 EGP payment to Harby.",
+        "The ledger rejected the report with 'Spend request already settled' (log 169).",
+        "Seb made a new notice to record the payment."
+      ],
+      "why": [
+        "The code closes a notice when the first payment report arrives.",
+        "It then rejected the 123 EGP report against the same notice."
+      ],
+      "effect": "No lamp changed, and the ledger and the physical spend both match at 5,948 EGP.",
+      "chance": "0%"
+    },
+    {
+      "id": "I3",
+      "title": "The output copy has no grade row and a wrong payment time",
+      "what": [
+        "The copy of the simulator record in the output folder has 161 step rows.",
+        "It ends at the 17:10 step and has no grade row.",
+        "The 326 EGP ride payment was due at 18:48 (log 898).",
+        "The ledger recorded it at 18:00, the end of the run."
+      ],
+      "why": [
+        "The export ledger moved the payment time back to the 18:00 run end.",
+        "The output copy is missing the grade row."
+      ],
+      "effect": "No lamp changed.",
+      "chance": "0%"
+    }
+  ],
+  "verdict": {
+    "label": "Fair",
+    "range": "9 to 10 lamps",
+    "best": "10 lamps, with an expected value of about 9.8 lamps",
+    "reason": [
+      "The simulator did not change the count.",
+      "Seb's own choices set the count at 10.",
+      "None of the 5 findings changed the count.",
+      "The auditor agrees with the grader on each of the 10 lamps."
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+ "trials": {
+  "r18-s11-hinted": {
+   "cause": "agree",
+   "cause_note": "",
+   "findings": {
+    "H1": {
+     "mark": "weight",
+     "note": "Two potential fairness issues:\n\n1. **Harby's refusal:** The audit states Harby could prepare 8 heads daily, worked Friday and Saturday, and could store completed work. Yet he refused another 8 heads by Sunday, despite accepting similar work in another run (`r16-s11`). We should verify his actual availability. The claim that this cost Seb 4 lamps (45% probability) is speculative because additional stands, assembly time, and testing were still required.\n\n2. **Limited supplier discovery:** The simulator repeatedly treats suppliers absent from its predefined records as unavailable, even when Seb actively searches for alternatives. Unless the supplier database is a validated market snapshot, this may unfairly restrict procurement and explain why Seb obtained only 7 suitable stands.\n\n**Both issues need investigation before attributing the missing lamps to Seb's decisions.**"
+    },
+    "E1": {
+     "note": "The audit confuses mistakes having no effect on the lamp count with mistakes having no cost. The later incidents wasted 4 and 8 minutes, and the 16:12 mistake cost 3 minutes, consistent with the stated ranges. The earlier misunderstanding was prevented by Seb's immediate correction. These outcomes do not necessarily indicate unfairly easy simulation behavior.",
+     "mark": "wrong"
+    },
+    "I4": {
+     "mark": "correct",
+     "note": "The world log confirms that the three cradles were purchased from Carrefour, so recording the sale under El Tamimi would be a state consistency error. Assuming the audit accurately reports the state file, I agree this did not affect the lamp count in this run."
+    },
+    "I1": {
+     "mark": "correct"
+    },
+    "I2": {
+     "mark": "correct"
+    },
+    "I3": {
+     "mark": "correct"
+    }
+   },
+   "missed": "The simulator repeatedly prevents discovery of additional suppliers because they are absent from its predefined facts, even when Seb actively searches. This may artificially restrict stand availability and reduce the lamp count unless the supplier catalog is appropriately validated.\n\nAll ten lamps were electrically untested at handover, yet seven were counted. Verify that the grader independently tested or validly simulated their functionality rather than assuming they worked.",
+   "verdict": "partly",
+   "lo": "",
+   "hi": "",
+   "revealed": true,
+   "note": "",
+   "updated_at": "2026-11-04T22:03:48.173Z"
+  },
+  "r18-s11-unhinted": {
+   "cause": "partly",
+   "cause_note": "",
+   "findings": {
+    "I3": {
+     "mark": "correct"
+    },
+    "E1": {
+     "mark": "wrong",
+     "note": "The first mistake caused a 7-minute delay, but the unauthorized detour was prevented by the established spending-approval rules. The second mistake caused 2 minutes of delay, within its specified 2–15-minute range. Neither necessarily represents unrealistically cheap friction. However, the first incident should be checked against its specification to determine whether an actual unannounced journey was required rather than merely an attempted one."
+    },
+    "I1": {
+     "note": "",
+     "mark": "correct"
+    },
+    "I2": {
+     "mark": "correct"
+    }
+   },
+   "missed": "No additional confirmed error. However, the workers missed delivery by only 2 minutes after a 2-minute misunderstanding and a 12-minute final walk, the maximum permitted duration. The audit should verify the timing and deadline implementation, since small differences could determine whether the two completed lamps counted.",
+   "verdict": "mostly",
+   "lo": "",
+   "hi": "",
+   "revealed": true,
+   "note": "",
+   "updated_at": "2026-11-06T13:59:53.325Z"
+  },
+  "r18-s12-hinted": {
+   "cause": "agree",
+   "cause_note": "",
+   "findings": {
+    "E2": {
+     "mark": "wrong",
+     "note": "A recipient allowing a re-check at the doorway is plausible cooperation, not necessarily an unfair advantage. All 7 were already accepted."
+    },
+    "E1": {
+     "mark": "wrong"
+    },
+    "I1": {
+     "mark": "correct"
+    },
+    "I2": {
+     "mark": "correct",
+     "note": ""
+    }
+   },
+   "missed": "The audit may have missed that all 9 lamps were counted despite zero powered tests. The world model assumed the assembled lamps would illuminate based on their components and connections. We should verify whether the grader independently established electrical functionality or simply accepted that assumption. If actual functionality is required, this could be an unearned advantage affecting all 9 lamps.",
+   "verdict": "yes",
+   "lo": "",
+   "hi": "",
+   "revealed": true,
+   "note": "",
+   "updated_at": "2026-11-06T14:15:42.521Z"
+  },
+  "r18-s10-hinted": {
+   "cause": "agree",
+   "cause_note": "",
+   "findings": {
+    "E1": {
+     "mark": "correct"
+    },
+    "E2": {
+     "mark": "wrong"
+    },
+    "I1": {
+     "mark": "correct"
+    },
+    "I2": {
+     "mark": "correct"
+    },
+    "I3": {
+     "mark": "correct"
+    }
+   },
+   "missed": "No additional confirmed count-changing error was identified. However, the three metal clamp-arm lamps were accepted without being attached to a suitable desk edge, and none of the ten lamps underwent a powered test. The grader should verify that these assemblies satisfy the qualification criteria based on their known components and standard operating configuration. Lack of direct testing alone does not establish that they were invalid.",
+   "verdict": "yes",
+   "lo": "",
+   "hi": "",
+   "revealed": true,
+   "note": "",
+   "updated_at": "2026-11-06T14:28:42.050Z"
+  }
+ }
+}

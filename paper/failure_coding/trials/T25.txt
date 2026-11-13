@@ -1,0 +1,44 @@
+## 1. Timeline (Cairo time, log.md)
+
+### Thursday 1 Oct
+- 13:28-13:36: Seb briefs both workers. Worker-b goes to Bab El Louk for USB strips, worker-a to Ataba for gooseneck stands. 400 EGP of transport notices.
+- 14:03-14:21: Worker-b rides Dokki to Bab El Louk, 72 EGP, 18 min (facts 50-88, 14-22).
+- 14:12: Worker-a starts 12 min late (range 0-20). He rides New Maadi to downtown, 185 EGP, 48 min (facts 126-219, 36-56). He arrives at 15:03.
+- 14:28-14:33: RAM has no ready USB strip (facts).
+- 14:41-14:52: At Lampatronics, b finds 6 white 1 m USB strips at 90 (facts: 6, 90). Worker mistake (b, misread): he takes "50 cm or 1 m" to mean 50 cm only. Cost 6 min, fixed by one reply.
+- 15:00: b buys all 6 for 540 EGP. Stock goes to 0.
+- 15:04-15:21: FEC and El Gammal have only parts that need joining (facts).
+- 15:16: Accessories shop 1 shows a low cradle at 35 (facts). Worker-a asked only about stands.
+- 15:27: Accessories shop 2 has the folding holder at 138, 5 in stock (facts). Worker-a leaves the count out of his report (his record trait).
+- 15:34-15:42: b finds 2 more strips at accessories shop 1, at 90 (facts: 2). He buys both for 180 EGP.
+- 15:39: El Tamimi has the folding holder at 175, 3 in stock (facts).
+- 15:42-15:51: Worker mistake (b, unannounced change): he heads for a ride to the 6th October market without telling Seb. The Uber quote is 390 EGP (facts 244-423). He cannot book it because no notice covers it. Cost about 9 min. Seb stops him at 15:51.
+- 16:04-16:10: Seb buys all 5 holders at 138 (690). Worker-a, sent to the same shop, finds it sold out at 16:17.
+- 16:20: Insulating tape at electronics shop 3, 13 EGP (facts: 13, 16 in stock). No double-sided tape (facts).
+- 16:27: First mount, a flat serpentine on the plate back, fails. The strip "bends along its length only" (facts).
+- 16:28-16:36: Seb has the strip wound like tape around a book. It holds and survives a lift test. This becomes lamp 1.
+- 16:29: Worker-a buys El Tamimi's 3 holders at 175 (525).
+- 16:39-18:13: Rides home. a 190 EGP, 48 min. b 395 EGP, 94 min (facts 248-431, 70-110).
+- 16:40-16:45 and Fri 11:00-11:07: Seb's calls and emails to Kimo, Lampatronics, Carrefour and Most all fail as the facts say (busy, no_connect, bounce, silent, website only).
+- 16:50-17:00: Worker mistake (b, misread): he takes "start at 13:00" as "be at the address at 13:00". Fixed by one reply. No cost.
+
+### Sunday 4 Oct
+- 13:00: Both start on time at the facts' start_location (a New Maadi, b Manial).
+- 13:03-13:24: Worker-a rides to Carrefour Maadi, 75 EGP, 21 min (facts 55-95, 15-24).
+- 13:03-13:47: Worker-b rides Manial to the delivery street, 165 EGP, 44 min (facts 109-190, 31-48).
+- 13:39: Carrefour has no strip and only the low cradle at 64 (facts).
+- 13:50-14:22: Worker-b builds lamps 2-5 on the landing, about 8 min each.
+- 13:54-14:05: No electronics shop exists in delivery_area (facts). Carrefour has no power bank or OTG adapter (facts).
+- 14:05-14:18: Worker-a walks 10 min from the mall to the door (facts 8-12).
+- 14:21-14:25: Worker-b shows worker-a the method and hands over his 5 lamps, the 3 spare strips, the tape and his charger.
+- 14:22-16:13: Seb sends worker-b back downtown (178 + 186 EGP; facts 118-204, 33-52). Lampatronics and accessories shop 1 are still empty (no restock in the facts).
+- 14:25-14:53: Worker-a builds lamps 6-8 (10, 9 and 9 min).
+- 14:53-15:38: Worker-a looks for a socket for 45 min and finds none (finding H1).
+- 15:44-15:55: Worker mistake (a, wrong turn): a parallel street. Cost 7 min.
+- 16:00: All 8 lamps are handed over. The client declines testing access.
+- 16:13-16:17: The ledger rejects b's 186 EGP fare as "already settled". Seb issues spend-000017 for it. The ledger ends at 3,394 EGP.
+
+## 2. Cause of each lamp, and of the missing one
+
+- Lamps 1-8: each pairs one of the 8 strips with one of the 8 holders. They are counted. See section 3.
+- Lamp 9 (missing): there was no 9th strip and no 9th stand. Both existed in the facts outside Bab El Louk. Strips: Abbasiya walk-in shops (5 at 146, 2 at 137) and Noon (104, delivery_days 3). Stands: New Maadi accessories shop 2 (1 at 181), Thabet in Dokki (5 at 180) and 6th October. Seb did not send anyone there. On Sunday he spent worker-b's afternoon re-checking shops he already knew were empty. Seb's choice.

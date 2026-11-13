@@ -1,0 +1,78 @@
+## 1. Timeline of decisive decisions and events
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 14:00-14:09 Abdelrahman (worker-b) starts in Dokki, Mostafa (worker-a) in New Maadi, 9 minutes late. Both match
+  the facts' start places (log 16).
+- 14:13-14:40 B: Dokki mobile shop 2 (charger only), mobile shop 1 (2 folding stands at 126, a tablet arm at 511),
+  electrician 1 (nothing). Facts match. 14:35 Seb rejects both holders (log 182). Drawn slip (b): report 6 min late,
+  no physical cost (log 128).
+- 14:18-14:46 A: New Maadi mobile shop 1 (2 stands at 189, charger 195), electrician 1 and housewares 1 (nothing).
+  Facts match (log 77, 152, 247).
+- 14:42-15:01 B rides Dokki to Bab El Louk, 68 EGP, 19 min (facts 50-88, 15-23) (log 238, 286).
+- 15:06 RAM: one step-up cable at 59 (facts: 1). Drawn slip (b): he omits the stock question (log 279, 312). A second
+  slip drawn at 15:03 is folded into it: "This is the one slip for this stretch" (log 297).
+- 15:15-15:37 A buys 5 A3 sheets, a ruler and 12 binder clips for 35. His paper frame sags and buckles. Facts say any
+  150 gsm fold fails (log 357, 504).
+- 15:17-15:33 B buys a sample module (7) and screw-terminal jack (10) at electronics shop 1, then RAM's last cable
+  (59) (log 424, 471). 15:44 Fares PCB refuses in person, as its facts say (log 539). 16:00 FEC sells parts only
+  (log 597).
+- 16:04 A buys both New Maadi stands, 378. Plate about 22 cm, base 10x10 (log 613-614).
+- 16:06-16:11 Harby Tech, next to Lampatronics: 49 a head, 12 min a head, busy 6 min, no test, no receipt. Facts match
+  (log 677).
+- 16:22 B buys 14 more modules and jacks, 238 (facts: 15 and 16 in stock) (log 777).
+- 16:24 Drawn slip (b): wrong side street, +4 min (log 784). 16:32-16:37 Harby again: 8 heads a day; a sample would
+  end 16:50. Seb puts the return before 17:00 first. No sample is made (log 814-815).
+- 16:45 Lampatronics: 14 step-up cables at 50 (facts: 24 at 50). B now holds 15 full sets of parts (log 844).
+- Rides: Bab El Louk to Dokki 74, 19 min; Dokki to Hadayek October 310, 86 min (facts 227-394, 65-102) (log 846, 897).
+
+Friday-Saturday
+- Seb's calls and emails end busy, no-connect, bounced or silent, as the facts set them (log 893-1006). Seb plans a
+  cardboard-box support for Sunday.
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 13:00 B starts in Manial with all parts and his own charger. A starts at home, 9 min late (log 1011).
+- 13:06 B sees no clear polarity mark on the module leads. Seb sends him to Harby (log 1028-1029).
+- 13:09-13:50 B rides Manial to Youssef El-Gendy, 147 EGP, 41 min (facts 113-197, 33-51) (log 1038).
+- 13:13-13:28 A finds no boxes at two groceries (facts: water only) (log 1064).
+- 13:28 Drawn slip (b): at the drop-off he heads for the wrong entrance, +6 min. Harby reached 13:58 (log 1073, 1134).
+- 13:36-13:51 A: mobile shop 1 is sold out (he bought both on Thursday). Mobile shop 2 has 2 stands at 136. Seb buys
+  them, 272 (log 1092, 1113). A finds no stool and no third mobile shop. Facts match (log 1149, 1233).
+- 14:04-14:07 Harby is busy 6 minutes (facts), then quotes 49, 12 min a head, 8 a day, no test, no receipt
+  (log 1170). Seb's spend notice had required a receipt. 14:08 Seb waives it and orders 3 heads; 14:12 a fourth
+  (log 1177, 1186).
+- 14:18-14:24 Seb asks B to spend a few minutes looking for a café table or similar holders. Nothing within 5 minutes
+  (log 1203, 1218). 14:28 Seb fixes the plan at 4 lamps, assembly at Mostafa's home, delivery target 16:30.
+- 14:59 B collects 4 heads and pays 196 (log 1321). 15:00-15:49 car to Algeria Square, 49 min door to door (facts
+  36-57, app 30) (log 1335).
+- 15:04 and 15:29 Drawn slips (a): no corner-landmark report; one reply 9 min late. No physical cost (log 1352, 1395).
+- 15:51 The driver agrees to carry both on to Mostafa's home, 195 for the whole trip (facts 126-219) (log 1465).
+  15:58 arrival.
+- 16:04-16:10 Lamp 1 mounted (6 min). 16:10-16:20 it runs 10 minutes on USB: steady light, stable, no heat
+  (log 1494-1496, 1538).
+- 16:21 A books the delivery car: 84 EGP, pickup in 7 min, app 13 min (log 1547). Lamps 2-4 mounted 16:10-16:28.
+  Each runs about 3 minutes on the one charger, 16:23-16:32 (log 1573, 1591, 1614).
+- 16:28 The driver arrives and waits 7 minutes at no charge (log 1583, 1629). 16:35 departure.
+- 16:44 Drawn slip (b): he does not pass on the new ETA. No cost (log 1651).
+- 16:51:12 Carrefour City Centre Maadi (16 min on the road; 23 min with the pickup, facts 16-25). 2 minutes to unload
+  and pay. 16:53-16:58 a 5-minute walk. 16:58:42 the client opens. 16:59:32 four lamps accepted (log 1663-1676).
+- Rides home: A 82 (20 min); B 326 (89 min, facts 214-372, 62-97) (log 1713-1714).
+
+
+## 2. Why 4 and not 9
+
+Lamps 1-4: counted.
+- Each was built from a Harby-joined head and a folding stand, tested on USB and handed over at 16:59:32.
+- They were counted because the last 9 minutes went quickly: 2 minutes to unload, a 5-minute walk, 30 seconds at the
+  door. A 7-minute walk would have lost all four (E1).
+
+Lamps 5-9: never built. Causes, all Seb's:
+- Supports. Seb owned 4 stands. The world offered more: Dokki mobile shop 1 (2 at 126, rejected Thursday 14:35),
+  Thabet in Dokki (5 at 180), Manial mobile shop 2 (4 at 198, where B started Sunday), downtown mobile shop 1 (3 at
+  204, about 6 minutes from Harby), Wasla online (16 at 50). On Sunday Seb searched New Maadi, plus one 5-minute
+  ask near Harby.
+- Heads. Harby could join 8 a day and keeps finished work for later pickup. Seb made no sample on Thursday and would
+  not leave parts there without a receipt. On Sunday he ordered 4 at 14:08-14:12. A downtown electrician (75 a head,
+  10 a day) was never found.
+- Time. The route through Algeria Square and Mostafa's home took from 15:00 to 16:35. Seb chose a 10-minute first
+  test, booked the car only after it, and tested one lamp at a time on one charger. Chargers were on sale at both New
+  Maadi mobile shops.

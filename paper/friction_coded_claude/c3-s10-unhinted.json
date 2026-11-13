@@ -1,0 +1,536 @@
+{
+ "trial": "c3-s10-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 76",
+     "what": "El Gammal strip sold as 5V USB white strip; bought and mounted but never powered",
+     "happened": "unclear"
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 24,
+   "happened": 23,
+   "items": [
+    {
+     "cite": "log 75",
+     "what": "RAM: ready plug-in USB light; none",
+     "happened": true
+    },
+    {
+     "cite": "log 76",
+     "what": "El Gammal: USB light for 40-60 lamps; only four strips at 159, Seb deferred as dear",
+     "happened": true
+    },
+    {
+     "cite": "log 90",
+     "what": "El Tamimi: USB bulb/bar/wholesale carton; none",
+     "happened": true
+    },
+    {
+     "cite": "log 105",
+     "what": "Bab El Louk accessory shop 1: USB lighting; none",
+     "happened": true
+    },
+    {
+     "cite": "log 114",
+     "what": "Fares PCB: USB module/COB/USB bulb; none",
+     "happened": true
+    },
+    {
+     "cite": "log 137",
+     "what": "RAM recheck with module/COB/bulb names; none",
+     "happened": true
+    },
+    {
+     "cite": "log 145",
+     "what": "El Gammal recheck: USB bulb/module/COB; none, only same four strips",
+     "happened": true
+    },
+    {
+     "cite": "log 113",
+     "what": "El Tamimi (Mostafa): tall phone stand/tripod; none",
+     "happened": true
+    },
+    {
+     "cite": "log 113",
+     "what": "Bab El Louk accessory shop 1 (Mostafa): stand/tripod; none",
+     "happened": true
+    },
+    {
+     "cite": "log 396",
+     "what": "Carrefour: phone/desk stand; none",
+     "happened": true
+    },
+    {
+     "cite": "log 396",
+     "what": "Carrefour: USB strip/light; none",
+     "happened": true
+    },
+    {
+     "cite": "log 396",
+     "what": "Carrefour: USB wall charger; available at 196 EGP (Seb declined, not needed)",
+     "happened": false
+    },
+    {
+     "cite": "log 404",
+     "what": "Carrefour: 30 cm rulers; none",
+     "happened": true
+    },
+    {
+     "cite": "log 404",
+     "what": "Carrefour: large binder clips; none",
+     "happened": true
+    },
+    {
+     "cite": "log 404",
+     "what": "Carrefour: double-sided tape; none",
+     "happened": true
+    },
+    {
+     "cite": "log 404",
+     "what": "Carrefour: plastic ties; none",
+     "happened": true
+    },
+    {
+     "cite": "log 412",
+     "what": "Carrefour: standing kitchen-roll holder / straight 30 cm board; none",
+     "happened": true
+    },
+    {
+     "cite": "log 428",
+     "what": "Carrefour: banana/mug/jewellery/toilet-roll stands; none",
+     "happened": true
+    },
+    {
+     "cite": "log 428",
+     "what": "Carrefour: headphone/laptop/tablet stand; none",
+     "happened": true
+    },
+    {
+     "cite": "log 501",
+     "what": "Carrefour: 5000-10000 mAh USB-A power bank; none",
+     "happened": true
+    },
+    {
+     "cite": "log 460",
+     "what": "Street 9 mobile shop 1: tall stand; only two low cradles, rejected",
+     "happened": true
+    },
+    {
+     "cite": "log 460",
+     "what": "Street 9 mobile shop 1: USB light; none",
+     "happened": true
+    },
+    {
+     "cite": "log 484",
+     "what": "Street 9 mobile shop 2: four folding holders; only two in stock",
+     "happened": true
+    },
+    {
+     "cite": "log 461",
+     "what": "Street 9 mobile shop 2: USB light; none",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K4": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 10,
+   "happened": 10,
+   "items": [
+    {
+     "cite": "log 58",
+     "what": "Thu Uber Dokki to Bab El Louk",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 22
+    },
+    {
+     "cite": "log 66",
+     "what": "Thu DiDi New Maadi to Bab El Louk",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 54,
+     "long": true
+    },
+    {
+     "cite": "log 275",
+     "what": "Thu DiDi Bab El Louk to New Maadi",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 54,
+     "long": true
+    },
+    {
+     "cite": "log 275",
+     "what": "Thu Uber Bab El Louk to Hadayek October",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 112,
+     "long": true
+    },
+    {
+     "cite": "log 356",
+     "what": "Sun Uber Manial to City Centre Maadi",
+     "happened": true,
+     "quoted_min": 26,
+     "actual_min": 47,
+     "long": true
+    },
+    {
+     "cite": "log 372",
+     "what": "Sun DiDi New Maadi to City Centre Maadi",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 24
+    },
+    {
+     "cite": "log 444",
+     "what": "Sun DiDi City Centre to Street 9",
+     "happened": true,
+     "quoted_min": 19,
+     "actual_min": 35
+    },
+    {
+     "cite": "log 514",
+     "what": "Sun DiDi Street 9 back to City Centre",
+     "happened": true,
+     "quoted_min": 19,
+     "actual_min": 32
+    },
+    {
+     "cite": "log 617",
+     "what": "Sun DiDi City Centre to New Maadi home",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 24
+    },
+    {
+     "cite": "log 624",
+     "what": "Sun Uber City Centre to Hadayek October home",
+     "happened": true,
+     "quoted_min": 51,
+     "actual_min": 92,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 30,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "RAM wrong number, no connect",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Most: website only, no stock/price",
+     "happened": false
+    },
+    {
+     "cite": "call#3",
+     "what": "Carrefour busy",
+     "happened": false
+    },
+    {
+     "cite": "call#4",
+     "what": "RAM hangs up",
+     "happened": false
+    },
+    {
+     "cite": "call#5",
+     "what": "Electrolik busy",
+     "happened": false
+    },
+    {
+     "cite": "call#6",
+     "what": "Lampatronics no connect",
+     "happened": false
+    },
+    {
+     "cite": "call#7",
+     "what": "Carrefour busy",
+     "happened": false
+    },
+    {
+     "cite": "call#8",
+     "what": "Electrolik busy",
+     "happened": false
+    },
+    {
+     "cite": "call#9",
+     "what": "Lampatronics no connect",
+     "happened": false
+    },
+    {
+     "cite": "call#10",
+     "what": "Future busy",
+     "happened": false
+    },
+    {
+     "cite": "call#11",
+     "what": "Fares no connect after hours",
+     "happened": false
+    },
+    {
+     "cite": "call#12",
+     "what": "Kimo busy",
+     "happened": false
+    },
+    {
+     "cite": "call#13",
+     "what": "Kimo busy",
+     "happened": false
+    },
+    {
+     "cite": "call#14",
+     "what": "Future busy",
+     "happened": false
+    },
+    {
+     "cite": "call#15",
+     "what": "Carrefour busy",
+     "happened": false
+    },
+    {
+     "cite": "call#16",
+     "what": "Electrolik busy",
+     "happened": false
+    },
+    {
+     "cite": "call#17",
+     "what": "Kimo busy",
+     "happened": false
+    },
+    {
+     "cite": "call#18",
+     "what": "Carrefour busy",
+     "happened": false
+    },
+    {
+     "cite": "call#19",
+     "what": "Bernasos busy",
+     "happened": false
+    },
+    {
+     "cite": "call#20",
+     "what": "Most: only rejected 5-to-12V cable price, no stock confirmed; address/hours only",
+     "happened": false
+    },
+    {
+     "cite": "email#1",
+     "what": "El Gammal, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#2",
+     "what": "Fares PCB sales, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#3",
+     "what": "Most Gmail, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#4",
+     "what": "Lampatronics, bounced",
+     "happened": false
+    },
+    {
+     "cite": "email#5",
+     "what": "RAM, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#6",
+     "what": "Makers, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#8",
+     "what": "Kimo, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#9",
+     "what": "Future, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#10",
+     "what": "Fares PCB support, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#11",
+     "what": "Bernasos, no reply",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 27,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "chat#11",
+     "what": "file-000001: ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#15",
+     "what": "file-000002: ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#21",
+     "what": "file-000003: arrival receipt scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#25",
+     "what": "file-000004: El Gammal USB strip",
+     "happened": false
+    },
+    {
+     "cite": "chat#29",
+     "what": "file-000005: arrival receipt scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#44",
+     "what": "file-000006: strip invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#60",
+     "what": "file-000007: ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#64",
+     "what": "file-000008: ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#75",
+     "what": "file-000009: receipt scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#78",
+     "what": "file-000010: receipt scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#84",
+     "what": "file-000011: ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#91",
+     "what": "file-000012: ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#96",
+     "what": "file-000013: receipt scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#101",
+     "what": "file-000014: receipt scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#107",
+     "what": "file-000015: Carrefour USB charger",
+     "happened": false
+    },
+    {
+     "cite": "chat#122",
+     "what": "file-000016: ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#132",
+     "what": "file-000017: low phone stand; Seb rejected on height, no redo",
+     "happened": false
+    },
+    {
+     "cite": "chat#138",
+     "what": "file-000018: folding stand; Seb authorized purchase",
+     "happened": false
+    },
+    {
+     "cite": "chat#147",
+     "what": "file-000019: holder invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#151",
+     "what": "file-000020: ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#157",
+     "what": "file-000021: arrival scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#170",
+     "what": "file-000022: assembled lamp, unlit",
+     "happened": false
+    },
+    {
+     "cite": "chat#172",
+     "what": "file-000023: assembled lamp, unlit",
+     "happened": false
+    },
+    {
+     "cite": "chat#176",
+     "what": "file-000024: holder invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#178",
+     "what": "file-000025: strip invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#183",
+     "what": "file-000026: ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#187",
+     "what": "file-000027: ride quote",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "K1: no shop spec claim was tested; El Gammal 5V strip claim never powered, so unclear. No technician/custom work and no shop time promises (K3/K4/K5 empty); lamps were worker-built with factory adhesive. K2: Abdel Aziz Street and in-mall shops outside Carrefour had no identified shop, so not counted; repeat asks for the same item at the same shop (Carrefour clips/tape/ties at 15:05) not double-counted; RAM/El Gammal rechecks counted because they used new item names (module/COB/bulb). K6 actual minutes are booking-to-arrival from the log; the last Uber home is 92 min in log 624 but the arrival message is stamped 18:00 (chat#192), which would be ~46 min; the log and the worker's 'took longer than the app' were used. K7: call#20 gave a price only for a rejected boost cable with no stock confirmed, so false."
+}

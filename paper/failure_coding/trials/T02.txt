@@ -1,0 +1,32 @@
+## 1. Timeline (log times, Cairo)
+
+**Thursday 1 Oct**
+- 13:28-13:36. Seb proposes white USB strips plus gooseneck phone holders. He sends b (starting in Dokki) to Bab El Louk electronics and a (New Maadi) to Ataba/Abdel Aziz phone-accessory shops.
+- 14:03-14:27. b takes an Uber, 68 EGP and 21 min (facts: Dokki to downtown). a refuses the metro and asks for the 172 EGP DiDi (14:16). He arrives at 15:22. That is 55 min of traffic plus a 7 min drawn wrong-turn mistake (14:59). Total 62 min, inside 43-68.
+- 14:33-15:32. b finds the facts' white 1 m USB strips. He buys 3 at Lampatronics (157 each) and 4 at FEC (139 each). RAM has none, which matches facts.
+- 15:30-16:49. a checks Downtown accessory counters. They have no holders, which matches facts, because the downtown walk-ins stock none. He buys single strips at 118 and 117.
+- 15:32-16:41. b checks El Tamimi (empty in facts), an accessory counter, Bernasos (16:25) and Lampatronics again. He finds no holders, ties or double-sided tape. None of those is in facts at these shops.
+- 15:45-16:11. On Seb's request, both workers search online for gooseneck holders that arrive before Sunday. They find none. Facts have no such holder online.
+- 16:00-16:07. Drawn mistake: b takes a wrong street, 7 min.
+- 16:50-Sat 11:00. Seb calls and emails Kimo, Wasla, Lampatronics, Bernasos, Future and RAM. Every reply follows facts: busy, no answer, bounced or silent.
+- 16:52. Drawn mistake: a and his return driver wait on opposite sides of the block, 6 min. The shift is over, so it costs nothing.
+- End of Thursday: 9 strips held (a 2, b 7), no structure.
+
+**Sunday 4 Oct**
+- 13:00. b starts at Manial (facts start_location). Seb sends him straight to Carrefour City Centre Maadi (140 EGP, 45 min, inside 37-59). a starts 12 min late (facts 0-20) and checks New Maadi shops.
+- 13:27. a: no holders, charger 98 EGP. He buys it.
+- 13:48. a: five low plastic stands at 39 EGP (facts: `walkin-new_maadi-mobile_accessories-2`). Seb: "short, keep it as a fallback." Drawn mistake: b waits at the mall entrance for a, 3 min, fixed by one message.
+- 13:57-14:49. Carrefour and the mall have no holders, tripods or stands (Carrefour facts list only a charger and water). a hunts for a power outlet. The facts say finding a café takes 62 min, and Seb cut that search short.
+- 14:49. Seb falls back on the low stands. The workers ride back together (78 EGP, 25 min) and buy five stands (195) at 15:30. b goes home.
+- 15:42-15:51. a tests all nine strips at home. All light.
+- 16:00. First mount fails: the returning loops lift. This fits the facts ("bends along its length only"). Seb tells a to use the black insulating tape he saw in the photo. a has none (16:04).
+- 16:15 and 16:21. Two units are made by winding the strip around the whole cradle. They are stable but low. 16:23: a leaves. 16:58: he hands over two units.
+
+
+## 2. Why each lamp is short of 9
+
+All nine are short for one reason. Seb never got a structure with `height_ok: true`.
+- Every structure in facts that could pass sits in districts nobody visited: Dokki, Manial, Maadi Degla, Hadayek October, Abbasiya, 6th October. The rest are online with 7-8 days' delivery, or behind a phone nobody answers.
+- b stood in Dokki on Thursday and in Manial on Sunday. Both have tall stands (Thabet Group in Dokki; Manial accessory shops at 213 and 381 EGP). Seb routed him elsewhere both times without asking what was nearby. That was Seb's choice. Walk-in shops are only found by walking past them.
+- The 2 units delivered are low by design. Seb knew it ("I know the light is low, it's the best we have", 16:15).
+- The other 7 strips were never mounted, because time ran out. They would not have counted either.

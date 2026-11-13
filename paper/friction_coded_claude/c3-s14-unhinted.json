@@ -1,0 +1,546 @@
+{
+ "trial": "c3-s14-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K2": {
+   "opportunities": 44,
+   "happened": 39,
+   "items": [
+    {
+     "cite": "log 56",
+     "what": "Mostafa, New Maadi mobile shop 1: long flexible phone holder",
+     "happened": true
+    },
+    {
+     "cite": "log 56",
+     "what": "Mostafa, New Maadi mobile shop 1: ready-made USB white light",
+     "happened": true
+    },
+    {
+     "cite": "log 93",
+     "what": "Mostafa, New Maadi hardware shop 1: rigid support/pipe",
+     "happened": true
+    },
+    {
+     "cite": "log 93",
+     "what": "Mostafa, New Maadi hardware shop 1: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 126",
+     "what": "Mostafa, hardware shop 2: rigid support; PVC conduit 27 EGP available",
+     "happened": false
+    },
+    {
+     "cite": "log 126",
+     "what": "Mostafa, hardware shop 2: flexible holder",
+     "happened": true
+    },
+    {
+     "cite": "log 126",
+     "what": "Mostafa, hardware shop 2: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 135",
+     "what": "Mostafa, hardware shop 2: matching elbows/Ts/end caps",
+     "happened": true
+    },
+    {
+     "cite": "log 135",
+     "what": "Mostafa, hardware shop 2: cable ties",
+     "happened": true
+    },
+    {
+     "cite": "log 135",
+     "what": "Mostafa, hardware shop 2: double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 135",
+     "what": "Mostafa, hardware shop 2: insulating tape, 15 EGP available",
+     "happened": false
+    },
+    {
+     "cite": "log 181",
+     "what": "Mostafa, mobile shop 2: tall selfie tripod / ring-light stand",
+     "happened": true
+    },
+    {
+     "cite": "log 181",
+     "what": "Mostafa, mobile shop 2: white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 181",
+     "what": "Mostafa, mobile shop 2: USB camping bulb",
+     "happened": true
+    },
+    {
+     "cite": "log 220",
+     "what": "Mostafa revisits mobile shop 1: long lazy holder",
+     "happened": true
+    },
+    {
+     "cite": "log 220",
+     "what": "Mostafa revisits mobile shop 1: white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 304",
+     "what": "Mostafa, Carrefour Thu: white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 304",
+     "what": "Mostafa, Carrefour Thu: long lazy/tablet holder",
+     "happened": true
+    },
+    {
+     "cite": "log 304",
+     "what": "Mostafa, Carrefour Thu: standing kitchen-roll holder",
+     "happened": true
+    },
+    {
+     "cite": "log 87",
+     "what": "Abdelrahman, RAM: ~30 ready-made white 5V USB lights",
+     "happened": true
+    },
+    {
+     "cite": "log 120",
+     "what": "Abdelrahman, El Gammal: ~30 white USB 5V strips; only 2 in stock",
+     "happened": true
+    },
+    {
+     "cite": "log 120",
+     "what": "Abdelrahman, El Gammal: 5V strip with DC jack plus USB-DC cable",
+     "happened": true
+    },
+    {
+     "cite": "log 120",
+     "what": "Abdelrahman, El Gammal: USB male LED module/bulb",
+     "happened": true
+    },
+    {
+     "cite": "log 120",
+     "what": "Abdelrahman, El Gammal: USB lamp without neck",
+     "happened": true
+    },
+    {
+     "cite": "log 175",
+     "what": "Abdelrahman, El Tamimi: white USB strips; 4 at 92 EGP, bought (no count set for this shop)",
+     "happened": false
+    },
+    {
+     "cite": "log 175",
+     "what": "Abdelrahman, El Tamimi: tall tripod/gooseneck holder",
+     "happened": true
+    },
+    {
+     "cite": "log 191",
+     "what": "Abdelrahman, El Tamimi: flexible mini-tripod/ring-light/tall tablet stand",
+     "happened": true
+    },
+    {
+     "cite": "log 208",
+     "what": "Abdelrahman, Bab El Louk mobile shop 1: white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 208",
+     "what": "Abdelrahman, Bab El Louk mobile shop 1: lazy holder <=150; only 548 EGP arm",
+     "happened": true
+    },
+    {
+     "cite": "log 237",
+     "what": "Abdelrahman, Bab El Louk mobile shop 1: cable ties",
+     "happened": true
+    },
+    {
+     "cite": "log 259",
+     "what": "Abdelrahman, stationery: six 30 cm rulers, 10 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 259",
+     "what": "Abdelrahman, stationery: cable ties",
+     "happened": true
+    },
+    {
+     "cite": "log 259",
+     "what": "Abdelrahman, stationery: double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 454",
+     "what": "Mostafa Sun, mobile shop 1: tall holder",
+     "happened": true
+    },
+    {
+     "cite": "log 454",
+     "what": "Mostafa Sun, mobile shop 1: white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 454",
+     "what": "Mostafa Sun, mobile shop 2: tall holder",
+     "happened": true
+    },
+    {
+     "cite": "log 454",
+     "what": "Mostafa Sun, mobile shop 2: white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 470",
+     "what": "Mostafa Sun, hardware shop 2: taller support",
+     "happened": true
+    },
+    {
+     "cite": "log 470",
+     "what": "Mostafa Sun, hardware shop 1: taller support",
+     "happened": true
+    },
+    {
+     "cite": "log 495",
+     "what": "Mostafa Sun, mobile shop 1 recheck: third folding stand",
+     "happened": true
+    },
+    {
+     "cite": "log 599",
+     "what": "Abdelrahman, Carrefour Sun: insulating tape, 3 rolls bought",
+     "happened": false
+    },
+    {
+     "cite": "log 591",
+     "what": "Abdelrahman, Carrefour Sun: strong double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 599",
+     "what": "Abdelrahman, Carrefour Sun: extending desk stand like Mostafa's",
+     "happened": true
+    },
+    {
+     "cite": "log 724",
+     "what": "Mostafa, Carrefour Sun: power bank / mains for testing",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K4": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 9,
+   "happened": 9,
+   "items": [
+    {
+     "cite": "log 49",
+     "what": "Abdelrahman Uber Dokki to Bab El Louk, Thu",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 21
+    },
+    {
+     "cite": "log 289",
+     "what": "Mostafa Uber New Maadi to City Centre Maadi, Thu",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 22
+    },
+    {
+     "cite": "log 321",
+     "what": "Mostafa Uber City Centre to New Maadi, Thu",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 20
+    },
+    {
+     "cite": "log 388",
+     "what": "Abdelrahman Uber Bab El Louk to Dokki, Thu",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 22
+    },
+    {
+     "cite": "log 415",
+     "what": "Abdelrahman Uber Dokki to Hadayek October, Thu",
+     "happened": true,
+     "quoted_min": 54,
+     "actual_min": 82,
+     "long": true
+    },
+    {
+     "cite": "log 494",
+     "what": "Abdelrahman Uber Manial to City Centre Maadi, Sun",
+     "happened": true,
+     "quoted_min": 26,
+     "actual_min": 43,
+     "long": true
+    },
+    {
+     "cite": "log 515",
+     "what": "Mostafa Uber New Maadi to City Centre Maadi, Sun",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 21
+    },
+    {
+     "cite": "log 786",
+     "what": "Abdelrahman Uber delivery area to Hadayek October, Sun",
+     "happened": true,
+     "quoted_min": 51,
+     "actual_min": 82,
+     "long": true
+    },
+    {
+     "cite": "log 793",
+     "what": "Mostafa Uber delivery area to New Maadi, Sun",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 21
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 15,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "RAM call: hung up after greeting",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Fares call: firm no, they don't sell USB lights/ties/tape; hours given",
+     "happened": true
+    },
+    {
+     "cite": "call#3",
+     "what": "Future call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#4",
+     "what": "Most call: website referral, no stock or price",
+     "happened": false
+    },
+    {
+     "cite": "call#5",
+     "what": "Future call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#6",
+     "what": "RAM call: hung up",
+     "happened": false
+    },
+    {
+     "cite": "call#7",
+     "what": "Future call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#8",
+     "what": "Electrolik call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#9",
+     "what": "Kimo call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#10",
+     "what": "Kimo call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#11",
+     "what": "Future call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#12",
+     "what": "Electrolik call: busy",
+     "happened": false
+    },
+    {
+     "cite": "email#1",
+     "what": "Email to RAM sales: no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#2",
+     "what": "Email to Future Electronics: no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#3",
+     "what": "Email to Kimo store: no reply",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 27,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#9",
+     "what": "ride quote Dokki-Bab El Louk",
+     "happened": false
+    },
+    {
+     "cite": "chat#15",
+     "what": "folding stand photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#23",
+     "what": "PVC conduit",
+     "happened": false
+    },
+    {
+     "cite": "chat#26",
+     "what": "El Gammal USB strip",
+     "happened": false
+    },
+    {
+     "cite": "chat#32",
+     "what": "El Gammal invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#37",
+     "what": "El Tamimi USB strip",
+     "happened": false
+    },
+    {
+     "cite": "chat#39",
+     "what": "low phone stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#43",
+     "what": "El Tamimi invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#51",
+     "what": "metal tablet arm",
+     "happened": false
+    },
+    {
+     "cite": "chat#56",
+     "what": "tablet arm invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#62",
+     "what": "30 cm ruler",
+     "happened": false
+    },
+    {
+     "cite": "chat#67",
+     "what": "ride quote New Maadi-City Centre",
+     "happened": false
+    },
+    {
+     "cite": "chat#71",
+     "what": "stationery invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#115",
+     "what": "folding stands invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#138",
+     "what": "arm lamp cannot hold",
+     "happened": false
+    },
+    {
+     "cite": "chat#145",
+     "what": "folding lamp unstable",
+     "happened": false
+    },
+    {
+     "cite": "chat#149",
+     "what": "rerouted folding head",
+     "happened": false
+    },
+    {
+     "cite": "chat#151",
+     "what": "insulating tape",
+     "happened": false
+    },
+    {
+     "cite": "chat#156",
+     "what": "two prepared heads",
+     "happened": false
+    },
+    {
+     "cite": "chat#162",
+     "what": "first folding lamp ok",
+     "happened": false
+    },
+    {
+     "cite": "chat#166",
+     "what": "first arm head",
+     "happened": false
+    },
+    {
+     "cite": "chat#172",
+     "what": "second folding lamp ok",
+     "happened": false
+    },
+    {
+     "cite": "chat#174",
+     "what": "first arm lamp ok",
+     "happened": false
+    },
+    {
+     "cite": "chat#178",
+     "what": "second arm lamp ok",
+     "happened": false
+    },
+    {
+     "cite": "chat#181",
+     "what": "third arm lamp ok",
+     "happened": false
+    },
+    {
+     "cite": "chat#192",
+     "what": "delivery scene; Seb says it shows street, asks for clear lamp photo",
+     "happened": true
+    },
+    {
+     "cite": "chat#197",
+     "what": "ride quote delivery-Hadayek October",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "K1/K3/K4/K5: no shop spec claims acted on, no custom electrical work asked (only PVC cutting, not electrical, at log 135), no time promises, no technician-made heads; workers built all lamps themselves. K2 counted per item per shop, including revisits; El Gammal counted happened because only 2 of ~30 asked; El Tamimi strip false since no count was set. Shopless local searches (log 229, Manial cafe) and the interrupted 14:44 Carrefour power-bank enquiry not counted. K6 actual = booking to arrival; Sunday Hadayek ride uses log 794's 82 min though chat#210 shows arrival at 18:00 (71 min). K7 Fares call counted as usable: firm no on stock. Lamps were never power-tested."
+}

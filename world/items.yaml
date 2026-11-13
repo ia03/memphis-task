@@ -1,0 +1,198 @@
+# Item types seen in the real run (work/catalog/suppliers.json "items"). photo = real worker photo id when one exists.
+- key: led-module-2835-12v-1w5-white
+  short: "12V LED module"
+  name: "LED Module 2835 (12V - 1.5W) White, 3-LED injection module, about 60x13 mm, two bare leads, adhesive back"
+  role: light_source
+  input: {volts: 12, connector: bare_leads}
+  joining_required: true
+  photo: null
+- key: dc-female-jack-5521-20cm
+  short: "female DC jack with lead"
+  name: "Female DC jack 5.5x2.1 mm with 20 cm red/black wire"
+  role: connector
+  input: {volts: null, connector: bare_leads}
+  output: {connector: dc_5521_female}
+  joining_required: true
+  photo: null
+- key: usb-5v-12v-boost-cable-5521
+  short: "USB step-up cable"
+  name: "USB-A to male 5.5x2.1 mm jack cable, 5V to 12V step-up, plug body printed OUTPUT DC-12V"
+  role: power_path
+  input: {volts: 5, connector: usb_a}
+  output: {volts: 12, connector: dc_5521_male}
+  joining_required: false
+  photo: null
+- key: led-pcb-round-6x7530
+  short: "round LED board"
+  name: "6-LED round aluminium PCB, 6x SMD 7530 in parallel, dual 5.1 ohm resistors, bare solder pads, no connector, rated voltage not stated"
+  role: light_source
+  input: {volts: unknown, connector: bare_leads}
+  joining_required: true
+  photo: file-000105
+- key: touch-led-board-ttp223-5730
+  short: "touch LED board"
+  name: "TTP223 capacitive touch round board with 5730 warm-white SMD LED, 5V per listing, bare pads"
+  role: light_source
+  input: {volts: 5, connector: bare_leads}
+  joining_required: true
+  photo: null
+- key: usb-led-strip-ikea
+  short: "IKEA USB LED strip"
+  name: "IKEA 1 m USB LED strip, colour-changing (white version only in old cached listings)"
+  role: light_source
+  input: {volts: 5, connector: usb_a}
+  joining_required: false
+  photo: null
+- key: usb-led-strip-5v-white-1m
+  short: "white USB LED strip"
+  name: "Generic 1 m white LED strip with USB-A plug, 5V"
+  role: light_source
+  input: {volts: 5, connector: usb_a}
+  joining_required: false
+  structure: {length_mm: 1000, width_mm: 10, adhesive_backing: true, bends: "along its length only, not flat in the plane"}
+  photo: null
+  assumption: "Not seen in any shop during the run. Exists in the sim only through the unobserved-supplier prior."
+- key: insulating-tape
+  short: "insulating tape"
+  name: "Insulating tape"
+  role: fastener
+  photo: null
+- key: binder-clips-19mm-box12
+  short: "binder clips"
+  name: "Box of 12 black metal binder clips, 19 mm"
+  role: fastener
+  photo: file-000693
+- key: phone-stand-folding-180
+  short: "desk phone holder"
+  name: "Black plastic folding desk phone holder, telescopic column, tilting plate, two lower hooks"
+  role: structure
+  structure: {holds_head: true, stable: true, height_ok: true, attach: adhesive_or_tape}
+  photo: file-000073
+- key: phone-stand-simple-30
+  short: "small phone stand"
+  name: "Simplest plastic desk phone stand, low tilted cradle"
+  role: structure
+  structure: {holds_head: true, stable: true, height_ok: false, attach: adhesive_or_tape}
+  photo: null
+  assumption: "Height under 15 cm, so it cannot light a page from above. The record has no test of it."
+- key: metal-arm-tablet-stand
+  short: "tablet arm stand"
+  name: "Metal spring-arm tablet stand with desk clamp"
+  role: structure
+  structure: {holds_head: true, stable: true, height_ok: true, attach: tape_or_clips}
+  photo: file-000054
+- key: mic-stand-mobile-holder-30cm
+  short: "microphone stand with phone holder"
+  name: "30 cm adjustable microphone stand with mobile holder"
+  role: structure
+  structure: {holds_head: true, stable: true, height_ok: true, attach: tape_or_clips}
+  photo: null
+  assumption: "Listed online only; never handled."
+- key: display-stand-clear-10pack
+  short: "clear display stands"
+  name: "Clear plastic folding display/plate stands, 15-17.5 cm, pack of 10"
+  role: structure
+  structure: {holds_head: false, stable: true, height_ok: false, attach: none}
+  photo: null
+  assumption: "A 15 cm easel holds a plate at an angle; it cannot hold a light over a desk."
+- key: canson-300g-ribbed-100x70
+  short: "Canson 300 gsm sheet"
+  name: "Canson white 300 gsm textured sheet, 100x70 cm, sold rolled"
+  role: structure_material
+  structure: {method: card_fold, yields_per_sheet: 1, needs_table: true, needs_clips: true}
+  photo: file-000823
+- key: card-300g-plain-100x70
+  short: "300 gsm card sheet"
+  name: "Plain white drawing card 100x70 cm 300 gsm"
+  role: structure_material
+  structure: {method: card_fold, yields_per_sheet: 1, needs_table: true, needs_clips: true}
+  photo: null
+- key: card-a3-300g-loose
+  short: "A3 300 gsm card"
+  name: "Ready-cut loose A3 300 gsm card"
+  role: structure_material
+  structure: {method: card_fold_small, yields_per_sheet: 1, needs_table: true, needs_clips: true}
+  photo: null
+  assumption: "A folded A3 sheet gives a shelf under 20 cm high, which is too low (Seb's own a3-tall-fold test, Oct 6). height_ok false."
+- key: canson-sketch-pad-a3-300g-10
+  short: "Canson A3 sketch pad"
+  name: "Canson sketch pad, 10 sheets A3 300 gsm"
+  role: structure_material
+  structure: {method: card_fold_small, yields_per_sheet: 1, sheets: 10, needs_table: true, needs_clips: true}
+  photo: null
+- key: card-a3-150g
+  short: "A3 paper"
+  name: "A3 150 gsm paper"
+  role: structure_material
+  structure: {method: none}
+  photo: null
+  assumption: "150 gsm cannot hold the head; any fold fails the stability test."
+- key: black-plumbing-pipe
+  short: "black pipe"
+  name: "Black plumbing pipe sold by the metre"
+  role: structure_material
+  structure: {method: none}
+  photo: file-000018
+  assumption: "Workers may not cut; a full-length pipe cannot form a stand without cutting and fittings."
+- key: pvc-conduit-20mm
+  short: "plastic conduit"
+  name: "Rigid 20 mm plastic electrical conduit"
+  role: structure_material
+  structure: {method: conduit_frame, needs_fittings: true}
+  photo: null
+- key: conduit-t-elbow-fittings
+  short: "conduit fittings"
+  name: "Push-fit T and elbow fittings for 20 mm conduit"
+  role: connector
+  photo: null
+- key: usb-cable-bare-leads-5v
+  short: "USB cable with bare leads"
+  name: "USB-A plug cable with bare red/black leads, 5V"
+  role: power_path
+  input: {volts: 5, connector: usb_a}
+  output: {volts: 5, connector: bare_leads}
+  joining_required: true
+  photo: null
+  assumption: "Not seen in the run. Common in Cairo electronics shops; present only through the electronics prior."
+- key: usb-charger-5v
+  short: "USB charger"
+  name: "USB-A wall charger 5V 2A"
+  role: power_source
+  input: {volts: 220, connector: mains}
+  output: {volts: 5, connector: usb_a}
+  photo: file-000472
+- key: ruler-30cm
+  short: "ruler"
+  name: "30 cm clear plastic ruler"
+  role: tool
+  photo: null
+# v10 additions (drawn from their own random stream, so earlier worlds are unchanged). Basis: audits r21-seed10 D1, r21-seed11 S2,
+# r21-seed14 D6, r21-seed16 D5: agents asked for these; real Cairo shops stock them.
+- key: dc-female-jack-screw-terminal
+  short: "screw-terminal DC jack"
+  name: "Female DC jack 5.5x2.1 mm with a two-screw terminal block (wires are screwed in, no soldering)"
+  role: connector
+  input: {volts: null, connector: bare_leads}
+  output: {connector: dc_5521_female}
+  joining_required: true
+  photo: null
+  assumption: "Sold for CCTV wiring in Bab El Louk component shops. Screwing wires in is still wiring: the workers do not do it (they never attempt wiring, work/catalog/workers.json); a technician joins it like the soldered jack."
+- key: terminal-block-strip-12
+  short: "terminal strip (domino)"
+  name: "Electrical terminal strip (domino), 12 ways, white plastic with brass screws"
+  role: connector
+  joining_required: true
+  photo: null
+  assumption: "Every electrical-supplies counter sells it. Using it is wiring; the workers do not do it."
+- key: bottled-water
+  short: "bottled water"
+  name: "Bottled water, 1.5 L"
+  role: structure_material
+  structure: {method: none}
+  photo: null
+  assumption: "Kiosks and groceries sell it everywhere. A bottle cannot hold a light over a desk as a stable desk lamp."
+- key: rubber-bands
+  short: "rubber bands"
+  name: "Rubber bands, small bag"
+  role: fastener
+  photo: null

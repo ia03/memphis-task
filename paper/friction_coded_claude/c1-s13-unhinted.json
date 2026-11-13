@@ -1,0 +1,526 @@
+{
+ "trial": "c1-s13-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 165",
+     "what": "Noon/Jumia listing: white 1 m strip runs from 5V USB; bought 20, never powered before delivery",
+     "happened": "unclear"
+    },
+    {
+     "cite": "log 78",
+     "what": "Accessory shop's 5V 2A USB charger, bought for testing; never powered (no socket found)",
+     "happened": "unclear"
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 29,
+   "happened": 27,
+   "items": [
+    {
+     "cite": "log 60",
+     "what": "RAM (in person): ready-cabled white USB light; none, only bare-lead cable",
+     "happened": true
+    },
+    {
+     "cite": "log 60",
+     "what": "RAM: cable ties, holders, test power; log says not offered but chat doesn't confirm they were asked",
+     "happened": "unclear"
+    },
+    {
+     "cite": "log 78",
+     "what": "Bab El Louk accessory shop: small plug-in USB white LED; none",
+     "happened": true
+    },
+    {
+     "cite": "log 78",
+     "what": "Bab El Louk accessory shop: cabled 5 W USB bulb; none",
+     "happened": true
+    },
+    {
+     "cite": "log 78",
+     "what": "Bab El Louk accessory shop: ready white USB strip 0.5-1 m; none",
+     "happened": true
+    },
+    {
+     "cite": "log 78",
+     "what": "Bab El Louk accessory shop: USB male/female extension; none",
+     "happened": true
+    },
+    {
+     "cite": "log 78",
+     "what": "Bab El Louk accessory shop: USB 5V charger for testing; 12 in stock, one bought",
+     "happened": false
+    },
+    {
+     "cite": "log 102",
+     "what": "Lampatronics: ready USB white light products; none, only loose boards",
+     "happened": true
+    },
+    {
+     "cite": "log 102",
+     "what": "Lampatronics: USB extension cable; none",
+     "happened": true
+    },
+    {
+     "cite": "log 142",
+     "what": "Lampatronics recheck: 5V LED board with micro-USB/Type-C input; none",
+     "happened": true
+    },
+    {
+     "cite": "log 142",
+     "what": "Lampatronics recheck: 1 m charging cable; none",
+     "happened": true
+    },
+    {
+     "cite": "log 115",
+     "what": "Bab El Louk accessory shop (Mostafa): flexible/elevated phone holder; only low 33 EGP stand, 7 units",
+     "happened": true
+    },
+    {
+     "cite": "log 115",
+     "what": "Bab El Louk accessory shop (Mostafa): ready USB white light; none",
+     "happened": true
+    },
+    {
+     "cite": "log 97",
+     "what": "Bab El Louk accessory shop (Mostafa): plastic cable ties; none",
+     "happened": true
+    },
+    {
+     "cite": "log 156",
+     "what": "El Tamimi: flexible/desktop phone tripod; none",
+     "happened": true
+    },
+    {
+     "cite": "log 156",
+     "what": "El Tamimi: desktop microphone stand; none",
+     "happened": true
+    },
+    {
+     "cite": "log 156",
+     "what": "El Tamimi: long-arm tablet holder; 500 EGP each, only 4, no bulk price",
+     "happened": true
+    },
+    {
+     "cite": "log 156",
+     "what": "El Tamimi: ready USB white light; none",
+     "happened": true
+    },
+    {
+     "cite": "log 389",
+     "what": "Carrefour: tall phone/lamp structures; only low 69 EGP stand",
+     "happened": true
+    },
+    {
+     "cite": "log 389",
+     "what": "Carrefour: 30 cm rulers; none",
+     "happened": true
+    },
+    {
+     "cite": "log 389",
+     "what": "Carrefour: cable ties; none",
+     "happened": true
+    },
+    {
+     "cite": "log 389",
+     "what": "Carrefour: strong double-sided tape; none",
+     "happened": true
+    },
+    {
+     "cite": "log 413",
+     "what": "Carrefour recheck: binding wire; none",
+     "happened": true
+    },
+    {
+     "cite": "log 413",
+     "what": "Carrefour: electrical insulating tape, 5 rolls bought at 22 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 437",
+     "what": "Carrefour electronics: laptop/tablet stands; none",
+     "happened": true
+    },
+    {
+     "cite": "log 437",
+     "what": "Carrefour electronics: selfie-stick tripods; none",
+     "happened": true
+    },
+    {
+     "cite": "log 437",
+     "what": "Carrefour school supplies: T-square; none",
+     "happened": true
+    },
+    {
+     "cite": "log 448",
+     "what": "Road 9 mobile shop 1: twenty raised stands; only five at 185 EGP",
+     "happened": true
+    },
+    {
+     "cite": "log 491",
+     "what": "Road 9 mobile shop 2: more raised stands; three at 213, above the 185 cap",
+     "happened": true
+    },
+    {
+     "cite": "log 526",
+     "what": "Road 9 housewares shop: raised headphone/banana-type stand; none",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K4": {
+   "opportunities": 1,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 323",
+     "what": "Noon listing showed Saturday delivery; parcel arrived Saturday 16:40",
+     "happened": false
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 9,
+   "happened": 9,
+   "items": [
+    {
+     "cite": "log 39",
+     "what": "Uber Dokki to Bab El Louk: 12 quoted, 18 actual",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 18
+    },
+    {
+     "cite": "log 53",
+     "what": "Uber New Maadi to Bab El Louk: 30 quoted, 46 actual",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 46,
+     "long": true
+    },
+    {
+     "cite": "log 281",
+     "what": "Mostafa's Thursday return Uber to New Maadi: 30 quoted, 48 actual",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 48,
+     "long": true
+    },
+    {
+     "cite": "log 281",
+     "what": "Abdelrahman's Thursday return Uber to Hadayek October: 59 quoted, 98 actual",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 98,
+     "long": true
+    },
+    {
+     "cite": "log 371",
+     "what": "Sunday Uber Manial to Carrefour: 26 quoted, 42 actual",
+     "happened": true,
+     "quoted_min": 26,
+     "actual_min": 42,
+     "long": true
+    },
+    {
+     "cite": "log 381",
+     "what": "Sunday Uber New Maadi to Carrefour: 13 quoted, 19 actual",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 19
+    },
+    {
+     "cite": "log 428",
+     "what": "Uber Carrefour to Road 9: 19 quoted, 29 actual",
+     "happened": true,
+     "quoted_min": 19,
+     "actual_min": 29
+    },
+    {
+     "cite": "log 542",
+     "what": "Uber Road 9 to Carrefour: 19 quoted, 30 actual from booking",
+     "happened": true,
+     "quoted_min": 19,
+     "actual_min": 30
+    },
+    {
+     "cite": "chat#229",
+     "what": "Mostafa's Sunday return Uber Carrefour to New Maadi: 13 quoted, booked 17:11, home 17:32",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 21
+    },
+    {
+     "cite": "chat#230",
+     "what": "Abdelrahman's Sunday return Uber: 51 quoted; arrival not recorded",
+     "happened": "unclear",
+     "quoted_min": 51,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 11,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "RAM call: hung up during introduction",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Carrefour 16061 call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#3",
+     "what": "Kimo call 1: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#4",
+     "what": "Kimo call 2: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#5",
+     "what": "Kimo call 3: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#6",
+     "what": "Kimo call 4: busy",
+     "happened": false
+    },
+    {
+     "cite": "email#1",
+     "what": "Email to RAM sales: no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#2",
+     "what": "Email to Fares PCB: no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#3",
+     "what": "Email to Future Electronics: no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#4",
+     "what": "Email to Makers Electronics: no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#5",
+     "what": "Email to Kimo Store: no reply",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 36,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#8",
+     "what": "Photo file-000001: ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#15",
+     "what": "Photo file-000002: ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#20",
+     "what": "Photo file-000003: RAM bare-lead USB cable; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#23",
+     "what": "Photo file-000004: USB charger at shop; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#27",
+     "what": "Photo file-000005: purchased charger; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#33",
+     "what": "Photo file-000006: low phone stand; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#43",
+     "what": "Photo file-000007: metal tablet arm; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#53",
+     "what": "Photo file-000008: Noon strip listing; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#56",
+     "what": "Photo file-000009: strip listing; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#81",
+     "what": "Photo file-000010: ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#86",
+     "what": "Photo file-000011: ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#100",
+     "what": "Photo file-000012: Noon invoice; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#104",
+     "what": "Photo file-000013: strips received; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#106",
+     "what": "Photo file-000014: ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#114",
+     "what": "Photo file-000015: ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#116",
+     "what": "Photo file-000016: ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#124",
+     "what": "Photo file-000017: Carrefour low stand; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#128",
+     "what": "Photo file-000018: insulating tape; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#134",
+     "what": "Photo file-000019: ride quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#140",
+     "what": "Photo file-000020: folding stand; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#146",
+     "what": "Photo file-000021: stand invoice; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#148",
+     "what": "Photo file-000022: tape invoice; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#153",
+     "what": "Photo file-000023: folding stand shop 2; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#159",
+     "what": "Photo file-000024: stand invoice shop 2; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#161",
+     "what": "Photo file-000025: low stand invoice; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#169",
+     "what": "Photo file-000026: low-stand prototype; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#185",
+     "what": "Photo file-000027: A-R1 lamp; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#187",
+     "what": "Photo file-000028: B-R1 lamp; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#196",
+     "what": "Photo file-000029: A-R2; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#201",
+     "what": "Photo file-000030: A-R3; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#203",
+     "what": "Photo file-000031: B-R2; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#205",
+     "what": "Photo file-000032: A-R4; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#207",
+     "what": "Photo file-000033: B-R3; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#214",
+     "what": "Delivery scene photo didn't show the lamps; Seb asked for a clear photo (chat#218-219)",
+     "happened": true
+    },
+    {
+     "cite": "chat#216",
+     "what": "Photo file-000035: B-R4; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#220",
+     "what": "Photo file-000036: eighth lamp at handover; no redo asked",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "No technician or custom work was asked for (K3, K5 empty); workers made the lamps themselves and none were powered. K1: the strip and charger specs were never tested, so both are unclear. Online browsing on Noon/Jumia is not counted under K2 as an ask at a shop. K2 counts substitutes found during a search for a different item (insulating tape) as successful asks. The RAM asks other than for the light are unclear because chat#21 mentions only the light. The Sunday return rides come from chat lines after the log ends; Abdelrahman's arrival is not recorded. Seb's displayed-USB-socket idea (chat#133) was withdrawn, not attempted."
+}

@@ -1,0 +1,463 @@
+{
+ "trial": "c3-s12-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 3,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 52",
+     "what": "Lampatronics sold strip as white 5V USB 1 m; bought and used, world says compatible with 5V USB",
+     "happened": false
+    },
+    {
+     "cite": "log 106",
+     "what": "Abdel Aziz accessories shop sold same 5V USB strip; bought and used, compatible",
+     "happened": false
+    },
+    {
+     "cite": "log 152",
+     "what": "Folding holder shown as extending/tilting; bought and used as lamp structure successfully",
+     "happened": false
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 26,
+   "happened": 23,
+   "items": [
+    {
+     "cite": "log 39",
+     "what": "RAM: white 5V USB strip, no stock",
+     "happened": true
+    },
+    {
+     "cite": "log 43",
+     "what": "Lampatronics: strips for 30-50, only six in stock",
+     "happened": true
+    },
+    {
+     "cite": "log 60",
+     "what": "FEC: ready USB strip/USB lights, none",
+     "happened": true
+    },
+    {
+     "cite": "log 73",
+     "what": "El Gammal: ready USB strip/lights, none",
+     "happened": true
+    },
+    {
+     "cite": "log 92",
+     "what": "Accessories-1 (Abdelrahman): strips for 30, only two",
+     "happened": true
+    },
+    {
+     "cite": "log 65",
+     "what": "Accessories-1 (Mostafa): heavy-base gooseneck stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 82",
+     "what": "Accessories-2 (Mostafa): gooseneck/tripod/aluminium stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 102",
+     "what": "El Tamimi (Mostafa): tripod/gooseneck, none",
+     "happened": true
+    },
+    {
+     "cite": "log 114",
+     "what": "Electronics_retail-1: stands/tripods, none",
+     "happened": true
+    },
+    {
+     "cite": "log 130",
+     "what": "Electronics_retail-2: headphone/mic stand/tripod, none",
+     "happened": true
+    },
+    {
+     "cite": "log 138",
+     "what": "Accessories-2 (Abdelrahman): ready USB strips/lights, none",
+     "happened": true
+    },
+    {
+     "cite": "log 138",
+     "what": "Accessories-2 (Abdelrahman): tripod/gooseneck/headphone/selfie stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 152",
+     "what": "Accessories-2: five folding holders, all five bought",
+     "happened": false
+    },
+    {
+     "cite": "log 152",
+     "what": "Accessories-2: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 152",
+     "what": "Accessories-2: insulating tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 171",
+     "what": "Accessories-2 (Mostafa): three folding holders, sold out",
+     "happened": true
+    },
+    {
+     "cite": "log 187",
+     "what": "El Tamimi: three folding holders at 175, all bought",
+     "happened": false
+    },
+    {
+     "cite": "log 175",
+     "what": "Electronics_retail-3: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 175",
+     "what": "Electronics_retail-3: insulating tape, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 331",
+     "what": "Carrefour Maadi: white USB strips, none",
+     "happened": true
+    },
+    {
+     "cite": "log 331",
+     "what": "Carrefour Maadi: tall adjustable holder, none (only low stand)",
+     "happened": true
+    },
+    {
+     "cite": "log 382",
+     "what": "Carrefour Maadi: USB power bank, none",
+     "happened": true
+    },
+    {
+     "cite": "log 382",
+     "what": "Carrefour Maadi: USB OTG adapter, none",
+     "happened": true
+    },
+    {
+     "cite": "log 509",
+     "what": "Lampatronics Sunday: USB strips, no restock",
+     "happened": true
+    },
+    {
+     "cite": "log 517",
+     "what": "Abdel Aziz accessories Sunday: white USB strips, none",
+     "happened": true
+    },
+    {
+     "cite": "log 517",
+     "what": "Abdel Aziz accessories Sunday: folding holders, none",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K4": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 8,
+   "happened": 8,
+   "items": [
+    {
+     "cite": "log 26",
+     "what": "Uber Dokki-Bab El Louk, 12 quoted, 18 actual",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 18
+    },
+    {
+     "cite": "log 33",
+     "what": "DiDi New Maadi-downtown, 30 quoted, 48 actual",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 48,
+     "long": true
+    },
+    {
+     "cite": "log 205",
+     "what": "DiDi downtown-New Maadi return, 30 quoted, 48 actual",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 48,
+     "long": true
+    },
+    {
+     "cite": "log 221",
+     "what": "Uber downtown-Hadayek October, 59 quoted, 94 actual",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 94,
+     "long": true
+    },
+    {
+     "cite": "log 317",
+     "what": "Sunday DiDi New Maadi-Carrefour, 13 quoted, 21 actual",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 21
+    },
+    {
+     "cite": "log 318",
+     "what": "Sunday Uber Manial-delivery street, 26 quoted, 44 actual",
+     "happened": true,
+     "quoted_min": 26,
+     "actual_min": 44,
+     "long": true
+    },
+    {
+     "cite": "log 462",
+     "what": "Uber delivery area-Bab El Louk, 28 quoted, 45 actual",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 45,
+     "long": true
+    },
+    {
+     "cite": "log 518",
+     "what": "Uber Bab El Louk-delivery street, 28 quoted, 43 actual",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 43,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 9,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "Kimo Store call, busy",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Lampatronics call, no connect",
+     "happened": false
+    },
+    {
+     "cite": "call#3",
+     "what": "Kimo Store retry, busy",
+     "happened": false
+    },
+    {
+     "cite": "call#4",
+     "what": "Lampatronics call Friday, no connect",
+     "happened": false
+    },
+    {
+     "cite": "call#5",
+     "what": "Carrefour call, busy",
+     "happened": false
+    },
+    {
+     "cite": "call#6",
+     "what": "Most Electronics answered, referred to website only, no stock/price",
+     "happened": false
+    },
+    {
+     "cite": "call#7",
+     "what": "Carrefour retry, busy",
+     "happened": false
+    },
+    {
+     "cite": "email#1",
+     "what": "Lampatronics email bounced",
+     "happened": false
+    },
+    {
+     "cite": "email#2",
+     "what": "Kimo Store email, no reply",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 32,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#14",
+     "what": "ride quote Dokki-downtown",
+     "happened": false
+    },
+    {
+     "cite": "chat#16",
+     "what": "ride quote New Maadi-downtown",
+     "happened": false
+    },
+    {
+     "cite": "chat#20",
+     "what": "1 m strip item",
+     "happened": false
+    },
+    {
+     "cite": "chat#25",
+     "what": "Lampatronics invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#29",
+     "what": "low plastic stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#36",
+     "what": "folding holder",
+     "happened": false
+    },
+    {
+     "cite": "chat#40",
+     "what": "1 m strip item",
+     "happened": false
+    },
+    {
+     "cite": "chat#46",
+     "what": "accessories-1 invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#49",
+     "what": "ride quote to October",
+     "happened": false
+    },
+    {
+     "cite": "chat#60",
+     "what": "folding holder",
+     "happened": false
+    },
+    {
+     "cite": "chat#69",
+     "what": "accessories-2 invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#77",
+     "what": "misfold trial lamp; Seb gave new method, not a photo redo",
+     "happened": false
+    },
+    {
+     "cite": "chat#80",
+     "what": "El Tamimi invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#91",
+     "what": "return ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#93",
+     "what": "wrapped trial lamp unlit",
+     "happened": false
+    },
+    {
+     "cite": "chat#98",
+     "what": "ride quote Hadayek October",
+     "happened": false
+    },
+    {
+     "cite": "chat#118",
+     "what": "Sunday ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#120",
+     "what": "Sunday ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#123",
+     "what": "low stand at Carrefour",
+     "happened": false
+    },
+    {
+     "cite": "chat#136",
+     "what": "lamp 2",
+     "happened": false
+    },
+    {
+     "cite": "chat#142",
+     "what": "lamp 3",
+     "happened": false
+    },
+    {
+     "cite": "chat#147",
+     "what": "lamp 4",
+     "happened": false
+    },
+    {
+     "cite": "chat#153",
+     "what": "lamp 5",
+     "happened": false
+    },
+    {
+     "cite": "chat#160",
+     "what": "ride quote downtown",
+     "happened": false
+    },
+    {
+     "cite": "chat#162",
+     "what": "lamp 6",
+     "happened": false
+    },
+    {
+     "cite": "chat#164",
+     "what": "lamp 7",
+     "happened": false
+    },
+    {
+     "cite": "chat#166",
+     "what": "lamp 8",
+     "happened": false
+    },
+    {
+     "cite": "chat#173",
+     "what": "return ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#183",
+     "what": "handover scene photo showed street not lamps; Seb asked for a lamp photo (chat#185)",
+     "happened": true
+    },
+    {
+     "cite": "chat#188",
+     "what": "resent single lamp photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#196",
+     "what": "ride quote home New Maadi",
+     "happened": false
+    },
+    {
+     "cite": "chat#198",
+     "what": "ride quote home Hadayek October",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "No custom work was requested, no shop time promises, and no technician-made heads (workers built every lamp), so K3/K4/K5 are empty. K1 claims are only product identities at the counter; none were power-tested, but the log says the strips are compatible. K2 counts each item asked for separately (e.g. both tapes, power bank and OTG). The Lampatronics and accessories-1 strip asks count as fewer units than the 30-50 asked for. The misfold photo (chat#77) led to a rebuild instruction, not a photo redo."
+}

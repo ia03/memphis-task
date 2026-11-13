@@ -1,0 +1,39 @@
+## 1. Timeline
+
+### Thursday 1 Oct
+- 13:28-13:36. Seb briefs both workers on a design: gooseneck or desk phone holder + ready 5V USB light + ties, no cutting or soldering. It sends b to Ataba / Abdel Aziz Street and a to RAM on El Falaky.
+- 14:28. Two drawn worker mistakes. a picks the wrong end of El Falaky (+8 min). b takes a wrong lane (+7 min).
+- 14:45-15:10. b checks downtown mobile-accessories-1 (chargers only), mobile-accessories-2 (1 strip at 118) and electronics-retail-1 (1 strip at 117). All match facts.
+- 15:10. Seb funds spend-000003 (235). b buys both strips at 15:16 and 15:25. The ledger rejects the second report ("Spend request already settled").
+- 15:14-15:54. a reaches RAM (bare round board, 29 EGP), then electronics-retail-1 and the two mobile counters. He finds nothing usable. Most of the stock is already gone to b.
+- 15:25-16:36. b checks El Tamimi (empty in facts), Noon (strip 105 EGP, delivered Mon 5 Oct, matches delivery_days 4), Amazon (not in facts, so nothing), housewares-1 and stationery-1. He finds no holders, bookends or Quran stands.
+- 16:00-16:48. Seb sends a to Tawfiqiya, which is not modelled in the facts. a walks there. A drawn mistake sends him toward Ramses (16:29, ~8 min). He finds no seller.
+- 16:48. A drawn b mistake: he thinks the next shift is tomorrow. It is fixed by one message.
+- 16:48-16:55. Seb sends calls and emails to Future, Most, Kimo, Fares, Lampatronics and Wasla. All fail as the facts set (busy, hang-up, bounce, silent).
+- 17:00. Shift ends. Inventory: 2 untested white 1 m USB strips with b.
+
+### Fri 2 - Sat 3 Oct
+- More calls (Kimo, RAM, Future, Electrolik, Lampatronics, Fares, Wasla, Most). All fail as the facts set. No orders.
+
+### Sunday 4 Oct
+- 12:55. Seb sends the plan. a takes an Uber to Abdel Aziz Street to find holders, strips, ties and tape. b rides from Hadayek October (Seb assumes) to Abdel Aziz Street with the strips, and "on the way, if you pass any mobile-accessory shop before you leave, check it".
+- 13:03. b starts in Manial (the facts' start_location) and books an Uber at 13:06 without checking any shop (H2).
+- 13:06. Drawn a mistake: he thinks only 30 cm microphone stands qualify. Seb fixes it at 13:20.
+- 13:20. Drawn b mistake (unannounced change). The simulator plays it as a full reroute to his Hadayek October home to fetch his charger. He arrives at 14:36 and pays 260 EGP (H1).
+- 14:18. a arrives downtown. Drawn mistake: wrong turn, 7 min. Drawn b mistake: he thinks the strips are only test samples. Seb fixes it at 14:22.
+- 14:25-14:53. a checks mobile-accessories-1 and -2 and housewares-1. He finds no stands, ties, kitchen-roll holders or tape. This matches facts.
+- 14:36-14:45. Seb drops downtown for b and funds a direct ride from his home to the delivery address (295 EGP). Arrival is set for 16:19.
+- 14:53-15:30. a checks stationery-1, Bernasos (for letter trays and tape) and housewares-1 (for stools, small tables and tape). He finds none, which matches facts. The simulator does not offer card unprompted, as the rule requires.
+- 15:30. Two drawn misreads. a reads "leave after you buy" as permission to stay past 16:10; Seb fixes it. b takes Carrefour as the meeting point; Seb adopts that as the plan.
+- 15:36. Seb sends a by Uber to Carrefour City Centre Maadi (170 EGP, arriving 16:32). Drawn b mistake (unannounced change): he reroutes downtown to look for stands.
+- 16:13. b discloses the reroute when asked. Drawn misread: should he end the ride or edit it? He edits the ride at 16:19. Arrival is now 16:55 instead of 16:19.
+- 16:32-16:47. a searches Carrefour. Facts list only a charger and water there. He finds nothing.
+- 16:47. Seb cancels spend-000011 and sends a home.
+- 16:55-16:59. b reaches the delivery street. The nearby grocery has tape (4 rolls at 15 EGP) and no structure. Nothing is handed over.
+- 17:00. Shift ends. 0 lamps built, tested or delivered.
+
+## 2. Why 9 lamps were not delivered (all 9)
+
+- Every lamp failed for lack of a structure. All structure-bearing shops in facts are in districts Seb never sent anyone to. The exception is the downtown card sheets, which need a table and a design Seb never proposed. This is the agent's choice of design and route. It is not world friction.
+- Light sources: only 2 strips were bought. That capped any Sunday outcome at 2 unless more were found. Lampatronics and FEC downtown had 7 more strips between them (H3), but more strips without holders would still give 0.
+- Worker mistakes cost b most of Sunday (13:20-16:55 travelling). That would only have mattered if a holder had been within reach. None was on Seb's routes.

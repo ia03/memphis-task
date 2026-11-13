@@ -1,0 +1,95 @@
+## 1. Timeline of decisive events
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 13:28-13:36 Seb briefs both. Mustafa (worker-a) is to find a ready white USB 5V light. Abdelrahman (worker-b) is to
+  find holders (log 3-21).
+- 14:00 Abdelrahman starts in Dokki on time. Mustafa starts in New Maadi 12 min late (facts 0-20) (log 22, 28).
+- 14:12-14:37 Mustafa: two New Maadi accessory shops, no ready USB light; a charger at 177 (log 33, 58). Facts match.
+- 14:20-14:31 Abdelrahman at Thabet: folding holder 180 x5, metal arm 500 (350 for 50); the 30 cradle is broken (log
+  39-50). Seb turns all of them down (14:27).
+- 14:37-14:47 Seb funds a 100 EGP metro trip, cancels it, and funds a 168 Uber (spend-000002). Pickup 14:47, at RAM
+  15:30 (facts 126-219 EGP, 36-56 min) (log 61-88, 182).
+- 14:41-15:17 Abdelrahman buys 4 rulers (10 each) and a clip box (19) at Dokki stationery 2, tape (14) at the Dokki
+  electrician, and a 1.5 L bottle (13) (log 110, 117, 158). The tape report is rejected by the ledger and reconciled
+  with spend-000004 (log 122-140; I3).
+- 15:18-16:03 Seb funds a café table (cap 80). The facts' 45-min café search ends at 16:03; 45 paid (log 164-165, 227).
+- 15:30-15:42 RAM: no ready USB light, no 12V module, no joining. Boost cable 55 x10. Female jack with bare leads 6 x17
+  (log 188). Mustafa's first report leaves out the jacks; he mentions them at 16:20 (H1).
+- 15:50-16:00 El Gammal: 12V 1.5W modules at 7 x8, bare leads, no joining (log 198).
+- 16:01-16:20 Seb buys all 8 modules (56) and 8 boost cables (440) (log 246, 255).
+- 16:16-16:24 worker mistake (worker-b): he stops to reread the instructions. 8 min lost, no report (log 257).
+- 16:28-16:34 Bab El Louk electrician 1: 40 a head (320 for 8), labour only, sells no jacks, busy until 17:07, 19 min a
+  head (all 8 done about 19:39), keeps the work for Sunday 13:00, no receipt, no USB test (log 286). All in his facts.
+- 16:34 Seb: "don't leave the components with this electrician; without a receipt or a test we can't check the work".
+  Try a mobile/electronics repair shop for 10 min (out-000033, log 293).
+- 16:34-16:44 Bab El Louk mobile-accessories 1: no fitting service (log 299). The shop also stocks 2 white USB strips at
+  90 (facts). Mustafa asked only about fitting, as Seb told him.
+- 16:31 the first ruler holder fails a table touch (first try of new handwork). 16:45 a braced three-ruler triangle holds
+  a clip dummy about 24 cm up and 12 cm forward. 16:56 it passes a 10-min table-touch test (log 272, 308, 364). Seb sees
+  only street photos (I1).
+- 16:46 Seb gives both workers the address (log 335). Mustafa agrees to host Abdelrahman at his New Maadi desk on Sunday
+  (log 349; E1).
+- 16:48-17:34 Mustafa rides home with the parts: 184, 46 min. 16:58-18:20 Abdelrahman rides home: 309, 82 min (facts
+  227-394 EGP, 64-100 min) (log 329, 393, 408, 415).
+
+Thursday evening to Saturday (no shifts)
+- Thu 16:50 PCB Zone's customer service says the technician is busy, come in person (facts phone_claim); its email is
+  silent (log 343, 372).
+- Seb phones and emails. The electrician is busy twice (facts phone_answers: false). Future is busy; its email is
+  silent. Lampatronics does not connect and its email bounces. Makers is silent. Three numbers not in the facts do not
+  connect (log 409-487).
+- Sat 11:31 Seb's Sunday plan: Mustafa looks for a CCTV or lighting technician "very near your home"; Abdelrahman brings
+  the holder to Mustafa's desk (out-000044, out-000045).
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 13:00 Abdelrahman starts in Manial (facts). 13:09 Mustafa starts in New Maadi, 9 min late (log 502-503).
+- 13:05-13:40 Abdelrahman rides Manial to Mustafa's street: 143, 35 min (facts 97-168, 27-43) (log 511).
+- 13:11-13:17 worker mistake (worker-a): a wrong turn, 6 min lost (log 532).
+- 13:22-13:52 Mustafa: two New Maadi accessory shops and a hardware shop have no jacks, no fitting and no USB light. A
+  phone map search finds no repair or CCTV shop nearby (log 552, 584, 614, 628). New Maadi has none in the facts.
+- 13:43-14:02 Abdelrahman finds no stationery shop in New Maadi (none in the facts). He buys 1 bottle at 8 (log 671, 720).
+- 13:53-14:31 Seb sends Mustafa to IKEA Cairo Festival City. This world has IKEA only in 6th October. Mustafa "cannot
+  establish the requested branch", then finds no app route or taxi for the mall. Seb stops it at 14:32 (log 649, 697,
+  734, 779, 834; I5).
+- 14:10-14:16 both meet and go up to Mustafa's desk (log 754, 768). 14:28 the holder passes a 2-clip dummy test (log 807).
+- 14:32-15:07 both ride to Carrefour City Centre Maadi: 78 and 82, 21 and 18 min (facts 55-95, 15-24) (log 844, 886,
+  893, 916). 14:49 worker mistake (worker-a): no booking report (log 887). 15:05 a second draw is merged into it (log
+  903; E3).
+- 14:53-15:25 Carrefour has no USB light. The mall has no repair counter in the facts. The information desk has no
+  referral (log 901, 926, 942, 962). 15:11-15:15 worker mistake (worker-a): wrong corridor, 4 min (log 925).
+- 15:23-15:54 PCB Zone again (busy, come in person), 19122 (not in the facts), Most (website only) (log 951-952, 1001,
+  1034).
+- 15:30-15:50 both ride back to Mustafa's desk: 86, 20 min (log 986). 15:52 Seb sends them to deliver the unfinished
+  parts. 15:52 worker mistake (worker-a): late cancellation confirmations, no cost (log 1035).
+- 16:04-16:24 ride to Carrefour: 84, 20 min. 16:24-16:36 walk to the door, 12 min (facts 8-12). 16:38 handover of the
+  unfinished parts (log 1068, 1096-1097, 1116).
+- 17:00 both confirm zero lamps (log 1145-1147). Rides home 88 and 348 (log 1162-1163).
+
+
+
+## 2. Why all 9 lamps are missing
+
+
+All 9 have one cause: no light source was ever joined to a power path.
+
+Seb's light route: a 12V module (joining_required: true, bare leads) plus a female jack (joining_required: true,
+  bare leads) plus a boost cable. That is a technician's join on every head. The workers may not wire (BRIEF). Mustafa
+  said so at 16:03: "I can't connect wires".
+
+Thursday's chance was the Bab El Louk electrician at 16:28. Seb refused it (no receipt, no test, work after the shift).
+  The electrician's facts are receipt: false and tests_heads: false. Nothing was made up.
+
+Sunday: Seb kept Mustafa in New Maadi (no joiner there), then sent him toward IKEA Cairo Festival City (absent), then
+  to Carrefour (no USB light). He never sent anyone back to Bab El Louk. The known electrician, Harby (next to
+  Lampatronics, 39 a head, 11 min, free on arrival), RAM (jacks at 6) and Lampatronics (6 white USB strips at 90) are
+  all there.
+
+Ready USB strips in the facts: Lampatronics 6 at 90; Bab El Louk mobile-accessories 1, 2 at 90; Abbasiya, 5 at 146
+  and 2 at 137; IKEA (6th October) colour-changing at 389; Jumia and Noon online with 3-day delivery. The only one of
+  these shops a worker entered was mobile-accessories 1, and there only to ask about fitting.
+
+Holders: only one was made, a dummy-tested ruler triangle. More needed stationery; New Maadi has none.
+
+Money was never a limit: 4,795 unspent.
+
+No lamp was lost to the simulator.

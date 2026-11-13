@@ -1,0 +1,101 @@
+# Priors for shops the record never observed. Workers find these by walking a district and asking.
+# Every value here is an assumption; the sensitivity check varies each one. Basis notes cite the record.
+
+walk_in_shops:
+  # Expected number of extra walk-in shops of each category per district, beyond the observed ones.
+  # Basis: Downtown/Bab El Louk is the electronics hub (Lampatronics, RAM, FEC, Fares within walking distance);
+  # Dokki had two electrical shops, a plumbing shop and a phone-accessory shop on two streets.
+  # Every residential or market district also has groceries or kiosks, a housewares shop and a hardware shop (agents asked for
+  # these in 56 trials); none of them is in the record, so they carry only the category priors below.
+  downtown_bab_el_louk: {electronics_retail: 3, electrician: 1, stationery: 1, mobile_accessories: 2, grocery: 2, housewares: 1, plumbing_hardware: 1}
+  dokki: {electronics_retail: 1, electrician: 1, stationery: 1, mobile_accessories: 1, grocery: 2, housewares: 1}
+  manial: {electrician: 1, stationery: 1, mobile_accessories: 1, grocery: 2, housewares: 1, plumbing_hardware: 1}
+  new_maadi: {electrician: 1, stationery: 1, mobile_accessories: 2, grocery: 2, housewares: 1, plumbing_hardware: 1}
+  maadi_degla: {electronics_retail: 1, electrician: 1, stationery: 1, mobile_accessories: 2, grocery: 2, housewares: 1, plumbing_hardware: 1}
+  hadayek_october: {electrician: 1, mobile_accessories: 1, grocery: 2, housewares: 1, plumbing_hardware: 1}
+  abbasiya: {electronics_retail: 3, electrician: 1, mobile_accessories: 1, grocery: 2, housewares: 1, plumbing_hardware: 1}
+  sixth_october: {electronics_retail: 1, electrician: 1, stationery: 1, mobile_accessories: 2, grocery: 2, housewares: 1, plumbing_hardware: 1}
+  delivery_area: {grocery: 2, housewares: 1}
+
+stock:
+  grocery:
+    usb-charger-5v: {p: 0.3, count: [1, 5], price_egp: [100, 220]}
+    insulating-tape: {p: 0.2, count: [1, 5], price_egp: [10, 20]}
+  housewares: {}
+  plumbing_hardware:
+    insulating-tape: {p: 0.8, count: [10, 40], price_egp: [8, 15]}
+    pvc-conduit-20mm: {p: 0.6, count: [10, 50], price_egp: [15, 30]}
+  # p: chance a sampled shop of the category stocks the item. count and price ranges are uniform.
+  electronics_retail:
+    led-module-2835-12v-1w5-white: {p: 0.35, count: [3, 30], price_egp: [4, 8]}
+    dc-female-jack-5521-20cm: {p: 0.5, count: [5, 40], price_egp: [4, 8]}
+    usb-5v-12v-boost-cable-5521: {p: 0.25, count: [1, 12], price_egp: [50, 80]}
+    led-pcb-round-6x7530: {p: 0.2, count: [2, 20], price_egp: [15, 30]}
+    usb-led-strip-5v-white-1m: {p: 0.15, count: [1, 6], price_egp: [80, 160]}
+    insulating-tape: {p: 0.8, count: [10, 50], price_egp: [8, 15]}
+    usb-cable-bare-leads-5v: {p: 0.5, count: [3, 30], price_egp: [15, 35]}
+  electrician:
+    insulating-tape: {p: 0.9, count: [10, 50], price_egp: [8, 15]}
+    pvc-conduit-20mm: {p: 0.5, count: [10, 50], price_egp: [15, 30]}
+  mobile_accessories:
+    phone-stand-folding-180: {p: 0.35, count: [1, 6], price_egp: [120, 220]}
+    phone-stand-simple-30: {p: 0.6, count: [1, 10], price_egp: [25, 50]}
+    metal-arm-tablet-stand: {p: 0.15, count: [1, 4], price_egp: [350, 550]}
+    usb-charger-5v: {p: 0.8, count: [3, 20], price_egp: [80, 200]}
+    usb-led-strip-5v-white-1m: {p: 0.12, count: [1, 6], price_egp: [90, 180]}
+  stationery:
+    canson-300g-ribbed-100x70: {p: 0.45, count: [2, 10], price_egp: [90, 130]}
+    card-300g-plain-100x70: {p: 0.3, count: [2, 10], price_egp: [30, 60]}
+    binder-clips-19mm-box12: {p: 0.6, count: [5, 30], price_egp: [10, 25]}
+    card-a3-300g-loose: {p: 0.2, count: [5, 30], price_egp: [5, 12]}
+    card-a3-150g: {p: 0.8, count: [20, 100], price_egp: [3, 8]}
+    ruler-30cm: {p: 0.8, count: [5, 30], price_egp: [10, 30]}
+
+services:
+  electrician:
+    join_head: {p_offered: 0.33, price_per_head_egp: [35, 80], minutes_per_head: [8, 20], busy_until_minutes_after_arrival: [0, 120], max_heads_per_day: [4, 15]}
+    # Basis: 1 of 3 electricians contacted (Harby Tech) joined a head; the other two were not asked.
+
+channels:
+  # Unknown addresses: mostly silent, as in the real run.
+  unknown_email: {bounces: 0.15, silent: 0.8, reply_without_quote: 0.05}
+  # Basis: 53 emails gave no readable quote; 5 addresses bounced; 10 AI calls gave nothing usable;
+  # workers' own calls reached staff in most cases.
+  email: {bounces: 0.15, silent: 0.75, reply_without_quote: 0.08, replies: 0.02}
+  ai_call: {no_connect: 0.3, busy: 0.3, hangs_up: 0.2, no_answer: 0.15, reaches_staff: 0.05}
+  phone_by_worker: {answers: 0.8}
+  phone_knowledge: {knows: 0.5, website_only: 0.2, guesses: 0.3}
+  signal_inside: 0.85
+
+workspaces:
+  # A table for hand work. Basis: worker-b found no table in Manial or Downtown and spent about 39-90 minutes
+  # finding a cafe table (ledger D06-08).
+  worker_home_has_table: true
+  cafe_search_minutes: [25, 90]
+  cafe_cost_egp: [20, 60]
+
+# v10 stock, drawn from a separate stream (world.build) so earlier worlds stay the same.
+stock_v10:
+  electronics_retail:
+    dc-female-jack-screw-terminal: {p: 0.5, count: [3, 30], price_egp: [8, 15]}
+    terminal-block-strip-12: {p: 0.4, count: [3, 20], price_egp: [10, 25]}
+  electrician:
+    terminal-block-strip-12: {p: 0.8, count: [3, 20], price_egp: [10, 25]}
+  plumbing_hardware:
+    terminal-block-strip-12: {p: 0.5, count: [3, 20], price_egp: [10, 25]}
+  grocery:
+    bottled-water: {p: 1.0, count: [10, 60], price_egp: [8, 15]}
+    rubber-bands: {p: 0.3, count: [2, 10], price_egp: [5, 10]}
+  stationery:
+    rubber-bands: {p: 0.7, count: [5, 20], price_egp: [5, 15]}
+  hypermarket:
+    usb-charger-5v: {p: 0.9, count: [5, 30], price_egp: [90, 250]}
+    phone-stand-simple-30: {p: 0.6, count: [3, 15], price_egp: [40, 90]}
+    phone-stand-folding-180: {p: 0.25, count: [1, 6], price_egp: [180, 300]}
+    usb-led-strip-5v-white-1m: {p: 0.15, count: [1, 5], price_egp: [150, 260]}
+    bottled-water: {p: 1.0, count: [50, 200], price_egp: [7, 12]}
+    binder-clips-19mm-box12: {p: 0.6, count: [3, 20], price_egp: [20, 40]}
+    card-a3-150g: {p: 0.4, count: [10, 50], price_egp: [4, 10]}
+    insulating-tape: {p: 0.5, count: [3, 20], price_egp: [15, 30]}
+    rubber-bands: {p: 0.5, count: [3, 20], price_egp: [8, 15]}
+

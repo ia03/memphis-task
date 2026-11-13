@@ -1,0 +1,98 @@
+{
+  "slug": "r18-s11-unhinted",
+  "what_happened": [
+    "On Sunday, Seb took 3 heads from Harby downtown (log 869).",
+    "Abdelrahman carried them and the Thursday sample head to Mostafa's home in New Maadi by 16:01 (log 1010, 1055).",
+    "Mostafa assembled two lamps there by 16:25, each with one head on a folding phone stand (log 1075-1076, 1119-1121).",
+    "The workers boarded a car to Carrefour at 16:30 and started the walk to the door at 16:50 (log 1133, 1176).",
+    "At 17:00 they stopped 2 minutes short of the door, so they delivered nothing (log 1211).",
+    "The grader counted 0 lamps, and the trial scored 0."
+  ],
+  "cause": [
+    "The two finished lamps missed the 17:00 deadline by 2 minutes (log 1176, 1211).",
+    "Seb's schedule planned about 7 to 10 minutes of slack, and fair friction used it up.",
+    "Three worker mistakes cost about 15 minutes of that slack (log 995, 1056, 1162).",
+    "The rest was a 45-minute ride from downtown, a 7-minute car wait, an 18-minute car ride and a 12-minute walk.",
+    "Seb told Mostafa not to wait for late units, so two more prepared heads stayed at his home (log 1031, 1090).",
+    "The other five lamps never existed, because heads were the bottleneck.",
+    "Seb ordered no batch of heads on Thursday until 16:55, with 3 minutes left.",
+    "On Sunday, a false phone claim by Fares cost Seb the first hour, and he then took 3 heads from Harby (log 846-847)."
+  ],
+  "findings": [
+    {
+      "id": "I3",
+      "title": "The world model checked ride times in two different ways",
+      "what": [
+        "The world model checked the Manial ride and the downtown ride as 45 minutes from booking (log 736, 1010).",
+        "For the Carrefour ride, it checked the 18 minutes in the car against the facts' range of 16 to 25 minutes (log 1134).",
+        "It counted the 7-minute wait for the car separately (log 1084)."
+      ],
+      "why": [
+        "The facts give each ride one door-to-door range, and the world model read that range two different ways.",
+        "From booking, the Carrefour ride took 25 minutes, the top of its range.",
+        "The audit rates this a new inconsistency of low severity."
+      ],
+      "effect": "It did not change the lamp count, because every ride fits either reading.",
+      "chance": "0%"
+    },
+    {
+      "id": "E1",
+      "title": "The world model played two worker mistakes cheaply",
+      "what": [
+        "At 15:05 on Sunday, the server drew an unannounced route change for Abdelrahman to his Hadayek October home (log 995).",
+        "He asked Seb at 15:12, because the 336 EGP fare was more than his spend notice allowed (log 1004).",
+        "This worker mistake cost about 7 minutes and 0 EGP.",
+        "At 16:48, Abdelrahman's misread cost 2 minutes, and part of it overlapped the fare payment (log 1162)."
+      ],
+      "why": [
+        "The record gives an unannounced change a cost of 240 to 420 EGP and up to 75 minutes.",
+        "The record gives a misread a cost of 2 to 15 minutes.",
+        "The audit says the rule that workers pay only from a spend notice partly forced the pause."
+      ],
+      "effect": "It did not change the lamp count, because a costlier play would only make the miss bigger.",
+      "chance": "0%"
+    },
+    {
+      "id": "I1",
+      "title": "A photo showed two lit heads on one stand",
+      "what": [
+        "At 16:25 on Sunday, the photo library gave a photo labelled as a working lamp.",
+        "The photo showed two lit heads on one stand over a notebook.",
+        "Seb asked about it at 16:45:49, and Mostafa said at 17:00 that each lamp had one head."
+      ],
+      "why": [
+        "The photo did not match the world log, which has one head on each lamp (log 1119).",
+        "The audit counts this as a known, low-severity problem with the photo library."
+      ],
+      "effect": "It did not change the lamp count, because Seb told Mostafa not to delay delivery to answer.",
+      "chance": "0%"
+    },
+    {
+      "id": "I2",
+      "title": "The output copy and run-end records do not match the log",
+      "what": [
+        "The simulator's step record has 176 step rows, ends at the 17:45:54 step and has no grade row.",
+        "The exported grade shows a spend of 2004 EGP.",
+        "The export records the 297 EGP ride home at 18:00, the run end.",
+        "The world log puts that spend at 18:54, and it twice withdraws the items forced to 18:00 (log 1238, 1245, 1252)."
+      ],
+      "why": [
+        "The audit does not name a broken fact or rule.",
+        "It counts this as a known, low-severity problem with the output copy and the run-end cutoff."
+      ],
+      "effect": "It did not change the lamp count.",
+      "chance": "0%"
+    }
+  ],
+  "verdict": {
+    "label": "Fair",
+    "range": "0 to 2 lamps",
+    "best": "0 lamps",
+    "reason": [
+      "The world followed the facts in every shop, price, stock count, ride fare and ride time the auditor checked.",
+      "No simulator defect changed the count, and a 2-minute margin decided the 0.",
+      "Seb's own plan left almost no slack, and at 17:00 he wrote that he did not leave enough margin (transcript line 1453).",
+      "The auditor puts the chance of 2 lamps at about 0.3, so the expected count is about 0.6 lamps."
+    ]
+  }
+}

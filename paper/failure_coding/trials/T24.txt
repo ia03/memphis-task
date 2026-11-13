@@ -1,0 +1,37 @@
+## 1. Timeline of decisive decisions and events
+
+Thursday 1 Oct
+- 13:28-13:32: Seb briefs both workers. It sends Abdelrahman (b) to Bab El Louk for ready USB lights and Mostafa (a) to Abdel Aziz Street for gooseneck holders. Its calls to RAM and Future fail (hangs_up and busy, as in the facts).
+- 14:24-15:11: b finds no ready USB light at RAM, El Tamimi (low cradle, 42 EGP), mobile-accessories-1 or electronics_retail-1. This matches the facts. At mobile-accessories-1 he notes "the holder there is not a long gooseneck".
+- 14:57: Drawn worker mistake (a, misread). He takes "40-60 cm" as the holder-plus-ruler height. Seb fixes it at 15:02.
+- 15:00: Drawn worker mistake (a, unannounced change). He walks to El Gammal in Al Bustan. He reveals the detour at 15:14.
+- 15:14: Seb pivots to the 12V module + 5V-to-12V boost cable + DC jack design.
+- 15:20-15:52: a buys 7 modules at El Gammal (49). b buys the RAM boost cable (59), plus 20 screw jacks and 10 modules (270).
+- 15:39: b says he cannot screw the wires in himself. This follows the facts note that screwing is wiring.
+- 16:00: Seb sends a to Most Electronics in Abbasiya for boost cables. This replaces his walk to mobile-accessories-1, where the three tall stands were.
+- 16:20-16:33: b finds Harby Tech on foot. Harby charges 49 per head, 12 minutes per head, at most 8 a day, with no testing (all as in the facts). b pays 392 for 8 joins, to be kept for Sunday pickup.
+- 16:42: a buys 29 boost cables at Most for 1,595.
+- 16:51: Seb asks about tall stands. b recalls the 204 EGP telescopic holder he saw at mobile-accessories-1.
+- 18:09: Harby finishes all 8 heads.
+
+Sunday 4 Oct
+- 13:00: b starts in Manial and a starts in New Maadi, the facts start locations. Seb sends a to Carrefour City Centre Maadi to look for stands. It sends b to Harby, then to the 204 EGP stand shop.
+- 13:40: a reports that Carrefour has only low cradles (44 EGP, 10 units, under 15 cm). Seb reserves 460 EGP to buy all ten "as fallback" if no taller stand turns up within 15 minutes.
+- 13:53: b collects 8 untested heads.
+- 13:54: Drawn worker mistake (b, misread: he thinks all heads must be tested at once). About 3 minutes lost.
+- 14:11-14:17: b buys a charger (165) and all 3 telescopic stands (612). a buys the 10 low cradles (440).
+- 14:32: Drawn worker mistake (b, misread "before 14:45"). Seb fixes it at 14:34.
+- 14:38: Harby: 5 more joins would take 60 minutes, so b declines. b buys 4 rolls of tape (40) and leaves at 14:46.
+- 15:29: Drawn worker mistake (b waits at Carrefour). Seb fixes it at 15:30, and b reaches the landing at 15:42.
+- 15:42: Seb's plan: three tall stands first, then five low cradles.
+- 15:45: Drawn worker mistake (a, wrong turn, 6 minutes) while looking for an outlet.
+- 15:52, 15:59, 16:06: B001, B002 and B003 are finished on the tall stands.
+- 16:07-16:21: Five low units are finished: A001, B004, A002, B005, A003.
+- 16:20: Drawn worker mistake (b, unannounced change). He walks B005 to Carrefour to test it. The outlet is refused, and he is back at 16:46.
+- 16:32: Seven units are handed over, including all three tall ones. B005 follows at 16:49.
+
+## 2. Cause for each lamp short of 9
+
+- 5 lamps (A001, A002, A003, B004, B005): built on phone-stand-simple-30, which holds the light under 15 cm. This was Seb's choice. Seb was told the height before buying, and the worker reports after each build said "low".
+- 1 lamp: never built. Only 8 heads existed. That is Harby's Thursday maximum, and Seb chose not to commission more on Sunday in time.
+- Only 3 tall stands were bought, because Seb looked for tall stands only downtown (3 in stock) and at Carrefour (none). The facts held 4 telescopic stands in New Maadi, a's start place, and 4 telescopic stands plus 2 metal-arm stands in Manial, b's start place. Seb never asked either worker to look near their start. This is an agent decision.

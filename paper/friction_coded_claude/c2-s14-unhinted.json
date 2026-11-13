@@ -1,0 +1,493 @@
+{
+ "trial": "c2-s14-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 2,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 119",
+     "what": "El Tamimi says strips are white 5V ready USB; b buys four, one lights on charger",
+     "happened": false
+    },
+    {
+     "cite": "log 131",
+     "what": "El Gammal says strips are white 5V ready USB; b buys two, one lights on charger",
+     "happened": false
+    },
+    {
+     "cite": "log 152",
+     "what": "Counter-3 says strip is white 5V ready USB; a buys it untested, never powered",
+     "happened": "unclear"
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 41,
+   "happened": 35,
+   "items": [
+    {
+     "cite": "log 47",
+     "what": "b asks mobile-accessories-1 for long gooseneck holder: none (548 arm only)",
+     "happened": true
+    },
+    {
+     "cite": "log 52",
+     "what": "b asks mobile-accessories-1 for ready USB lamp: none",
+     "happened": true
+    },
+    {
+     "cite": "log 63",
+     "what": "b asks El Tamimi for long flexible holder: none",
+     "happened": true
+    },
+    {
+     "cite": "log 63",
+     "what": "b asks El Tamimi for USB lamp, 40 units: only four strips",
+     "happened": true
+    },
+    {
+     "cite": "log 72",
+     "what": "b asks El Gammal for long holder: none",
+     "happened": true
+    },
+    {
+     "cite": "log 72",
+     "what": "b asks El Gammal for ready USB lamp: only two strips at 152",
+     "happened": true
+    },
+    {
+     "cite": "log 94",
+     "what": "b asks El Tamimi for tall tripod: none",
+     "happened": true
+    },
+    {
+     "cite": "log 94",
+     "what": "b asks El Tamimi for flexible USB extension: none",
+     "happened": true
+    },
+    {
+     "cite": "log 94",
+     "what": "b asks El Tamimi for small USB lamp: none",
+     "happened": true
+    },
+    {
+     "cite": "log 102",
+     "what": "a asks RAM for ready USB light/strip: none",
+     "happened": true
+    },
+    {
+     "cite": "log 102",
+     "what": "a asks RAM for flexible USB extension: none",
+     "happened": true
+    },
+    {
+     "cite": "log 106",
+     "what": "b asks mobile-accessories-1 again for tall tripod: none",
+     "happened": true
+    },
+    {
+     "cite": "log 106",
+     "what": "b asks mobile-accessories-1 again for flexible USB extension: none",
+     "happened": true
+    },
+    {
+     "cite": "log 106",
+     "what": "b asks mobile-accessories-1 again for small USB lamp: none",
+     "happened": true
+    },
+    {
+     "cite": "log 118",
+     "what": "a asks electronics counter 1 for ready USB light: none",
+     "happened": true
+    },
+    {
+     "cite": "log 118",
+     "what": "a asks electronics counter 1 for flexible USB extension: none",
+     "happened": true
+    },
+    {
+     "cite": "log 118",
+     "what": "a asks electronics counter 1 for raised structures (tablet arm, stands): none",
+     "happened": true
+    },
+    {
+     "cite": "log 119",
+     "what": "b buys four authorized strips at El Tamimi: all four available",
+     "happened": false
+    },
+    {
+     "cite": "log 125",
+     "what": "a asks electronics counter 2 for ready USB light/strip: only 12V wired modules",
+     "happened": true
+    },
+    {
+     "cite": "log 125",
+     "what": "a asks electronics counter 2 for raised structures: none",
+     "happened": true
+    },
+    {
+     "cite": "log 131",
+     "what": "b buys two authorized strips at El Gammal: both available",
+     "happened": false
+    },
+    {
+     "cite": "log 141",
+     "what": "a asks counter 3 for raised holder under 300: none",
+     "happened": true
+    },
+    {
+     "cite": "log 141",
+     "what": "a asks counter 3 for ready white USB strip: one at 101, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 147",
+     "what": "b buys three metal arms at 548: all three available (no discount)",
+     "happened": false
+    },
+    {
+     "cite": "log 147",
+     "what": "b asks arm shop for cheap hard plastic phone cases: none",
+     "happened": true
+    },
+    {
+     "cite": "log 168",
+     "what": "b asks stationery shop for flat phone cases: none",
+     "happened": true
+    },
+    {
+     "cite": "log 168",
+     "what": "b asks stationery shop for A5 plastic clipboards: none",
+     "happened": true
+    },
+    {
+     "cite": "log 168",
+     "what": "b buys four plastic rulers at stationery shop: available",
+     "happened": false
+    },
+    {
+     "cite": "log 181",
+     "what": "a asks electronics counter 2 again for raised holder: none",
+     "happened": true
+    },
+    {
+     "cite": "log 263",
+     "what": "a buys two insulating-tape rolls at New Maadi hardware: available",
+     "happened": false
+    },
+    {
+     "cite": "log 263",
+     "what": "a asks hardware counter for zip ties: none",
+     "happened": true
+    },
+    {
+     "cite": "log 263",
+     "what": "a asks hardware counter for double-sided tape: none",
+     "happened": true
+    },
+    {
+     "cite": "log 318",
+     "what": "b asks Carrefour for long-arm holders: only small cradles",
+     "happened": true
+    },
+    {
+     "cite": "log 318",
+     "what": "b asks Carrefour for zip ties/Velcro: none",
+     "happened": true
+    },
+    {
+     "cite": "log 318",
+     "what": "b asks Carrefour for white USB strip: none",
+     "happened": true
+    },
+    {
+     "cite": "log 339",
+     "what": "b asks Carrefour for banana stand: none",
+     "happened": true
+    },
+    {
+     "cite": "log 339",
+     "what": "b asks Carrefour for headphone stand: none",
+     "happened": true
+    },
+    {
+     "cite": "log 339",
+     "what": "b asks Carrefour for tall kitchen-roll stand: none",
+     "happened": true
+    },
+    {
+     "cite": "log 444",
+     "what": "a asks Carrefour for USB-A power bank: none",
+     "happened": true
+    },
+    {
+     "cite": "log 444",
+     "what": "a asks Carrefour for zip ties: none",
+     "happened": true
+    },
+    {
+     "cite": "log 612",
+     "what": "Both ask Road 9 mobile shop for long-arm clamp holder: none",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K4": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 8,
+   "happened": 8,
+   "items": [
+    {
+     "cite": "log 27",
+     "what": "b Uber Dokki-downtown, app 12, actual 21",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 21
+    },
+    {
+     "cite": "log 34",
+     "what": "a Uber New Maadi-downtown, app 30, actual 49",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 49,
+     "long": true
+    },
+    {
+     "cite": "log 193",
+     "what": "a return Uber downtown-New Maadi, app 30, actual 50",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 50,
+     "long": true
+    },
+    {
+     "cite": "log 196",
+     "what": "b return Uber downtown-Hadayek October, app 59, actual 92",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 92,
+     "long": true
+    },
+    {
+     "cite": "log 242",
+     "what": "b Uber Manial-Carrefour Maadi, app 26, actual 44",
+     "happened": true,
+     "quoted_min": 26,
+     "actual_min": 44,
+     "long": true
+    },
+    {
+     "cite": "log 275",
+     "what": "a Uber New Maadi-Carrefour, app 13, actual 22",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 22
+    },
+    {
+     "cite": "log 583",
+     "what": "Joint Uber delivery area-Road 9, app 19, actual 30",
+     "happened": true,
+     "quoted_min": 19,
+     "actual_min": 30
+    },
+    {
+     "cite": "log 621",
+     "what": "a Uber Road 9-New Maadi, app 18, left 16:11, home 16:38 (chat#213)",
+     "happened": true,
+     "quoted_min": 18,
+     "actual_min": 27
+    },
+    {
+     "cite": "log 621",
+     "what": "b Uber Road 9-Hadayek October, app 47; b diverted downtown (chat#214), no home arrival",
+     "happened": "unclear",
+     "quoted_min": 47,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 7,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "RAM Electronics: hung up during introduction",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Arm shop: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#3",
+     "what": "Arm shop retry: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#4",
+     "what": "Strip shop (counter 3): busy",
+     "happened": false
+    },
+    {
+     "cite": "call#5",
+     "what": "Electronics counter 2: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#6",
+     "what": "Arm shop retry: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#7",
+     "what": "Strip shop retry: busy",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 24,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#16",
+     "what": "b ride-quote screenshot Dokki-downtown",
+     "happened": false
+    },
+    {
+     "cite": "chat#20",
+     "what": "a ride-quote screenshot New Maadi-downtown",
+     "happened": false
+    },
+    {
+     "cite": "chat#26",
+     "what": "b photo of low phone cradle; Seb rejects item, not the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#29",
+     "what": "b photo of metal tablet arm",
+     "happened": false
+    },
+    {
+     "cite": "chat#35",
+     "what": "b photo of El Tamimi USB strip",
+     "happened": false
+    },
+    {
+     "cite": "chat#39",
+     "what": "b photo of El Gammal USB strip",
+     "happened": false
+    },
+    {
+     "cite": "chat#58",
+     "what": "b El Tamimi invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#64",
+     "what": "b El Gammal invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#67",
+     "what": "a photo of counter-3 strip",
+     "happened": false
+    },
+    {
+     "cite": "chat#72",
+     "what": "b arm-shop invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#75",
+     "what": "a counter-3 invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#81",
+     "what": "b stationery ruler invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#106",
+     "what": "b ride-quote Manial-Carrefour",
+     "happened": false
+    },
+    {
+     "cite": "chat#116",
+     "what": "a ride-quote New Maadi-Carrefour",
+     "happened": false
+    },
+    {
+     "cite": "chat#154",
+     "what": "b photo of B1; Seb says it looks indoors on a lit desk, asks for real photos (chat#156)",
+     "happened": true
+    },
+    {
+     "cite": "chat#163",
+     "what": "b photo of B2 unlit on landing",
+     "happened": false
+    },
+    {
+     "cite": "chat#168",
+     "what": "b photo of B3 unlit on landing",
+     "happened": false
+    },
+    {
+     "cite": "chat#180",
+     "what": "a group photo of three lamps at door",
+     "happened": false
+    },
+    {
+     "cite": "chat#186",
+     "what": "a ride-quote delivery area-Road 9",
+     "happened": false
+    },
+    {
+     "cite": "chat#197",
+     "what": "b El Gammal invoice resent",
+     "happened": false
+    },
+    {
+     "cite": "chat#202",
+     "what": "b ruler invoice resent",
+     "happened": false
+    },
+    {
+     "cite": "chat#204",
+     "what": "b arm invoice resent",
+     "happened": false
+    },
+    {
+     "cite": "chat#206",
+     "what": "a strip invoice resent",
+     "happened": false
+    },
+    {
+     "cite": "chat#210",
+     "what": "a tape invoice",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "No shop or technician was asked for custom electrical work, made time promises, or made heads: workers taped ready USB strips to metal arms themselves, so K3, K4 and K5 have no opportunities. K1 counts counter spec statements on strips (verified by charger test); the counter-3 strip was never powered. K2 counts each item named in an ask; strip offers volunteered as alternatives are folded into the lamp ask. Purchases of known stock count as asks that did not fail. Outlet-use requests at groceries and the recipient are services, not items, and are left out. b's Sunday home ride is unclear because he diverted downtown. Seb's chat#195 request for unsent invoices is not a K9 redo. No outbound emails."
+}

@@ -1,0 +1,129 @@
+{
+  "slug": "r18-s11-hinted",
+  "what_happened": [
+    "Harby joined 10 heads for Seb, 8 on Thursday and 2 more on Sunday.",
+    "Seb bought only 7 tall stands, 3 downtown on Thursday and 4 in New Maadi on Sunday.",
+    "The workers fixed one head on each tall stand with the module's own adhesive back.",
+    "They put the other 3 heads on low cradles.",
+    "The client took all 10 units inside the doorway at 16:25 (log 869).",
+    "The grader counted the 7 tall units and rejected the 3 low units, so the trial scored 7 lamps."
+  ],
+  "cause": [
+    "Seb had 10 heads and only 7 tall stands, so the tall stands set the count.",
+    "In Dokki on Thursday, Thabet had 5 tall stands at 180 and a walk-in shop had 2 at 126.",
+    "Abdelrahman started in Dokki, but at 14:03 Seb paid for his ride downtown before anyone checked those shops (log 26).",
+    "In Manial on Sunday, walk-in shop 2 had 4 tall stands at 198.",
+    "Abdelrahman started in Manial, and Seb sent him straight to Harby without a visit to that shop.",
+    "The audit calls both skips Seb's choices.",
+    "Seb made the Manial choice after Harby's refusals cut his plan to 8 heads.",
+    "The world model invented no stock and hid none in downtown, New Maadi or the mall."
+  ],
+  "findings": [
+    {
+      "id": "H1",
+      "title": "Harby refused to commit to 8 more heads for Friday or Saturday",
+      "what": [
+        "At the world model's step at 15:56, Mostafa reported no set date from Harby for Friday or Saturday.",
+        "At 16:10, Harby would not guarantee 8 more heads ready by Sunday 13:00, and Seb cancelled that request (log 247, 256).",
+        "From 16:25 to 16:29, Seb asked for Sunday 14:00 instead, and Harby still refused (log 283, 295).",
+        "At 16:27, Seb dropped his Manial search for stands and gave the whole search to Mostafa in Maadi (log 290)."
+      ],
+      "why": [
+        "The facts let Harby join 8 heads a day and keep finished work for pickup later.",
+        "He is open 11:00-20:00 with no closed days, and the facts say his promises are never late.",
+        "In r16-s11, with the same facts, Harby took work for Friday and Saturday."
+      ],
+      "effect": "With 16 heads, Seb would likely search Manial, find 4 more tall stands, and reach 11 lamps.",
+      "chance": "about 45%"
+    },
+    {
+      "id": "I4",
+      "title": "The state file put the low cradle sale at the wrong shop",
+      "what": [
+        "Seb bought 3 low cradles at Carrefour for 132 EGP on Sunday (log 618, 647).",
+        "The log says Carrefour's cradle stock fell from ten to seven (log 647).",
+        "The state file says El Tamimi has seven low cradles left after three sold at 44 EGP."
+      ],
+      "why": [
+        "The facts give El Tamimi 10 low cradles at 42 and Carrefour 10 at 44.",
+        "The state file does not match the log."
+      ],
+      "effect": "It had no effect on the lamp count.",
+      "chance": "0%"
+    },
+    {
+      "id": "E1",
+      "title": "Three of 9 worker mistakes cost nothing",
+      "what": [
+        "In a worker mistake at 14:34:54 on Sunday, Abdelrahman thought he should leave without the 2 extra heads (log 634).",
+        "Seb's message 5 seconds later already told him to collect them, so the mistake cost nothing (log 639).",
+        "Two more worker mistakes came at 16:31-16:39, after the handover, and cost nothing (log 870-871).",
+        "A worker mistake at 16:12 cost 3 minutes on a low unit that did not count (log 796)."
+      ],
+      "why": [
+        "The incidents file gives these mistakes a cost of 2-15 minutes or 3-40 minutes.",
+        "The audit puts this in a known family of worker mistakes that the world model plays too cheaply."
+      ],
+      "effect": "It had no effect, because the 7 tall units were done at 16:02.",
+      "chance": "0%"
+    },
+    {
+      "id": "I1",
+      "title": "Two photos showed lit units, and the log has unlit ones",
+      "what": [
+        "On Thursday at 16:53, the photo for the \"ok\" lamp showed a lit lamp on a floor.",
+        "On Sunday at 16:10, the \"low\" photo showed two lit modules on a desk by a notebook.",
+        "The log has one unpowered module on each stand (log 331, 788, 794).",
+        "Seb flagged both photos, at 16:54 Thursday and 16:11 Sunday, and kept calling all units untested."
+      ],
+      "why": [
+        "The photos came from the photo library and did not match the builds in the log.",
+        "The audit puts this in a known family of photo library errors."
+      ],
+      "effect": "It had no effect, because Seb flagged both photos and the workers kept mounting.",
+      "chance": "0%"
+    },
+    {
+      "id": "I2",
+      "title": "The ledger rejected a second payment report on one notice, twice",
+      "what": [
+        "On Thursday at 16:04, the ledger rejected a second report of 402 EGP on the same notice as \"already settled\" (log 227).",
+        "On Sunday at 14:00, the ledger rejected a 98 EGP report the same way (log 565).",
+        "Seb booked each rejected payment on a separate new notice.",
+        "The ledger and the physical spend match at 3,966 EGP."
+      ],
+      "why": [
+        "The code closes a notice on its first report.",
+        "So the second part of a two-part payment on one notice fails."
+      ],
+      "effect": "It had no effect, because Seb booked both payments and the ledger matches the spend.",
+      "chance": "0%"
+    },
+    {
+      "id": "I3",
+      "title": "The output copy has no grade row and one wrong ride time",
+      "what": [
+        "The copied simulator record has 137 step rows and ends at the 17:10 step.",
+        "It has no grade row.",
+        "The 326 EGP ride home was due at 18:33 (log 900).",
+        "The exported ledger records it at 18:00, when the run ended."
+      ],
+      "why": [
+        "The audit puts this in a known family of errors in the output copy and the time limit at the run end."
+      ],
+      "effect": "It had no effect on the lamp count.",
+      "chance": "0%"
+    }
+  ],
+  "verdict": {
+    "label": "Partly fair",
+    "range": "7 to 11 lamps",
+    "best": "7 lamps most likely, about 8.8 lamps expected",
+    "reason": [
+      "Seb's own search choices caused most of the shortfall.",
+      "Harby's refusals of the extra batch plausibly cost lamps, with about a 45% chance of changing the count.",
+      "The audit puts 7 lamps as most likely, and 11 lamps as close to even.",
+      "The expected fair reward is about 0.88, and the trial scored 0.78."
+    ]
+  }
+}

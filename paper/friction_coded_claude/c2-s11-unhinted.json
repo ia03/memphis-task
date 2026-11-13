@@ -1,0 +1,635 @@
+{
+ "trial": "c2-s11-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 1,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 594",
+     "what": "Bab El Louk electrician says he can join four modules to screw jack; b waits and pays; join worked",
+     "happened": false
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 57,
+   "happened": 50,
+   "items": [
+    {
+     "cite": "log 47",
+     "what": "a, New Maadi mobile shop: ready USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 47",
+     "what": "a, New Maadi mobile shop: gooseneck/flexible holder",
+     "happened": true
+    },
+    {
+     "cite": "log 62",
+     "what": "b, RAM: ready white USB LED light",
+     "happened": true
+    },
+    {
+     "cite": "log 62",
+     "what": "b, RAM: flexible-arm holder",
+     "happened": true
+    },
+    {
+     "cite": "log 73",
+     "what": "a, New Maadi hardware: L shelf bracket",
+     "happened": true
+    },
+    {
+     "cite": "log 73",
+     "what": "a, New Maadi hardware: ready wood piece",
+     "happened": true
+    },
+    {
+     "cite": "log 73",
+     "what": "a, New Maadi hardware: flexible holder",
+     "happened": true
+    },
+    {
+     "cite": "log 73",
+     "what": "a, New Maadi hardware: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 68",
+     "what": "b, RAM recheck: white 5V strip with DC/press connector",
+     "happened": true
+    },
+    {
+     "cite": "log 68",
+     "what": "b, RAM recheck: USB male screw-terminal",
+     "happened": true
+    },
+    {
+     "cite": "log 68",
+     "what": "b, RAM recheck: USB-to-DC female adapter",
+     "happened": true
+    },
+    {
+     "cite": "log 89",
+     "what": "a, New Maadi electrician: ready USB light/bar",
+     "happened": true
+    },
+    {
+     "cite": "log 89",
+     "what": "a, New Maadi electrician: flexible/clamp stand",
+     "happened": true
+    },
+    {
+     "cite": "log 89",
+     "what": "a, New Maadi electrician: L bracket",
+     "happened": true
+    },
+    {
+     "cite": "log 89",
+     "what": "a, New Maadi electrician: ready wood",
+     "happened": true
+    },
+    {
+     "cite": "log 99",
+     "what": "b, Bab El Louk electronics: ready USB strip/bar",
+     "happened": true
+    },
+    {
+     "cite": "log 99",
+     "what": "b, Bab El Louk electronics: flexible clamp holder",
+     "happened": true
+    },
+    {
+     "cite": "log 120",
+     "what": "b, Bab El Louk electronics: white 5V module",
+     "happened": true
+    },
+    {
+     "cite": "log 126",
+     "what": "b, RAM 3rd visit: 3W LED module",
+     "happened": true
+    },
+    {
+     "cite": "log 126",
+     "what": "b, RAM 3rd visit: Wago lever connectors",
+     "happened": true
+    },
+    {
+     "cite": "log 126",
+     "what": "b, RAM 3rd visit: count of 33 EGP bare-lead USB cables (5 in stock; no number asked)",
+     "happened": false
+    },
+    {
+     "cite": "log 143",
+     "what": "b, Bab El Louk mobile shop: ready USB lamp/strip",
+     "happened": true
+    },
+    {
+     "cite": "log 143",
+     "what": "b, Bab El Louk mobile shop: flexible holder",
+     "happened": true
+    },
+    {
+     "cite": "log 156",
+     "what": "a, Carrefour Thu: white USB strip (one unit, bought; no quantity set)",
+     "happened": false
+    },
+    {
+     "cite": "log 156",
+     "what": "a, Carrefour Thu: clamp/long-arm phone holder",
+     "happened": true
+    },
+    {
+     "cite": "chat#56",
+     "what": "a, Carrefour household: desk shelf",
+     "happened": true
+    },
+    {
+     "cite": "chat#56",
+     "what": "a, Carrefour household: monitor riser",
+     "happened": true
+    },
+    {
+     "cite": "chat#56",
+     "what": "a, Carrefour household: small wire rack",
+     "happened": true
+    },
+    {
+     "cite": "chat#56",
+     "what": "a, Carrefour household: heavy kitchen-roll holder",
+     "happened": true
+    },
+    {
+     "cite": "chat#56",
+     "what": "a, Carrefour household: L bracket/metal bookend",
+     "happened": true
+    },
+    {
+     "cite": "chat#56",
+     "what": "a, Carrefour household: plastic ties",
+     "happened": true
+    },
+    {
+     "cite": "chat#56",
+     "what": "a, Carrefour household: strong double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 213",
+     "what": "a, Carrefour lighting: other USB lights",
+     "happened": true
+    },
+    {
+     "cite": "log 252",
+     "what": "a, Carrefour stationery: wooden book/Quran holder",
+     "happened": true
+    },
+    {
+     "cite": "log 252",
+     "what": "a, Carrefour: any tall 20-30 cm stand",
+     "happened": true
+    },
+    {
+     "cite": "log 247",
+     "what": "b, Tabarak: white USB 5V strip/light",
+     "happened": true
+    },
+    {
+     "cite": "log 248",
+     "what": "b, Tabarak: desk stand",
+     "happened": true
+    },
+    {
+     "cite": "log 248",
+     "what": "b, Tabarak: lamp neck/base",
+     "happened": true
+    },
+    {
+     "cite": "log 279",
+     "what": "b, Al Nour: USB 5V light",
+     "happened": true
+    },
+    {
+     "cite": "log 279",
+     "what": "b, Al Nour: desk stand",
+     "happened": true
+    },
+    {
+     "cite": "log 279",
+     "what": "b, Al Nour: lamp neck/base",
+     "happened": true
+    },
+    {
+     "cite": "log 291",
+     "what": "b, Samir & Ali: strong double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 291",
+     "what": "b, Samir & Ali: plastic ties",
+     "happened": true
+    },
+    {
+     "cite": "log 291",
+     "what": "b, Samir & Ali: upright book stand",
+     "happened": true
+    },
+    {
+     "cite": "log 304",
+     "what": "b, Dokki mobile shop: white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 318",
+     "what": "a, New Maadi mobile shop revisit: 189 EGP folding stand, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 449",
+     "what": "a, Carrefour Sun: white USB strip, sold out",
+     "happened": true
+    },
+    {
+     "cite": "log 449",
+     "what": "a, Carrefour Sun: same telescopic stand",
+     "happened": true
+    },
+    {
+     "cite": "log 450",
+     "what": "a, Carrefour Sun: USB charger 237 EGP, above 100-150 instruction",
+     "happened": true
+    },
+    {
+     "cite": "log 463",
+     "what": "b, RAM Sun: boost cables up to 6, only one",
+     "happened": true
+    },
+    {
+     "cite": "log 463",
+     "what": "b, RAM Sun: matching screw-terminal jack, in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 463",
+     "what": "b, RAM Sun: 12V modules at RAM, none",
+     "happened": true
+    },
+    {
+     "cite": "log 470",
+     "what": "b, RAM Sun: small screwdriver, none",
+     "happened": true
+    },
+    {
+     "cite": "log 491",
+     "what": "b, electronics retail Sun: four 12V modules, in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 491",
+     "what": "b, electronics retail Sun: second boost cable, none",
+     "happened": true
+    },
+    {
+     "cite": "log 561",
+     "what": "b, Bab El Louk mobile shop Sun: 204 EGP stand, in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 561",
+     "what": "b, Bab El Louk mobile shop Sun: USB charger 165 EGP available (Seb declined as unneeded)",
+     "happened": false
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 3,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 505",
+     "what": "b asks Bab El Louk module counter to join modules to jack; parts only, no technician",
+     "happened": false
+    },
+    {
+     "cite": "log 561",
+     "what": "Bab El Louk mobile accessory shop: accessories only, no joining service",
+     "happened": false
+    },
+    {
+     "cite": "log 594",
+     "what": "Bab El Louk electrician agrees to join for 75 EGP, done same afternoon",
+     "happened": true
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 1,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 594",
+     "what": "Electrician: busy until ~15:03, then ~10 min; finished 15:12 as promised (log 625)",
+     "happened": false
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 1,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 717",
+     "what": "B001 four-module technician-joined head powered at doorway; all lit",
+     "happened": false
+    }
+   ]
+  },
+  "K6": {
+   "opportunities": 9,
+   "happened": 9,
+   "items": [
+    {
+     "cite": "log 36",
+     "what": "b Thu Dokki-Bab El Louk Uber: quote 12 min, booked 14:04, arrived 14:24",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 20
+    },
+    {
+     "cite": "log 109",
+     "what": "a Thu New Maadi-Carrefour: quote 13 min, booked 14:48:30, arrived 15:09:30",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 21
+    },
+    {
+     "cite": "log 200",
+     "what": "b Thu downtown-Dokki: quote 12 min, booked 15:38, arrived 15:57",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 19
+    },
+    {
+     "cite": "log 273",
+     "what": "a Thu Carrefour-New Maadi: quote 13 min, booked 16:24, arrived 16:46",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 22
+    },
+    {
+     "cite": "log 397",
+     "what": "b Sun Manial-RAM: quote 27 min, booked 13:01, arrived 13:42",
+     "happened": true,
+     "quoted_min": 27,
+     "actual_min": 41,
+     "long": true
+    },
+    {
+     "cite": "log 425",
+     "what": "a Sun New Maadi-mall: quote 13 min, booked 13:20, arrived 13:40",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 20
+    },
+    {
+     "cite": "log 663",
+     "what": "b Sun Bab El Louk-mall: quote 3 min pickup + 28 min, booked 15:20, arrived 16:09",
+     "happened": true,
+     "quoted_min": 31,
+     "actual_min": 49,
+     "long": true
+    },
+    {
+     "cite": "log 742",
+     "what": "a Sun delivery-New Maadi: quote 13 min, booked 16:53:29, arrived 17:14:29 (chat#217)",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 21
+    },
+    {
+     "cite": "log 742",
+     "what": "b Sun delivery-Hadayek October: quote 51 min, booked 16:52:29, arrived 18:00 per chat#218",
+     "happened": true,
+     "quoted_min": 51,
+     "actual_min": 68,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 8,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "RAM call Thu: hung up",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Future call Thu: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#3",
+     "what": "RAM call Thu: hung up",
+     "happened": false
+    },
+    {
+     "cite": "call#4",
+     "what": "Future call Sat: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#5",
+     "what": "RAM call Sat: hung up",
+     "happened": false
+    },
+    {
+     "cite": "email#1",
+     "what": "Email to RAM: no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#2",
+     "what": "Email to Future: no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#3",
+     "what": "Email to Makers: no reply",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 32,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#15",
+     "what": "b ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#20",
+     "what": "a folding stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#28",
+     "what": "b bare-lead USB cable",
+     "happened": false
+    },
+    {
+     "cite": "chat#33",
+     "what": "b 12V module",
+     "happened": false
+    },
+    {
+     "cite": "chat#36",
+     "what": "a ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#43",
+     "what": "b folding stand 204",
+     "happened": false
+    },
+    {
+     "cite": "chat#48",
+     "what": "a USB strip at Carrefour",
+     "happened": false
+    },
+    {
+     "cite": "chat#61",
+     "what": "b ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#65",
+     "what": "a strip invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#67",
+     "what": "a small 44 EGP stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#82",
+     "what": "a ride quote home",
+     "happened": false
+    },
+    {
+     "cite": "chat#96",
+     "what": "b old ride screenshot",
+     "happened": false
+    },
+    {
+     "cite": "chat#98",
+     "what": "b home ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#101",
+     "what": "a stand purchase photo; Seb asks for invoice photo or shop name (chat#103)",
+     "happened": true
+    },
+    {
+     "cite": "chat#119",
+     "what": "b ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#121",
+     "what": "a A001 unpowered",
+     "happened": false
+    },
+    {
+     "cite": "chat#124",
+     "what": "a ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#128",
+     "what": "a charger shelf",
+     "happened": false
+    },
+    {
+     "cite": "chat#131",
+     "what": "b boost cable",
+     "happened": false
+    },
+    {
+     "cite": "chat#134",
+     "what": "a charger invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#136",
+     "what": "b RAM invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#138",
+     "what": "b 12V modules",
+     "happened": false
+    },
+    {
+     "cite": "chat#143",
+     "what": "b module invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#156",
+     "what": "b stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#159",
+     "what": "b stand invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#170",
+     "what": "a A001 lit",
+     "happened": false
+    },
+    {
+     "cite": "chat#174",
+     "what": "b joined heads",
+     "happened": false
+    },
+    {
+     "cite": "chat#184",
+     "what": "b ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#196",
+     "what": "b B001 assembled",
+     "happened": false
+    },
+    {
+     "cite": "chat#198",
+     "what": "b B001 lit",
+     "happened": false
+    },
+    {
+     "cite": "chat#213",
+     "what": "b return ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#215",
+     "what": "a return ride quote",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "K1: only shop/technician capability claim acted on was the electrician's; 'no stock' answers and product labels not counted. K2: one item per shop per ask; re-asks of the same item at the same shop on the same day not double-counted; Sunday re-asks counted anew. Carrefour Thu strip (1 unit) and RAM bare-lead cable count (5) marked false since no quantity was specified for those asks. K6 actual measured from booking to arrival; b's Sunday return uses chat#218 (18:00) rather than the log's planned 18:10. K9 chat#101: Seb had asked for an invoice/price photo and got an item photo, so he asked again for invoice or shop name."
+}

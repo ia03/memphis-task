@@ -1,0 +1,82 @@
+[
+  {
+    "trial": "T21",
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "evidence": "B: Seb failed to ask Harby about its available joining service while the worker was there with the parts on Thursday, instead relying on forbidden worker wiring and an unsuccessful Sunday technician search, so no heads were ever joined."
+  },
+  {
+    "trial": "T22",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": false,
+    "evidence": "A: No structures were bought although the analysis locates structure-bearing shops in districts Seb never tried; C: Seb's routes missed those shops and left seven additional USB strips at Lampatronics and FEC unbought, with missing structures causing all nine failures."
+  },
+  {
+    "trial": "T23",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": false,
+    "evidence": "A: Only two tall holders were bought despite additional folding holders and a metal-arm stand being available in other districts, leaving two purchased strips without structures; C: Seb never sent workers to those stand sources and stopped buying lights at four despite additional strips at several named downtown shops."
+  },
+  {
+    "trial": "T24",
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": false,
+    "evidence": "A: Five units used cradles known to hold their lights below 15 cm and did not count; B: Seb commissioned only Thursday's eight heads and declined further Sunday joining, leaving the ninth lamp without a head; C: Tall-stand searches missed the available telescopic and metal-arm stands in both workers' Sunday starting districts."
+  },
+  {
+    "trial": "T25",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb bought eight holders but left available tall stands in New Maadi, Dokki and 6th October unbought, leaving lamp nine without a stand; C: Instead of visiting those sources or the additional strip stocks in Abbasiya, Seb spent Sunday's search rechecking shops already known to be empty."
+  },
+  {
+    "trial": "T26",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": false,
+    "evidence": "A: Only three arms were bought while additional tall folding stands and arms remained available in Dokki, New Maadi, Hadayek October and Abbasiya, leaving usable strips without structures; C: Seb never sent workers to those sources and searched Carrefour and Road 9, which had no tall holders."
+  },
+  {
+    "trial": "T27",
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb rejected four offered metal arms at 500 EGP and knowingly built five uncounted lamps on low cradles; B: Joining was left until Sunday and Seb's self-imposed 15:15 cutoff limited the batch to five heads; C: The offered metal arms were left unbought while Seb pursued stands at Carrefour, where nothing taller than the cradles existed."
+  },
+  {
+    "trial": "T28",
+    "A": false,
+    "B": true,
+    "C": true,
+    "D": false,
+    "evidence": "B: Thursday was spent searching for ready lights and Sunday's only wired head was not finished until 15:12, leaving little slack for a second head; C: Seb never reached Future's four strips or online sources and restricted the step-up-cable search to RAM and its neighbour despite other Bab El Louk shops stocking cables."
+  },
+  {
+    "trial": "T29",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb bought five tall structures but left additional available holders and arms unbought, so the sixth strip had no stand; C: Seb never sent workers to the named additional stand and strip sources and redirected Thursday's light search toward unmodelled Ataba and then stationery."
+  },
+  {
+    "trial": "T30",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": false,
+    "evidence": "A: The analysis explicitly attributes the missing ninth stand to Seb's plan capping purchases at eight; C: Six strips were available at Lampatronics, but Seb never asked workers to visit it and instead relied on the Noon parcel that had not arrived by cancellation."
+  }
+]

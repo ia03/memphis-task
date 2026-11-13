@@ -1,0 +1,144 @@
+{
+  "slug": "r18-s12-unhinted",
+  "what_happened": [
+    "On Thursday at 14:14, Seb refused the folding phone stands and clamp arms that Thabet offered in Dokki (log 35, 38, 42).",
+    "On Sunday, Harby made 6 heads for Seb by 15:13 (log 961, 1079, 1092).",
+    "Seb told the workers to band each head to the side of a 1.5 L water bottle with no arm (log 1093, 1255).",
+    "The workers handed 5 bottle units to the client at the door at 16:54-16:56, and 1 more at 16:59 (log 1532, 1555).",
+    "Nobody tested any of the units with power.",
+    "The grader counted 0 lamps against the target of 9, so the reward was 0.0."
+  ],
+  "cause": [
+    "Units 1-6 did not count, because each head sits on a bottle wall at about 11 cm, beside the page.",
+    "The facts say a bottle cannot hold a light over a desk as a stable desk lamp.",
+    "Seb set this design in his instructions at 14:41, 15:24 and 16:11 (log 1093, 1255, 1345).",
+    "The workers never built units 7-9, and the same bottle design would fail for them too.",
+    "Seb had no spare bottles, because his 40 EGP caps were below the 45 EGP price of three grocery bottles.",
+    "The number of stands was always the real limit.",
+    "Thabet, downtown mobile shop 2, El Tamimi and New Maadi shop 2 all had folding stands in stock.",
+    "Seb refused the stands at 14:14 on Thursday and never asked again."
+  ],
+  "findings": [
+    {
+      "id": "H1",
+      "title": "The world model sent Abdelrahman back to an empty Dokki shop",
+      "what": [
+        "On Thursday from 14:24 to 14:37, Abdelrahman walked in Dokki and found only two empty shops (log 59, 62, 73).",
+        "These were the first housewares shop and the first stationery shop.",
+        "At 14:34 the world model sent him back to the empty housewares shop.",
+        "Seb moved him downtown at 14:34."
+      ],
+      "why": [
+        "The facts list a second stationery shop on the same Dokki market street.",
+        "That shop sells a 10 EGP ruler (22 in stock), 19 mm clips, bands and 300 gsm card.",
+        "The world model did not send Abdelrahman to that shop."
+      ],
+      "effect": "No effect, because Seb bought a ruler at 16:21, and the facts class a ruler as a tool.",
+      "chance": "0%"
+    },
+    {
+      "id": "I3",
+      "title": "After host sleep, a clock call ended the watcher's hold",
+      "what": [
+        "The host slept right after Thursday's shift.",
+        "On reconnect, the watcher called a hold at project time 17:07:40 on Thursday.",
+        "A call to the agent clock released the hold 17 ms later.",
+        "Seb's session shows no tool call between 02:24:58 and 02:38:02 UTC."
+      ],
+      "why": [
+        "Seb did not make the clock call that released the hold.",
+        "The outage lasted about 70 s, so at most about 1 project minute ran without the hold."
+      ],
+      "effect": "No effect, because this happened after the shift.",
+      "chance": "0%"
+    },
+    {
+      "id": "I4",
+      "title": "The ledger accepted spend notices above the 7,000 EGP budget",
+      "what": [
+        "At 16:41:59 on Sunday, money reserved and money paid together peaked at 7,656 EGP.",
+        "The budget was 7,000 EGP.",
+        "The state file showed minus 656 EGP as not reserved.",
+        "Payments stayed at 3,051 EGP, and the trial never went over budget."
+      ],
+      "why": [
+        "The audit classes this as a new harness fault.",
+        "The ledger let reserved and paid money go above the budget."
+      ],
+      "effect": "No effect on the lamp count.",
+      "chance": "0%"
+    },
+    {
+      "id": "E1",
+      "title": "Two of six worker mistakes cost almost no time",
+      "what": [
+        "The server drew 6 worker mistakes, and the world model played each one.",
+        "On Sunday at 14:49-14:55, Abdelrahman took a wrong doorway and lost six minutes while he waited for Harby (log 1109).",
+        "On Sunday at 16:13, Mostafa merged two 3-bottle errands into one 6-bottle trip, and Seb endorsed it at 16:16:40 (log 1346, 1370).",
+        "The other four mistakes cost 2-6 min."
+      ],
+      "why": [
+        "The audit says these two mistakes cost almost nothing, because Abdelrahman was idle and Seb endorsed Mostafa's trip.",
+        "It links this to the incident rules, items 2b and 2c, and to the worker mistake rate per shift hour."
+      ],
+      "effect": "No effect on the lamp count.",
+      "chance": "0%"
+    },
+    {
+      "id": "I1",
+      "title": "Library photos showed loose parts and an unrelated street",
+      "what": [
+        "The photos labelled as a low bottle lamp showed a loose module, jack and boost cable on an indoor desk.",
+        "They showed no bottle.",
+        "The scene photos showed an unrelated street.",
+        "Seb flagged both problems in his notes at 14:33 and in a message at 16:31."
+      ],
+      "why": [
+        "The photos did not match their labels in the brief."
+      ],
+      "effect": "No effect, because Seb specified the 11 cm side mount himself.",
+      "chance": "less than 2%"
+    },
+    {
+      "id": "I2",
+      "title": "The output copy of the trial records ends early",
+      "what": [
+        "The output copy of the world log ends at log 1613, at 17:12.",
+        "The grade cites log 1625-1626, which is Mostafa's 78 EGP ride at 17:31.",
+        "The world model's step file has 252 step rows and no grade row.",
+        "Abdelrahman's 302 EGP ride home was still unpaid when the run ended at 18:00."
+      ],
+      "why": [
+        "The output copy lacks the log lines that the grade cites.",
+        "The recorded spend of 3,051 EGP leaves out the 302 EGP ride, so the true spend is about 3,353 EGP."
+      ],
+      "effect": "No effect on the lamp count.",
+      "chance": "0%"
+    },
+    {
+      "id": "E2",
+      "title": "The client accepted loose stock and a charger after the deadline",
+      "what": [
+        "On Sunday at 17:01, the client at home accepted the packed loose project stock and Mostafa's charger (log 1578).",
+        "The stock held 4 boost cables, 6 USB strips, 4 module and jack pairs, a ruler and clips."
+      ],
+      "why": [
+        "The facts give the client only one role, to receive the lamps at the door.",
+        "Taking the loose stock and the charger goes past that role."
+      ],
+      "effect": "No effect, because the handover came after the deadline and nothing in it counted.",
+      "chance": "0%"
+    }
+  ],
+  "verdict": {
+    "label": "Fair",
+    "range": "0 to 0 lamps",
+    "best": "0 lamps",
+    "reason": [
+      "The audit says the world model and the grader did not change the count.",
+      "Seb's own design set the count at 0.",
+      "If you remove every finding, the count stays at 0, because none touches what holds the light or where it sits.",
+      "The world model followed the facts on every shop, price, stock count, technician time and ride that the auditor checked."
+    ]
+  }
+}

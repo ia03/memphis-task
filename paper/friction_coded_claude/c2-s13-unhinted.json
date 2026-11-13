@@ -1,0 +1,660 @@
+{
+ "trial": "c2-s13-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 2,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 282",
+     "what": "Fares PCB says by phone it does 'preparation' if parts brought; worker-b travels Sunday; in person no joining (log 324)",
+     "happened": true
+    },
+    {
+     "cite": "log 161",
+     "what": "Lampatronics refers worker-b to Harby Tech next door as able to wire; Harby did solder heads",
+     "happened": false
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 42,
+   "happened": 38,
+   "items": [
+    {
+     "cite": "log 55",
+     "what": "RAM: ready white USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 55",
+     "what": "RAM: double-sided tape and cable ties (asked per log 54, result not stated)",
+     "happened": "unclear"
+    },
+    {
+     "cite": "log 60",
+     "what": "El Tamimi: ready USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 60",
+     "what": "El Tamimi: flexible/clamp holder only metal arm at 500, too dear per Seb",
+     "happened": true
+    },
+    {
+     "cite": "log 60",
+     "what": "El Tamimi: double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 60",
+     "what": "El Tamimi: plastic cable ties",
+     "happened": true
+    },
+    {
+     "cite": "log 91",
+     "what": "Mobile-accessories-1: ready USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 91",
+     "what": "Mobile-accessories-1: flexible-arm holder (only low stands)",
+     "happened": true
+    },
+    {
+     "cite": "log 91",
+     "what": "Mobile-accessories-1: double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 91",
+     "what": "Mobile-accessories-1: cable ties",
+     "happened": true
+    },
+    {
+     "cite": "log 107",
+     "what": "FEC: white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 107",
+     "what": "FEC: flexible-neck USB lamp",
+     "happened": true
+    },
+    {
+     "cite": "log 107",
+     "what": "FEC: USB male-female extension",
+     "happened": true
+    },
+    {
+     "cite": "log 107",
+     "what": "FEC: flexible-neck holder",
+     "happened": true
+    },
+    {
+     "cite": "log 122",
+     "what": "El Gammal: white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 122",
+     "what": "El Gammal: flexible-neck USB lamp",
+     "happened": true
+    },
+    {
+     "cite": "log 122",
+     "what": "El Gammal: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 122",
+     "what": "El Gammal: flexible holder",
+     "happened": true
+    },
+    {
+     "cite": "log 122",
+     "what": "El Gammal: USB ring/clip light",
+     "happened": true
+    },
+    {
+     "cite": "log 122",
+     "what": "El Gammal: mini tripod / selfie tripod",
+     "happened": true
+    },
+    {
+     "cite": "log 136",
+     "what": "Lampatronics: ready USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 136",
+     "what": "Lampatronics: 5V LED module; only 12V modules",
+     "happened": true
+    },
+    {
+     "cite": "log 136",
+     "what": "Lampatronics: USB 12V boost cable, 28 in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 136",
+     "what": "Lampatronics: wired female DC jack, 19 in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 136",
+     "what": "Lampatronics: Wago connectors, none",
+     "happened": true
+    },
+    {
+     "cite": "log 136",
+     "what": "Lampatronics: screw terminal strips, 8 in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 170",
+     "what": "Lampatronics: small screwdriver, none",
+     "happened": true
+    },
+    {
+     "cite": "log 194",
+     "what": "El Tamimi (2nd): selfie-stick tripod",
+     "happened": true
+    },
+    {
+     "cite": "log 194",
+     "what": "El Tamimi (2nd): tall mic/desk stand",
+     "happened": true
+    },
+    {
+     "cite": "log 194",
+     "what": "El Tamimi (2nd): clamp holders for 18; only 4 at 500",
+     "happened": true
+    },
+    {
+     "cite": "log 99",
+     "what": "Bab El Louk electronics-1: ready USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 99",
+     "what": "Bab El Louk electronics-1: phone holder",
+     "happened": true
+    },
+    {
+     "cite": "log 118",
+     "what": "Stationery-1: double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 316",
+     "what": "Carrefour: desk stand for 18; only 11 low 69 EGP cradles, too short",
+     "happened": true
+    },
+    {
+     "cite": "log 337",
+     "what": "Carrefour: flexible-neck/clamp holder",
+     "happened": true
+    },
+    {
+     "cite": "log 337",
+     "what": "Carrefour: phone tripod",
+     "happened": true
+    },
+    {
+     "cite": "log 337",
+     "what": "Carrefour: selfie tripod",
+     "happened": true
+    },
+    {
+     "cite": "log 337",
+     "what": "Carrefour: desk arm stand",
+     "happened": true
+    },
+    {
+     "cite": "log 337",
+     "what": "Carrefour: upright kitchen holders (towel/banana/mug)",
+     "happened": true
+    },
+    {
+     "cite": "log 337",
+     "what": "Carrefour: insulating tape, 5 rolls at 22",
+     "happened": false
+    },
+    {
+     "cite": "log 342",
+     "what": "Carrefour: long car mount",
+     "happened": true
+    },
+    {
+     "cite": "log 342",
+     "what": "Carrefour: flexible arm / empty lamp base",
+     "happened": true
+    },
+    {
+     "cite": "log 342",
+     "what": "Carrefour: tall book/tablet stand",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 5,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 161",
+     "what": "Lampatronics seller asked to wire/power a demo head; declines",
+     "happened": false
+    },
+    {
+     "cite": "log 324",
+     "what": "Fares PCB in person asked to solder 18 heads; no joining service",
+     "happened": false
+    },
+    {
+     "cite": "log 353",
+     "what": "Bab El Louk electronics counter 2 asked to join; sells parts only",
+     "happened": false
+    },
+    {
+     "cite": "log 377",
+     "what": "Electrician-1 asked to solder/insulate; no service",
+     "happened": false
+    },
+    {
+     "cite": "log 334",
+     "what": "Harby Tech agrees to solder heads same day (4, then a 5th)",
+     "happened": true
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 3,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 161",
+     "what": "Lampatronics seller says demo possible within an hour, then retracts",
+     "happened": true
+    },
+    {
+     "cite": "log 396",
+     "what": "Harby: four heads in 52 min (~14:52); done 14:52",
+     "happened": false
+    },
+    {
+     "cite": "log 407",
+     "what": "Harby: fifth head by ~15:05; done 15:05",
+     "happened": false
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 5,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 402",
+     "what": "Harby head 1 plug-tested with boost cable and charger; lights",
+     "happened": false
+    },
+    {
+     "cite": "log 406",
+     "what": "Harby head 2 plug-tested with boost cable and charger; lights",
+     "happened": false
+    },
+    {
+     "cite": "log 406",
+     "what": "Harby head 3 plug-tested with boost cable and charger; lights",
+     "happened": false
+    },
+    {
+     "cite": "log 406",
+     "what": "Harby head 4 plug-tested with boost cable and charger; lights",
+     "happened": false
+    },
+    {
+     "cite": "log 412",
+     "what": "Harby head 5 plug-tested with boost cable and charger; lights",
+     "happened": false
+    }
+   ]
+  },
+  "K6": {
+   "opportunities": 8,
+   "happened": 8,
+   "items": [
+    {
+     "cite": "log 43",
+     "what": "a Uber New Maadi-Bab El Louk, 30 quoted, 48 door to door",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 48,
+     "long": true
+    },
+    {
+     "cite": "log 46",
+     "what": "b Uber Dokki-Bab El Louk, 12 quoted, 18 actual",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 18
+    },
+    {
+     "cite": "log 150",
+     "what": "a Uber Bab El Louk-New Maadi, 30 quoted, 52 ride plus 7 wrong-turn = 59",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 59,
+     "long": true
+    },
+    {
+     "cite": "log 198",
+     "what": "b ride Bab El Louk-Hadayek October, 59 quoted, 92 actual",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 92,
+     "long": true
+    },
+    {
+     "cite": "log 304",
+     "what": "b DiDi Manial-Bab El Louk, 27 quoted, 42 actual",
+     "happened": true,
+     "quoted_min": 27,
+     "actual_min": 42,
+     "long": true
+    },
+    {
+     "cite": "log 311",
+     "what": "a Uber New Maadi-Carrefour, 13 quoted, 20 actual",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 20
+    },
+    {
+     "cite": "log 408",
+     "what": "b DiDi Bab El Louk-Carrefour, 28 quoted, 43 actual",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 43,
+     "long": true
+    },
+    {
+     "cite": "log 534",
+     "what": "a DiDi delivery-New Maadi, 13 quoted, 21 door to door",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 21
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 19,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "Lampatronics no_connect",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Kimo busy",
+     "happened": false
+    },
+    {
+     "cite": "call#3",
+     "what": "Lampatronics no_connect",
+     "happened": false
+    },
+    {
+     "cite": "call#4",
+     "what": "Carrefour busy",
+     "happened": false
+    },
+    {
+     "cite": "call#5",
+     "what": "Kimo busy",
+     "happened": false
+    },
+    {
+     "cite": "call#6",
+     "what": "RAM hangs up",
+     "happened": false
+    },
+    {
+     "cite": "call#7",
+     "what": "Fares no_connect (closed)",
+     "happened": false
+    },
+    {
+     "cite": "call#8",
+     "what": "Most no_connect",
+     "happened": false
+    },
+    {
+     "cite": "call#9",
+     "what": "Kimo busy",
+     "happened": false
+    },
+    {
+     "cite": "call#10",
+     "what": "Carrefour busy",
+     "happened": false
+    },
+    {
+     "cite": "call#11",
+     "what": "Lampatronics no_connect",
+     "happened": false
+    },
+    {
+     "cite": "call#12",
+     "what": "Lampatronics no_connect",
+     "happened": false
+    },
+    {
+     "cite": "call#13",
+     "what": "Fares completed: doesn't sell parts; 'preparation' vague, price on visit",
+     "happened": false
+    },
+    {
+     "cite": "call#14",
+     "what": "Fares completed: no price, time or firm commitment",
+     "happened": false
+    },
+    {
+     "cite": "email#1",
+     "what": "Kimo Store, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#2",
+     "what": "Lampatronics, bounced",
+     "happened": false
+    },
+    {
+     "cite": "email#4",
+     "what": "RAM, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#5",
+     "what": "Fares PCB, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#6",
+     "what": "Future Electronics, no reply",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 32,
+   "happened": 4,
+   "items": [
+    {
+     "cite": "chat#13",
+     "what": "file-000001 ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#26",
+     "what": "file-000002 ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#37",
+     "what": "file-000003 metal-arm stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#41",
+     "what": "file-000004 41 EGP stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#53",
+     "what": "file-000005 33 EGP stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#76",
+     "what": "file-000006 boost cable",
+     "happened": false
+    },
+    {
+     "cite": "chat#85",
+     "what": "file-000007 invoice; Seb asks group photo and itemized invoice (one line shown)",
+     "happened": true
+    },
+    {
+     "cite": "chat#89",
+     "what": "file-000008 parts photo shows street; Seb asks retake",
+     "happened": true
+    },
+    {
+     "cite": "chat#91",
+     "what": "file-000009 annotated invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#97",
+     "what": "file-000010 small stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#123",
+     "what": "file-000011 ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#126",
+     "what": "file-000012 ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#129",
+     "what": "file-000013 69 EGP stand (rejected as too short, not a photo problem)",
+     "happened": false
+    },
+    {
+     "cite": "chat#136",
+     "what": "file-000014 tape",
+     "happened": false
+    },
+    {
+     "cite": "chat#143",
+     "what": "file-000015 Harby shop scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#149",
+     "what": "file-000016 stand invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#151",
+     "what": "file-000017 stand side view",
+     "happened": false
+    },
+    {
+     "cite": "chat#164",
+     "what": "file-000018 lit head",
+     "happened": false
+    },
+    {
+     "cite": "chat#167",
+     "what": "file-000019 lit head",
+     "happened": false
+    },
+    {
+     "cite": "chat#169",
+     "what": "file-000020 lit head",
+     "happened": false
+    },
+    {
+     "cite": "chat#171",
+     "what": "file-000021 lit head",
+     "happened": false
+    },
+    {
+     "cite": "chat#173",
+     "what": "file-000022 lit head",
+     "happened": false
+    },
+    {
+     "cite": "chat#176",
+     "what": "file-000023 ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#188",
+     "what": "file-000024 built lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#191",
+     "what": "file-000025 built lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#193",
+     "what": "file-000026 built lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#195",
+     "what": "file-000027 built lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#197",
+     "what": "file-000028 built lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#202",
+     "what": "file-000029 delivery scene shows no lamps; Seb asks for new photo",
+     "happened": true
+    },
+    {
+     "cite": "chat#206",
+     "what": "file-000030 again street/shop; Seb asks for photo of the five",
+     "happened": true
+    },
+    {
+     "cite": "chat#211",
+     "what": "file-000031 one lit lamp at night; Seb notes it, closes request without retake",
+     "happened": false
+    },
+    {
+     "cite": "chat#216",
+     "what": "file-000032 ride quote",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "K1: Fares' phone claim repeated in call#13 and call#14, counted once. Lampatronics 'within an hour' was retracted in the same visit; counted under K4, not K1. K2: RAM tape/ties marked unclear because the result isn't stated. Carrefour low cradle counted as a failure (too short, 11 of 18). K3: Harby counted once for both jobs; Fares counted once, for the in-person visit, because the phone answer was not firm. K6: worker-a's Thursday return includes a 7-minute wrong turn he caused (actual 59; 52 without it). Worker-b's Thursday homeward quote came from 14:22, not booking time. K7: call#13 gave a firm 'we don't sell those parts', but that is neither a price nor a service answer, so it is false. K9: Seb did not ask for a retake of file-000031."
+}

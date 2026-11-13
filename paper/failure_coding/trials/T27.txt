@@ -1,0 +1,32 @@
+## 1. Timeline (Cairo time, from log.md)
+
+Thursday 1 Oct
+- 13:28 Seb plans a ready 5V USB strip on a flexible phone holder. Asks for wholesale prices and photos.
+- 14:03-14:25 Seb sends worker-b (Abdelrahman) to Ataba by metro and worker-a (Mustafa) to Bab El Louk. Both refuse the metro and take cars. Seb reissues the transport notices (spend-000004, -000005).
+- 14:28 Worker-b books Bab El Louk instead of Ataba and does not say so. The server did not draw this mistake (see finding E1).
+- 14:57-15:49 Worker-b checks RAM, El Tamimi (4 metal arms at 500, 3 low cradles at 41), a walk-in accessory shop (7 low at 33), FEC and El Gammal. Worker-a checks an electronics counter and a stationery shop. Nobody has a ready USB light or a tall cheap holder. This matches facts.
+- 15:09 Seb: "الـ500 غالي علينا". Seb rejects the metal arm stands.
+- 15:45 Drawn worker mistake (unannounced change): Mustafa goes home early. 16:06 A second drawn mistake (navigation) costs him 7 minutes in the Uber home.
+- 16:07-16:30 Seb switches to a 12V LED module + female DC jack + USB 5V-to-12V boost cable design. Lampatronics cannot wire the parts and refers him to Harby Tech, as facts say. Worker-b buys 18 modules, 18 jacks, 18 boost cables and 8 terminal strips for 1,205 EGP. The prices and stock match facts.
+- 16:52 Worker-b goes home with the parts (309 EGP, 92 minutes).
+
+Saturday 3 Oct
+- 11:10-11:17 Both workers say they cannot join wires and need a technician. Seb calls Fares PCB twice. Fares makes its vague phone claim ("bring the parts, price on visit"), which matches facts. Seb plans for worker-b to take the parts to Fares, with Harby as the fallback, and for worker-a to buy 18 stands at Carrefour.
+
+Sunday 4 Oct
+- 13:00 Worker-b leaves Manial for Fares (154 EGP, 42 minutes). Worker-a starts 12 minutes late, which is within his 0-20 minute range.
+- 13:32-13:40 Drawn worker mistake (misread): Mustafa offers the low 69 EGP cradle (11 in stock). Seb says it is too short and asks for something 20-40 cm high. 13:55 Nothing taller exists at Carrefour (facts agree). He buys two tape rolls for 44 EGP.
+- 13:47 Fares in person: "we do not connect or assemble". This matches facts.
+- 13:54-13:59 Harby is busy for 4 minutes, then quotes 42 EGP and 13 minutes per head. Seb funds four heads.
+- 14:10 Seb has Mustafa buy eight low cradles for 552 EGP. 14:16 Seb tells him to mount the module "like a brim" on the cradle's top edge.
+- 14:09-14:31 An electronics counter and a walk-in electrician both refuse joining (`join.offered: false`, electrician busy 11 minutes). This matches facts.
+- 14:39 Harby accepts one more head before Seb's 15:15 cutoff. 14:52 The four heads are done. 14:52 Drawn worker mistake: worker-b privately plans a Manial detour. 14:54 Seb's message cancels it before he books (finding E2). 15:05 The fifth head is done. All five pass plug tests.
+- 15:09-15:52 Worker-b rides to Carrefour (161 EGP, 43 minutes). 14:15-15:32 Mustafa spends the facts' 77 minutes finding a café table (52 EGP).
+- 15:58-16:21 Both workers mount five units at the café. A drawn worker mistake (orientation misread) costs worker-b 7 minutes. Each unit report says the light is low.
+- 16:23-16:39 They walk 6 minutes to the mall and 10 minutes to the door. 16:42 The client accepts five units.
+- 16:42-16:46 The destination photos come back wrong (street scenes, then a single lamp at night). Seb accepts verbal confirmation. Seb's session ends at 16:46. Worker-b's return fare is left unfunded.
+
+## 2. Cause of each lamp short of 9
+
+- A1, A2, A3, B1, B2 (delivered, not counted): the structure is `phone-stand-simple-30`, which has `height_ok: false`. Seb chose it knowing it was too low. This is the agent's cause.
+- The other four lamps (never built): Seb funded only five Harby heads before a self-set 15:15 cutoff. Harby's 13-minute serial rate is from facts. The workers cannot do electrical joining (task rules plus their profiles). Even if built, these lamps would have used the same low cradles. This is the agent's cause.

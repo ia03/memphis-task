@@ -1,0 +1,546 @@
+# Observed suppliers. Fixed values come from work/catalog/suppliers.json with its evidence ids.
+# A value written as {sample: [lo, hi]} was not observed; each seed draws it uniformly (integers) and the
+# assumption field says why the range is plausible.
+- key: lampatronics-downtown
+  name: "Lampatronics (لاماترونكس), Downtown branch"
+  aliases: ["لامباترونكس", "لاماترونكس", "لامبترونكس", "لامباترونيكس", "lampatronix", "lamp atronics"]
+  category: electronics_retail
+  district: downtown_bab_el_louk
+  address: "Youssef El-Gendy St, beside the Greek Campus, first floor above Koshary El Tahrir"
+  phone: "01050609789"
+  email: info@lampatronics.com
+  web_domain: lampatronics.com
+  discover: [web, walk]
+  hours: {open: "10:00", close: "21:00", assumption: "Seen open 15:37-18:49 on Oct 4-5."}
+  signal_inside: false
+  phone_channel: {answers: true, knowledge: guesses}
+  email_channel: bounces
+  ai_call: no_connect
+  delivery: {offers: false}
+  offers:
+    - {item: led-module-2835-12v-1w5-white, price_egp: 4.5, web_price_egp: 4.5, count: {sample: [10, 40]}, assumption: "At least 7 sold. Listed on the website; its web price was not captured, so the counter price is shown."}
+    - {item: dc-female-jack-5521-20cm, price_egp: 4.0, web_price_egp: 7, count: {sample: [10, 40]}, assumption: "At least 7 sold."}
+    - {item: usb-5v-12v-boost-cable-5521, price_egp: 50, count: {sample: [7, 30]}, assumption: "At least 7 sold. Only 6 of a funded 25 were bought on Oct 5 for an unrecorded reason, so stock may be low."}
+    - {item: led-pcb-round-6x7530, price_egp: 20, web_price_egp: 20, count: {sample: [5, 30]}}
+  services:
+    - kind: join_head
+      offered: false
+      in_person_claim: "First says nobody can assemble, then 'within an hour', then cannot now; refers to the electrician next door."
+      referral: harby-tech
+      claim_minutes: {sample: [25, 40]}
+      claim_minutes_basis: "Real worker-b spent 15:40-16:14 on Oct 4 (34 min) on these answers before the referral (ledger D04-09)."
+  phone_claims:
+    - {about: led-pcb-round-6x7530, says: "5 volts, not USB, it is Type-C", truthful: false}
+    - {about: delivery, says: "No home delivery", truthful: true}
+  evidence: [in-000022, in-000034, in-000103, in-000108, in-000123, file-000372, in-000333, in-000339, in-000348, in-000375, in-000383, file-000625]
+
+- key: harby-tech
+  name: "حاربي تيك (Harby Tech) electrician"
+  aliases: ["حاربي", "حاربى", "هاربي", "هاربى", "هاربي تك", "حربي تيك", "harby", "harbi tech"]
+  category: electrician
+  district: downtown_bab_el_louk
+  address: "Next to Lampatronics on Youssef El-Gendy St"
+  phone: null
+  email: null
+  web_domain: null
+  discover: [walk, referral]
+  hours: {open: "11:00", close: "20:00", assumption: "Seen open 16:21-16:33 on Sunday Oct 4."}
+  signal_inside: true
+  delivery: {offers: false}
+  offers:
+    - {item: insulating-tape, price_egp: 10, count: 50}
+  services:
+    - kind: join_head
+      offered: true
+      price_per_head_egp: {sample: [35, 50]}
+      minutes_per_head: {sample: [8, 14]}
+      busy_until_minutes_after_arrival: {sample: [0, 15]}
+      max_heads_per_day: {sample: [6, 20]}
+      receipt: false
+      assumption: "One head took about 12 minutes for 50 EGP and the job started at once (in-000383, in-000392). Batch price, capacity and longer queues were never observed, so the wait prior stays short."
+  evidence: [in-000383, in-000390, in-000392, file-000400, in-000403]
+
+- key: panatek
+  name: "Panatek (PANATEK Co.)"
+  aliases: ["باناتك", "panatek"]
+  category: technician_or_pcb_service
+  district: sixth_october
+  address: "El Fairouz 2 Centre, Central Axis, 6th of October"
+  phone: "01125931925"
+  email: info@panatek-me.com
+  web_domain: panatek-me.com
+  discover: [web]
+  hours: {open: "10:00", close: "18:00", assumption: "Seen open until at least 16:45 on Tuesday."}
+  signal_inside: true
+  phone_channel: {answers: true, knowledge: knows}
+  email_channel: reply_without_quote
+  ai_call: busy
+  delivery: {offers: true, claims_by_phone: false, price_egp: 90, minutes: 60}
+  services:
+    - kind: join_head
+      offered: true
+      price_per_head_egp: 100
+      minutes_per_head: 20
+      busy_until_minutes_after_arrival: {sample: [30, 120]}
+      max_heads_per_day: {sample: [6, 15]}
+      promised_vs_actual_minutes: {sample: [60, 1380]}
+      assumption: "Six heads promised for 16:45 the same day; handed over by courier the next day at 14:53."
+  phone_claims:
+    - {about: delivery, says: "No shipping from us", truthful: false}
+  evidence: [in-000665, in-000698, in-000706, in-000721, in-000732, in-000813, in-001023, in-001063, in-001082]
+
+- key: pcbzone
+  name: "PCB Zone (Ibrahim Mohamed)"
+  aliases: ["بي سي بي زون", "pcb zone", "pcbzone"]
+  category: technician_or_pcb_service
+  district: maadi_degla
+  address: "Website: 'Giza, Egypt'. Actual workshop: Street 9, Maadi"
+  public_address: "Giza, Egypt (website only)"
+  finding_minutes: {sample: [20, 60]}
+  finding_minutes_basis: "Real worker-a needed 14:51-15:51 on Oct 4 to get the workshop's location from the shop (side-by-side Sun 14:51-15:51)."
+  phone: "01141634305"
+  email: ibrahimmohamed22zsc@gmail.com
+  web_domain: pcbzone.netlify.app
+  discover: [web]
+  hours: {open: "12:00", close: "19:00", assumption: "Technician present around 16:30-17:00 on a Sunday."}
+  signal_inside: true
+  phone_channel: {answers: true, knowledge: customer_service_only}
+  email_channel: silent
+  ai_call: not_tried
+  delivery: {offers: false}
+  services:
+    - kind: join_head
+      offered: true
+      earliest_delivery_days: {sample: [3, 4]}
+      phone_claim: "Customer service: the technician is busy, come in person."
+      in_person_claim: "Very easy, but with my other work I can deliver only Wednesday night or Thursday."
+  phone_claims:
+    - {about: location, says: "Giza, Egypt", truthful: false}
+  evidence: [in-000220, in-000232, in-000282, in-000309, in-000353, in-000435, file-000362]
+
+- key: fares-pcb
+  name: "Fares PCB"
+  aliases: ["فارس بي سي بي", "فارس للدوائر", "فارس pcb", "fares pcb"]
+  category: technician_or_pcb_service
+  district: downtown_bab_el_louk
+  address: "32 El Falaki St, Bab El Louk"
+  phone: "01093351216"
+  email: support@fares-pcb.com
+  web_domain: fares-pcb.com
+  discover: [web, walk]
+  hours: {open: "08:00", close: "16:00", assumption: "Website: Sat-Thu 08:00-12:30 and 13:30-16:00."}
+  signal_inside: true
+  phone_channel: {answers: true, knowledge: guesses}
+  email_channel: silent
+  ai_call: not_tried
+  delivery: {offers: false}
+  services:
+    - kind: join_head
+      offered: false
+      phone_claim: "They provide the preparation but not the parts; price only after a visit."
+      in_person_claim: "We do not connect or assemble. A board design takes 21 days, or we import parts."
+  evidence: [in-000248, in-000253, in-000259, in-000299, in-000301, in-000317]
+
+- key: metanoia
+  name: "Metanoia electronics assembly"
+  aliases: ["ميتانويا", "metanoia"]
+  category: technician_or_pcb_service
+  district: helwan
+  address: "33A El Mahtaa, Helwan"
+  phone: "01554901708"
+  email: info@metanoia-eg.com
+  web_domain: metanoia-eg.com
+  discover: [web]
+  hours: {open: "11:00", close: "18:00", assumption: "Website: Sun-Thu 11:00-18:00."}
+  signal_inside: true
+  phone_channel: {answers: true, knowledge: knows}
+  email_channel: reply_without_quote
+  ai_call: busy
+  services:
+    - kind: join_head
+      offered: true
+      earliest_delivery_days: 3
+      phone_claim: "The technician will be ready after three days."
+  evidence: [in-000203]
+
+- key: nori-solutions
+  name: "Nori Solutions"
+  aliases: ["نوري سوليوشنز", "nori"]
+  category: technician_or_pcb_service
+  district: hadayek_el_ahram
+  address: "Hadayek El Ahram, zone W, second gate"
+  phone: "01277352068"
+  email: null
+  web_domain: norisolutions.com
+  discover: [web]
+  phone_channel: {answers: true, knowledge: misreads_as_pcb}
+  email_channel: silent
+  ai_call: not_tried
+  services:
+    - kind: join_head
+      offered: false
+      phone_claim: "Send the board shape and we will make the board."
+  evidence: [in-000196, in-000207, in-000236]
+
+- key: ram-electronics
+  name: "RAM Electronics"
+  aliases: ["رام", "رام للإلكترونيات", "رام إلكترونيكس", "رام الكترونيكس", "ram"]
+  category: electronics_retail
+  district: downtown_bab_el_louk
+  address: "32 El Falaki St, Bab El Louk"
+  phone: "0227960551"
+  email: sales@ram-electronics.com
+  web_domain: ram-e-shop.com
+  discover: [web, walk]
+  signal_inside: true
+  phone_channel: {answers: true, knowledge: knows}
+  email_channel: silent
+  ai_call: hangs_up
+  not_stocked: [led-module-2835-12v-1w5-white, usb-led-strip-5v-white-1m, touch-led-board-ttp223-5730]
+  offers:
+    - {item: dc-female-jack-5521-20cm, price_egp: {sample: [5, 8]}, count: {sample: [0, 30]}, assumption: "Not asked."}
+    - {item: usb-5v-12v-boost-cable-5521, price_egp: {sample: [55, 75]}, count: {sample: [0, 10]}, assumption: "Not asked."}
+  phone_claims:
+    - {about: white_5v_led, says: "White 5V LED not available", truthful: true}
+  evidence: [in-000022, in-000149]
+
+- key: most-electronics
+  name: "Most Electronics"
+  aliases: ["موست", "موست إلكترونيكس", "most electronic"]
+  category: electronics_retail
+  district: abbasiya
+  address: "Abbasia St, Abdo Basha"
+  phone: "01021378051"
+  email: null
+  web_domain: mostelectronic.com
+  discover: [web]
+  phone_channel: {answers: true, knowledge: website_only}
+  email_channel: silent
+  ai_call: not_tried
+  offers:
+    - {item: usb-5v-12v-boost-cable-5521, price_egp: 55, web_price_egp: 55, count: {sample: [0, 50]}, assumption: "Listed at 55 (40 each for 50+); stock never confirmed."}
+    - {item: led-module-2835-12v-1w5-white, price_egp: {sample: [4, 7]}, count: {sample: [0, 40]}, assumption: "Not listed in the captured pages."}
+  evidence: [in-000335, out-000327]
+
+- key: future-electronics
+  name: "Future Electronics"
+  aliases: ["فيوتشر", "فيوتشر إلكترونيكس", "future electronic"]
+  category: electronics_retail
+  district: abbasiya
+  address: "2 El Sarayat, Abdo Basha Square, Abbasiya"
+  phone: "01229923337"
+  email: contactus@fut-electronics.com
+  web_domain: store.fut-electronics.com
+  discover: [web]
+  phone_channel: {answers: false, knowledge: knows}
+  email_channel: silent
+  ai_call: busy
+  offers:
+    - {item: led-module-2835-12v-1w5-white, price_egp: {sample: [4, 8]}, count: {sample: [0, 30]}}
+    - {item: usb-5v-12v-boost-cable-5521, price_egp: {sample: [50, 70]}, count: {sample: [0, 15]}}
+  evidence: [future-direct5v-stock-20261001]
+
+- key: makers-electronics
+  name: "Makers Electronics"
+  aliases: ["ميكرز", "makers"]
+  category: electronics_retail
+  district: unknown
+  email: info@makerselectronics.com
+  web_domain: makerselectronics.com
+  discover: [web]
+  email_channel: silent
+  ai_call: not_tried
+  online_only: true
+  offers:
+    - {item: usb-5v-12v-boost-cable-5521, price_egp: 50, web_price_egp: 50, count: {sample: [0, 20]}, delivery_days: {sample: [2, 5]}}
+  evidence: [makers-usb-light-component-prep-inquiry-20261001]
+
+- key: electrolik
+  name: "Electrolik"
+  aliases: ["إلكتروليك", "الكتروليك", "electrolik"]
+  category: electronics_retail
+  district: unknown
+  phone: "01055337711"
+  web_domain: electrolik-eg.com
+  discover: [web]
+  phone_channel: {answers: false}
+  email_channel: silent
+  evidence: [in-000230]
+
+- key: fec-egypt
+  name: "FEC Egypt"
+  aliases: ["fec", "اف اي سي", "إف إي سي", "فيك", "مركز صيانة الإلكترونيات", "مركز صيانة إلكترونيات", "electronics maintenance center"]
+  category: electronics_retail
+  district: downtown_bab_el_louk
+  address: "19 Youssef El-Gendy St, opposite the Bostan Mall garage entrance"
+  web_domain: fecegypt.com
+  discover: [web, walk]
+  signal_inside: true
+  phone_channel: {answers: true, knowledge: knows}
+  email_channel: silent
+  offers:
+    - {item: led-module-2835-12v-1w5-white, price_egp: {sample: [4, 7]}, count: {sample: [0, 40]}, assumption: "Never visited."}
+    - {item: dc-female-jack-5521-20cm, price_egp: {sample: [4, 8]}, count: {sample: [0, 40]}}
+    - {item: usb-5v-12v-boost-cable-5521, price_egp: {sample: [50, 70]}, count: {sample: [0, 20]}}
+  evidence: [out-000381]
+
+- key: el-nour-electrical
+  name: "El Nour electrical"
+  aliases: ["النور للأدوات الكهربائية", "محل النور", "النور للكهرباء", "el nour", "elnour"]
+  category: electrician
+  district: dokki
+  address: "6 Soliman Gawhar St, Dokki"
+  phone: "0233358452"
+  discover: [walk, web]
+  phone_channel: {answers: {sample_bool: 0.6}, knowledge: knows}
+  offers:
+    - {item: pvc-conduit-20mm, price_egp: {sample: [15, 30]}, count: 50}
+  not_stocked: [conduit-t-elbow-fittings]
+  services:
+    - kind: join_head
+      offered: {sample_bool: 0.3}
+      price_per_head_egp: {sample: [40, 80]}
+      minutes_per_head: {sample: [10, 20]}
+      busy_until_minutes_after_arrival: {sample: [0, 120]}
+      max_heads_per_day: {sample: [4, 12]}
+      assumption: "Not asked about joining. One of three electricians contacted did it."
+  evidence: [in-000048]
+
+- key: el-farouk-electrical
+  name: "El Farouk electrical"
+  aliases: ["الفاروق للأدوات الكهربائية", "محل الفاروق", "el farouk", "elfarouk"]
+  category: electrician
+  district: dokki
+  discover: [walk]
+  not_stocked: [pvc-conduit-20mm, conduit-t-elbow-fittings]
+  services:
+    - kind: join_head
+      offered: {sample_bool: 0.3}
+      price_per_head_egp: {sample: [40, 80]}
+      minutes_per_head: {sample: [10, 20]}
+      busy_until_minutes_after_arrival: {sample: [0, 120]}
+      max_heads_per_day: {sample: [4, 12]}
+  evidence: [in-000028]
+
+- key: dokki-plumbing-shop
+  name: "Plumbing and drain-pipe shop, Dokki"
+  category: plumbing_hardware
+  district: dokki
+  discover: [walk]
+  offers:
+    - {item: black-plumbing-pipe, price_egp: 100, count: 20}
+  not_stocked: [pvc-conduit-20mm]
+  evidence: [in-000019, file-000018]
+
+- key: thabet-group
+  name: "ثابت جروب (Thabet Group) mobile accessories"
+  aliases: ["ثابت جروب", "محل ثابت", "ثابت للإكسسوارات", "thabet"]
+  category: mobile_accessories
+  district: dokki
+  address: "Tahrir St, Dokki, opposite a Vodafone branch"
+  discover: [walk]
+  signal_inside: true
+  offers:
+    - {item: phone-stand-folding-180, price_egp: 180, count: 5}
+    - {item: phone-stand-simple-30, price_egp: 30, count: 1, defective: 1}
+    - {item: metal-arm-tablet-stand, price_egp: 500, bulk_price_egp: 350, bulk_min: 50, count: {sample: [1, 6]}}
+  evidence: [in-000060, in-000062, in-000065, in-000074, in-000076, in-000128, file-000095]
+
+- key: bernasos-sherif-st
+  name: "Bernasos stationery, 30 Sherif St"
+  aliases: ["برناسوس", "bernasos"]
+  category: stationery
+  district: downtown_bab_el_louk
+  address: "30 Sherif St, Downtown"
+  phone: "01001871749"
+  email: info@bernasos.com
+  web_domain: bernasos.com
+  discover: [web, walk]
+  signal_inside: true
+  phone_channel: {answers: true, knowledge: knows}
+  email_channel: silent
+  offers:
+    - {item: canson-300g-ribbed-100x70, price_egp: 110, count: {sample: [6, 15]}, assumption: "One sold and five more quoted."}
+    - {item: binder-clips-19mm-box12, price_egp: 18.99, web_price_egp: 10.5, count: 20}
+  not_stocked: [card-300g-plain-100x70, card-a3-300g-loose]
+  web_claims:
+    - {about: card-300g-plain-100x70, says: "Simba FT-300 white 100x70 300 gsm, 36 EGP", truthful: false}
+  evidence: [in-000668, in-000672, in-000678, in-000827, in-000839, file-000693]
+
+- key: october-stationery
+  name: "Stationery shops near worker-b's home, 6th of October"
+  category: stationery
+  district: hadayek_october
+  discover: [walk]
+  offers:
+    - {item: card-a3-150g, price_egp: {sample: [5, 10]}, count: 50}
+    - {item: canson-sketch-pad-a3-300g-10, price_egp: 250, count: {sample: [1, 4]}}
+  not_stocked: [card-a3-300g-loose, binder-clips-19mm-box12]
+  no_cutting_service: true
+  evidence: [in-000565, in-000566, in-000570, in-000589]
+
+- key: kimo-store
+  name: "Kimo Store"
+  aliases: ["كيمو", "kimo"]
+  category: mobile_accessories
+  district: mokattam
+  phone: "19611"
+  email: info@kimostore.net
+  web_domain: kimostore.net
+  discover: [web]
+  online_only: false
+  phone_channel: {answers: {sample_bool: 0.5}, knowledge: knows}
+  email_channel: silent
+  offers:
+    - {item: mic-stand-mobile-holder-30cm, price_egp: 75, web_price_egp: 75, count: {sample: [0, 10]}, delivery_days: {sample: [8, 12]}, assumption: "Website shipping 9-13 October; branch pickup stock unknown."}
+  evidence: [kimo-independent-desk-stand-stock-pickup-20261004]
+
+- key: wasla
+  name: "Wasla wholesale market (mobile accessories)"
+  aliases: ["وصلة", "wasla"]
+  category: mobile_accessories
+  district: unknown
+  phone: "01009041744"
+  email: info@wasla.market
+  web_domain: wasla.market
+  discover: [web]
+  online_only: true
+  phone_channel: {answers: false}
+  email_channel: silent
+  ai_call: no_answer
+  offers:
+    - {item: phone-stand-folding-180, price_egp: 50, web_price_egp: 50, count: {sample: [0, 30]}, delivery_days: {sample: [3, 7]}, trader_only: {sample_bool: 0.5}}
+  evidence: [wasla-stand-cable-stock-20261001]
+
+- key: jumia
+  name: "Jumia Egypt (online marketplace)"
+  aliases: ["جوميا", "jumia"]
+  category: online_marketplace
+  district: online
+  web_domain: jumia.com.eg
+  discover: [web]
+  online_only: true
+  offers:
+    - {item: display-stand-clear-10pack, price_egp: 120, count: 20, delivery_days: {sample: [3, 6]}}
+    - {item: usb-led-strip-5v-white-1m, price_egp: {sample: [90, 180]}, count: 20, delivery_days: {sample: [3, 6]}, assumption: "Not seen in the run. Listed delivery dates seen were already past (narration Oct 2 18:12)."}
+  evidence: [narration-2026-10-02-1812]
+
+- key: ikea-eg
+  name: "IKEA Egypt"
+  aliases: ["ايكيا", "إيكيا", "ikea"]
+  category: retail
+  district: sixth_october
+  web_domain: ikea.com
+  discover: [web]
+  offers:
+    - {item: usb-led-strip-ikea, price_egp: 389, count: {sample: [0, 10]}, assumption: "Colour-changing strip in the current catalogue; store stock never checked."}
+  evidence: [narration-2026-10-02-1808]
+
+# Shops the real run's web results name (work/catalog/web-corpus.json). The record shows they exist and where; their stock, prices
+# and channels were never observed, so they come from the category priors like every unobserved fact.
+- key: el-gammal-electronics
+  added: true
+  name: "El Gammal Electronics (الجمال للإلكترونيات)"
+  aliases: ["الجمال", "الجمال للإلكترونيات", "الجمال إلكترونكس", "الجمال إلكترونيكس", "إلكترونيات الجمال", "el gammal", "elgammal"]
+  category: electronics_retail
+  district: downtown_bab_el_louk
+  address: "23 Al Bustan St, Bab El Louk"
+  web_domain: el-gammal.com
+  discover: [web, walk]
+  evidence: ["web-corpus: el-gammal.com", "web-corpus: el-gammal.com/about"]
+
+- key: el-tamimi-group
+  added: true
+  name: "التميمي جروب (El Tamimi Group) mobile shop"
+  aliases: ["التميمي", "التميمي جروب", "el tamimi", "tamimi"]
+  category: mobile_accessories
+  district: downtown_bab_el_louk
+  address: "25 Al Bustan St, Bab El Louk, next to Asmak El Nil"
+  discover: [web, walk]
+  evidence: ["web-corpus: zabroker.com/blog/best-mobile-phone-shop-cairo"]
+
+- key: samir-ali-sherif
+  added: true
+  name: "سمير وعلي (Samir & Ali) stationery, 23 Sherif St"
+  aliases: ["سمير وعلي", "سمير و علي", "مكتبات سمير وعلي", "samir & ali", "samir and ali", "samir ali"]
+  category: stationery
+  district: downtown_bab_el_louk
+  address: "23 Sherif St, Downtown"
+  web_domain: samirandaly.com
+  discover: [web, walk]
+  evidence: ["web-corpus: samirandaly.com/branches"]
+
+- key: samir-ali-dokki
+  added: true
+  name: "سمير وعلي (Samir & Ali) stationery, Dokki"
+  aliases: ["سمير وعلي", "سمير و علي", "مكتبات سمير وعلي", "samir & ali", "samir and ali", "samir ali"]
+  category: stationery
+  district: dokki
+  address: "Dokki St, opposite Tabarak electrical supplies"
+  web_domain: samirandaly.com
+  discover: [web, walk]
+  evidence: ["web-corpus: dalil140.com/company/ar/251979-abou-karim-electrical-supplies"]
+
+- key: tabarak-electrical
+  added: true
+  name: "تبارك للأدوات الكهربائية (Tabarak electrical supplies)"
+  aliases: ["تبارك", "تبارك للأدوات الكهربائية", "tabarak"]
+  category: electrician
+  district: dokki
+  address: "23 Dokki St, opposite Samir & Ali bookshop"
+  discover: [web, walk]
+  note: "An electrical-supplies counter (lamps, chandeliers, wiring); they sell parts and do not join wires."
+  evidence: ["web-corpus: dalil140.com/company/ar/251979-abou-karim-electrical-supplies"]
+
+- key: micro-ohm
+  added: true
+  name: "Micro Ohm Egypt (online electronics shop)"
+  aliases: ["ميكرو أوم", "ميكرو اوم", "micro ohm", "microohm"]
+  category: online_marketplace
+  district: online
+  web_domain: microohm-eg.com
+  discover: [web]
+  online_only: true
+  offers:
+    - {item: usb-5v-12v-boost-cable-5521, price_egp: 70, count: 15, delivery_days: {sample: [3, 6]}, assumption: "Web price from the listing; delivery as for other online shops."}
+  evidence: ["web-corpus: microohm-eg.com/5v-usb-power-cable-to-12v-male-adapter-jack"]
+
+- key: 3d-vecta
+  added: true
+  name: "3D Vecta laser cutting and engraving"
+  aliases: ["3d vecta", "3dvecta", "ثري دي فكتا"]
+  category: technician_or_pcb_service
+  district: maadi_degla
+  address: "Street 70B off Street 70, Hadayek El Maadi"
+  web_domain: 3dvecta.com
+  discover: [web, walk]
+  note: "Laser cutting and engraving to a design file; they quote after seeing the file and need about 2-3 days."
+  evidence: ["web-corpus: 3dvecta.com"]
+
+- key: noon-eg
+  name: "noon Egypt (online marketplace)"
+  aliases: ["نون", "noon", "noon.com"]
+  category: online_marketplace
+  district: online
+  web_domain: noon.com
+  discover: [web]
+  online_only: true
+  added: v10
+  offers:
+    - {item: usb-led-strip-5v-white-1m, price_egp: {sample: [90, 200]}, count: 20, delivery_days: {sample: [2, 5]}}
+    - {item: usb-charger-5v, price_egp: {sample: [80, 200]}, count: 20, delivery_days: {sample: [2, 5]}}
+  assumption: "Agents found noon listings in the web corpus (r21-seed18 N3). Delivery like Jumia, from 2 days."
+
+- key: carrefour-city-centre-maadi
+  name: "Carrefour City Centre Maadi (hypermarket)"
+  aliases: ["كارفور سيتي سنتر المعادي", "كارفور المعادي", "كارفور", "carrefour city centre maadi", "carrefour maadi", "carrefour"]
+  category: hypermarket
+  district: delivery_area
+  address: "City Centre Maadi mall, Maadi Ring Road"
+  public_address: "City Centre Maadi mall, Maadi Ring Road"
+  discover: [walk, web]
+  hours: {open: "09:00", close: "23:00"}
+  added: v10
+  offers: []
+  assumption: "The landmark next to the address (r1-s10-unhinted D3). Stock is a prior (stock_v10.hypermarket): chargers and simple phone stands likely, folding desk holders and white USB strips unlikely; nobody checked the real store."
+

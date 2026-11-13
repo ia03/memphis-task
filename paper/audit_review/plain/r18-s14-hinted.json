@@ -1,0 +1,116 @@
+{
+  "slug": "r18-s14-hinted",
+  "what_happened": [
+    "Seb's workers bought 7 folding stands: 5 at Thabet on Thursday and 2 at New Maadi shop 1 on Sunday.",
+    "Harby joined the 13 heads by 11:39 on Friday, from parts Seb bought at Lampatronics (log 295, 300).",
+    "The workers built 1 folding lamp on Thursday and 6 more on Sunday on the landing outside the client's door (log 208, 549-674).",
+    "Late on Sunday, the workers also built 5 low cradle units and left the 3 metal arms without heads (log 806-848).",
+    "The client took everything at 17:02 (log 855, 864).",
+    "The grader counted the 7 folding lamps against a target of 9, for a reward of 0.78."
+  ],
+  "cause": [
+    "Seb had 13 heads and 10 raised stands: 7 folding stands and 3 metal arms.",
+    "The facts say each metal arm needs tape or clips.",
+    "At 15:02 on Sunday, Abdelrahman told Seb that the 3 arms needed tape or clips (log 541).",
+    "Both workers stood in shops that sold tape, and Carrefour also sold clips.",
+    "Seb never asked for tape or clips.",
+    "Mounting the 3 arms would have made 10 lamps.",
+    "At 16:03, Seb chose to build 5 low cradle units instead (log 734-747).",
+    "The facts say this holder is under 15 cm high, so the grader correctly rejected the 5 units."
+  ],
+  "findings": [
+    {
+      "id": "E1",
+      "title": "Harby skipped his 8-minute busy wait at the Sunday pickup",
+      "what": [
+        "On Sunday at 13:52-13:56, Abdelrahman collected 12 heads from Harby (log 423).",
+        "Harby handed them over with no busy wait.",
+        "This saved Abdelrahman 8 minutes."
+      ],
+      "why": [
+        "The facts say Harby is busy for 8 minutes after a worker arrives.",
+        "The world model applied this wait on Thursday (log 121) and skipped it on Sunday.",
+        "Another trial, r18-s10, applied the wait on Sunday too."
+      ],
+      "effect": "With the 8-minute wait, the folding batch ends about 15:52, and the count stays at 7.",
+      "chance": "0%"
+    },
+    {
+      "id": "I1",
+      "title": "Harby used up Seb's whole tape roll and returned none",
+      "what": [
+        "On Thursday at 16:11, Harby quoted 569 EGP: 559 to join 13 heads and 10 for a tape roll (log 96).",
+        "His tape stock went from 50 to 49 (log 124).",
+        "The world model's notes say Harby used the whole roll for insulation and left none loose.",
+        "Harby gave back no tape with the heads at the Sunday pickup (log 423)."
+      ],
+      "why": [
+        "The audit says one roll is far more tape than 26 joints need.",
+        "The audit does not say which fact the simulator broke.",
+        "The chance is low because technicians often keep leftover tape, and Seb's 16:03 plan used only one arm."
+      ],
+      "effect": "No lamp changed as played, but a returned roll could have made 10 lamps with the 3 arms.",
+      "chance": "about 3%"
+    },
+    {
+      "id": "E2",
+      "title": "2 of 5 worker mistakes cost almost nothing",
+      "what": [
+        "On Sunday at 13:45, a worker mistake made Abdelrahman misread the head count, and he asked Seb from the car (log 398).",
+        "Seb corrected him at 13:48:19, so the mistake cost 0 minutes (log 417).",
+        "At 16:54, another worker mistake made Abdelrahman switch his ride home to Manial first without telling Seb (log 827).",
+        "He lost 30 seconds and 0 EGP, because he asked Seb before booking and Seb corrected him (log 885, 898)."
+      ],
+      "why": [
+        "The incident rules say a misread costs 2 to 15 minutes.",
+        "They say an unannounced change costs 240 to 420 EGP and up to 75 minutes.",
+        "The world model gave both mistakes almost no cost."
+      ],
+      "effect": "With ordinary costs, the folding batch ends about 16:00, and the count stays at 7.",
+      "chance": "0%"
+    },
+    {
+      "id": "I2",
+      "title": "The photo library sent 3 images that did not match events",
+      "what": [
+        "On Thursday at 14:34, a scene photo showed traffic from a car.",
+        "At 16:51 Thursday, a lamp photo showed a lit lamp while the text said it had no power.",
+        "At 17:00:40 Sunday, the final photo showed a lit two-module cradle on a desk, instead of 12 units on a landing.",
+        "Seb flagged each photo, and a new stand photo arrived at 14:53 with no delay."
+      ],
+      "why": [
+        "The world model took these images from its photo library, and they did not match the text.",
+        "The audit lists this as a known problem with the photo library."
+      ],
+      "effect": "No effect, because Seb flagged each photo and lost no time.",
+      "chance": "0%"
+    },
+    {
+      "id": "I3",
+      "title": "The exported record lacks a grade row and one unpaid ride",
+      "what": [
+        "The exported copy of the world model's record has 141 steps and ends at the 17:21 step.",
+        "It has no row for the grade.",
+        "Abdelrahman booked a ride home for 293 EGP at 17:16, and it stayed unpaid at the run's end.",
+        "So the recorded spend of 5,812 EGP leaves this ride out."
+      ],
+      "why": [
+        "The audit lists this as a known problem with the exported copy and the cutoff at the end of the run.",
+        "The audit does not say which fact or rule it broke."
+      ],
+      "effect": "No effect on the lamp count.",
+      "chance": "0%"
+    }
+  ],
+  "verdict": {
+    "label": "Fair",
+    "range": "7 lamps",
+    "best": "7 lamps (expected about 7.1)",
+    "reason": [
+      "Seb's own choices set the count at 7, and the simulator did not change it.",
+      "Every price, stock count, fare, ride time and walk matches the facts.",
+      "The workers finished the 7 folding lamps at 15:44, 76 minutes before the deadline.",
+      "No ride, worker mistake or shop delay in the facts' range could have cost a lamp."
+    ]
+  }
+}

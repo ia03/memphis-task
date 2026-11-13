@@ -1,0 +1,59 @@
+## 1. Timeline of decisive decisions and events (Cairo time, log.md line)
+
+Thursday 1 Oct
+- 14:03 Abdelrahman starts in Dokki (facts start_location). 14:09 Mostafa starts in New Maadi, 9 min late (range 0-20) (log 7, 28).
+- 14:14 Thabet: 180 EGP folding stand x5, broken 30 EGP cradle (facts defective 1), 500 EGP clamp arm x5, 350 only for 50.
+  Seb rejects both at 14:14:17 and 14:14:56 (log 35, 38, 42). Decisive agent choice.
+- 14:24-14:34 Dokki housewares-1 and stationery-1 are empty, as in the facts (log 59, 62, 73). Seb sends both workers to
+  Bab El Louk (174 EGP, 46 min; 68 EGP, 18 min; both within facts ranges).
+- 15:01 RAM: boost cable 55 (10), jack 6, bare USB lead 25, tape 12. No light, no service. Seb buys 1 boost (log 104, 136).
+- 15:18-15:28 Lampatronics: module 4.5 (25), jack 4 (18), screw jack 11 (26), USB strip 90 (6). One module and jack bought.
+  The "within an hour" assembly claim is withdrawn at 15:48 (claim_minutes 36) with a referral to Harby (log 170, 206, 299).
+- 15:36 Bernasos: ruler 20, clips 18.99, Canson 110. Seb rules out Canson and asks for ready wooden supports (log 276, 291).
+- 15:48 Worker mistake 1 (b misread: strip purchase tied to module test), about 2 min (log 300, 313).
+- 15:54 One USB strip bought (90). 16:00 Harby: 39 EGP and 11 min a head, no receipt, no testing (facts). Over Seb's
+  30 EGP cap, so not commissioned. 16:02 Seb tells Abdelrahman to drop Harby for now (log 337, 363, 372).
+- 16:00-17:00 Cafe search started (facts 45 min) and paused three times for Seb's errands. No venue (log 365, 379, 420).
+- 16:06 bottle 11, 16:21 ruler 20, 16:31 small bands 15 (log 377, 433, 461).
+- 16:41-16:48 Worker mistake 2 (b asks staff to test instead of asking for socket permission), 3 min 18 s. Lampatronics
+  refuses its counter and socket. The BRIEF bars favours beyond the facts (log 500, 501, 552).
+- 16:45-16:59 Batch buys: 9 RAM boosts (495, all stock), 5 strips + 9 modules + 9 jacks at Lampatronics (527). Harby fails
+  Seb's documentation terms; nothing left with him (log 573, 589, 603).
+- 17:00 Shift ends with 0 prototypes and 0 tests (log 612). Return rides funded 17:18 (log 626).
+
+Sunday 4 Oct
+- 13:00 Abdelrahman starts in Manial (facts), carrying all light parts. Fare 154 is over Seb's 120 cap; re-issued at 13:03 (log 803, 811).
+- 13:09 Mostafa starts 9 min late. Bottle 8 EGP at 13:26. New Maadi has no ruler, bands or clips in the facts (log 819, 833, 840, 876).
+- 13:45-13:49 Fares refuses to join or test (facts in_person_claim, 21-day design) (log 863, 890).
+- 13:49-13:55 Abdelrahman's hand-only try: ruler across the bottle cap with small bands "twists/slides when hand support
+  is relaxed" (log 892). A first try, consistent with the bottled-water fact.
+- 13:47-13:57 Mostafa's offline map finds the street, about 10 min walk from Carrefour City Centre Maadi (facts 8-12) (log 914).
+- 14:07 Harby: one technician, 11 min a head; 4 heads by 14:51 for 156 (log 961). 14:13 Seb stops b's second ruler retry for a
+  Lampatronics check (log 1012, 1017). 14:33 Seb adds 2 heads, six ready 15:13 (log 1079, 1092).
+- 14:31-14:54 Carrefour: no ruler, arm or pads (facts). Charger 218, clips 24, bands 9, 2 bottles 18 (log 1098, 1105, 1140).
+- 14:41 Seb proposes the bottle-side mount at 10-15 cm instead of an arm (log 1093). Decisive agent choice.
+- 14:48 Worker mistakes 3 and 4: a takes a wrong mall passage (6 min); b takes a wrong doorway while waiting for Harby (6 min) (log 1108, 1109).
+- 14:56-15:03 b's strip routing on a bottle needs a fold at the vertical-to-wrap turn, so he stops (log 1134, 1159).
+  Facts: the strip bends "along its length only, not flat in the plane".
+- 15:00 Worker mistake 5 (b reads four module pairs as four strips), 3 min (log 1154, 1179).
+- 15:06-15:19 Mostafa verifies door [number removed]. Hand assembly on the landing allowed; no table or socket, home not a workspace (log 1228). Facts.
+- 15:15 Six heads collected and paid (234). Uber to the mall 168, 44 min, arrives 15:59 (log 1225, 1310).
+- 15:24 Seb: "مصدر على جنب الزجاجة بارتفاع ١٠–١٥سم من غير ذراع" (source on the side of the bottle, 10-15 cm, no arm) (log 1255).
+- 15:42-16:15 Cups, food boxes and cans: none in the facts, none bought. Joint 10-min walk to the landing (log 1289, 1326, 1351).
+- 16:11 Seb: module horizontal on the side at 10-12 cm, LEDs toward a page 20-30 cm in front (log 1345).
+- 16:13 Worker mistake 6 (a merges two 3-bottle errands into one 6-bottle trip). Seb endorses it at 16:16:40 (log 1346, 1370).
+- 16:17-16:58 Six mounts, 6-7 min each: three horizontal by b (16:24, 16:30, 16:36), three vertical by a (16:46, 16:52, 16:58)
+  (log 1383, 1429, 1461, 1508, 1516, 1541).
+- 16:25 Delivery-area grocery: water 15 EGP (facts). Three cost 45 against Seb's 40 caps, so only 2 bought. Socket refused (log 1400).
+- 16:54-16:59 All six handed to the client at the door (log 1532, 1555). 17:01 loose stock handed over (log 1578).
+
+
+## 2. Each lamp short of 9, and its cause
+
+- Units 1-6 (delivered 16:54-16:59): not counted. The light sits on a bottle wall at about 11 cm, beside the page and not
+  over it. Cause: Seb's design (14:41, 15:24, 16:11 instructions). The facts say a bottle cannot hold a light over a desk.
+- Units 7-9 (never built): Seb had 4 unprepared module/jack pairs and 6 USB strips. He declined Harby on Thursday (39 EGP over
+  his 30 cap, no receipt) and on Sunday could get 6 heads by 15:13. He had no spare bottles for the strips: his 40 EGP caps
+  were below the 45 EGP grocery price. Even if built, the same bottle design would fail. Cause: Seb.
+- The body count was always the real limit. Folding stands existed at Thabet (5 at 180), downtown mobile shop 2 (5 at 138),
+  El Tamimi (3 at 175) and New Maadi shop 2 (1 at 181). Seb refused them on Thursday at 14:14 and never asked again.

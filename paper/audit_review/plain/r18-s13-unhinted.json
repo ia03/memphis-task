@@ -1,0 +1,133 @@
+{
+  "slug": "r18-s13-unhinted",
+  "what_happened": [
+    "Seb told Mostafa and Abdelrahman to find a ready white 5V USB light and a cheap stand.",
+    "On Thursday the workers bought one stand, a boost cable and a screw jack, but they made no lamp.",
+    "On Sunday Mostafa bought 3 more stands and the only white USB LED strip at Carrefour, for 179 EGP.",
+    "He fixed the strip to one folding stand with its own adhesive and tested it with power at home (log 1305 and log 1418).",
+    "The workers handed one lamp to the client at 16:56:57 on Sunday, 3 minutes before the deadline.",
+    "The grader counted 1 lamp of 9, and the audit says this count is right."
+  ],
+  "cause": [
+    "The workers built only one lamp, because they found only one light source.",
+    "On Thursday Seb first refused the ready 131 EGP stand and chose cheap improvised bodies and a 12V route.",
+    "Seb never had anyone look for USB strips in Manial, where Abdelrahman started on Sunday.",
+    "The facts put 6 white USB strips and 2 folding stands in two Manial accessory shops.",
+    "Mostafa was in the Carrefour mall on Thursday 15:57-16:35, but Seb asked about strips there only at 14:57 Sunday.",
+    "On Sunday Seb wanted one technician to measure, join, insulate and test within 15 minutes, so partial offers did not fit.",
+    "The one simulator choice that may have cost lamps is that Harby never reached Seb.",
+    "With Harby, up to 4 heads for the 4 stands were possible from about 15:00."
+  ],
+  "findings": [
+    {
+      "id": "H1",
+      "title": "Harby never reached Seb on Sunday",
+      "what": [
+        "At 13:52 on Sunday, Lampatronics told Abdelrahman that nobody can assemble there (log 1080).",
+        "At 14:02:26 Abdelrahman wrote that he would ask about the cover and the preparation.",
+        "At 14:02:27 the world model ruled that a question about parts does not start Lampatronics' claim and referral (log 1140).",
+        "From 14:33 to 14:43 he searched the same street for a technician and found no shop with the complete service (log 1219)."
+      ],
+      "why": [
+        "The facts say Lampatronics' in-person claim goes on and ends with a referral to the electrician next door, Harby.",
+        "The facts let a worker who walks that street find Harby, who joins heads without testing them.",
+        "In both sibling runs of this seed, the same claim sequence led to Harby."
+      ],
+      "effect": "With Harby, the run could have gained 0 to 3 lamps.",
+      "chance": "about 25%"
+    },
+    {
+      "id": "E1",
+      "title": "Two late worker mistakes cost Mostafa almost no time",
+      "what": [
+        "At 15:55 Mostafa planned an extra 5-minute cooling wait, and Seb corrected it at 16:01 (log 1349).",
+        "At 16:41 Mostafa thought that Abdelrahman waited at Carrefour, and this cost about 81 seconds (log 1454, 1475).",
+        "Mostafa said both mistakes as a plan or a question, so Seb could fix them at once.",
+        "The workers delivered the lamp with 3 minutes and 3 seconds to spare."
+      ],
+      "why": [
+        "The incidents record says this kind of worker mistake usually costs 2 to 15 minutes.",
+        "The audit says the quick fixes were realistic, but they sat at the cheap end."
+      ],
+      "effect": "A mistake of more than about 4.5 extra minutes would have made the only lamp late, so 1 lamp fewer.",
+      "chance": "about 10%"
+    },
+    {
+      "id": "H2",
+      "title": "Abdelrahman lost about 22 minutes on the Thursday metro trip",
+      "what": [
+        "On Thursday from 14:42 to 15:04, Abdelrahman lost about 22 minutes before his Abbasiya trip.",
+        "He walked for 8 minutes and could not find the Dokki metro entrance (log 223).",
+        "Then he refused the metro and took an Uber for 148 EGP.",
+        "He refused only after Seb told him clearly to buy the ticket."
+      ],
+      "why": [
+        "The world model called the 8 minutes ordinary friction in local navigation (log 223).",
+        "The server drew no worker mistake at that time, and its first draw came at 15:23.",
+        "The rules for workers let a worker refuse public transport and insist on ride-hailing."
+      ],
+      "effect": "The audit found no effect on the lamp count, because Thursday had no lamp path that 20 minutes would have opened.",
+      "chance": null
+    },
+    {
+      "id": "H3",
+      "title": "Ride times sat at the slow end of the facts' ranges",
+      "what": [
+        "On Sunday the five rides took 42, 22, 49, 22 and 23 minutes.",
+        "The facts give ranges of 32-50, 15-24, 33-52, 15-24 and 15-24 minutes for these rides.",
+        "All five rides stayed inside their ranges, near the slow end.",
+        "The slow rides used up some of the spare time before the deadline."
+      ],
+      "why": [
+        "The incidents record says short hops usually run on time.",
+        "New Maadi to Carrefour is a 13-minute hop."
+      ],
+      "effect": "With only one light source, the slow rides did not change the lamp count.",
+      "chance": null
+    },
+    {
+      "id": "I1",
+      "title": "Photo labels did not match what the photos showed",
+      "what": [
+        "At 13:51 and 13:58 Mostafa sent two scene photos that showed a street with a drinks shop.",
+        "The world log said these photos showed the parts on Mostafa's table (log 1074, 1095).",
+        "Seb rejected both photos, and this cost about 7 minutes.",
+        "A 15:26 photo showed a lit lamp on a home desk at night, while the unit sat unpowered at Carrefour."
+      ],
+      "why": [
+        "The photos did not match the scene that the world log described.",
+        "Earlier audits found the same pattern in the photo library."
+      ],
+      "effect": "The audit found no effect on the lamp count.",
+      "chance": null
+    },
+    {
+      "id": "I2",
+      "title": "The grade's spend total left out the last ride home",
+      "what": [
+        "Abdelrahman's home-arrival message and his 348 EGP payment reached the ledger at 18:00:00.",
+        "The world model's last step had withdrawn these 18:00 items and moved them to 18:30:30 (log 1535).",
+        "That step had logged a 72-minute ride, and the run window ended at 18:00.",
+        "The grade says Seb spent 2,404 EGP, and the ledger says 2,752 EGP."
+      ],
+      "why": [
+        "The items reached the ledger at 18:00, although the world model had moved them to 18:30:30.",
+        "The 348 EGP ride is the whole difference between the grade and the ledger.",
+        "Every other paid amount matches the ledger, and the totals agree at 2,752 EGP."
+      ],
+      "effect": "The audit found no effect on the lamp count.",
+      "chance": null
+    }
+  ],
+  "verdict": {
+    "label": "Mostly fair",
+    "range": "0 to 3 lamps",
+    "best": "1.3 lamps",
+    "reason": [
+      "The audit says the low count is mainly Seb's doing.",
+      "With the Harby problem removed, the auditor puts about 25% on at least one more lamp.",
+      "A costlier version of the 16:41 worker mistake could have lost the only lamp, at about 10%.",
+      "Prices, stock, fares, ride times, shop hours and claims matched the facts, and the grader's count is right."
+    ]
+  }
+}

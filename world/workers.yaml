@@ -1,0 +1,46 @@
+# Code-enforced worker facts and traits. Basis: work/catalog/workers.json (evidence ids there).
+# The persona prompt also loads that file's language samples and behaviour notes.
+- id: worker-a
+  name: "مصطفى"
+  home: new_maadi
+  slips_per_shift_hour: 0.45  # october/incidents.md: 5 misunderstandings, ~half the navigation troubles, late starts, in ~19 shift-hours
+  mistake_kinds: {misread: 5, wrong_turn: 2.5, unannounced_change: 1}  # incidents.md 2b and 2c, the counts behind the rate
+  second_base: hadayek_october
+  start_location: {"2026-10-01": new_maadi, "2026-10-04": new_maadi}
+  home_has_table: true
+  hosts_other_worker_at_home: false  # in-001032: 'let's meet somewhere and assemble, it won't work at my home'
+  owns_usb_charger: false
+  tells_home_when_asked_current_area: true
+  reply_minutes: {median: 4, p90: 25}
+  start_late_minutes: [0, 20]
+  asks_before_fare_overrun: 0.6
+  overtime_on_open_errand_minutes: [0, 110]
+  reports_counts_at_errand_end: 0.4
+  paid_command: {uses: 0.7, malformed: 0.5}
+  needs_script_for_new_supplier_type: false
+  relays_supplier_claims_without_probing: true
+  first_technical_misread: 0.6
+- id: worker-b
+  name: "عبدالرحمن"
+  home: hadayek_october
+  slips_per_shift_hour: 0.65  # october/incidents.md: ~10 misunderstandings, ~half the navigation troubles, unannounced route changes
+  mistake_kinds: {misread: 10, wrong_turn: 2.5, unannounced_change: 2}  # incidents.md 2b and 2c, the counts behind the rate
+  second_base: manial
+  start_location: {"2026-10-01": dokki, "2026-10-04": manial}
+  home_has_table: true
+  hosts_other_worker_at_home: false  # never offered in the record; asked for a table in Manial he went looking for a place (in-000748)
+  owns_usb_charger: true
+  tells_home_when_asked_current_area: false
+  reply_minutes: {median: 3, p90: 13}
+  start_late_minutes: [0, 3]
+  asks_before_fare_overrun: 0.75
+  overtime_on_open_errand_minutes: [0, 30]
+  reports_counts_at_errand_end: 0.6
+  paid_command: {uses: 0.1, malformed: 0.3}
+  needs_script_for_new_supplier_type: true
+  relays_supplier_claims_without_probing: true
+  first_technical_misread: 0.6
+  asks_what_next_share: 0.5  # the real worker B asked for guidance about 23 times in shifts 1-2 (fidelity review v6)
+  asks_nearby_alternatives: 0.6
+  relays_shop_alternatives: 0.4
+  treats_planning_info_as_instruction: true

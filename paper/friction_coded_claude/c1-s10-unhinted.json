@@ -1,0 +1,648 @@
+{
+ "trial": "c1-s10-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K2": {
+   "opportunities": 59,
+   "happened": 55,
+   "items": [
+    {
+     "cite": "log 45",
+     "what": "b at RAM Electronics: ready white USB strip, none",
+     "happened": true
+    },
+    {
+     "cite": "log 45",
+     "what": "b at RAM Electronics: phone holder, none",
+     "happened": true
+    },
+    {
+     "cite": "log 53",
+     "what": "b at Lampatronics: white USB strip, only 3 vs 20-30 asked (chat#30)",
+     "happened": true
+    },
+    {
+     "cite": "log 53",
+     "what": "b at Lampatronics: gooseneck holder, none",
+     "happened": true
+    },
+    {
+     "cite": "log 53",
+     "what": "b at Lampatronics: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 53",
+     "what": "b at Lampatronics: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 53",
+     "what": "b at Lampatronics: direct-plug USB LED module, none",
+     "happened": true
+    },
+    {
+     "cite": "log 53",
+     "what": "b at Lampatronics: USB extension, none",
+     "happened": true
+    },
+    {
+     "cite": "log 75",
+     "what": "b at FEC Egypt: white USB strip, only 4, no bulk price vs 20-30 brief",
+     "happened": true
+    },
+    {
+     "cite": "log 75",
+     "what": "b at FEC Egypt: phone holder, none",
+     "happened": true
+    },
+    {
+     "cite": "log 75",
+     "what": "b at FEC Egypt: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 75",
+     "what": "b at FEC Egypt: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 75",
+     "what": "b at FEC Egypt: USB extension, none",
+     "happened": true
+    },
+    {
+     "cite": "log 75",
+     "what": "b at FEC Egypt: USB LED module, none (log 65)",
+     "happened": true
+    },
+    {
+     "cite": "log 97",
+     "what": "b at El Tamimi: gooseneck holder / desk arm, none",
+     "happened": true
+    },
+    {
+     "cite": "log 97",
+     "what": "b at El Tamimi: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 97",
+     "what": "b at El Tamimi: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 119",
+     "what": "b at accessories counter 1: holder/desk arm, none",
+     "happened": true
+    },
+    {
+     "cite": "log 119",
+     "what": "b at accessories counter 1: white USB light, none",
+     "happened": true
+    },
+    {
+     "cite": "log 119",
+     "what": "b at accessories counter 1: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 119",
+     "what": "b at accessories counter 1: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 137",
+     "what": "b at Bernasos: small desk shelf, none",
+     "happened": true
+    },
+    {
+     "cite": "log 137",
+     "what": "b at Bernasos: kitchen-roll/metal stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 137",
+     "what": "b at Bernasos: phone/tablet arm, none",
+     "happened": true
+    },
+    {
+     "cite": "log 137",
+     "what": "b at Bernasos: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 137",
+     "what": "b at Bernasos: strong double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 94",
+     "what": "a at accessories counter 1: gooseneck holder/arm, none",
+     "happened": true
+    },
+    {
+     "cite": "log 94",
+     "what": "a at accessories counter 1: white USB strip, none",
+     "happened": true
+    },
+    {
+     "cite": "log 94",
+     "what": "a at accessories counter 1: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 94",
+     "what": "a at accessories counter 1: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 108",
+     "what": "a at accessories counter 2: gooseneck holder, none",
+     "happened": true
+    },
+    {
+     "cite": "log 108",
+     "what": "a at accessories counter 2: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 108",
+     "what": "a at accessories counter 2: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 108",
+     "what": "a at accessories counter 2: white USB strip, one at 118, bought (no quantity asked of a)",
+     "happened": false
+    },
+    {
+     "cite": "log 141",
+     "what": "a at housewares counter: desk shelf, none",
+     "happened": true
+    },
+    {
+     "cite": "log 141",
+     "what": "a at housewares counter: kitchen-roll/metal stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 141",
+     "what": "a at housewares counter: phone/tablet arm, none",
+     "happened": true
+    },
+    {
+     "cite": "log 141",
+     "what": "a at housewares counter: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 141",
+     "what": "a at housewares counter: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 154",
+     "what": "a at electronics retail 1: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 154",
+     "what": "a at electronics retail 1: strong double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 154",
+     "what": "a at electronics retail 1: white USB strip, one at 117, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 176",
+     "what": "a at electronics retail 1: USB extension, none",
+     "happened": true
+    },
+    {
+     "cite": "log 176",
+     "what": "a at electronics retail 1: stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 272",
+     "what": "a at New Maadi accessories 1: gooseneck/arm holder, none",
+     "happened": true
+    },
+    {
+     "cite": "log 272",
+     "what": "a at New Maadi accessories 1: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 272",
+     "what": "a at New Maadi accessories 1: binder clips, none",
+     "happened": true
+    },
+    {
+     "cite": "log 272",
+     "what": "a at New Maadi accessories 1: 5V USB charger, 98 EGP, 9 in stock, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 278",
+     "what": "a at New Maadi accessories 2: gooseneck/arm holder, only low plastic stands",
+     "happened": true
+    },
+    {
+     "cite": "log 278",
+     "what": "a at New Maadi accessories 2: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 278",
+     "what": "a at New Maadi accessories 2: binder clips, none",
+     "happened": true
+    },
+    {
+     "cite": "log 324",
+     "what": "a at New Maadi accessories 2 (return): five small stands, all five bought",
+     "happened": false
+    },
+    {
+     "cite": "log 324",
+     "what": "a at New Maadi accessories 2 (return): large hard phone cases, none",
+     "happened": true
+    },
+    {
+     "cite": "log 297",
+     "what": "b at Carrefour: gooseneck/desk phone holder, none",
+     "happened": true
+    },
+    {
+     "cite": "log 297",
+     "what": "b at Carrefour: desk organizer/laptop stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 297",
+     "what": "b at Carrefour: large paper clips, none",
+     "happened": true
+    },
+    {
+     "cite": "log 297",
+     "what": "b at Carrefour: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 297",
+     "what": "b at Carrefour: kitchen-roll holder/mug tree, none",
+     "happened": true
+    },
+    {
+     "cite": "log 306",
+     "what": "b at Carrefour accessories: selfie-stick tripod / phone tripod, none",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K4": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 9,
+   "happened": 9,
+   "items": [
+    {
+     "cite": "log 22, log 42",
+     "what": "b Uber Dokki to Bab El Louk, app 12, took 21",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 21
+    },
+    {
+     "cite": "log 28, log 68",
+     "what": "a DiDi New Maadi to Ataba, app 30, 62 incl. 7-min wrong drop-off",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 62,
+     "long": true
+    },
+    {
+     "cite": "log 166, log 204",
+     "what": "b Uber downtown to Hadayek October, app 59, 108 in car",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 108,
+     "long": true
+    },
+    {
+     "cite": "log 181, log 203",
+     "what": "a DiDi Ataba to New Maadi, app 30, 55 in car (plus 6-min pickup mix-up)",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 55,
+     "long": true
+    },
+    {
+     "cite": "log 266, log 282",
+     "what": "b Uber Manial to Carrefour Maadi, app 26, took 45",
+     "happened": true,
+     "quoted_min": 26,
+     "actual_min": 45,
+     "long": true
+    },
+    {
+     "cite": "log 286, log 302",
+     "what": "a Uber New Maadi to Carrefour, app 13, took 23",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 23
+    },
+    {
+     "cite": "log 314, log 322",
+     "what": "a+b shared Uber Carrefour to New Maadi shop, app 13, took 25",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 25
+    },
+    {
+     "cite": "log 329, log 331",
+     "what": "b Uber New Maadi to Hadayek October, app 39, took 74",
+     "happened": true,
+     "quoted_min": 39,
+     "actual_min": 74,
+     "long": true
+    },
+    {
+     "cite": "log 363, log 373; chat#177",
+     "what": "a delivery Uber to Carrefour pin, app 13, took 23",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 23
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 20,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "Kimo Store, busy",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Lampatronics, no connect",
+     "happened": false
+    },
+    {
+     "cite": "call#3",
+     "what": "Wasla, no answer",
+     "happened": false
+    },
+    {
+     "cite": "call#4",
+     "what": "Kimo, busy",
+     "happened": false
+    },
+    {
+     "cite": "call#5",
+     "what": "Wasla, no answer",
+     "happened": false
+    },
+    {
+     "cite": "call#6",
+     "what": "Kimo, busy",
+     "happened": false
+    },
+    {
+     "cite": "call#7",
+     "what": "Bernasos, busy",
+     "happened": false
+    },
+    {
+     "cite": "call#8",
+     "what": "Future Electronics, busy",
+     "happened": false
+    },
+    {
+     "cite": "call#9",
+     "what": "Bernasos, busy",
+     "happened": false
+    },
+    {
+     "cite": "call#10",
+     "what": "RAM, hung up before answering",
+     "happened": false
+    },
+    {
+     "cite": "call#11",
+     "what": "Future Electronics, busy",
+     "happened": false
+    },
+    {
+     "cite": "call#12",
+     "what": "Bernasos, busy",
+     "happened": false
+    },
+    {
+     "cite": "call#13",
+     "what": "Lampatronics, no connect",
+     "happened": false
+    },
+    {
+     "cite": "call#14",
+     "what": "Kimo, busy",
+     "happened": false
+    },
+    {
+     "cite": "email#1",
+     "what": "Lampatronics strips/ties/stands, bounced (email#3)",
+     "happened": false
+    },
+    {
+     "cite": "email#2",
+     "what": "Kimo mic stands, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#4",
+     "what": "Wasla desk stand, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#5",
+     "what": "Bernasos stationery, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#6",
+     "what": "Future Electronics strips/stands, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#7",
+     "what": "RAM strips/stands, no reply",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 27,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "chat#9",
+     "what": "b Uber quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#15",
+     "what": "a DiDi quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#29",
+     "what": "b Lampatronics strip",
+     "happened": false
+    },
+    {
+     "cite": "chat#34",
+     "what": "b Lampatronics invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#39",
+     "what": "b FEC strip",
+     "happened": false
+    },
+    {
+     "cite": "chat#44",
+     "what": "b FEC invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#54",
+     "what": "a strip at accessories 2",
+     "happened": false
+    },
+    {
+     "cite": "chat#59",
+     "what": "a invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#80",
+     "what": "b home Uber quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#84",
+     "what": "a invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#86",
+     "what": "a home DiDi quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#100",
+     "what": "b Manial Uber quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#105",
+     "what": "b revised Uber quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#108",
+     "what": "a charger",
+     "happened": false
+    },
+    {
+     "cite": "chat#112",
+     "what": "a charger invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#114",
+     "what": "a small phone stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#120",
+     "what": "a Uber quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#125",
+     "what": "b Carrefour charger",
+     "happened": false
+    },
+    {
+     "cite": "chat#144",
+     "what": "a stands invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#148",
+     "what": "b home Uber quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#152",
+     "what": "b morning trip image",
+     "happened": false
+    },
+    {
+     "cite": "chat#159",
+     "what": "a first lamp, unstable; Seb answered the mounting problem, not the photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#165",
+     "what": "a first lamp, low",
+     "happened": false
+    },
+    {
+     "cite": "chat#168",
+     "what": "a delivery Uber quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#172",
+     "what": "a second lamp, low",
+     "happened": false
+    },
+    {
+     "cite": "chat#179",
+     "what": "a delivery scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#183",
+     "what": "a return Uber quote",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "K1: no shop or technician made a spec/capability claim that was acted on; Seb's own claim that Lampatronics sells tie wraps (chat#70) failed but was not a shop claim. K2: one item per shop asked; repeat ask at Lampatronics (log 160: ties, tape, stand) not recounted. b's strip finds at Lampatronics and FEC counted as fewer units than the 20-30 asked in chat#4; a was asked only for a price, so his single-strip finds count as not failed. Structure variants asked at one shop (shelf, kitchen-roll stand, arm) itemised separately. Online searches (log 124) and b's mall circuit (log 312) were not shop asks. K3/K4/K5: no custom work was asked of any shop or technician; workers assembled lamps themselves, and no shop gave a time promise. K6: a's outbound ride includes a 7-min wrong-side navigation fix; a's return measured in car only (55), excluding the 6-min pickup mix-up. K9: no photo prompted a redo."
+}

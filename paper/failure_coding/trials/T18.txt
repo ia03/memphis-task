@@ -1,0 +1,30 @@
+## 1. Timeline
+
+### Thursday 1 Oct (shift 14:00-17:00)
+- 13:28. Seb proposes the design: an intact USB strip or USB stick light on a desk phone or tablet stand, or a gooseneck, held with the strip's own adhesive and cable ties. He sends worker-b (Abdelrahman) to Ataba and worker-a (Mustafa) to Bab El Louk.
+- 14:02-14:13. Transport notices are too small and get reissued. The server drew two worker-b misreads (log 43, 51). Each costs about 3 minutes, which is in the record's range.
+- 14:13 (log 65). The simulator has worker-b reuse a saved "downtown" Uber destination instead of Ataba. It calls this "a wrong-destination slip consistent with the worker record". **The server drew no mistake at this step.** He arrives at Bab El Louk at 14:37.
+- 14:48-15:18. Worker-b finds no strips at RAM. At Lampatronics he finds 1 strip at 115 EGP and buys it. This matches facts.
+- 15:21-15:29. Worker-a finds the walk-in mobile accessory shop: a metal clamp arm at 548 EGP (3 in stock) and the low plastic cradle at 26 EGP (9 in stock). This matches facts. **Seb (15:29): "the metal stand is too expensive for us"**. He buys one cradle as a sample.
+- 15:47-16:46. Seb buys strips. Tamimi has 4 at 92 EGP, El Gammal 2 at 152, walk-in shop 3 has 1 at 101. All prices and stock match facts. That makes 8 strips.
+- 15:52-16:07. Seb tells both workers to ride to Ataba. Neither books a ride. Both come back with "no booking yet, what now?" (log 227). Ataba is not a district in facts.json. The simulator held them in place rather than invent a route. Worker-b then walks "toward Ataba" from 16:04 until the shift ends and never arrives (log 233-332). In reality Ataba is about 1.5 km from Bab El Louk.
+- 16:59-20:00. Seb's calls and emails to RAM, Kimo and Carrefour fail. That matches each shop's facts (hang up, busy, silent).
+
+### Sunday 4 Oct (shift 13:00-17:00)
+- 12:45. Seb's plan: worker-a checks Carrefour Maadi for an adjustable ~30 cm stand, a tripod or a metal holder, plus rulers. The strip goes under a ruler held in the phone grip, facing down. Worker-b goes to Ataba for strips and stands, then to Maadi.
+- 13:00 (log 431). The simulator again has worker-b head for Bab El Louk ("familiar approach"). No mistake was drawn. Seb corrects him at 13:03. Worker-b then asks twice for a map pin (13:06, 13:09), again with no mistake drawn.
+- 13:09-13:44. Uber cannot find a car for 35 minutes. That matches "Ride-app failure, 1 of ~16 rides, 35 min" in the record. Seb tells him to fall back to DiDi or a street taxi at 13:12. That also yields nothing for 30 minutes, and the log gives no cause ("Do not turn the lack of an Ataba route in facts into invented fares"). Seb gives up on Ataba at 13:44. Worker-b then finds a street taxi to Carrefour within 3 minutes.
+- 13:29-14:13. Carrefour stocks no strips, no tall stand, no tripod and no ruler. It has 5 low cradles at 61 EGP, tape and a charger. This matches facts. A drawn worker-a misread ("tripod must be metal") costs 3 minutes. Seb: "if not found, we'll buy the small plastic stands". At 14:13 he buys 5 cradles, tape and a 167 EGP charger.
+- 14:13. Seb sends the build method: wrap the strip around the cradle with the LEDs facing out. That is his design decision.
+- 14:25-15:39. The two workers look for a table near the mall. facts.json sets `cafe_search_minutes` to 68, and the simulator applied that. A drawn worker-b misread costs 8 minutes.
+- 15:25 (log 609). A drawn worker-a "unannounced change": he rides home to New Maadi to use his own table. That is allowed, since he works alone there. It cost 74 EGP and a ride, but it gave him a table and a socket.
+- 15:39. Worker-b walks to the delivery address in 10 minutes and builds on the landing. That is allowed.
+- 15:56. A1 is finished and lit. Worker-a: "stable but the light is low, at the phone holder's height." Seb: "excellent… build the other two the same way".
+- 16:01-16:21. A2, A3, B1, B2 and B3 are built. B's units are never powered, because he had no socket.
+- 16:25:53. B hands over 3. 16:48: A hands over 3 plus the charger. All six are in before 17:00.
+
+
+## 2. Cause of each missing lamp (0 of 9)
+
+- All 6 delivered units failed on geometry. The light wraps a cradle under 15 cm tall and shines sideways. No A4 area is lit from above. Cause: the agent's design and purchase choice. facts.json flags this stand `height_ok: false`, and the simulator described it truthfully.
+- The other 3 lamps up to 9: Seb had 8 strips (2 left over unused) but no tall structure. He turned down the metal arm on Thursday. On Sunday he never searched where tall stands existed in facts. New Maadi's walk-in shop had 2 folding-180 stands. Worker-a lived there and started there. Thabet in Dokki had 5 folding-180 stands, and Abbasiya had more. These are agent decisions.

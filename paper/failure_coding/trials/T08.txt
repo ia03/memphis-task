@@ -1,0 +1,75 @@
+## 1. Timeline of decisive events
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 14:00 both start at their facts `start_location`: Mostafa (worker-a) in New Maadi, 9 min late (facts 0-20);
+  Abdelrahman (worker-b) in Dokki, 1 min late (facts 0-3) (log 31).
+- 14:01-14:19 Thabet in Dokki: 4 clamp arms at 500, 5 folding holders at 180, one 30-EGP cradle broken (facts
+  `defective: 1`). Seb rejects all and sends Abdelrahman downtown: 70 EGP, 20 min (facts 50-88, 15-23) (log 32, 48, 64).
+- 14:16-16:27 Mostafa searches New Maadi on foot for a ready USB light and a cheap support. Shops match the facts.
+  Seb has him buy a ruler, bands and a water bottle for a bottle-and-ruler support (log 279, 322).
+- 14:50 drawn worker mistake (b, misread): he asks whether he may screw bare wires into a jack himself. Seb corrects
+  him at 14:57 (log 121, 128).
+- 15:32-16:11 Lampatronics: no signal inside; the facts' 39-minute "cannot / within an hour / cannot" runaround is
+  played in full; referral to Harby next door (log 215).
+- 16:14-16:23 Harby: 6 min busy, then 49 EGP and 12 min a head, 8 a day, no USB test, no receipt (log 252, 270).
+- 16:27 drawn worker mistake (b, misread): he thinks the 12V module needs a 12V charger. Seb corrects him at 16:29
+  (log 272, 292).
+- 16:34-16:54 one sample head bought (59) and joined (49) (log 300-302, 344).
+- 16:55 Harby "won't guarantee 24-32 for Sunday 1 pm" (log 302, 346). Seb sends notices for 23 part sets and
+  8 Harby heads. With 3 minutes left Abdelrahman says he cannot count 69 parts and pay before 17:00. Seb cancels both
+  (log 363-383). This timing is Seb's.
+- 17:00 shift ends. Abdelrahman's ride home: 335 EGP, 86 min (facts 248-431, 71-112) (log 424).
+
+Friday-Saturday
+- About 30 calls and emails. Every channel behaves as its facts say: busy, no_connect, hangs_up, silent or bounce.
+  Fares says by phone it prepares customer parts (its facts `phone_claim`) (log 484, 491, 590).
+- Saturday 14:34 Mostafa cannot host Abdelrahman (`hosts_other_worker_at_home: false`) (log 630). Seb plans solo
+  assembly at Mostafa's home with a street handover (log 637).
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 13:00 Abdelrahman in Manial, his facts `start_location`, with the sample and his own charger. Mostafa starts
+  13:09 at home (log 685-686).
+- 13:08-13:53 Abdelrahman rides Manial to Fares: 143 EGP, 45 min from booking (facts 113-197, 33-51) (log 718, 830).
+- 13:12-13:44 Mostafa's bottle-and-ruler supports fail twice, as the facts say a bottle cannot hold a light (log 760, 804).
+- 14:00 Fares in person: "we do not connect or assemble" (its facts `in_person_claim`). This phone claim was wrong
+  when acted on, as the record expects about 1 in 2 times (log 846-847).
+- 14:10 Mostafa buys 2 holders at 189 (facts: 2 at 189) (log 862).
+- 14:11-14:19 Harby: 3 heads by about 15:05, 4 by about 15:17. 14:19 Seb takes 3 (log 855, 869).
+- 14:19 drawn worker mistake (a, misread about the handover point). About 3 min, off the critical path (log 871).
+- 14:27 three part sets, 177 EGP; 14:29-15:05 Harby joins them (log 890, 910, 994).
+- 14:59 drawn worker mistake (a, misread: buys four here?). About 5 min, off the critical path (log 972).
+  15:06 he buys 2 more at 136 (facts: 2 at 136). Four holders at home by 15:13 (log 1001).
+- 15:05 drawn worker mistake (b, unannounced route change): he privately plans to test at his own home in Hadayek
+  October first. At 15:12 he asks Seb, because the 336 EGP fare exceeds his notice. Seb says go straight to Maadi.
+  He books at 15:16. Cost about 7 min (log 995, 1004, 1010).
+- 15:25 Seb's delivery plan: book the Carrefour car "when the first unit works and the rest are close", board
+  "16:15, at most about 16:20" (log 1031).
+- 15:16-16:01 ride downtown to New Maadi: 176 EGP, 45 min from booking (facts 126-219, 36-57) (log 1010, 1055).
+- 16:01 drawn worker mistake (b, navigation): different corner of the street entrance. They meet at 16:07. Cost
+  6 min (record 2b: 3-40 min, usually under 10) (log 1056).
+- 16:10-16:16 first lamp mounted, lit and stable. 16:16-16:20 extended test passes (log 1075-1076, 1102).
+- 16:16-16:18 Mostafa books the car (78 EGP, app 13 min, car in 7 min) (log 1084).
+- 16:18-16:25 second lamp mounted and briefly tested. Bagging and the walk down take until 16:29. The driver waits
+  4 min. Departure 16:30 (log 1119-1121, 1133).
+- 16:30-16:48 ride to Carrefour, 18 min in the car (facts 16-25) (log 1134).
+- 16:48-16:50 drawn worker mistake (b, misread): he thinks the client will collect at Carrefour. Mostafa explains
+  while paying. Cost 2 min (log 1162, 1175).
+- 16:50 walk starts. "Final walk duration drawn uniformly from facts' integer 8-12-minute range: 12 minutes."
+  Door arrival would be 17:02 (log 1176).
+- 17:00 both stop "ten minutes from Carrefour, two minutes short of the door". Nothing is delivered (log 1211).
+- 17:10-18:54 back to Carrefour and home: 80 EGP, 17 min; 297 EGP, 93 min (facts 55-95, 16-25; 214-372, 62-97).
+  Mostafa keeps both lamps (log 1237).
+
+Money: ledger 2,301 = 70+59+18+49+11+335+143+11+378+177+147+176+272+78+80+297. Physical spend in state.md matches.
+
+
+## 2. Cause of each lamp short of 9
+
+| Units | State at 17:00 | Cause |
+|---|---|---|
+| L1, L2 | Built, powered, stable; bagged 2 min from the door | Missed the deadline by 2 min. Seb's schedule planned about 7-10 min of slack. Fair friction used it up: three drawn worker mistakes (about 15 min), a 45-min downtown ride, a 7-min car wait plus 18 min in the car, and a 12-min walk |
+| 2 spare heads | Prepared, with boosts and holders, left at Mostafa's home | Seb's rule: book after the first success and do not wait for late units (log 1031, 1090). Mostafa left at 16:27 |
+| 5 more | Never existed | Heads were the bottleneck. Seb ordered no batch on Thursday until 16:55, with 3 min left. On Sunday he lost the first hour to Fares (a false phone claim, in the facts) and then took 3 heads at Harby, at 12 min a head |
+
+Holders were not binding. Four tall holders matched four heads. Other tall holders existed in the facts and were never
+looked at: Manial shop 2 has 4 at 198, and Abdelrahman started in Manial on Sunday.

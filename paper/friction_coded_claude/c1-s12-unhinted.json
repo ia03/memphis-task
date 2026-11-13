@@ -1,0 +1,718 @@
+{
+ "trial": "c1-s12-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 210",
+     "what": "Lampatronics strips sold as 5V USB-A; bought six but never powered, so claim untested",
+     "happened": "unclear"
+    },
+    {
+     "cite": "log 204",
+     "what": "Bab El Louk counter strips sold as 5V USB; two bought untested, never powered",
+     "happened": "unclear"
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 78,
+   "happened": 73,
+   "items": [
+    {
+     "cite": "log 58",
+     "what": "New Maadi mobile shop 1: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 58",
+     "what": "New Maadi mobile shop 1: flexible USB neck",
+     "happened": true
+    },
+    {
+     "cite": "log 58",
+     "what": "New Maadi mobile shop 1: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 58",
+     "what": "New Maadi mobile shop 1: heavy base",
+     "happened": true
+    },
+    {
+     "cite": "log 70",
+     "what": "New Maadi mobile shop 2: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 70",
+     "what": "New Maadi mobile shop 2: flexible USB neck",
+     "happened": true
+    },
+    {
+     "cite": "log 70",
+     "what": "New Maadi mobile shop 2: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 70",
+     "what": "New Maadi mobile shop 2: heavy base (only light plastic cradle)",
+     "happened": true
+    },
+    {
+     "cite": "log 76",
+     "what": "Downtown electronics 1: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 76",
+     "what": "Downtown electronics 1: flexible neck",
+     "happened": true
+    },
+    {
+     "cite": "log 76",
+     "what": "Downtown electronics 1: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 76",
+     "what": "Downtown electronics 1: heavy stand",
+     "happened": true
+    },
+    {
+     "cite": "log 76",
+     "what": "Downtown electronics 1: ties",
+     "happened": true
+    },
+    {
+     "cite": "log 89",
+     "what": "Downtown electronics 2: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 89",
+     "what": "Downtown electronics 2: flexible neck",
+     "happened": true
+    },
+    {
+     "cite": "log 89",
+     "what": "Downtown electronics 2: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 89",
+     "what": "Downtown electronics 2: heavy base",
+     "happened": true
+    },
+    {
+     "cite": "log 101",
+     "what": "Lampatronics: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 101",
+     "what": "Lampatronics: flexible neck",
+     "happened": true
+    },
+    {
+     "cite": "log 101",
+     "what": "Lampatronics: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 101",
+     "what": "Lampatronics: heavy base",
+     "happened": true
+    },
+    {
+     "cite": "log 210",
+     "what": "Lampatronics: six white USB strips (all six sold)",
+     "happened": false
+    },
+    {
+     "cite": "log 118",
+     "what": "El Tamimi: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 118",
+     "what": "El Tamimi: flexible neck",
+     "happened": true
+    },
+    {
+     "cite": "log 118",
+     "what": "El Tamimi: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 124",
+     "what": "Degla mobile shop 1: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 124",
+     "what": "Degla mobile shop 1: flexible neck",
+     "happened": true
+    },
+    {
+     "cite": "log 124",
+     "what": "Degla mobile shop 1: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 124",
+     "what": "Degla mobile shop 1: heavy base",
+     "happened": true
+    },
+    {
+     "cite": "log 135",
+     "what": "Bab El Louk mobile shop 1: finger USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 135",
+     "what": "Bab El Louk mobile shop 1: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 135",
+     "what": "Bab El Louk mobile shop 1: flexible heavy-base holder",
+     "happened": true
+    },
+    {
+     "cite": "log 135",
+     "what": "Bab El Louk mobile shop 1: small tripod",
+     "happened": true
+    },
+    {
+     "cite": "log 204",
+     "what": "Bab El Louk mobile shop 1: two white USB strips (both sold)",
+     "happened": false
+    },
+    {
+     "cite": "log 141",
+     "what": "Degla mobile shop 2: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 141",
+     "what": "Degla mobile shop 2: flexible neck",
+     "happened": true
+    },
+    {
+     "cite": "log 141",
+     "what": "Degla mobile shop 2: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 141",
+     "what": "Degla mobile shop 2: heavy base",
+     "happened": true
+    },
+    {
+     "cite": "log 153",
+     "what": "Bab El Louk mobile shop 2: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 153",
+     "what": "Bab El Louk mobile shop 2: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 153",
+     "what": "Bab El Louk mobile shop 2: flexible heavy-base holder",
+     "happened": true
+    },
+    {
+     "cite": "log 153",
+     "what": "Bab El Louk mobile shop 2: small tripod",
+     "happened": true
+    },
+    {
+     "cite": "log 159",
+     "what": "Degla electronics 1: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 159",
+     "what": "Degla electronics 1: flexible neck",
+     "happened": true
+    },
+    {
+     "cite": "log 159",
+     "what": "Degla electronics 1: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 159",
+     "what": "Degla electronics 1: heavy base",
+     "happened": true
+    },
+    {
+     "cite": "log 216",
+     "what": "Carrefour Thu: monitor riser",
+     "happened": true
+    },
+    {
+     "cite": "log 216",
+     "what": "Carrefour Thu: metal bookends",
+     "happened": true
+    },
+    {
+     "cite": "log 216",
+     "what": "Carrefour Thu: wood/aluminium ruler",
+     "happened": true
+    },
+    {
+     "cite": "log 216",
+     "what": "Carrefour Thu: USB light/strip",
+     "happened": true
+    },
+    {
+     "cite": "log 216",
+     "what": "Carrefour Thu: ties",
+     "happened": true
+    },
+    {
+     "cite": "log 216",
+     "what": "Carrefour Thu: strong double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 249",
+     "what": "Carrefour Thu: raised support 20-40 cm tall",
+     "happened": true
+    },
+    {
+     "cite": "log 237",
+     "what": "Downtown electronics 3: ready white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 237",
+     "what": "Downtown electronics 3: USB lamp",
+     "happened": true
+    },
+    {
+     "cite": "log 243",
+     "what": "RAM Electronics: ready white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 243",
+     "what": "RAM Electronics: USB lamp",
+     "happened": true
+    },
+    {
+     "cite": "log 389",
+     "what": "New Maadi plumbing counter: matching T fittings",
+     "happened": true
+    },
+    {
+     "cite": "log 389",
+     "what": "New Maadi plumbing counter: elbows",
+     "happened": true
+    },
+    {
+     "cite": "log 389",
+     "what": "New Maadi plumbing counter: caps",
+     "happened": true
+    },
+    {
+     "cite": "log 389",
+     "what": "New Maadi plumbing counter: insulating tape",
+     "happened": true
+    },
+    {
+     "cite": "log 389",
+     "what": "New Maadi plumbing counter: cable ties",
+     "happened": true
+    },
+    {
+     "cite": "log 389",
+     "what": "New Maadi plumbing counter: 20 mm conduit (23 in stock)",
+     "happened": false
+    },
+    {
+     "cite": "log 398",
+     "what": "New Maadi plumbing counter: other PVC size with matching fittings",
+     "happened": true
+    },
+    {
+     "cite": "log 442",
+     "what": "Carrefour Sun (b): tripod",
+     "happened": true
+    },
+    {
+     "cite": "log 442",
+     "what": "Carrefour Sun (b): selfie stick",
+     "happened": true
+    },
+    {
+     "cite": "log 442",
+     "what": "Carrefour Sun (b): tall/clamp phone holder",
+     "happened": true
+    },
+    {
+     "cite": "log 442",
+     "what": "Carrefour Sun (b): USB male/female extension",
+     "happened": true
+    },
+    {
+     "cite": "log 493",
+     "what": "Carrefour Sun (b): eight low cradles (bought all eight)",
+     "happened": false
+    },
+    {
+     "cite": "log 456",
+     "what": "Carrefour Sun (a): strong/double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 456",
+     "what": "Carrefour Sun (a): cable ties",
+     "happened": true
+    },
+    {
+     "cite": "log 456",
+     "what": "Carrefour Sun (a): 30 cm ruler",
+     "happened": true
+    },
+    {
+     "cite": "log 456",
+     "what": "Carrefour Sun (a): clipboard",
+     "happened": true
+    },
+    {
+     "cite": "log 456",
+     "what": "Carrefour Sun (a): sellotape",
+     "happened": true
+    },
+    {
+     "cite": "log 456",
+     "what": "Carrefour Sun (a): cutting boards",
+     "happened": true
+    },
+    {
+     "cite": "log 456",
+     "what": "Carrefour Sun (a): long wooden spoons",
+     "happened": true
+    },
+    {
+     "cite": "log 456",
+     "what": "Carrefour Sun (a): heavy mugs/jars",
+     "happened": true
+    },
+    {
+     "cite": "log 511",
+     "what": "Carrefour Sun (a): two binder-clip boxes (bought)",
+     "happened": false
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 1,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 407",
+     "what": "Plumbing seller asked to cut conduit into 18 lamp-frame pieces; refuses",
+     "happened": false
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 7,
+   "happened": 7,
+   "items": [
+    {
+     "cite": "log 45",
+     "what": "b Thu DiDi Dokki-Downtown: 12 quoted, 18 actual",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 18
+    },
+    {
+     "cite": "log 94",
+     "what": "a Thu DiDi New Maadi-Degla: 18 quoted, 26 actual",
+     "happened": true,
+     "quoted_min": 18,
+     "actual_min": 26
+    },
+    {
+     "cite": "log 180",
+     "what": "a Thu DiDi Degla-Carrefour: 19 quoted, 28 actual",
+     "happened": true,
+     "quoted_min": 19,
+     "actual_min": 28
+    },
+    {
+     "cite": "log 268",
+     "what": "a Thu DiDi Carrefour-home: 13 quoted, 20 actual",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 20
+    },
+    {
+     "cite": "log 275",
+     "what": "b Thu DiDi Downtown-Hadayek October: 59 quoted, 87 actual",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 87,
+     "long": true
+    },
+    {
+     "cite": "log 380",
+     "what": "b Sun Uber Manial-Carrefour: 26 quoted, 41 actual",
+     "happened": true,
+     "quoted_min": 26,
+     "actual_min": 41,
+     "long": true
+    },
+    {
+     "cite": "log 424",
+     "what": "a Sun DiDi New Maadi-Carrefour: 13 quoted, 20 actual",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 20
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 2,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "Most Electronics: refers to website, cannot confirm stock or prices",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Bab El Louk number: no answer",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 38,
+   "happened": 2,
+   "items": [
+    {
+     "cite": "chat#22",
+     "what": "photo file-000001; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#29",
+     "what": "folding holder photo; Seb asks material of the 37 EGP cradle, which was not pictured",
+     "happened": "unclear"
+    },
+    {
+     "cite": "chat#34",
+     "what": "photo file-000003; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#36",
+     "what": "photo file-000004; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#38",
+     "what": "photo file-000005; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#40",
+     "what": "photo file-000006; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#45",
+     "what": "photo file-000007; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#50",
+     "what": "photo file-000008; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#53",
+     "what": "photo file-000009; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#55",
+     "what": "photo file-000010; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#62",
+     "what": "photo file-000011; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#66",
+     "what": "photo file-000012; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#72",
+     "what": "photo file-000013; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#75",
+     "what": "photo file-000014; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#78",
+     "what": "photo file-000015; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#85",
+     "what": "photo file-000016; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#89",
+     "what": "photo file-000017; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#93",
+     "what": "photo file-000018; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#124",
+     "what": "photo file-000019; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#126",
+     "what": "USB lead scene photo; Seb asks hand-span length estimate (worker lacked a ruler)",
+     "happened": "unclear"
+    },
+    {
+     "cite": "chat#132",
+     "what": "photo file-000021; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#134",
+     "what": "photo file-000022; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#142",
+     "what": "photo file-000023; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#150",
+     "what": "photo file-000024; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#158",
+     "what": "photo file-000025; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#167",
+     "what": "photo file-000026; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#169",
+     "what": "photo file-000027; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#180",
+     "what": "first lamp photo; Seb says it shows a different lamp at night, asks for a real one",
+     "happened": true
+    },
+    {
+     "cite": "chat#184",
+     "what": "replacement lamp photo; Seb says same old image, asks for direct photos at address",
+     "happened": true
+    },
+    {
+     "cite": "chat#187",
+     "what": "photo file-000030; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#191",
+     "what": "photo file-000031; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#197",
+     "what": "photo file-000032; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#202",
+     "what": "photo file-000033; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#220",
+     "what": "photo file-000034; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#225",
+     "what": "photo file-000035; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#227",
+     "what": "photo file-000036; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#229",
+     "what": "photo file-000037; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#233",
+     "what": "photo file-000038; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#237",
+     "what": "photo file-000039; no redo or photo follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#239",
+     "what": "photo file-000040; no redo or photo follow-up",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "K1: the only spec claims acted on were 5V USB strips, never powered in the run, so unclear. K2 counts each item asked per shop visit; repeat asks for the same item at the same shop are not recounted; Carrefour Thursday and Sunday visits counted separately. K3: no electrical joining was ever requested; the only custom-work ask was pipe cutting for lamp frames. K4/K5: no time promises and no technician-made heads. K6: Sunday 17:12 return quotes have no recorded arrival. K9: two follow-ups concern things the photo was not meant to show, marked unclear."
+}

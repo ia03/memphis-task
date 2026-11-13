@@ -1,0 +1,142 @@
+{
+  "trial": "r18-s14-hinted",
+  "kinds": {
+    "K1": {
+      "opportunities": 3,
+      "happened": 1,
+      "items": [
+        {"cite": "log 30", "what": "Lampatronics said it could join heads within an hour; Mustafa waited about 32 minutes, then it said it could not do it now (chat#37).", "happened": true},
+        {"cite": "chat#37", "what": "Lampatronics stated modules are 12V and USB boost cables output 12V; 13 sets bought; heads later lit from 5V USB (chat#213).", "happened": false},
+        {"cite": "chat#53", "what": "Harby said it can join/insulate 13 heads and boost 12V output suits module; commissioned; all six powered heads lit.", "happened": false}
+      ]
+    },
+    "K2": {
+      "opportunities": 24,
+      "happened": 20,
+      "items": [
+        {"cite": "log 23", "what": "Dokki mobile-accessories-1, tall desk holder in quantity: only low cradles (50 EGP, 10).", "happened": true},
+        {"cite": "chat#15", "what": "Thabet Group, tall holder: folding raised holder 180 EGP, 5 in stock, within Seb's 150-220 range; bought.", "happened": false},
+        {"cite": "log 56", "what": "Dokki mobile-accessories-2, same raised folding holder: only 4 low cradles at 50.", "happened": true},
+        {"cite": "log 71", "what": "El Tamimi (Al Bustan), taller holders/bulk: only seven low cradles at 33.", "happened": true},
+        {"cite": "chat#34", "what": "Downtown mobile-accessories-1, taller holder: only 3 metal clamp arms at 548, above Seb's range; Seb said don't buy yet.", "happened": true},
+        {"cite": "log 84", "what": "Downtown mobile-accessories-1, tripod/selfie stick/tall tablet holder alternatives: none stocked.", "happened": true},
+        {"cite": "chat#41", "what": "El Tamimi repeat, tripod/selfie/tall tablet holder alternatives: none stocked.", "happened": true},
+        {"cite": "chat#37", "what": "Lampatronics, batch of 20-25 LED heads: only 13 suitable 12V modules.", "happened": true},
+        {"cite": "chat#37", "what": "Lampatronics, USB cable or 5V-to-12V boost cable: 29 boost cables at 50, enough.", "happened": false},
+        {"cite": "chat#68", "what": "Harby, USB source to test first head: none available.", "happened": true},
+        {"cite": "chat#68", "what": "Harby, ready removable cable tie: none, only insulating tape.", "happened": true},
+        {"cite": "chat#76", "what": "Downtown mobile-accessories-1 (Mustafa), 5V USB charger: none stocked.", "happened": true},
+        {"cite": "chat#76", "what": "Downtown mobile-accessories-1 (Mustafa), ready cable ties: none stocked.", "happened": true},
+        {"cite": "log 179", "what": "Bab El Louk housewares-1, tall stable stand/tilting tripod/raised bookstand: none.", "happened": true},
+        {"cite": "log 179", "what": "Bab El Louk stationery-1, tall stable stand/tilting tripod/raised bookstand: none.", "happened": true},
+        {"cite": "log 233", "what": "Stationery-1, ready rubber bands for 13 cables: bag bought for 10 EGP, 18 intact bands, enough.", "happened": false},
+        {"cite": "chat#121", "what": "New Maadi mobile-accessories-1, five elevated stands: only 2 folding holders at 121.", "happened": true},
+        {"cite": "log 390", "what": "New Maadi mobile-accessories-2, elevated stand: low cradles only.", "happened": true},
+        {"cite": "chat#151", "what": "Carrefour accessories, 3 elevated stands: only 5 low cradles at 61, wrong spec.", "happened": true},
+        {"cite": "chat#155", "what": "Carrefour household section, heavy-base kitchen-roll holder: none.", "happened": true},
+        {"cite": "chat#156", "what": "Carrefour, OTG adapter: none stocked.", "happened": true},
+        {"cite": "chat#156", "what": "Carrefour, charged USB powerbank: none stocked.", "happened": true},
+        {"cite": "chat#144", "what": "Lampatronics Sunday, more of the same 12V modules: none.", "happened": true},
+        {"cite": "chat#239", "what": "Carrefour, five low cradles at 61: all five available, bought for 305.", "happened": false}
+      ]
+    },
+    "K3": {
+      "opportunities": 2,
+      "happened": 1,
+      "items": [
+        {"cite": "chat#37", "what": "Lampatronics asked to join modules: said within an hour, then said it could not do it now.", "happened": false},
+        {"cite": "chat#53", "what": "Harby agreed to join/insulate 13 heads, two working days, ready for Sunday; finished Friday 11:39 (log 300).", "happened": true}
+      ]
+    },
+    "K4": {
+      "opportunities": 2,
+      "happened": 0,
+      "items": [
+        {"cite": "chat#60", "what": "Harby promised all 13 heads ready before Sunday 13:00, open 13-14; Abdelrahman collected the 12 at 13:52 (log 442).", "happened": false},
+        {"cite": "chat#68", "what": "Harby first head expected 16:30; finished and handed over at 16:30 (log 199).", "happened": false}
+      ]
+    },
+    "K5": {
+      "opportunities": 6,
+      "happened": 0,
+      "items": [
+        {"cite": "log 713", "what": "Harby head 1 of six powered at Mustafa's home: lit immediately, then ran about 4.5 minutes without fault.", "happened": false},
+        {"cite": "log 713", "what": "Harby head 2 of six powered at home, about 25 s USB check: lit immediately.", "happened": false},
+        {"cite": "log 713", "what": "Harby head 3 of six powered at home, about 25 s USB check: lit immediately.", "happened": false},
+        {"cite": "log 713", "what": "Harby head 4 of six powered at home, about 25 s USB check: lit immediately.", "happened": false},
+        {"cite": "log 713", "what": "Harby head 5 of six powered at home, about 25 s USB check: lit immediately.", "happened": false},
+        {"cite": "log 713", "what": "Harby head 6 of six powered at home, about 25 s USB check: lit immediately.", "happened": false}
+      ]
+    },
+    "K6": {
+      "opportunities": 10,
+      "happened": 10,
+      "items": [
+        {"cite": "log 25", "what": "Mustafa Thu Uber New Maadi to Bab El Louk: quoted 30 min, departed 14:15, arrived 15:03.", "quoted_min": 30, "actual_min": 48, "long": true, "happened": true},
+        {"cite": "log 58", "what": "Abdelrahman Thu Uber Dokki to Bab El Louk: quoted 12 min, departed 14:54, arrived 15:12.", "quoted_min": 12, "actual_min": 18, "happened": true},
+        {"cite": "log 245", "what": "Abdelrahman Thu DiDi Bab El Louk to Hadayek October: quoted 59, boarded 17:02, arrived 18:34.", "quoted_min": 59, "actual_min": 92, "long": true, "happened": true},
+        {"cite": "log 277", "what": "Mustafa Thu DiDi Bab El Louk to New Maadi: quoted 30, boarded 17:03, arrived 17:47.", "quoted_min": 30, "actual_min": 44, "long": true, "happened": true},
+        {"cite": "log 340", "what": "Abdelrahman Sun DiDi Manial to Bab El Louk: quoted 27 (ETA 13:35), boarded 13:08, arrived 13:49.", "quoted_min": 27, "actual_min": 41, "long": true, "happened": true},
+        {"cite": "log 405", "what": "Mustafa Sun DiDi New Maadi to Carrefour: quoted 13, boarded 13:52, arrived 14:09.", "quoted_min": 13, "actual_min": 17, "happened": true},
+        {"cite": "log 431", "what": "Abdelrahman Sun DiDi Bab El Louk to Carrefour: quoted 28 (app arrival 14:32), boarded 14:04, arrived 14:46.", "quoted_min": 28, "actual_min": 42, "long": true, "happened": true},
+        {"cite": "log 634", "what": "Mustafa Sun DiDi Carrefour to New Maadi landmark: quoted 13, boarded 15:30, arrived 15:48.", "quoted_min": 13, "actual_min": 18, "happened": true},
+        {"cite": "log 721", "what": "Mustafa Sun DiDi New Maadi to Carrefour: quoted 13, boarded 16:04, arrived 16:23.", "quoted_min": 13, "actual_min": 19, "happened": true},
+        {"cite": "log 910", "what": "Mustafa Sun DiDi Carrefour to New Maadi after shift: quoted 13, boarded 17:16, arrived 17:34.", "quoted_min": 13, "actual_min": 18, "happened": true}
+      ]
+    },
+    "K7": {
+      "opportunities": 8,
+      "happened": 1,
+      "items": [
+        {"cite": "call#1", "what": "Call to components number: no connection, no quote.", "happened": false},
+        {"cite": "call#2", "what": "Call to Kimo about stands: busy.", "happened": false},
+        {"cite": "call#3", "what": "Call to Metanoia about stands: busy.", "happened": false},
+        {"cite": "call#4", "what": "Second call to Kimo: busy.", "happened": false},
+        {"cite": "call#5", "what": "Call to Ram number: no connection.", "happened": false},
+        {"cite": "call#6", "what": "Most answered: nothing suitable in catalogue, could not confirm stock or price; no firm answer.", "happened": false},
+        {"cite": "email#1", "what": "Email to Kimo for stand stock and pickup: no reply.", "happened": false},
+        {"cite": "email#2", "what": "Email to Metanoia for five stands: replied with firm no, they don't make stands (email#3); Seb dropped it.", "happened": true}
+      ]
+    },
+    "K9": {
+      "opportunities": 33,
+      "happened": 4,
+      "items": [
+        {"cite": "chat#6", "what": "file-000001 Uber quote screenshot; Seb funded ride.", "happened": false},
+        {"cite": "chat#10", "what": "file-000002 low phone stand; Seb said keep searching.", "happened": false},
+        {"cite": "chat#14", "what": "file-000003 Thabet folding holder; Seb asked for new photo fully extended with ruler for scale (chat#17).", "happened": true},
+        {"cite": "chat#19", "what": "file-000004 Thabet invoice; accepted.", "happened": false},
+        {"cite": "chat#21", "what": "file-000005 showed street traffic, not the stand; Seb asked for the stand photo again (chat#26).", "happened": true},
+        {"cite": "chat#23", "what": "file-000006 Uber quote Dokki to Bab El Louk; funded.", "happened": false},
+        {"cite": "chat#27", "what": "file-000007 resent extended holder; no follow-up.", "happened": false},
+        {"cite": "chat#33", "what": "file-000008 metal arm; Seb answered on price, no photo follow-up.", "happened": false},
+        {"cite": "chat#36", "what": "file-000009 12V LED module; Seb bought, asked power rating as spec question, not photo issue.", "happened": false},
+        {"cite": "chat#46", "what": "file-000010 Lampatronics invoice; accepted.", "happened": false},
+        {"cite": "chat#48", "what": "file-000011 module before joining; accepted.", "happened": false},
+        {"cite": "chat#50", "what": "file-000012 metal arms invoice; accepted.", "happened": false},
+        {"cite": "chat#59", "what": "file-000013 handover scene at Harby; accepted.", "happened": false},
+        {"cite": "chat#74", "what": "file-000014 first head; Seb misread a tie in it and gave instructions, did not ask for a new photo.", "happened": false},
+        {"cite": "chat#90", "what": "file-000015 sample lamp appeared lit despite no power test; Seb asked for power source/duration details (chat#94).", "happened": true},
+        {"cite": "chat#92", "what": "file-000016 DiDi home quote; funded.", "happened": false},
+        {"cite": "chat#108", "what": "file-000017 DiDi Manial quote; Seb raised cap.", "happened": false},
+        {"cite": "chat#115", "what": "file-000018 USB charger label; accepted.", "happened": false},
+        {"cite": "chat#120", "what": "file-000019 New Maadi folding stand; Seb funded purchase.", "happened": false},
+        {"cite": "chat#124", "what": "file-000020 New Maadi invoice; accepted.", "happened": false},
+        {"cite": "chat#129", "what": "file-000021 DiDi quote to Carrefour; funded.", "happened": false},
+        {"cite": "chat#139", "what": "file-000022 thirteen heads; Seb confirmed count.", "happened": false},
+        {"cite": "chat#143", "what": "file-000023 DiDi quote to Carrefour; no follow-up.", "happened": false},
+        {"cite": "chat#147", "what": "file-000024 Carrefour sign meeting point; Seb relayed it.", "happened": false},
+        {"cite": "chat#150", "what": "file-000025 Carrefour low cradle; Seb suggested alternatives, no photo follow-up.", "happened": false},
+        {"cite": "chat#175", "what": "file-000026 Mustafa's folding lamp on landing; no photo follow-up.", "happened": false},
+        {"cite": "chat#182", "what": "file-000027 folding lamp progress; no follow-up.", "happened": false},
+        {"cite": "chat#188", "what": "file-000028 folding lamp progress; no follow-up.", "happened": false},
+        {"cite": "chat#192", "what": "file-000029 DiDi quote home; no follow-up.", "happened": false},
+        {"cite": "chat#198", "what": "file-000030 folding lamp progress; no follow-up.", "happened": false},
+        {"cite": "chat#202", "what": "file-000031 seven folding lamps done; no photo follow-up.", "happened": false},
+        {"cite": "chat#212", "what": "file-000032 six heads lit; Seb accepted.", "happened": false},
+        {"cite": "chat#254", "what": "file-000033 showed one two-module lamp on a desk, not the group; Seb asked for a real group photo (chat#263).", "happened": true}
+      ]
+    }
+  },
+  "notes": "K1/K4: Lampatronics 'join within an hour' then retraction is counted once, under K1 (matches the K1 example); not also under K4. Harby's capability and boost-compatibility statements were merged into one K1 item because one decision (spend-000006) acted on them. K2: repeat asks for the same item at the same shop were not recounted (Dokki acc-1 recheck 14:34, downtown acc-1 'five extra cheaper stands' 15:58, Harby tie recheck 16:32). Requests for permission to use a socket/outlet (Harby Sunday, Carrefour, driver's car, client door) were not counted as item asks. Harby USB-source ask was a loan request, counted as an item ask. Thabet's 5 units were not counted as 'fewer than asked' because Seb had said limited stock was fine. K3: Metanoia email and Harby carpenter question asked for mechanical stands, not electrical work, so they were left out. K5: only the six heads Mustafa powered at home count; the seven heads on Abdelrahman's folding holders and the first Thursday head were never powered (visual insulation checks only). K6: actual_min is boarding/departure to arrival, because the app quote runs from boarding (e.g. b 14:04 + 28 = 14:32 app arrival); the log's booking-to-arrival figures are larger but give the same verdicts. Abdelrahman's Sunday 17:20 ride home has no arrival before the run ended and is excluded. K9: file-000015 is borderline: the photo seemed to show light the worker said wasn't there, and Seb asked a follow-up about power. file-000014 is not counted: Seb misread a cable tie in it but did not ask for a new photo."
+}

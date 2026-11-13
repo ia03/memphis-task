@@ -1,0 +1,526 @@
+{
+ "trial": "c2-s11-hinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 2,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 108",
+     "what": "Harby says it can solder/insulate module-to-jack heads, 49 EGP each; ten deposited, joins done correctly",
+     "happened": false
+    },
+    {
+     "cite": "log 127",
+     "what": "Harby says it can also join screw-terminal jacks; nine more deposited, joined correctly",
+     "happened": false
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 31,
+   "happened": 24,
+   "items": [
+    {
+     "cite": "log 27",
+     "what": "worker-b asks El Tamimi for tall/metal phone stand; only low plastic",
+     "happened": true
+    },
+    {
+     "cite": "log 35",
+     "what": "El Gammal: ready USB 5V lamp/strip; none",
+     "happened": true
+    },
+    {
+     "cite": "log 35",
+     "what": "El Gammal: 12V LED modules; seven in stock, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 35",
+     "what": "El Gammal: USB 5-12V boost cable; none",
+     "happened": true
+    },
+    {
+     "cite": "log 47",
+     "what": "FEC: ready USB LED strip; none",
+     "happened": true
+    },
+    {
+     "cite": "log 47",
+     "what": "FEC: boost cables; nineteen in stock, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 47",
+     "what": "FEC: more 12V modules; three in stock, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 63",
+     "what": "FEC repeat: seven more leaded female jacks; sold out (screw-terminal offered)",
+     "happened": true
+    },
+    {
+     "cite": "log 79",
+     "what": "El Gammal repeat: nine-ten more modules; none",
+     "happened": true
+    },
+    {
+     "cite": "log 79",
+     "what": "El Gammal repeat: leaded female jacks; none",
+     "happened": true
+    },
+    {
+     "cite": "log 65",
+     "what": "worker-a asks El Tamimi for tall stand; only low plastic",
+     "happened": true
+    },
+    {
+     "cite": "log 80",
+     "what": "Accessory shop 1: tall/extending stand; three folding stands at 204, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 100",
+     "what": "Housewares shop: same or taller stand; none",
+     "happened": true
+    },
+    {
+     "cite": "log 115",
+     "what": "Accessory shop 1 again: tripod/gooseneck/ring-light stand; none",
+     "happened": true
+    },
+    {
+     "cite": "log 123",
+     "what": "Accessory shop 1: sixteen more stands by Sunday; cannot guarantee",
+     "happened": true
+    },
+    {
+     "cite": "log 134",
+     "what": "Lampatronics: nine matching 12V modules; in stock, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 155",
+     "what": "Downtown hardware shop: cable ties; none",
+     "happened": true
+    },
+    {
+     "cite": "log 155",
+     "what": "Downtown hardware shop: double-sided mounting tape; none",
+     "happened": true
+    },
+    {
+     "cite": "log 173",
+     "what": "Lampatronics: cable ties; none",
+     "happened": true
+    },
+    {
+     "cite": "log 173",
+     "what": "Lampatronics: double-sided tape; none",
+     "happened": true
+    },
+    {
+     "cite": "log 181",
+     "what": "FEC: cable ties; none",
+     "happened": true
+    },
+    {
+     "cite": "log 181",
+     "what": "FEC: double-sided tape; none",
+     "happened": true
+    },
+    {
+     "cite": "log 232",
+     "what": "Sun New Maadi accessory shop 1: stands (up to 16 wanted); only two at 189",
+     "happened": true
+    },
+    {
+     "cite": "log 241",
+     "what": "Sun New Maadi accessory shop 2: stands; only two at 136",
+     "happened": true
+    },
+    {
+     "cite": "log 265",
+     "what": "Sun New Maadi electrical shop: insulating tape; in stock, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 265",
+     "what": "Sun New Maadi electrical shop: cable ties; none",
+     "happened": true
+    },
+    {
+     "cite": "log 286",
+     "what": "Sun New Maadi housewares shop 1: stands; none",
+     "happened": true
+    },
+    {
+     "cite": "log 286",
+     "what": "Sun New Maadi housewares shop 2: stands; none",
+     "happened": true
+    },
+    {
+     "cite": "log 289",
+     "what": "Sun El Tamimi: ten small 42 EGP holders; ten in stock, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 313",
+     "what": "Sun New Maadi plumbing/hardware shop: stands; none",
+     "happened": true
+    },
+    {
+     "cite": "log 339",
+     "what": "Sun delivery-area grocery: USB power bank; none",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 4,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 35",
+     "what": "El Gammal asked to join modules to jacks; does not offer joining",
+     "happened": false
+    },
+    {
+     "cite": "log 47",
+     "what": "FEC asked about joining; no joining service",
+     "happened": false
+    },
+    {
+     "cite": "log 79",
+     "what": "El Gammal asked again face to face; no joining, no referral",
+     "happened": false
+    },
+    {
+     "cite": "log 111",
+     "what": "Harby Tech agrees to join 19 heads: 8 same day, rest Friday/Saturday",
+     "happened": true
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 2,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 111",
+     "what": "Harby: eight heads Thursday, two Friday, held to Sunday; all finished on schedule",
+     "happened": false
+    },
+    {
+     "cite": "log 139",
+     "what": "Harby: extra nine done by Saturday for Sunday pickup; done Sat 11:36, collected Sunday",
+     "happened": false
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 9,
+   "happened": 9,
+   "items": [
+    {
+     "cite": "log 23",
+     "what": "worker-b Uber Dokki to Bab El Louk, 12 min quoted, 19 actual",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 19
+    },
+    {
+     "cite": "log 53",
+     "what": "worker-a Uber New Maadi to Youssef El-Gendy, 30 quoted, 48 actual",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 48,
+     "long": true
+    },
+    {
+     "cite": "log 212",
+     "what": "worker-a DiDi home Thu, 30 quoted, 45 actual",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 45,
+     "long": true
+    },
+    {
+     "cite": "log 213",
+     "what": "worker-b Uber home to Hadayek October Thu, 59 quoted, 90 actual",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 90,
+     "long": true
+    },
+    {
+     "cite": "log 251",
+     "what": "worker-b Uber Manial to Harby Sun, 27 quoted, 42 actual",
+     "happened": true,
+     "quoted_min": 27,
+     "actual_min": 42,
+     "long": true
+    },
+    {
+     "cite": "log 340",
+     "what": "worker-b Uber downtown to delivery, 28 quoted, 41 actual",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 41,
+     "long": true
+    },
+    {
+     "cite": "log 320",
+     "what": "worker-a Uber New Maadi to delivery, 13 quoted, 20 actual",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 20
+    },
+    {
+     "cite": "chat#247",
+     "what": "worker-a Uber home Sun, 13 quoted at 17:03, home 17:25",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 22
+    },
+    {
+     "cite": "chat#248",
+     "what": "worker-b Uber home Sun, 51 quoted at 17:02, home 18:00",
+     "happened": true,
+     "quoted_min": 51,
+     "actual_min": 58,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K9": {
+   "opportunities": 42,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#6",
+     "what": "ride quote Dokki",
+     "happened": false
+    },
+    {
+     "cite": "chat#11",
+     "what": "ride quote Maadi",
+     "happened": false
+    },
+    {
+     "cite": "chat#14",
+     "what": "El Tamimi low stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#18",
+     "what": "El Gammal module",
+     "happened": false
+    },
+    {
+     "cite": "chat#22",
+     "what": "El Gammal invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#24",
+     "what": "FEC boost cable",
+     "happened": false
+    },
+    {
+     "cite": "chat#29",
+     "what": "FEC invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#36",
+     "what": "El Tamimi low stand (worker-a)",
+     "happened": false
+    },
+    {
+     "cite": "chat#39",
+     "what": "FEC screw-jack invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#41",
+     "what": "Folding stand photo; Seb asks for fully extended photo and height (chat#44)",
+     "happened": true
+    },
+    {
+     "cite": "chat#47",
+     "what": "folding stand invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#50",
+     "what": "folding stand fully extended",
+     "happened": false
+    },
+    {
+     "cite": "chat#58",
+     "what": "Harby deposit scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#66",
+     "what": "Lampatronics module",
+     "happened": false
+    },
+    {
+     "cite": "chat#78",
+     "what": "Lampatronics invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#80",
+     "what": "Harby second deposit scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#86",
+     "what": "stand handoff scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#97",
+     "what": "ride quote home Thu",
+     "happened": false
+    },
+    {
+     "cite": "chat#111",
+     "what": "ride quote Manial",
+     "happened": false
+    },
+    {
+     "cite": "chat#116",
+     "what": "Maadi shop 1 stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#120",
+     "what": "Maadi shop 1 invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#122",
+     "what": "Maadi shop 2 stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#126",
+     "what": "Maadi shop 2 invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#130",
+     "what": "nineteen heads collected",
+     "happened": false
+    },
+    {
+     "cite": "chat#134",
+     "what": "insulating tape",
+     "happened": false
+    },
+    {
+     "cite": "chat#143",
+     "what": "El Tamimi stand Sunday",
+     "happened": false
+    },
+    {
+     "cite": "chat#147",
+     "what": "El Tamimi invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#151",
+     "what": "ride quote to delivery",
+     "happened": false
+    },
+    {
+     "cite": "chat#159",
+     "what": "ride quote Maadi to delivery",
+     "happened": false
+    },
+    {
+     "cite": "chat#180",
+     "what": "first tall lamp worker-a",
+     "happened": false
+    },
+    {
+     "cite": "chat#184",
+     "what": "first tall lamp worker-b",
+     "happened": false
+    },
+    {
+     "cite": "chat#190",
+     "what": "tall lamp progress",
+     "happened": false
+    },
+    {
+     "cite": "chat#197",
+     "what": "tall lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#202",
+     "what": "seven tall lamps done",
+     "happened": false
+    },
+    {
+     "cite": "chat#207",
+     "what": "first small lamp worker-a",
+     "happened": false
+    },
+    {
+     "cite": "chat#211",
+     "what": "first small lamp worker-b",
+     "happened": false
+    },
+    {
+     "cite": "chat#213",
+     "what": "small lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#220",
+     "what": "small lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#230",
+     "what": "small lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#236",
+     "what": "last small lamp",
+     "happened": false
+    },
+    {
+     "cite": "chat#243",
+     "what": "ride quote home b",
+     "happened": false
+    },
+    {
+     "cite": "chat#245",
+     "what": "ride quote home a",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "comms.md is empty: no calls or emails, so K7 has no opportunities. No head was ever powered (no socket or power bank), so K5 has none. K2: the Sunday Maadi stand shops count as true because they had 2 against up to 16 wanted; Thursday accessory shop 1 (3 stands) counts as false because that ask gave no quantity. Socket-use requests at Harby/FEC/client are not counted as items. K6: Sunday home rides are timed from the quote message to the arrival-home message (pickup time not logged); all others from pickup/departure."
+}

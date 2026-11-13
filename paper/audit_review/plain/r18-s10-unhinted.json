@@ -1,0 +1,127 @@
+{
+  "slug": "r18-s10-unhinted",
+  "what_happened": [
+    "On Thursday, Abdelrahman bought Thabet's only USB LED strip for 146 EGP (log 137-139).",
+    "Mustafa bought the only three strips at Lampatronics for 471 EGP (log 423, 430).",
+    "On Sunday, Abdelrahman bought 4 folding phone stands at Thabet for 720 EGP (log 871-872).",
+    "Mustafa mounted each strip on a stand with the strip's own adhesive back (log 1141, 1224-1272).",
+    "The client took all four at the door at 16:52 Sunday, 8 minutes before the deadline (log 1339).",
+    "The grader counted all four, so the trial scored 4 lamps of 9 and a reward of 0.444."
+  ],
+  "cause": [
+    "Each lamp needed one light source, and Seb had only four.",
+    "Each shop Seb asked had the stock in the facts: Thabet 1 strip, Lampatronics 3, New Maadi and Carrefour none.",
+    "The facts have other strips that only walking finds, such as 4 at FEC Egypt and 4 at El Gammal.",
+    "Mustafa was downtown from 16:16 to 17:00 Thursday, but Seb never asked him to walk the street.",
+    "Seb's other route needed a worker to leave raw 12V modules with Harby on Thursday for joining.",
+    "Mustafa bought the 12V parts at 16:59:40, under Seb's strict 17:00 cutoff, so he left nothing with Harby.",
+    "On Sunday, Seb chose not to go downtown.",
+    "Time was not the limit, because all four units passed their tests by 16:09."
+  ],
+  "findings": [
+    {
+      "id": "H1",
+      "title": "Harby hedged on a multi-day batch his facts allow",
+      "what": [
+        "At 16:53 Thursday, Harby told Mustafa he could join at most 19 heads a day (log 467).",
+        "Harby also said he was not sure he could finish 20 or 40 heads before Sunday 13:00.",
+        "Harby's facts allow neither of Seb's 16:48 terms: materials included and a written receipt.",
+        "Seb then authorised labour-only joining for 11 heads at Harby."
+      ],
+      "why": [
+        "The facts say Harby joins up to 19 heads a day and has no closed days.",
+        "The facts also say his promises are never late and he keeps finished work for pickup.",
+        "So a batch of 20 heads from Thursday evening to Saturday fits his facts."
+      ],
+      "effect": "It did not change the count, because Seb's strict 17:00 cutoff left no time to hand parts to Harby.",
+      "chance": "about 2%"
+    },
+    {
+      "id": "E1",
+      "title": "Mustafa reported stock counts more often than his facts say",
+      "what": [
+        "Mustafa gave full stock counts almost every time.",
+        "At 16:28 Thursday, he reported 3 strips and 20 boards.",
+        "At 16:39 he reported 28 modules and 11 jacks, and at 13:27 Sunday he reported three sheets."
+      ],
+      "why": [
+        "The facts give Mustafa a 0.4 chance to report counts at the end of an errand.",
+        "The incident record says about 3 of 4 multi-item errands end without a count."
+      ],
+      "effect": "It did not change the count, because Seb asked for counts each time and the facts set the stock.",
+      "chance": "about 0%"
+    },
+    {
+      "id": "I1",
+      "title": "The world log contradicts itself on which strip went into the prototype",
+      "what": [
+        "At 14:25 Sunday, Seb ordered that the prototype use Abdelrahman's untested strip from Thabet.",
+        "Mustafa agreed at 14:28, and log 1054 at 14:58 says the same.",
+        "Log 1239, 1244 and 1264 and the state file put that strip in the fourth unit."
+      ],
+      "why": [
+        "The world log gives two different places for the same strip.",
+        "The server drew no worker mistake that covers the swap."
+      ],
+      "effect": "It did not change the count, because all four strips passed powered tests after assembly.",
+      "chance": "0%"
+    },
+    {
+      "id": "I2",
+      "title": "The photo library sent photos that did not match the build",
+      "what": [
+        "At 15:28:20 Sunday, the lamp photo showed a short lit LED bar on a stand.",
+        "The world log says the strip was 1 m long, wrapped and unpowered (log 1143, 1148).",
+        "At 15:31, the rear photo showed a shop corridor while Mustafa was at home (log 1149, 1154).",
+        "At 15:32, Seb wrote that the photo showed a shop corridor, and he accepted the build from the text."
+      ],
+      "why": [
+        "The photo library has no image of this build.",
+        "The same problem happened in trial r18-s13-unhinted."
+      ],
+      "effect": "It moved the test start from 15:29 to 15:32 and did not change the count.",
+      "chance": "0%"
+    },
+    {
+      "id": "I3",
+      "title": "The archive copy stops at the 17:08 Sunday step",
+      "what": [
+        "The archive copy ends at the world model's step at 17:08 Sunday.",
+        "It holds 199 steps and no grade call.",
+        "Its world log has 1,383 lines, but the grade cites log 1395-1397.",
+        "The ledger shows an 82 EGP payment at 17:25 with no matching step."
+      ],
+      "why": [
+        "The trial log says a copy command failed and the system retried a download.",
+        "The system copied the files at 23:56:28, before the run's last steps."
+      ],
+      "effect": "It did not change the count, because only rides home after the deadline are missing.",
+      "chance": "0%"
+    },
+    {
+      "id": "I4",
+      "title": "The world model answered a phone number missing from the facts",
+      "what": [
+        "At 17:16 Thursday, Seb dialled 01206756894 for the maintenance center at 19 Youssef El-Gendy (log 596).",
+        "The world model matched the number to FEC Egypt and returned FEC's busy signal."
+      ],
+      "why": [
+        "The facts give FEC Egypt no phone number.",
+        "The number Seb dialled is not in the facts."
+      ],
+      "effect": "It did not change the count, because a busy line and an unknown number both give no information.",
+      "chance": "0%"
+    }
+  ],
+  "verdict": {
+    "label": "Fair",
+    "range": "4 to 5 lamps",
+    "best": "4.0 lamps",
+    "reason": [
+      "The simulator did not change the count.",
+      "Seb's own sourcing set the count at 4.",
+      "Without any of the findings, the world gives the same four lamps.",
+      "A fifth lamp needed an ordinary chance event, such as a downtown clerk sending Mustafa to FEC Egypt."
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+## 1. Timeline (Cairo time, log.md)
+
+Thursday 1 Oct
+- 13:28. Seb briefs both workers: USB lights, gooseneck or phone holders, ties; Bab El Louk market.
+- 14:03-15:03. B rides Dokki to Bab El Louk (18 minutes, 72 EGP). A starts 9 minutes late, then rides New Maadi to Bab El Louk (46 minutes, 145 EGP). Both are within the facts' ranges.
+- 14:26-15:35. B tries RAM (bare-lead cable only), the accessory shop (charger 80 EGP, bought) and Lampatronics twice (only boards with bare pads). All match the facts.
+- 15:21-15:39. A finds the low stand at 33 EGP and El Tamimi's metal tablet arm at 500 EGP (4 in stock). Seb rejects both.
+- 15:36. Seb switches to ordering online for weekend delivery.
+- 15:59. A finds the Noon strip (136 EGP, 20 in stock, Saturday delivery) and the Jumia one (122 EGP, Tuesday). Both match the facts.
+- 16:18-16:39. Seb funds 2,800 EGP. The first checkout stalls because the shipping fee is unknown. Seb accepts COD and A places order NOON-261001-001 for 20 strips.
+- 16:03-16:48. B finds no holders on Noon. That is correct: Noon lists only strips and chargers.
+- 16:52-17:48. Calls to Carrefour and Kimo are busy and Kimo's email is silent, as its facts say. The workers ride home (390 and 170 EGP).
+
+Saturday 3 Oct
+- 16:40. The Noon parcel reaches A. He pays 2,720 COD with no shipping fee, counts 20 at 16:52, and has no charger to test them.
+- 16:52. Seb sends the Sunday plan: meet at Carrefour City Centre Maadi at 13:00, source the structures there.
+
+Sunday 4 Oct
+- 13:00-13:45. B rides Manial to Carrefour (42 minutes, 151 EGP). A starts 12 minutes late and rides 19 minutes (78 EGP).
+- 13:46-14:14. Carrefour has the low stand (69 EGP, 11 in stock) and insulating tape (22 EGP, 5 rolls). There are no tall stands, rulers or ties. Two housewares shops near the mall have empty offers. All match the facts.
+- 14:02-14:34. Seb sends B to Road 9 in Maadi Degla (29 minutes, 96 EGP).
+- 14:34-14:47. **Worker mistake (B, misread):** B thinks all 20 stands must be one type and spends 7 minutes asking the first shop to make up 20 (log.md:442). Seb corrects him at 14:47.
+- 14:48-14:53. B buys 5 folding holders at 185 EGP (925). The facts give 5 at 185.
+- 14:58. A buys 5 tape rolls (110). Seb sends the mounting method: wrap the strip round the plate, tape it, back of the plate facing the desk.
+- 15:00-15:09. At the second shop B buys 3 holders at 213 EGP (639). The facts give 3 at 213.
+- 15:14-15:24. A builds a test unit on the low stand. The simulator judges it low (under 15 cm, matching `height_ok: false`). Seb drops that design.
+- 15:16-15:20. B finds the housewares shop empty, as in the facts. **Seb recalls him at 15:20**, so the second housewares shop and the stationery shop (rulers) are never visited.
+- 15:23-15:53. B rides back (112 EGP; a top-up was needed). The ledger rejects the 104 EGP part of the fare as "already settled" (log.md:578).
+- 15:53-16:00. **Worker mistake (A, wrong turn):** A goes to the wrong entrance and loses 7 minutes (log.md:572).
+- 16:02-16:10. Both build their first units on the floor. A-R1 and B-R1 succeed on the first try (log.md:616).
+- 16:10-16:14. Carrefour staff refuse a socket for testing. That is correct, since no testing favour is in the facts.
+- 16:14-16:24. **Worker mistake (B, unannounced change):** B starts packing to finish his lamps at home in Hadayek October and asks for 348 EGP (log.md:632). Seb stops him at 16:19, and he is back working at 16:24. This cost about 10 minutes of B's assembly time.
+- 16:20-16:32. A-R2, A-R3, A-R4, B-R2 and B-R3 are finished, about 6 minutes each.
+- 16:32-16:45. Seb sends them off with 7 finished lamps plus the eighth stand and strip. The walk takes 11 minutes (the facts give 8-12).
+- 16:46-16:48. The resident takes 7 lamps and declines entry and a socket, which matches the facts.
+- 16:47-16:54. B finishes B-R4 on the landing and hands it over at 16:54:25 (log.md:729, 741).
+
+
+## 2. Cause of each lamp short of 9
+
+Only one lamp is missing.
+
+- Lamp 9: no ninth tall structure. Seb bought every tall holder at the two Road 9 shops (8 in all). The low Carrefour stand cannot light a page (facts: `height_ok: false`). Other tall stock existed in the facts, but in places Seb did not search:
+  - New Maadi mobile shops: 4 + 4 folding holders. That is A's Sunday start district, and Seb sent him straight to the mall.
+  - Thabet Group, Dokki: 5 folding holders. That is B's Thursday start district, and Seb sent him to Bab El Louk.
+  - Road 9 shop 1: 4 metal arms at 513 EGP, over Seb's 185-215 cap. B left them out of his messages during the misread (see V1).
+
+  Seb also recalled B at 15:20, when time was short. All of this is the agent's own planning.
+- Strips were not the limit: 12 were left over.

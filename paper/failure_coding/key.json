@@ -1,0 +1,152 @@
+{
+ "T01": {
+  "round": "r18",
+  "seed": 14,
+  "ours": "A"
+ },
+ "T02": {
+  "round": "c1",
+  "seed": 10,
+  "ours": "ACD"
+ },
+ "T03": {
+  "round": "r13",
+  "seed": 13,
+  "ours": "AC"
+ },
+ "T04": {
+  "round": "r18",
+  "seed": 10,
+  "ours": "C"
+ },
+ "T05": {
+  "round": "r16",
+  "seed": 11,
+  "ours": "AB"
+ },
+ "T06": {
+  "round": "r16",
+  "seed": 13,
+  "ours": "C"
+ },
+ "T07": {
+  "round": "r18",
+  "seed": 13,
+  "ours": "C"
+ },
+ "T08": {
+  "round": "r18",
+  "seed": 11,
+  "ours": "BD"
+ },
+ "T09": {
+  "round": "c1",
+  "seed": 11,
+  "ours": "AB"
+ },
+ "T10": {
+  "round": "r13",
+  "seed": 14,
+  "ours": "AC"
+ },
+ "T11": {
+  "round": "r16",
+  "seed": 10,
+  "ours": "A"
+ },
+ "T12": {
+  "round": "r13",
+  "seed": 11,
+  "ours": "ABD"
+ },
+ "T13": {
+  "round": "r13",
+  "seed": 12,
+  "ours": "C"
+ },
+ "T14": {
+  "round": "r16",
+  "seed": 12,
+  "ours": "B"
+ },
+ "T15": {
+  "round": "r18",
+  "seed": 12,
+  "ours": "A"
+ },
+ "T16": {
+  "round": "r13",
+  "seed": 10,
+  "ours": "ABC"
+ },
+ "T17": {
+  "round": "c1",
+  "seed": 13,
+  "ours": "C"
+ },
+ "T18": {
+  "round": "c1",
+  "seed": 14,
+  "ours": "AC"
+ },
+ "T19": {
+  "round": "c1",
+  "seed": 12,
+  "ours": "A"
+ },
+ "T20": {
+  "round": "r16",
+  "seed": 14,
+  "ours": "A"
+ },
+ "T21": {
+  "round": "c3",
+  "seed": 13,
+  "ours": "B"
+ },
+ "T22": {
+  "round": "c2",
+  "seed": 10,
+  "ours": "C"
+ },
+ "T23": {
+  "round": "c3",
+  "seed": 10,
+  "ours": "C"
+ },
+ "T24": {
+  "round": "c3",
+  "seed": 11,
+  "ours": "AC"
+ },
+ "T25": {
+  "round": "c3",
+  "seed": 12,
+  "ours": "C"
+ },
+ "T26": {
+  "round": "c2",
+  "seed": 14,
+  "ours": "C"
+ },
+ "T27": {
+  "round": "c2",
+  "seed": 13,
+  "ours": "A"
+ },
+ "T28": {
+  "round": "c2",
+  "seed": 11,
+  "ours": "C"
+ },
+ "T29": {
+  "round": "c3",
+  "seed": 14,
+  "ours": "C"
+ },
+ "T30": {
+  "round": "c2",
+  "seed": 12,
+  "ours": "C"
+ }
+}

@@ -1,0 +1,679 @@
+{
+ "trial": "c3-s11-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 2,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 378",
+     "what": "Harby says joins 49/head, 12 min each, max 8/day; eight commissioned and delivered correctly joined",
+     "happened": false
+    },
+    {
+     "cite": "chat#92",
+     "what": "Harby says open Sunday 11-20; worker went Sunday 13:45 and collected heads",
+     "happened": false
+    },
+    {
+     "cite": "log 398",
+     "what": "Most says cable is exact DC-12V USB boost; 29 bought, never powered",
+     "happened": "unclear"
+    },
+    {
+     "cite": "chat#37",
+     "what": "El Gammal / retail-2 say modules are white 12V; bought, never powered",
+     "happened": "unclear"
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 44,
+   "happened": 38,
+   "items": [
+    {
+     "cite": "log 69",
+     "what": "b asks RAM for ready white USB 5V strip: none",
+     "happened": true
+    },
+    {
+     "cite": "log 77",
+     "what": "b asks RAM for USB LED module or USB-plug bulb: none",
+     "happened": true
+    },
+    {
+     "cite": "log 91",
+     "what": "b asks El Tamimi for USB strip: none",
+     "happened": true
+    },
+    {
+     "cite": "log 91",
+     "what": "b asks El Tamimi for holder: only low cradle, wrong spec",
+     "happened": true
+    },
+    {
+     "cite": "log 98",
+     "what": "b asks mobile-accessories-1 for ready USB light: none",
+     "happened": true
+    },
+    {
+     "cite": "log 98",
+     "what": "b asks mobile-accessories-1 for USB male-female extension: none",
+     "happened": true
+    },
+    {
+     "cite": "log 98",
+     "what": "b asks mobile-accessories-1 for long gooseneck holder: none",
+     "happened": true
+    },
+    {
+     "cite": "log 120",
+     "what": "b asks electronics_retail-1 for ready USB light: none",
+     "happened": true
+    },
+    {
+     "cite": "log 120",
+     "what": "b asks electronics_retail-1 for USB extension: none",
+     "happened": true
+    },
+    {
+     "cite": "log 120",
+     "what": "b asks electronics_retail-1 for long holder: none",
+     "happened": true
+    },
+    {
+     "cite": "log 145",
+     "what": "a asks El Gammal for ready USB light: none",
+     "happened": true
+    },
+    {
+     "cite": "log 145",
+     "what": "a asks El Gammal for USB extension: none",
+     "happened": true
+    },
+    {
+     "cite": "log 145",
+     "what": "a asks El Gammal for long holder: none",
+     "happened": true
+    },
+    {
+     "cite": "log 182",
+     "what": "b asks retail-2 for 12V white module/strip: 10 at 7 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 182",
+     "what": "b asks retail-2 for screw-terminal DC jack: 23 at 10 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 182",
+     "what": "b asks retail-2 for USB 5-12V boost cable: none",
+     "happened": true
+    },
+    {
+     "cite": "log 182",
+     "what": "b asks retail-2 for tall tripod: none",
+     "happened": true
+    },
+    {
+     "cite": "log 183",
+     "what": "a asks El Gammal for 12V modules for 25-35: only seven",
+     "happened": true
+    },
+    {
+     "cite": "log 183",
+     "what": "a asks El Gammal for boost cable: none",
+     "happened": true
+    },
+    {
+     "cite": "log 183",
+     "what": "a asks El Gammal for screw-terminal jack: none",
+     "happened": true
+    },
+    {
+     "cite": "log 183",
+     "what": "a asks El Gammal for tall tripod: none",
+     "happened": true
+    },
+    {
+     "cite": "log 208",
+     "what": "a asks El Tamimi for boost cable: none",
+     "happened": true
+    },
+    {
+     "cite": "log 208",
+     "what": "a asks El Tamimi for tall tripod: only low cradle",
+     "happened": true
+    },
+    {
+     "cite": "log 208",
+     "what": "a asks El Tamimi for 12V module: none",
+     "happened": true
+    },
+    {
+     "cite": "log 208",
+     "what": "a asks El Tamimi for screw-terminal jack: none",
+     "happened": true
+    },
+    {
+     "cite": "log 227",
+     "what": "b asks RAM for USB boost module with screw output: none",
+     "happened": true
+    },
+    {
+     "cite": "log 227",
+     "what": "b asks RAM for boost cable for 25-35: only one",
+     "happened": true
+    },
+    {
+     "cite": "log 227",
+     "what": "b asks RAM for screw-terminal jack: ten at 15",
+     "happened": false
+    },
+    {
+     "cite": "log 227",
+     "what": "b asks RAM for 12V light module/strip: none",
+     "happened": true
+    },
+    {
+     "cite": "log 227",
+     "what": "b asks RAM for tall tripod: none",
+     "happened": true
+    },
+    {
+     "cite": "log 323",
+     "what": "a asks housewares counter for tall heavy-base stand: none",
+     "happened": true
+    },
+    {
+     "cite": "log 406",
+     "what": "a asks Most for up to 30 DC-12V boost cables: enough stock at 55",
+     "happened": false
+    },
+    {
+     "cite": "log 606",
+     "what": "a asks Carrefour for tall stand/gooseneck: only low cradle",
+     "happened": true
+    },
+    {
+     "cite": "log 606",
+     "what": "a asks Carrefour for electrical tape: none",
+     "happened": true
+    },
+    {
+     "cite": "log 606",
+     "what": "a asks Carrefour for cable ties: none",
+     "happened": true
+    },
+    {
+     "cite": "log 683",
+     "what": "a asks Carrefour stationery for strong double-sided tape: none",
+     "happened": true
+    },
+    {
+     "cite": "log 683",
+     "what": "a asks Carrefour stationery for wide clear tape: none",
+     "happened": true
+    },
+    {
+     "cite": "log 682",
+     "what": "b asks mobile-accessories-1 for charger/power bank <=150: only 165, over cap",
+     "happened": true
+    },
+    {
+     "cite": "log 684",
+     "what": "b asks mobile-accessories-1 for ten telescopic stands: only three",
+     "happened": true
+    },
+    {
+     "cite": "log 760",
+     "what": "b asks Lampatronics for three 12V white modules: bought at 4.50",
+     "happened": false
+    },
+    {
+     "cite": "log 761",
+     "what": "b asks Lampatronics for electrical tape: none",
+     "happened": true
+    },
+    {
+     "cite": "log 761",
+     "what": "b asks Lampatronics for cable ties: none",
+     "happened": true
+    },
+    {
+     "cite": "log 802",
+     "what": "b asks Harby for insulating tape: four rolls at 10",
+     "happened": false
+    },
+    {
+     "cite": "log 802",
+     "what": "b asks Harby for cable ties: none",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 7,
+   "happened": 2,
+   "items": [
+    {
+     "cite": "log 168",
+     "what": "El Gammal asked to cut/solder 12V strips or modules: no joining service",
+     "happened": false
+    },
+    {
+     "cite": "log 286",
+     "what": "retail-2 asked to make heads and test: no joining service",
+     "happened": false
+    },
+    {
+     "cite": "call#5",
+     "what": "Most (by phone) asked for module-to-jack joining: refuses, sells components only",
+     "happened": false
+    },
+    {
+     "cite": "log 357",
+     "what": "mobile-accessories-1 asked for joining/testing: retail only",
+     "happened": false
+    },
+    {
+     "cite": "log 388",
+     "what": "Harby agrees to join eight heads, done same evening",
+     "happened": true
+    },
+    {
+     "cite": "log 406",
+     "what": "Most counter asked about joining/technician: none, no referral",
+     "happened": false
+    },
+    {
+     "cite": "log 800",
+     "what": "Harby Sunday will join five heads in an hour; declined for 14:45 deadline",
+     "happened": true
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 1,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 388",
+     "what": "Harby promises eight heads finished and held for Sunday pickup; collected Sunday 13:53",
+     "happened": false
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 8,
+   "happened": 8,
+   "items": [
+    {
+     "cite": "log 49",
+     "what": "b Uber Dokki to Bab El Louk, quoted 12, took 19",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 19
+    },
+    {
+     "cite": "log 61",
+     "what": "a Uber New Maadi to Abdel Aziz, quoted 30, took 44",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 44,
+     "long": true
+    },
+    {
+     "cite": "log 341",
+     "what": "a Uber downtown to Abbasiya, quoted 19, took 31",
+     "happened": true,
+     "quoted_min": 19,
+     "actual_min": 31
+    },
+    {
+     "cite": "log 448",
+     "what": "a Uber Abbasiya to New Maadi, quoted 28, took 43",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 43,
+     "long": true
+    },
+    {
+     "cite": "log 463",
+     "what": "b Uber to Hadayek October, quoted 59, took 92",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 92,
+     "long": true
+    },
+    {
+     "cite": "log 585",
+     "what": "b Uber Manial to Bab El Louk, quoted 27, took 41",
+     "happened": true,
+     "quoted_min": 27,
+     "actual_min": 41,
+     "long": true
+    },
+    {
+     "cite": "log 592",
+     "what": "a Uber New Maadi to Carrefour, quoted 13, took 21",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 21
+    },
+    {
+     "cite": "log 878",
+     "what": "b Uber Bab El Louk to Carrefour Maadi, quoted 28, took 47",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 47,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 16,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "RAM call: hung up",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Future call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#3",
+     "what": "Future call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#4",
+     "what": "Future call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#5",
+     "what": "Most answered: firm no on joining service, cable listed 55 but stock unconfirmed",
+     "happened": true
+    },
+    {
+     "cite": "call#6",
+     "what": "Kimo call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#7",
+     "what": "Carrefour call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#8",
+     "what": "EMC call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#9",
+     "what": "Kimo call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#10",
+     "what": "Carrefour call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#11",
+     "what": "EMC call: busy",
+     "happened": false
+    },
+    {
+     "cite": "call#12",
+     "what": "Most answered: no prices or counts, only hours",
+     "happened": false
+    },
+    {
+     "cite": "call#13",
+     "what": "Lampatronics call: no connect",
+     "happened": false
+    },
+    {
+     "cite": "call#14",
+     "what": "Lampatronics call: no connect",
+     "happened": false
+    },
+    {
+     "cite": "email#1",
+     "what": "Makers Electronics email: no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#2",
+     "what": "Lampatronics email: bounced (email#3)",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 40,
+   "happened": 5,
+   "items": [
+    {
+     "cite": "chat#12",
+     "what": "photo file-000001; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#14",
+     "what": "photo file-000002; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#20",
+     "what": "photo file-000003; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#36",
+     "what": "photo file-000004; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#43",
+     "what": "photo file-000005; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#53",
+     "what": "photo file-000006; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#57",
+     "what": "photo file-000007; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#59",
+     "what": "file-000008: jack item photo instead of receipt; Seb asks for receipt photo (chat#61)",
+     "happened": true
+    },
+    {
+     "cite": "chat#65",
+     "what": "photo file-000009; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#77",
+     "what": "photo file-000010; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#84",
+     "what": "file-000011: Harby handover scene; Seb then asks for photos of left parts and exterior as proof (chat#89)",
+     "happened": "unclear"
+    },
+    {
+     "cite": "chat#86",
+     "what": "photo file-000012; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#91",
+     "what": "photo file-000013; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#95",
+     "what": "file-000014: Harby exterior; Seb says it does not show Harby (chat#101)",
+     "happened": true
+    },
+    {
+     "cite": "chat#110",
+     "what": "photo file-000015; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#112",
+     "what": "photo file-000016; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#128",
+     "what": "photo file-000017; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#135",
+     "what": "file-000018: eight-heads photo; Seb asks exact count, looks like more than 8 (chat#152)",
+     "happened": true
+    },
+    {
+     "cite": "chat#148",
+     "what": "photo file-000019; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#155",
+     "what": "photo file-000020; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#159",
+     "what": "photo file-000021; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#165",
+     "what": "photo file-000022; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#170",
+     "what": "photo file-000023; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#178",
+     "what": "photo file-000024; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#181",
+     "what": "photo file-000025; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#184",
+     "what": "file-000026: stands scene showed kiosk; Seb asks again for photo of opened stands (chat#187)",
+     "happened": true
+    },
+    {
+     "cite": "chat#188",
+     "what": "photo file-000027; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#199",
+     "what": "photo file-000028; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#203",
+     "what": "photo file-000029; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#207",
+     "what": "photo file-000030; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#209",
+     "what": "photo file-000031; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#213",
+     "what": "photo file-000032; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#215",
+     "what": "photo file-000033; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#217",
+     "what": "photo file-000034; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#219",
+     "what": "photo file-000035; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#227",
+     "what": "file-000036: seven-lamp photo showed street; Seb asks for new photo (chat#229)",
+     "happened": true
+    },
+    {
+     "cite": "chat#230",
+     "what": "photo file-000037; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#237",
+     "what": "photo file-000038; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#246",
+     "what": "photo file-000039; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#252",
+     "what": "photo file-000040; no redo or follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#254",
+     "what": "photo file-000041; no redo or follow-up",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "No head was ever powered (no outlet found), so K5 has no opportunities and module/cable spec claims are unclear. K2 groups ready USB strip/bulb as one item per shop; quantity shortfalls are counted against Seb's 25-35 ask. Sunday 17:08 return rides have quotes but no logged arrival (log ends 16:56), so they are left out of K6. Harby Sunday five-join offer counted as K3 true though declined for the 14:45 deadline. Photo file-000011 unclear: Seb's request for more proof photos may not be about that photo."
+}

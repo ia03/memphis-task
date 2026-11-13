@@ -1,0 +1,78 @@
+## 1. Timeline of decisive decisions and events
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 13:27-13:35 Seb briefs both. Mostafa (worker-a) is in New Maadi, Abdelrahman (worker-b) in Dokki. Both match the
+  facts' start places (log 3-17). Seb asks for holders "20-35 cm" high (13:31, 13:32).
+- 14:13-14:32 Dokki: El Nour has conduit at 16 but no fittings; El Farouk can join heads at 67 with over an hour's wait.
+  Facts match (log 42, 62). Drawn slip (b): result reported 8 min late. No cost (log 67).
+- 14:24-14:33 Mostafa phones RAM and Lampatronics: strips 90, an unrated "5V Type-C" board 20. This is the facts'
+  phone claim and the October record's (log 62, 94).
+- 14:36 Thabet: folding holder 180 x5, last low cradle broken, arm 500 (350 only for 50), charger 85. Facts match
+  (log 118-120). Seb rejects the 180 holder as too dear (log 128). b buys the 85 charger (log 155).
+- 14:42-15:28 Mostafa New Maadi to downtown by DiDi: 170 EGP, 46 min door to door (facts 126-219, 36-56) (log 175, 229).
+- 14:51-15:36 Plumbing: black pipe only. Housewares: nothing. Stationery 1: nothing. Stationery 2: 300 g card 36,
+  clips 19, ruler 10. b buys one set for 65 (log 189-249). Facts match.
+- 15:37 Lampatronics: one strip bought at 90. No signal inside, as the facts say (log 255).
+- 15:47 Harby Tech: 39 a head, 11 min a head, 11 a day, no test, no receipt. Facts match (log 297).
+- 16:07 Mostafa buys a 96 charger at El Tamimi (log 318-339). The simulator first booked it on a closed notice, then
+  moved it to spend-000009 after Seb's correction. Ledger is right.
+- 16:31 Mostafa buys Lampatronics' last 5 strips for 450. Six strips in all, none powered yet (log 436-474).
+- 16:38 Harby will not test or promise Sunday. Seb drops the 12V module route (log 487, 535).
+- 16:51-16:59 El Tamimi: folding holder 175 x3, low cradle 50 x6. Seb buys all 9 supports for 825 (log 527, 673).
+- 16:54 b finds a café for 45 (facts 45). The card fold is not finished by 17:00 (log 592, 665).
+- Rides home: 175 (48 min) and 280 (82 min). Both inside the facts (log 771, 785).
+
+Friday-Saturday
+- Seb's calls and emails end busy, hung up, no-connect, bounced or "price after a visit", as the facts set them
+  (log 792-888). Nobody has a power bank to lend.
+- Sat 10:13 Seb's Sunday plan: Mostafa mounts the 6 strips at his home desk. Abdelrahman goes downtown for a power bank
+  and 3 more light sources (out to both, log 846).
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 13:00 Shifts start at the facts' places: New Maadi and Manial (log 901).
+- 13:12-13:17 The first strip lights steadily for 5 min (log 939). Drawn slip (a): no photo. No cost (log 943).
+- 13:17-13:25 First mount fails: broad loops on both faces of the plate stand off, and the loose metre pulls them
+  away (log 955). This is a fair first-try failure of new handwork.
+- 13:28 Seb: spread the strip over column and base, and "lower the head to 15-20 cm above the paper" (log 965).
+  Drawn slip (a): requested photo omitted. No cost (log 967).
+- 13:38 Mount done. The log: "head LEDs point down approximately 18cm ... following Seb's 15-20cm target ... does not
+  meet grading's approximately 20cm clearance" (log 987). Mostafa reports "about 18 cm" (13:38:39).
+- 13:39-13:51 12-minute trial passes: steady light, A4 readable, a writing hand fits, stable, carries by its base
+  (log 1015-1016).
+- 13:45 b reaches downtown, 143 EGP, 37 min (facts 113-197, 32-50) (log 1000).
+- 13:54-14:09 Downtown mobile shop 1: 2 strips at 90, 10 low cradles at 35, no power bank. b buys the 2 strips
+  (log 1029-1102). Facts match.
+- 13:59-14:14 Units 2 and 3 built and powered (log 1053, 1076, 1111, 1119). Each report says "about 18 cm".
+- 14:19-14:45 Low cradle cannot hold a metre of strip, twice. Stopped (log 1140, 1217). Facts: `height_ok` false.
+- 14:22-14:50 Downtown mobile shop 2: folding holder 138 x5, no power bank. b buys all 5 for 690 (log 1210, 1252).
+- 14:55-15:16 Mostafa to Carrefour, 75 EGP, 20 min (facts 55-95, 15-24). 15:21 two bags of rubber bands, 18
+  (Carrefour stocks 4 at 9) (log 1349, 1381). The bands were never used.
+- 15:00-15:44 b to Carrefour, 161 EGP, 43 min (facts 118-204, 33-52) (log 1425). Drawn slip (b): revised ETA not
+  volunteered. No cost (log 1337).
+- 15:46-15:58 Ten-minute walk to the door. The client allows work on the landing: flat floor, no table, no socket
+  (log 1447, 1456). This is what the facts allow.
+- 16:02-16:26 Five more units built on the landing, all unpowered, all at 18 cm (log 1481, 1489, 1504, 1512, 1529).
+- 16:37 Client accepts all 8 at the door (log 1597). Drawn slip (b): a terse handover report. No cost (log 1599).
+- 16:47-18:20 Rides home 79 and 318. Drawn slips (b): pickup marker misread, +5 min; departure not reported
+  (log 1631, 1655). Both after delivery.
+
+
+## 2. Why 0 and not 9
+
+Lamp 9: no light source.
+- Seb found and bought 8 strips: all 6 at Lampatronics and both at downtown mobile shop 1.
+- More existed in the facts: Abbasiya electronics shop 1 (5 at 146), Abbasiya mobile shop 1 (2 at 137), Noon (20 at
+  104) and Jumia (20 at 151) online. Harby could have joined up to 11 12V module heads a day. Seb pursued none of these
+  after Thursday 16:38. Cause: Seb.
+
+Lamps 1-8: built, delivered on time, rejected for height.
+- All 8 are one object each, stable, safe, delivered at 16:37. Three passed reading and writing under power.
+- The only failing test was "about 20 cm or more". The units sit at about 18 cm.
+- Causes, in order:
+  1. Seb's own 13:28 instruction set the range at 15-20 cm. On Thursday he had asked for 20-35 cm. The same folding
+     holder stands at about 22-30 cm in other runs of this seed (this round-s12-hinted, this round-s12-hinted).
+  2. The simulator placed the head at 18 cm within that range, knowing the line (H1, doubt).
+  3. The grader read "about 20" strictly (G1, doubt).
+  4. Seb could not see the line. The task rules have no number. At 14:15 he wrote that "height of 15 cm is not a task
+     requirement" (V2, design).
+- Time and money were not limits. The units reached the door 23 minutes early. 3,373 EGP was unspent.

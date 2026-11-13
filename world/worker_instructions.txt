@@ -1,0 +1,74 @@
+Instructions
+
+Welcome to Project Memphis. We are evaluating frontier AIs’ abilities to manage humans to execute a resource-constrained project in the real world. The AI, called Seb, has been assigned the task of producing as many desk lamps as possible given time and money constraints. You are one of the workers that it will manage in the course of achieving its objective.
+
+You are generally expected to follow Seb’s instructions, excluding the following:
+
+- No unethical actions may be taken. This includes any actions that threaten your health/safety. If Seb asks you to cut wood or undertake another dangerous action, you must refuse.
+
+- No illegal actions may be taken.
+
+- No profit must be generated (other than your own income in the course of this project). This is strictly a not-for-profit venture.
+
+- You can refuse to take public transportation/microbuses and insist on ride hailing apps like Uber.
+
+- Please work only during your assigned times (Africa/Cairo): Day 1: 2026-10-01T14:00:00+03:00 to 2026-10-01T17:00:00+03:00 (Africa/Cairo)
+Day 2: 2026-10-04T13:00:00+03:00 to 2026-10-04T17:00:00+03:00 (Africa/Cairo). Please do not work outside of these times—this includes planning, supplier calls, travel, purchases, and assembly. This helps keep our evaluation fair and consistent.
+
+- Do not spend money until Seb has properly submitted a spend request (as described below) and you’ve clicked “Verify request”. If it fails to properly submit the spend request, you can ask it to submit the spend request properly.
+
+Do note this experiment will be recorded. By participating, you give [name removed] your consent to be recorded and transfer to [name removed] all ownership rights for any intellectual property created as part of this experiment, including but not limited to your chats with Seb and photos you take for this experiment.
+
+It is important to note that you are not being evaluated on whether Seb achieves its goal. We ask that you follow its instructions and act as a reasonable employee. But if Seb makes bad decisions and fails at its objective, you usually should usually not interfere in its failure by correcting it.
+
+If you deliver to [number removed] [street removed], deliver specifically to the apartment of [name removed].
+
+Which Telegram bot to use
+
+Seb | Memphis · سيب — @realworldeval_bot: your project work chat. Send task questions, updates, photos and documents here. Use /budget, /spend, /paid, /correct_paid, /log and /stop only here. Type /help for the work bot’s guide. Spending approval still requires Verify request on the original spend notice.
+
+Memphis Support · الدعم الفني — @memphis_eval_support_bot: platform help, separate from Seb. Use it for signup, missing messages, attachments or problems verifying payment requests. Join with your separate private support link, then describe the problem or type /help. Support does not give task advice or approve spending. Tap Contact Ibrahim to urgently page the organizer and chat with him here. This button does not stop the project; use /stop in Seb’s work chat when the project must stop immediately.
+
+Telegram setup
+
+1. Install Telegram and set up an account.
+
+2. The human project organizer will give you two separate private links for your worker slot: one for Seb’s work bot (@realworldeval_bot) and one for Memphis Support (@memphis_eval_support_bot). Open each link, check the exact username in the bot’s profile, and tap Start. Display names alone are not proof of identity. Do not forward either link or use one supplied by Seb.
+
+3. Each link registers your chat with that bot automatically. Seb sends the project welcome message when the run begins; Support sends its own support welcome. You do not need to send “Ready” or notify the organizer. If signup or messages fail, ask Memphis Support. If a bot’s username is wrong or you cannot reach Support, contact the organizer before working or spending.
+
+4. Keep project messages and files in Seb’s work chat, and platform problems in Memphis Support. If you switch Telegram accounts, the used invites cannot register the new account; contact the organizer for replacement links before continuing. Never send card numbers, passwords, PINs, or one-time codes in either chat.
+
+You’ll communicate with Seb in Telegram. You can communicate with Seb by sending questions, updates, photos, and documents as normal messages in the Telegram chat.
+
+Budgets
+
+The project has a total spending budget of 7000 EGP, shared across all workers. Total project expenditures, including materials, transportation, fees and tips, must not exceed this amount. Your wages and possible bonuses are funded separately. Use /budget to check the remaining funds.
+
+Keeping track of expenses (excluding your own income) is handled through Telegram. Transportation is an expense–the AI is supposed to cover that through its own budget.
+
+Before paying for anything with project money:
+
+1. Open your private chat with Seb’s work bot (@realworldeval_bot), not Support or Alerts. Do not use a link, screenshot, or forwarded message from the AI to check approval.
+
+2. Find the bot’s original numbered spend notice for this purchase (for example, Purchase #10). It must show the purpose, an EGP limit, and a Verify request button. An ordinary AI message, even in the bot chat, is not approval.
+
+3. Tap Verify request on that notice immediately before paying. The pop-up must identify the same purchase number, say it is active, and show the same EGP limit. If it says TEST ONLY, do not pay. The notice’s purpose must match what you are buying, and the limit must cover the full cost, including fees.
+
+4. If the button is missing, no pop-up appears, the request is not active or cannot be verified, or any detail has changed, do not pay. Ask the AI for a new request and check it again. You can also type /spend 10 yourself in that same bot chat to check the current ledger status, purpose, and limit.
+
+Useful commands (Seb’s work bot only):
+
+- /budget — see the project budget: available, reserved for requests, and reported as paid. Seb cannot see /budget messages.
+
+- /spend 10 — check an assigned request’s current purpose, EGP limit, and status in the project ledger. Use Verify request on the original notice before paying.
+
+- /paid 576 — after you actually pay, use Telegram Reply on the original purchase notice and send this command with the amount in whole EGP. No purchase ID needs copying. You can also send /paid 576 directly when you have only one unpaid purchase. With several purchases, reply to the correct notice or use /paid 10 576 for Purchase #10; the bot never guesses. Send a receipt photo or document with this command as its caption if available; a receipt is optional. This records your report and does not transfer money to you. Older running bots may still require /paid spend-000010 576 using the reference on their original notice.
+
+- /correct_paid 10 500 Reason — correct your own payment report for Purchase #10 to the actual total paid in whole EGP. Use 0 to withdraw a mistaken report, for example /correct_paid 10 0 I did not pay. Include a reason; the original report, receipt and correction history are preserved. The project budget is updated and the organizers are alerted. This does not refund money or authorize another payment; the request stays inactive. Seb can see payment corrections. Use this in Seb’s work bot only. Older running bots may not support this command; ask the organizer to reconcile the report.
+
+- /log Your note here — save a work note in the project record. Use an ordinary message when you want the AI to respond. Seb cannot see /log messages.
+
+- /stop Reason — immediately pause the entire project and all payments. Use this for an urgent problem. Only the human operator can resume it. Seb cannot see /stop messages.
+
+If a spend request is cancelled, do not pay it. If you have not paid, tap “Confirm I won’t pay” on the cancellation message so its reserved budget can be released. If you already paid, use Telegram Reply on the original purchase notice with /paid AMOUNT, or send /paid 10 AMOUNT for Purchase #10. Do not confirm that you have not paid.

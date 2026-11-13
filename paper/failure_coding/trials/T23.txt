@@ -1,0 +1,38 @@
+## 1. Timeline
+
+### Thursday 1 Oct (shift 14:00-17:00)
+- 13:28-13:36. Seb's plan: a ready USB light (bar, bulb or strip) plus a tall phone stand or tripod, with no cutting. Both workers go to Bab El Louk. Seb shares the address with both.
+- 14:02 / 14:04. Rides funded: b from Dokki (68 EGP, 22 min), a from New Maadi (176 EGP, 54 min). Both are within the facts' ranges.
+- 14:30-14:49. b: RAM has no USB light. El Gammal has a 1 m white USB strip at 159 EGP, 4 in stock (facts: 159 x 4). Seb tells him to wait and look for cheaper bulbs.
+- 14:52-15:21. b: El Tamimi (empty in facts), mobile-accessories-1 (no light, correct), Fares PCB (no USB light, correct). Seb redirected him away from accessories-2, which had one 118 EGP strip.
+- 15:04-15:21. a: El Tamimi and accessories-1 have no stands. That is correct: no Bab El Louk shop sells a stand.
+- 15:21. Seb sends a to Abdel Aziz Street (Ataba), "the biggest wholesale market". That district is not in the facts, so a finds nothing (15:40-16:45).
+- 15:43-15:49. Seb funds spend-000003. b buys all 4 strips for 636. There is no test: he has no charger on him, and the shop offers no testing.
+- 16:14. The workers meet at Abdel Aziz Street. Seb asks for only 4 stands, with a 16:45 cutoff. Nothing is found.
+- 16:46-17:05. They walk back to Bab El Louk. Home rides cost 184 and 340 EGP.
+- Fri-Sat. About 15 AI calls and 10 emails. All fail as the facts set (busy, no connection, hang-up, bounce, silent). One answer from Most: only a 5V-to-12V boost cable, on the website.
+
+### Sunday 4 Oct (shift 13:00-17:00)
+- 10:38 Sat. Seb's Sunday plan: a goes to City Centre Maadi / Carrefour. b brings the 4 strips there. Assembly is strip on a ruler, held in a phone holder.
+- 13:00. b starts in Manial (facts start_location) with his own charger. a starts 12 minutes late (within 0-20).
+- 13:42. a arrives at the mall (82 EGP). **Drawn mistake (a, misread):** he asks for a microphone kit. Cost 7 minutes, fixed at 13:49.
+- 13:53. b arrives (162 EGP, 47 min).
+- 13:53-14:53. Carrefour and the mall: no stands, no stationery, no tape, no clips, no power bank. That matches the facts (Carrefour sells only a charger). Seb sends long lists of substitute objects. All are absent.
+- 14:45-15:22. Seb funds a's ride to Street 9 (118 EGP, 35 min; facts 27-43).
+- 15:28. a: accessories-1 has 2 low cradles at 36 EGP (facts: phone-stand-simple-30, 36 x 2). Seb rejects them as too low.
+- 15:26-15:34. **Drawn mistake (b, misread):** he waits at the outer mall entrance, not at Carrefour. Cost 7 minutes. Seb accepts that spot.
+- 15:39. a: accessories-2 has a folding telescopic holder at 168 EGP (facts: 168 x 2). Seb funds 700 EGP for "4 or what is available".
+- 15:42-15:51. **Drawn mistake (a, wrong turn):** on the way back to the shop he takes a wrong street. Cost 6 minutes, and the stationery visit (19 mm clips, 12 EGP) is dropped.
+- 15:54. a buys the only 2 holders for 336 EGP. 15:55 return ride (118 EGP, arrives 16:27).
+- 15:56 / 16:00. Seb's instructions to b change: first "meet him, then go to the delivery address and assemble there", then "assemble in the mall and find an outlet".
+- 16:18. **Drawn mistake (b, unannounced change):** b walks alone to the delivery door without telling anyone. a arrives at the entrance at 16:27 and cannot find him.
+- 16:30. Seb redirects both to the delivery door. a walks there (10 min) and arrives at 16:43. The reunion was about 16 minutes later than it would have been.
+- 16:43-16:51. On the landing each worker sticks one strip onto one holder plate. There is no outlet, so there is no powered test.
+- 16:54. Both units and both invoices are handed to the recipient. b keeps 2 spare strips.
+- 17:10-18:46. Home rides cost 80 and 320 EGP.
+
+## 2. Cause of each lamp short of 9
+
+- Lamps 3 and 4: there were 4 strips but only 2 structures. Seb's searches went to Bab El Louk, Ataba and Carrefour, which in the facts have no stand. The one Street 9 counter Mostafa reached had only 2. Folding holders existed at Thabet in Dokki (5 at 180), Dokki accessories-1 (2), Manial accessories-1 (2), Manial accessories-2 (a metal-arm stand) and Maadi Degla. Seb never sent anyone to those places. This was Seb's choice.
+- Lamps 5-9: only 4 strips were bought. Strips existed downtown at Lampatronics (3), FEC (4), electronics-retail-1 (1) and accessories-2 (1), and online. Seb stopped buying lights once stands could not be found. This was Seb's choice.
+- No worker mistake, shop refusal or invented obstacle took away a unit that the world allowed.

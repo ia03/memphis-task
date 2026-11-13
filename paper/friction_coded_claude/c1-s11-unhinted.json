@@ -1,0 +1,641 @@
+{
+ "trial": "c1-s11-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 3,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "call#8, log 561",
+     "what": "Fares says by phone it does preparation if parts brought; Abdelrahman brings boards/cables, Fares refuses joining",
+     "happened": true
+    },
+    {
+     "cite": "log 37, log 651",
+     "what": "Mobile shop sells USB-A 5V 2A charger; Mostafa buys it and it powers the strip",
+     "happened": false
+    },
+    {
+     "cite": "log 475, log 651",
+     "what": "Carrefour strip sold as white 5V USB; bought and lights white from USB charger",
+     "happened": false
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 53,
+   "happened": 44,
+   "items": [
+    {
+     "cite": "log 36",
+     "what": "Maadi mobile shop 1: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 36",
+     "what": "Maadi mobile shop 1: flexible-neck phone holder",
+     "happened": true
+    },
+    {
+     "cite": "log 36",
+     "what": "Maadi mobile shop 1: ties",
+     "happened": true
+    },
+    {
+     "cite": "log 36",
+     "what": "Maadi mobile shop 1: USB 5V charger, 195 EGP in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 50",
+     "what": "Maadi mobile shop 2: USB LED stick",
+     "happened": true
+    },
+    {
+     "cite": "log 50",
+     "what": "Maadi mobile shop 2: flexible USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 50",
+     "what": "Maadi mobile shop 2: ties",
+     "happened": true
+    },
+    {
+     "cite": "log 50",
+     "what": "Maadi mobile shop 2: charger 149 EGP, above Seb's 50-100 range",
+     "happened": true
+    },
+    {
+     "cite": "log 113",
+     "what": "Maadi mobile shop 2: mini tripod with phone holder",
+     "happened": true
+    },
+    {
+     "cite": "log 155",
+     "what": "Maadi electrical shop: white 5V USB LED strip",
+     "happened": true
+    },
+    {
+     "cite": "log 54",
+     "what": "Bab El Louk electronics 1: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 54",
+     "what": "Bab El Louk electronics 1: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 54",
+     "what": "Bab El Louk electronics 1: phone holder",
+     "happened": true
+    },
+    {
+     "cite": "log 54",
+     "what": "Bab El Louk electronics 1: ties",
+     "happened": true
+    },
+    {
+     "cite": "log 81",
+     "what": "RAM: ready USB light / white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 81",
+     "what": "RAM: flexible holder / gooseneck",
+     "happened": true
+    },
+    {
+     "cite": "log 81",
+     "what": "RAM: ties",
+     "happened": true
+    },
+    {
+     "cite": "log 95",
+     "what": "El Gammal Thu: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 93",
+     "what": "El Gammal Thu: USB extension; only bare-lead cable (wrong spec)",
+     "happened": true
+    },
+    {
+     "cite": "log 95",
+     "what": "El Gammal Thu: flexible holder",
+     "happened": true
+    },
+    {
+     "cite": "log 95",
+     "what": "El Gammal Thu: ties",
+     "happened": true
+    },
+    {
+     "cite": "log 101",
+     "what": "El Gammal Thu: 5V strip/module (only 12V)",
+     "happened": true
+    },
+    {
+     "cite": "log 101",
+     "what": "El Gammal Thu: pressure terminals (Wago)",
+     "happened": true
+    },
+    {
+     "cite": "log 137",
+     "what": "El Tamimi Thu: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 137",
+     "what": "El Tamimi Thu: mini tripod",
+     "happened": true
+    },
+    {
+     "cite": "log 137",
+     "what": "El Tamimi Thu: male-female USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 137",
+     "what": "El Tamimi Thu: ties",
+     "happened": true
+    },
+    {
+     "cite": "log 137",
+     "what": "El Tamimi Thu: cheap charger/power bank",
+     "happened": true
+    },
+    {
+     "cite": "log 178",
+     "what": "Bab El Louk mobile 1: USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 178",
+     "what": "Bab El Louk mobile 1: tripod/flexible holder",
+     "happened": true
+    },
+    {
+     "cite": "log 178",
+     "what": "Bab El Louk mobile 1: male-female extension",
+     "happened": true
+    },
+    {
+     "cite": "log 178",
+     "what": "Bab El Louk mobile 1: ties",
+     "happened": true
+    },
+    {
+     "cite": "log 178",
+     "what": "Bab El Louk mobile 1: cheap test charger; 165 EGP charger available",
+     "happened": "unclear"
+    },
+    {
+     "cite": "log 459",
+     "what": "El Gammal Sun: USB extensions (misread ask)",
+     "happened": true
+    },
+    {
+     "cite": "log 459",
+     "what": "El Gammal Sun: white 5V LED strip",
+     "happened": true
+    },
+    {
+     "cite": "log 459",
+     "what": "El Gammal Sun: resistors",
+     "happened": true
+    },
+    {
+     "cite": "log 467",
+     "what": "El Gammal Sun: bare-lead USB cables, 28 at 16 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 467",
+     "what": "El Gammal Sun: white 5mm LEDs",
+     "happened": true
+    },
+    {
+     "cite": "log 467",
+     "what": "El Gammal Sun: 7 EGP white module at 5V; marked 12V",
+     "happened": true
+    },
+    {
+     "cite": "log 482",
+     "what": "RAM Sun: white 5mm LEDs",
+     "happened": true
+    },
+    {
+     "cite": "log 482",
+     "what": "RAM Sun: 100/68-ohm resistors",
+     "happened": true
+    },
+    {
+     "cite": "log 475",
+     "what": "Carrefour: USB light/strip; one 5V strip at 244 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 475",
+     "what": "Carrefour: USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 475",
+     "what": "Carrefour: ties",
+     "happened": true
+    },
+    {
+     "cite": "log 475",
+     "what": "Carrefour: double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 475",
+     "what": "Carrefour: desk phone holder, 44 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 514",
+     "what": "City Centre mall: another USB strip or light",
+     "happened": true
+    },
+    {
+     "cite": "log 518",
+     "what": "El Gammal Sun: buy 4 bare-lead cables",
+     "happened": false
+    },
+    {
+     "cite": "log 525",
+     "what": "Bab El Louk electronics 1: buy 3 round boards",
+     "happened": false
+    },
+    {
+     "cite": "chat#125",
+     "what": "Bab El Louk electronics 1: more boards beyond the last three",
+     "happened": true
+    },
+    {
+     "cite": "log 586",
+     "what": "El Tamimi Sun: 3 phone cradles at 42",
+     "happened": false
+    },
+    {
+     "cite": "log 586",
+     "what": "El Tamimi Sun: double-sided mounting tape",
+     "happened": true
+    },
+    {
+     "cite": "log 614",
+     "what": "FEC Egypt: tape; insulating tape bought 11 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 622",
+     "what": "Maadi mobile shop 2 Sun: USB 5V charger 149 within 200 cap",
+     "happened": false
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 5,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 101",
+     "what": "El Gammal: no technician to cut/solder strip to USB cables",
+     "happened": false
+    },
+    {
+     "cite": "log 561",
+     "what": "Fares in person refuses connecting/assembly; offers only 21-day board design",
+     "happened": false
+    },
+    {
+     "cite": "log 614",
+     "what": "FEC Egypt: no soldering or USB test service",
+     "happened": false
+    },
+    {
+     "cite": "log 628",
+     "what": "Downtown electrician agrees to solder/insulate 3 heads, 225 EGP, done ~16:29 same day",
+     "happened": true
+    },
+    {
+     "cite": "log 645",
+     "what": "El Bostan mobile counter: no joining service",
+     "happened": false
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 628",
+     "what": "Electrician: queue until 16:02 then 27 min for three; job never commissioned",
+     "happened": "unclear"
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K7": {
+   "opportunities": 24,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "RAM hung up",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Most: website referral only",
+     "happened": false
+    },
+    {
+     "cite": "call#3",
+     "what": "Fares: does preparation, bring parts, price after visit; no firm quote",
+     "happened": false
+    },
+    {
+     "cite": "call#4",
+     "what": "FUTURE Electrotech busy",
+     "happened": false
+    },
+    {
+     "cite": "call#5",
+     "what": "Future busy",
+     "happened": false
+    },
+    {
+     "cite": "call#6",
+     "what": "Future busy",
+     "happened": false
+    },
+    {
+     "cite": "call#7",
+     "what": "FUTURE Electrotech busy",
+     "happened": false
+    },
+    {
+     "cite": "call#8",
+     "what": "Fares: bring parts and visit; no price, quantity or time",
+     "happened": false
+    },
+    {
+     "cite": "call#9",
+     "what": "Carrefour busy",
+     "happened": false
+    },
+    {
+     "cite": "call#10",
+     "what": "Future busy",
+     "happened": false
+    },
+    {
+     "cite": "call#11",
+     "what": "FUTURE Electrotech busy",
+     "happened": false
+    },
+    {
+     "cite": "call#12",
+     "what": "RAM hung up",
+     "happened": false
+    },
+    {
+     "cite": "call#13",
+     "what": "Carrefour busy",
+     "happened": false
+    },
+    {
+     "cite": "call#14",
+     "what": "Future busy",
+     "happened": false
+    },
+    {
+     "cite": "call#15",
+     "what": "Most: website referral only",
+     "happened": false
+    },
+    {
+     "cite": "call#16",
+     "what": "Carrefour busy",
+     "happened": false
+    },
+    {
+     "cite": "email#1",
+     "what": "Email to Makers; no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#2",
+     "what": "Email to RAM; no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#3",
+     "what": "Email to Fares sales; no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#4",
+     "what": "Email to El Gammal; no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#5",
+     "what": "Email to Future; no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#6",
+     "what": "Email to Electra; no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#7",
+     "what": "Email to Fares support; no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#8",
+     "what": "Email to Fares support, preparation request; no reply",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 22,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#6",
+     "what": "ride quote Dokki-Bab El Louk",
+     "happened": false
+    },
+    {
+     "cite": "chat#14",
+     "what": "folding stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#17",
+     "what": "USB charger",
+     "happened": false
+    },
+    {
+     "cite": "chat#21",
+     "what": "round LED board",
+     "happened": false
+    },
+    {
+     "cite": "chat#27",
+     "what": "bare-lead USB cable",
+     "happened": false
+    },
+    {
+     "cite": "chat#35",
+     "what": "simple phone stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#44",
+     "what": "folding stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#69",
+     "what": "ride quote to Dokki",
+     "happened": false
+    },
+    {
+     "cite": "chat#73",
+     "what": "ride quote to Hadayek October",
+     "happened": false
+    },
+    {
+     "cite": "chat#88",
+     "what": "ride quote Manial",
+     "happened": false
+    },
+    {
+     "cite": "chat#94",
+     "what": "ride quote Carrefour",
+     "happened": false
+    },
+    {
+     "cite": "chat#111",
+     "what": "USB LED strip",
+     "happened": false
+    },
+    {
+     "cite": "chat#115",
+     "what": "simple stand",
+     "happened": false
+    },
+    {
+     "cite": "chat#120",
+     "what": "Carrefour invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#124",
+     "what": "round LED boards bought",
+     "happened": false
+    },
+    {
+     "cite": "chat#146",
+     "what": "three cradles",
+     "happened": false
+    },
+    {
+     "cite": "chat#156",
+     "what": "lamp mockup cannot_hold",
+     "happened": false
+    },
+    {
+     "cite": "chat#165",
+     "what": "lamp off",
+     "happened": false
+    },
+    {
+     "cite": "chat#168",
+     "what": "lamp on",
+     "happened": false
+    },
+    {
+     "cite": "chat#173",
+     "what": "ride quote delivery",
+     "happened": false
+    },
+    {
+     "cite": "chat#180",
+     "what": "Delivery photo identical to test photo; Seb asks for a real photo at the address (chat#182)",
+     "happened": true
+    },
+    {
+     "cite": "chat#184",
+     "what": "door scene after delivery",
+     "happened": false
+    }
+   ]
+  },
+  "K6": {
+   "opportunities": 6,
+   "happened": 6,
+   "items": [
+    {
+     "cite": "log 23, log 46",
+     "what": "Uber Dokki to Bab El Louk",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 19
+    },
+    {
+     "cite": "log 295, log 318",
+     "what": "Uber Bab El Louk to Dokki",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 20
+    },
+    {
+     "cite": "log 442, log 459",
+     "what": "Uber Manial to Bab El Louk",
+     "happened": true,
+     "quoted_min": 27,
+     "actual_min": 43,
+     "long": true
+    },
+    {
+     "cite": "log 451, log 474",
+     "what": "Uber New Maadi to Carrefour",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 20
+    },
+    {
+     "cite": "log 549, log 607",
+     "what": "Uber Carrefour to New Maadi market street",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 22
+    },
+    {
+     "cite": "log 704, chat#179",
+     "what": "Uber New Maadi to Carrefour for delivery",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 20
+    }
+   ]
+  }
+ },
+ "notes": "K1: Fares phone claim made twice (call#3, call#8), counted once when acted on in person. K2: items grouped per Seb's request lists; Seb's Sunday Carrefour ask had no quantity, so one strip counted as success; charger at 165 left unclear (no price limit given to Abdelrahman). K3: Fares phone answers ('bring parts, we'll see') not counted separately from the in-person refusal. K4: electrician's timing never fell due because Seb never commissioned the job. K5: no heads were ever made. K6: actual = booking/departure message to arrival message. K7: Fares calls gave a conditional 'come in' with no price, coded not usable."
+}

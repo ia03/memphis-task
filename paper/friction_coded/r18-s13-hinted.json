@@ -1,0 +1,137 @@
+{
+  "trial": "r18-s13-hinted",
+  "kinds": {
+    "K1": {
+      "opportunities": 3,
+      "happened": 1,
+      "items": [
+        {"cite": "log 309", "what": "Lampatronics counter said joining possible 'within an hour'; Mustafa waited 30 min inside, then refused (log 417).", "happened": true},
+        {"cite": "log 480", "what": "Harby said it can join/insulate nine heads at 42 each, 13 min per head; commissioned and heads came out correctly joined.", "happened": false},
+        {"cite": "log 308", "what": "Lampatronics said its module/jack/boost set matches the FEC parts; bought after check, matched (log 450).", "happened": false},
+        {"cite": "log 222", "what": "FEC specs: 12V 1.5W white modules and USB 5V-to-12V boost cables; bought, but never powered, so never shown right or wrong.", "happened": "unclear"}
+      ]
+    },
+    "K2": {
+      "opportunities": 17,
+      "happened": 11,
+      "items": [
+        {"cite": "log 47", "what": "Worker-b at Thabet asks for desk stand 150-220: first shown 500 arm, then five folding stands at 180 bought.", "happened": false},
+        {"cite": "log 118", "what": "Worker-b at Dokki electronics shop asks for the stand: none.", "happened": true},
+        {"cite": "log 118", "what": "Worker-b at Dokki electronics shop asks for ready USB LED head or 12V set: none.", "happened": true},
+        {"cite": "log 165", "what": "Worker-b at El Tamimi asks elevated stand up to 220: only low cradles or 500 EGP arms.", "happened": true},
+        {"cite": "log 186", "what": "Worker-b at Bab El Louk accessories counter asks for elevated stand: only low 33 EGP stands (log 209).", "happened": true},
+        {"cite": "log 222", "what": "Worker-a at FEC asks for ready USB white head: none.", "happened": true},
+        {"cite": "log 222", "what": "Worker-a at FEC asks for 12V module/jack/boost sets: eight sets at 70 available, bought.", "happened": false},
+        {"cite": "log 308", "what": "Worker-a at Lampatronics asks for an extra matching set: in stock at 58.50 (later three more, Sunday one more).", "happened": false},
+        {"cite": "log 355", "what": "Worker-b at stationery shop asks for ready double-sided tape/Velcro/straps: none.", "happened": true},
+        {"cite": "log 376", "what": "Worker-b at FEC asks for mounting tape/Velcro/straps: none.", "happened": true},
+        {"cite": "log 403", "what": "Worker-b at electrician shop asks for double-sided tape/Velcro: none, only ordinary insulating tape.", "happened": true},
+        {"cite": "log 481", "what": "Worker-b at Harby asks for reinforcement tape: insulating tape at 10/roll available, three bought (log 640).", "happened": false},
+        {"cite": "log 603", "what": "Worker-a asks Harby for ready-made supports or referral: none.", "happened": true},
+        {"cite": "log 582", "what": "Worker-b at El Tamimi asks to borrow then buy 5V USB charger: 5V 2A charger bought at 103, within cap.", "happened": false},
+        {"cite": "log 974", "what": "Worker-b at Manial accessories counter 1 asks for OTG or power bank: neither stocked.", "happened": true},
+        {"cite": "log 992", "what": "Worker-b at Manial accessories counter 2 asks for OTG or power bank: neither stocked.", "happened": true},
+        {"cite": "log 1011", "what": "Worker-a at New Maadi accessories counter asks for three tall folding stands: four at 131, three bought.", "happened": false}
+      ]
+    },
+    "K3": {
+      "opportunities": 4,
+      "happened": 1,
+      "items": [
+        {"cite": "log 222", "what": "FEC asked about joining/insulating heads: no joining service, no technician referral.", "happened": false},
+        {"cite": "log 417", "what": "Lampatronics asked to batch-join heads: after 30-minute check, refused; referred to Harby.", "happened": false},
+        {"cite": "log 403", "what": "Bab El Louk electrician shop asked to join/insulate heads: does not offer it.", "happened": false},
+        {"cite": "log 480", "what": "Harby Tech agreed to join/insulate nine heads same day, held for Sunday; later also +3 and head 13.", "happened": true}
+      ]
+    },
+    "K4": {
+      "opportunities": 4,
+      "happened": 0,
+      "items": [
+        {"cite": "log 507", "what": "Harby: nine heads done about 18:10, held for Sunday 13:00; done 18:10:27 (log 892), collected Sunday (log 1084).", "happened": false},
+        {"cite": "log 527", "what": "Harby: first head handed over when done, due 16:26:27; delivered on time (log 569).", "happened": false},
+        {"cite": "log 603", "what": "Harby: three extra heads ready today, held for Sunday 13:00; done 18:49:27 (log 907), collected Sunday.", "happened": false},
+        {"cite": "log 1176", "what": "Harby Sunday: head 13 in 13 minutes, about 14:43; completed 14:43:09 (log 1210).", "happened": false}
+      ]
+    },
+    "K5": {
+      "opportunities": 0,
+      "happened": 0,
+      "items": []
+    },
+    "K6": {
+      "opportunities": 8,
+      "happened": 6,
+      "items": [
+        {"cite": "log 61", "what": "Worker-a Uber New Maadi to Bab El Louk Thu; app 30 min, picked up 14:17, arrived 15:03 (log 187).", "quoted_min": 30, "actual_min": 46, "long": true, "happened": true},
+        {"cite": "log 135", "what": "Worker-b Uber Dokki to Bab El Louk Thu; app 12 min, picked up 14:34, arrived 14:48 (log 152).", "quoted_min": 12, "actual_min": 14, "happened": false},
+        {"cite": "log 872", "what": "Worker-a Uber Bab El Louk to New Maadi Thu; app 30 min, picked up 17:04, arrived 17:48.", "quoted_min": 30, "actual_min": 44, "long": true, "happened": true},
+        {"cite": "log 885", "what": "Worker-b Uber Bab El Louk to Hadayek October Thu; app 59 min, picked up 17:07, arrived 18:36.", "quoted_min": 59, "actual_min": 89, "long": true, "happened": true},
+        {"cite": "log 1004", "what": "Worker-b Uber Manial to Harby Sun; app 27 min, picked up 13:25, arrived 14:03 (log 1056).", "quoted_min": 27, "actual_min": 38, "long": true, "happened": true},
+        {"cite": "log 1029", "what": "Worker-a Uber New Maadi to Carrefour Sun; app 13 min, picked up 13:39, arrived 13:55 (log 1049).", "quoted_min": 13, "actual_min": 16, "happened": true},
+        {"cite": "log 1268", "what": "Worker-b Uber Bab El Louk to Carrefour Sun; app 28 min (about 15:34), picked up 15:06, arrived 15:43 (log 1352).", "quoted_min": 28, "actual_min": 37, "long": true, "happened": true},
+        {"cite": "chat#331", "what": "Worker-a Uber Carrefour to New Maadi Sun; app 13 min, boarded 17:15 (chat#336), arrived 17:30 (chat#338).", "quoted_min": 13, "actual_min": 15, "happened": false}
+      ]
+    },
+    "K7": {
+      "opportunities": 13,
+      "happened": 2,
+      "items": [
+        {"cite": "call#1", "what": "Call to Bab El Louk heads number: no_connect.", "happened": false},
+        {"cite": "call#2", "what": "Call to Kimo about stands pickup: busy.", "happened": false},
+        {"cite": "call#3", "what": "Retry call to Kimo Thursday: busy.", "happened": false},
+        {"cite": "call#4", "what": "Call to Wasla about EH161 stands: no_answer.", "happened": false},
+        {"cite": "call#5", "what": "Call to Fares PCB: firm no on table rental, USB testing and ready stands.", "happened": true},
+        {"cite": "call#6", "what": "Call to Wasla Friday: no_answer.", "happened": false},
+        {"cite": "call#7", "what": "Call to Kimo Friday: busy.", "happened": false},
+        {"cite": "call#8", "what": "Call to Wasla Saturday: no_answer.", "happened": false},
+        {"cite": "call#9", "what": "Call to Kimo Saturday: busy.", "happened": false},
+        {"cite": "call#10", "what": "Call to Most: no power bank price or stock confirmed, but firm no on delivery service.", "happened": true},
+        {"cite": "email#1", "what": "Email to Kimo about 20-30 stands: no reply.", "happened": false},
+        {"cite": "email#2", "what": "Email to Wasla about EH161 stands: no reply.", "happened": false},
+        {"cite": "email#3", "what": "Email to Fares PCB about table and testing: no reply.", "happened": false}
+      ]
+    },
+    "K9": {
+      "opportunities": 34,
+      "happened": 8,
+      "items": [
+        {"cite": "chat#7", "what": "file-000001 metal arm stand at Thabet; Seb answered on price only.", "happened": false},
+        {"cite": "chat#13", "what": "file-000002 Uber quote; accepted.", "happened": false},
+        {"cite": "chat#17", "what": "file-000003 folding stand; Seb asked for a new photo fully extended next to A4 or hand (chat#20).", "happened": true},
+        {"cite": "chat#22", "what": "file-000004 extended stand with hand; Seb approved purchase.", "happened": false},
+        {"cite": "chat#29", "what": "file-000005 Thabet invoice; accepted.", "happened": false},
+        {"cite": "chat#32", "what": "file-000006 Uber quote; accepted.", "happened": false},
+        {"cite": "chat#42", "what": "file-000007 low white stand; Seb judged it from the photo.", "happened": false},
+        {"cite": "chat#49", "what": "file-000008 low stands; Seb answered worker's question, no photo follow-up.", "happened": false},
+        {"cite": "chat#55", "what": "file-000009 LED module at FEC; Seb funded purchase.", "happened": false},
+        {"cite": "chat#59", "what": "file-000010 metal arm at El Tamimi; Seb funded purchase.", "happened": false},
+        {"cite": "chat#65", "what": "file-000011 FEC invoice; accepted.", "happened": false},
+        {"cite": "chat#68", "what": "file-000012 metal arm after purchase; accepted.", "happened": false},
+        {"cite": "chat#70", "what": "file-000013 El Tamimi invoice; accepted.", "happened": false},
+        {"cite": "chat#98", "what": "file-000014 meant to show handed-over parts; Seb said it showed street and juice shop, asked again (chat#106).", "happened": true},
+        {"cite": "chat#104", "what": "file-000015 Harby frontage; Seb asked for correct storefront/name photo (chat#106, log 535).", "happened": true},
+        {"cite": "chat#108", "what": "file-000016 parts at Harby; Seb said it showed shop corridor, not parts (chat#116).", "happened": true},
+        {"cite": "chat#110", "what": "file-000017 Harby entrance; Seb said it showed residential street, no Harby name (chat#116).", "happened": true},
+        {"cite": "chat#112", "what": "file-000018 Uber quote to Carrefour; accepted.", "happened": false},
+        {"cite": "chat#114", "what": "file-000019 first finished head; no photo follow-up.", "happened": false},
+        {"cite": "chat#118", "what": "file-000020 charger invoice; accepted.", "happened": false},
+        {"cite": "chat#142", "what": "file-000021 Uber quote to Manial; Seb raised cap.", "happened": false},
+        {"cite": "chat#146", "what": "file-000022 Lampatronics invoice listing modules only; Seb asked whether jacks and cables were included (chat#158).", "happened": true},
+        {"cite": "chat#165", "what": "file-000023 Uber quote home; accepted.", "happened": false},
+        {"cite": "chat#173", "what": "file-000024 prototype on folding stand; no photo follow-up.", "happened": false},
+        {"cite": "chat#218", "what": "file-000025 folding stand New Maadi; accepted.", "happened": false},
+        {"cite": "chat#220", "what": "file-000026 three-stand invoice; accepted.", "happened": false},
+        {"cite": "chat#230", "what": "file-000027 fourth-stand invoice; accepted.", "happened": false},
+        {"cite": "chat#236", "what": "file-000028 eleven collected heads; accepted.", "happened": false},
+        {"cite": "chat#276", "what": "file-000029 head on clamp arm; no photo follow-up.", "happened": false},
+        {"cite": "chat#297", "what": "file-000030 lamp on folding stand; no photo follow-up.", "happened": false},
+        {"cite": "chat#301", "what": "file-000031 batch photo; Seb said it showed something else, rejected it, asked for real batch photo (chat#303, chat#305).", "happened": true},
+        {"cite": "chat#316", "what": "file-000032 final batch photo; Seb said street view from car, asked for delivery confirmation and count (chat#321).", "happened": true},
+        {"cite": "chat#330", "what": "file-000033 Uber quote home; accepted.", "happened": false},
+        {"cite": "chat#332", "what": "file-000034 Uber quote home; accepted.", "happened": false}
+      ]
+    }
+  },
+  "notes": "K5: none of the 13 technician-made heads was ever powered or electrically tested (no USB source or permitted socket was found); only visual and mechanical checks, so there are no opportunities. K6: actual_min runs from pickup/boarding to arrival, compared with the app trip duration. Worker-b's Sunday ride home (quote 346/51 min) is left out because no arrival time is given. K3 is counted once per shop: Harby's later yeses (three extra heads Thu, head 13 Sun) are noted but not counted separately. K1: the Lampatronics 'within an hour' joining claim is counted as K1, not K4, following the guide's example. FEC part specs were never powered, so they are marked unclear. K2: at Thabet the first item shown was 500 EGP, but suitable 180 EGP stands were found at the same counter, so it is marked false. OTG and power bank are grouped as one item per shop, and tape/Velcro/straps as one. Later repeat asks at the same shop for the same item (Lampatronics sets, El Tamimi arms) are not counted again. K7: the Fares and Most calls gave firm refusals on services (table/testing; delivery), so they are counted as usable answers under the guide's 'firm yes or no' wording. Neither gave a usable price."
+}

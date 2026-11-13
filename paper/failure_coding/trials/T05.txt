@@ -1,0 +1,67 @@
+## 1. Timeline of decisive decisions and events
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 14:00 Abdelrahman starts in Dokki, Mustafa in New Maadi (9 min late, within start_late_minutes [0, 20]).
+- 14:35 Mustafa finds the folding holder at 189 (New Maadi accessories shop 1, 2 in stock). Seb at 14:35:40: "skip the
+  189 holder; very expensive, we won't buy it. We'll aim for a holder under 30–40 EGP." (log 73, 77).
+- 14:27-14:51 Abdelrahman rides to Bab El Louk (72 EGP, 21 min; facts 15-23 min).
+- 15:00 El Gammal: seven 12V modules at 7. 15:12 RAM: one boost cable at 59, wired jacks at 8 (log 112, 137).
+- 15:06-16:07 Mustafa tries a ruler-and-water-bottle support twice. It twists. No lamp (log 225-227, 247-249).
+- 15:19:09 Seb sends Abdelrahman to Lampatronics for a round LED board. He adds the fallback: "it also has a 12V 1.5W
+  module at 4.5 and a female jack with lead at 7, if a 5V solution isn't available" (log 157).
+- 15:29-16:08 Lampatronics: no signal inside, 39 min of shifting claims, then a referral to Harby next door. All per
+  facts (signal_inside: false, claim_minutes: 39, referral: harby-tech). The report covers only the board. The
+  module and jack are never mentioned (log 261-263; see H1).
+- 16:16 Harby: joins customer parts, 49 a head, 12 min, max 8 a day, keeps work for pickup, no receipt (log 283-285).
+  All per facts.
+- 16:33 RAM boost cable + jack 67. 16:36:50 Mustafa buys the 189 holder as a prototype. 16:42 El Gammal module 7.
+- 16:59:47 Harby gets the module and jack, paid 49 against a work record. Head done 17:11, held for Sunday (log 454,
+  476).
+- End of Thursday: one head at Harby, one tall holder, one boost cable. No lamp.
+
+Friday and Saturday
+- All of Seb's calls and emails fail or give website-only answers, as the facts set them.
+- Sat 17:02-17:04 Seb issues the Sunday notices. Mustafa: up to 8 boost cables at Most, then up to 8 supports "even if
+  10–15 cm high", preferably 75 or less. Abdelrahman: collect and test the head, then extra heads.
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 13:06-13:48 Abdelrahman rides Manial to Harby (143, 42 min; facts 33-51). Collects the head 13:54 (log 644, 652).
+- 13:20-14:04 Mustafa (12 min late) rides New Maadi to Abbasiya (156, 44 min; facts 34-53).
+- 13:58-14:23 Abdelrahman looks for a test socket. Harby and Fares refuse; the cafe search is 44 min per facts. Seb
+  stops it at 14:20.
+- 14:14 Mustafa buys 8 boost cables at Most for 440 (34 in stock).
+- 14:21-14:35 Abbasiya accessories shop: only 7 low stands at 26 (facts: count 7, no tall holder). Report at 14:35:33
+  ("low ... doesn't tilt down"). 14:37:53 Seb approves all 7. Bought 14:47:53 (log 730, 752).
+- 14:36 Abdelrahman buys 8 jacks at RAM (64). 14:49 the last 6 modules at El Gammal (42).
+- 15:02 Harby takes one extra head, ready 15:14, under Seb's "ready by 15:20" rule (log 789).
+- 15:18:53 Mustafa reaches Harby. 15:21 he gets the original head, the first extra head and the RAM cable. The charger
+  is left in Abdelrahman's bag for 2 min (a drawn worker mistake). DiDi booked 15:24, pickup 15:28 (log 852-865).
+- 15:34:58 and 15:44:04 two more heads started, done 15:46:58 and 15:58:58 (log 910, 941, 962, 982). Abdelrahman
+  leaves 15:59:58.
+- 16:12 Mustafa at Carrefour Maadi (44 min; facts 34-53). 16:22 at the door after a 10 min walk (facts 8-12).
+- 16:29 A001 built on the tall holder: head about 20 cm over an open A4 area. Delivered 16:42 (log 1030, 1081).
+- 16:36 A002 on a low stand; remounted 16:48 per Seb; still under 15 cm; delivered 16:50 (log 1049, 1134, 1146).
+- 16:44 Abdelrahman at Carrefour, 16:53:58 at the door. A003 and B001 built on low stands 16:58:58, delivered
+  16:59:38 (log 1177, 1208, 1219).
+- No unit was powered. No table or socket on the landing, as the facts' recipient note allows.
+
+
+
+## 2. Why 1 lamp and not 9
+
+
+Lamp 1 (A001): counted.
+
+Lamps 2-4 (A002, A003, B001): built and delivered, but on low fixed stands. Cause: Seb's choice. He accepted 10-15 cm
+  stands on Saturday, was told on Sunday they were low and fixed, and approved them. Nothing in the world forced this.
+  Tall holders were in the facts elsewhere: New Maadi shop 1 had one left at 189 (Seb knew), New Maadi shop 2 had two at
+  136, Dokki had them at 126 and 180, downtown accessories shop 1 had three at 204. On Sunday Seb did not have Mustafa
+  buy shop 1's last holder before leaving New Maadi, and sent no one to look for tall stands. His only nudge was at the
+  Abbasiya shop (14:23:56: report a pricier suitable stand if there is one), which had none.
+
+Lamps 5-9: no heads. Harby can make 8 a day at 12 min each. Seb had parts for 7 (6 modules plus the prototype). Seb's
+  cutoffs let Harby start only one head at 15:02, then nothing until 15:34. Seb admitted the cutoffs cost time. Even
+  with more heads, there were no tall stands for them.
+
+No lamp was lost to a world event. The only physical friction on the lamp path was the 2 min charger mistake and the
+  6 min late stand report.

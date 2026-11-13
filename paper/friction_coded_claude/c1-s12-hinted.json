@@ -1,0 +1,478 @@
+{
+ "trial": "c1-s12-hinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 2,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 116",
+     "what": "Lampatronics staff suggest assembly within an hour; Abdelrahman keeps waiting and buys parts around it; final refusal at log 166",
+     "happened": true
+    },
+    {
+     "cite": "log 187",
+     "what": "Harby Tech says it can solder/insulate two-module heads, 11 per day; parts deposited; all 14 made correctly (log 356, 430)",
+     "happened": false
+    },
+    {
+     "cite": "log 116",
+     "what": "Lampatronics boost cable marked OUTPUT DC-12V, bought 14; never powered during the run",
+     "happened": "unclear"
+    },
+    {
+     "cite": "log 268",
+     "what": "Shop sells charger as USB 5V 2A; bought but never used to power anything",
+     "happened": "unclear"
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 23,
+   "happened": 18,
+   "items": [
+    {
+     "cite": "log 56",
+     "what": "Electronics shop 1: white LED module, none",
+     "happened": true
+    },
+    {
+     "cite": "log 56",
+     "what": "Electronics shop 1: USB 5-12V boost cable, none",
+     "happened": true
+    },
+    {
+     "cite": "log 62",
+     "what": "Electronics shop 2: LED module, none",
+     "happened": true
+    },
+    {
+     "cite": "log 62",
+     "what": "Electronics shop 2: boost cable, none",
+     "happened": true
+    },
+    {
+     "cite": "log 81",
+     "what": "Electronics shop 3: 12V LED module, only 3 of ~15-30 needed",
+     "happened": true
+    },
+    {
+     "cite": "log 81",
+     "what": "Electronics shop 3: boost cable, none",
+     "happened": true
+    },
+    {
+     "cite": "log 136",
+     "what": "Lampatronics: matching LED modules, 25 in stock, all bought",
+     "happened": false
+    },
+    {
+     "cite": "log 136",
+     "what": "Lampatronics: boost cables, 28 in stock at 50 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 136",
+     "what": "Lampatronics: female lead jacks, 18 in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 116",
+     "what": "Lampatronics: white USB 5V strip, six available, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 227",
+     "what": "Lampatronics: USB wall charger, none",
+     "happened": true
+    },
+    {
+     "cite": "log 252",
+     "what": "Mobile accessories 1: USB charger, none",
+     "happened": true
+    },
+    {
+     "cite": "log 268",
+     "what": "Mobile accessories 2: charger 187 EGP, above the 120 EGP cap",
+     "happened": true
+    },
+    {
+     "cite": "log 85",
+     "what": "Mostafa, mobile accessories 1: tall freestanding stand, only low cradle",
+     "happened": true
+    },
+    {
+     "cite": "log 107",
+     "what": "Mobile accessories 2: tall heavy-base stand; only plastic folding holder, five of 15",
+     "happened": true
+    },
+    {
+     "cite": "log 146",
+     "what": "El Tamimi: tall heavy-base stand, none; only folding holder, three",
+     "happened": true
+    },
+    {
+     "cite": "log 388",
+     "what": "New Maadi accessories 1 (Sunday): freestanding holders, none",
+     "happened": true
+    },
+    {
+     "cite": "log 405",
+     "what": "New Maadi accessories 2: inquiry cut off at 13:30 with no stock result",
+     "happened": "unclear"
+    },
+    {
+     "cite": "log 445",
+     "what": "Harby: zip ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 445",
+     "what": "Harby: strong double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 445",
+     "what": "Harby: insulating tape, 50 rolls at 10 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 470",
+     "what": "El Tamimi Sunday: folding holders, only three versus up to ten wanted",
+     "happened": true
+    },
+    {
+     "cite": "log 470",
+     "what": "El Tamimi Sunday: zip ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 470",
+     "what": "El Tamimi Sunday: power bank, none",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 5,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 56",
+     "what": "Electronics shop 1: no joining service",
+     "happened": false
+    },
+    {
+     "cite": "log 62",
+     "what": "Electronics shop 2: no joining service",
+     "happened": false
+    },
+    {
+     "cite": "log 81",
+     "what": "Electronics shop 3: no joining service",
+     "happened": false
+    },
+    {
+     "cite": "log 166",
+     "what": "Lampatronics: after 36 minutes, refuses to assemble heads",
+     "happened": false
+    },
+    {
+     "cite": "log 187",
+     "what": "Harby Tech agrees to solder 14 heads, 11 today and rest by Sunday",
+     "happened": true
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 1,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 187",
+     "what": "Harby: 11 heads today, rest later, held for Sunday 13:00 pickup; all done Friday 11:33, collected 13:56",
+     "happened": false
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 782",
+     "what": "Fourteen Harby heads delivered without any powered test; none powered",
+     "happened": "unclear"
+    }
+   ]
+  },
+  "K6": {
+   "opportunities": 9,
+   "happened": 9,
+   "items": [
+    {
+     "cite": "log 30-40",
+     "what": "Abdelrahman DiDi Dokki to Bab El Louk Thursday",
+     "quoted_min": 12,
+     "actual_min": 20,
+     "happened": true
+    },
+    {
+     "cite": "log 30-66",
+     "what": "Mostafa Uber New Maadi to Bab El Louk Thursday",
+     "quoted_min": 30,
+     "actual_min": 49,
+     "long": true,
+     "happened": true
+    },
+    {
+     "cite": "log 287, 345",
+     "what": "Abdelrahman Uber home to Hadayek October Thursday",
+     "quoted_min": 59,
+     "actual_min": 92,
+     "long": true,
+     "happened": true
+    },
+    {
+     "cite": "log 287, 332",
+     "what": "Mostafa Uber home to New Maadi Thursday",
+     "quoted_min": 30,
+     "actual_min": 44,
+     "long": true,
+     "happened": true
+    },
+    {
+     "cite": "log 370, 418",
+     "what": "Abdelrahman Uber Manial to Bab El Louk Sunday",
+     "quoted_min": 27,
+     "actual_min": 39,
+     "long": true,
+     "happened": true
+    },
+    {
+     "cite": "log 406, 464",
+     "what": "Mostafa Uber New Maadi to Bab El Louk Sunday",
+     "quoted_min": 30,
+     "actual_min": 47,
+     "long": true,
+     "happened": true
+    },
+    {
+     "cite": "log 562, 686",
+     "what": "Shared Uber Bab El Louk to [street removed] corner",
+     "quoted_min": 28,
+     "actual_min": 44,
+     "long": true,
+     "happened": true
+    },
+    {
+     "cite": "log 805; chat#214",
+     "what": "Mostafa Uber delivery area to New Maadi Sunday",
+     "quoted_min": 13,
+     "actual_min": 22,
+     "happened": true
+    },
+    {
+     "cite": "log 796-797; chat#216",
+     "what": "Abdelrahman unannounced Uber to Manial Sunday",
+     "quoted_min": 26,
+     "actual_min": 42,
+     "long": true,
+     "happened": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K9": {
+   "opportunities": 36,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#25",
+     "what": "LED module photo; Seb approves purchase",
+     "happened": false
+    },
+    {
+     "cite": "chat#29",
+     "what": "Low plastic cradle photo; no follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#34",
+     "what": "Folding holder photo; Seb asks extended height in cm (chat#36)",
+     "happened": true
+    },
+    {
+     "cite": "chat#37",
+     "what": "Folding holder extended photo; no follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#39",
+     "what": "Boost cable photo; follow-up is about stock counts, not photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#42",
+     "what": "USB strip photo; purchase authorized",
+     "happened": false
+    },
+    {
+     "cite": "chat#50",
+     "what": "Lampatronics strip invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#52",
+     "what": "El Tamimi folding holder photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#71",
+     "what": "Parts left at Harby photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#73",
+     "what": "Harby frontage photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#80",
+     "what": "Five holders invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#91",
+     "what": "Charger photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#94",
+     "what": "Ride quote home, Abdelrahman Thursday",
+     "happened": false
+    },
+    {
+     "cite": "chat#98",
+     "what": "Ride quote home, Mostafa Thursday",
+     "happened": false
+    },
+    {
+     "cite": "chat#111",
+     "what": "Ride quote Manial Sunday",
+     "happened": false
+    },
+    {
+     "cite": "chat#118",
+     "what": "Ride quote New Maadi Sunday",
+     "happened": false
+    },
+    {
+     "cite": "chat#121",
+     "what": "Fourteen collected heads photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#136",
+     "what": "El Tamimi three-holder invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#139",
+     "what": "Small cradle open photo; Seb's ask in chat#138 crossed it",
+     "happened": false
+    },
+    {
+     "cite": "chat#151",
+     "what": "Six small cradles invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#157",
+     "what": "Shared ride quote",
+     "happened": false
+    },
+    {
+     "cite": "chat#163",
+     "what": "B01 lamp photo; Seb approves",
+     "happened": false
+    },
+    {
+     "cite": "chat#170",
+     "what": "A01 lamp photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#173",
+     "what": "B02 lamp photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#176",
+     "what": "A02 lamp photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#178",
+     "what": "B03 lamp photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#180",
+     "what": "A03 lamp photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#182",
+     "what": "S01 low cradle lamp photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#191",
+     "what": "Outside-door mounting scene",
+     "happened": false
+    },
+    {
+     "cite": "chat#193",
+     "what": "A04 lamp photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#195",
+     "what": "A05 lamp photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#197",
+     "what": "Group photo of fourteen units",
+     "happened": false
+    },
+    {
+     "cite": "chat#200",
+     "what": "Delivery photo",
+     "happened": false
+    },
+    {
+     "cite": "chat#204",
+     "what": "Ride quote to Hadayek October Sunday",
+     "happened": false
+    },
+    {
+     "cite": "chat#208",
+     "what": "Ride quote to New Maadi Sunday",
+     "happened": false
+    },
+    {
+     "cite": "chat#215",
+     "what": "Ride quote Manial to Hadayek October; run ends",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "comms.md is empty, so K7 has no opportunities. No technician head was ever powered, so K5 has none. K6 actual times are door-to-door from booking as resolved in the log; the last two Sunday rides end after the log, and their arrival is confirmed by chat#214/216. Lampatronics' within-an-hour line counted under K1, not K4. Repeat stand inquiries at the same shop under new names (log 170, 257) were not counted again under K2."
+}

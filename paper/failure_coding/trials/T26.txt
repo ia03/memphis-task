@@ -1,0 +1,47 @@
+## 1. Timeline (Cairo time)
+
+### Thursday 1 Oct
+- 13:28-13:40: Seb briefs both workers on a gooseneck-holder + USB-light design. It sends worker-b (Abdelrahman, in Dokki) and worker-a (Mostafa, in New Maadi) to "Attaba / Abdel Aziz". The simulator maps that to downtown_bab_el_louk. Seb gives Mostafa the address.
+- 14:00: Abdelrahman starts on time and rides Dokki→downtown (72 EGP, 21 min; facts 50-88 and 15-24).
+- 14:12: Mostafa starts 12 min late (facts 0-20) and rides to downtown (178 EGP, 49 min; facts 126-219 and 38-59). Drawn worker mistake (b, misread): he asks whether he should wire a USB cable to an LED. Seb forbids wiring at 14:16. Cost: about 4 min.
+- 14:21-14:34: Drawn worker mistake (b, misread): he takes a 26 EGP low cradle for the holder and asks. Seb corrects him. He then reports the metal tablet arm, 548 EGP, 3 in stock. Seb says it is too dear ("548 غالي جداً") and sets a 120 EGP cap.
+- 14:40-15:10: El Tamimi has 4 strips at 92 and short stands at 33. El Gammal has 2 strips at 152. RAM (hangs up on Seb's AI call; facts ai_call hangs_up) and electronics counters 1 and 2 have only parts that need wiring. All match facts.
+- 14:54: Seb tells both "about an hour is left in the shift". In fact more than two hours were left.
+- 15:14: Seb authorises all 6 strips (spend-000004). Abdelrahman buys 4 at El Tamimi (15:24, 368 EGP, one tested lit) and 2 at El Gammal (15:34, 304 EGP, one tested lit). The ledger rejects the 304 report as "already settled".
+- 15:31: Seb changes its mind and orders the three 548 EGP arms. Bought at 15:44 for 1,644 EGP (no discount, no hard cases; facts have none).
+- 15:41-15:45: Mostafa finds 1 strip at counter 3 (101 EGP) and buys it untested (no charger there).
+- 15:58: Abdelrahman buys 4 rulers (10 EGP each, stationery-1). At 15:58:54 Seb releases both, saying "the shift is over". About an hour of shift was left.
+- 16:02-17:37: Both ride home (191 and 356 EGP; inside the ranges). At 17:00 a drawn worker mistake (b, misread) leads to a question about the count of extra structures. Seb answers. No cost.
+
+### Saturday 3 Oct
+- 11:00 and 14:00: Seb calls the arm shop and two strip shops. All are busy (facts ai_call busy).
+
+### Sunday 4 Oct
+- 12:55: Seb's plan. Abdelrahman takes everything straight to the address. Mostafa buys tape, zip ties and double-sided tape, and "if you pass mobile shops in Maadi, ask about a long-arm holder".
+- 13:01: Seb gives the Carrefour holder search to Abdelrahman and tells Mostafa to bring the supplies and meet him.
+- 13:02-13:46: Abdelrahman rides Manial→Carrefour (162 EGP, 44 min; facts 109-190 and 33-51). Drawn worker mistake at 13:42 (b, misread: wait 15 min for Mostafa). Seb corrects it within seconds. No cost.
+- 13:09-13:21: Mostafa starts 9 min late, walks to a New Maadi hardware counter and buys 2 tape rolls (10 each; facts). No zip ties or double-sided tape (none in facts). He visits no mobile shop.
+- 13:23-13:55: Mostafa rides to Carrefour (78 EGP, 22 min; facts 55-95 and 16-26) and walks 10 min to the door (facts 8-12). The recipient takes lamps at the door only (facts).
+- 13:46-14:10: Abdelrahman searches Carrefour twice (15 + 10 min). There are no long-arm holders, no zip ties and no Velcro. Only low cradles at 61 EGP (facts: phone-stand-simple-30, height_ok false).
+- 14:02-14:29: The cafe search. Facts need 68 min. Drawn worker mistake at 14:18 (a, misread) sends Mostafa back to the corner. Seb then caps the search at 5 min. Nothing is found.
+- 14:30-14:43: Mostafa goes back to Carrefour for a power bank. There is none (not in facts).
+- 14:34-14:58: Abdelrahman builds B1, B2 and B3 on the landing, 8 min each, with insulating tape. B1 and B2 use the two strips tested on Thursday. B3 uses an untested El Tamimi strip.
+- 14:58-15:12: Two delivery-area grocers refuse outlet use (no such service in facts).
+- 15:15-15:20: The recipient refuses an outlet test. Three lamps are handed over at 15:20.
+- 15:20: Seb sends both to "Road 9" (maadi_degla) for up to 4 more holders. Joint ride 112 EGP, 30 min (facts 80-139 and 24-37).
+- 15:54-16:00: Drawn worker mistake (b, wrong turn): 6 min lost.
+- 16:00-16:05: The only maadi_degla mobile shop has no holders (facts: chargers and strips only). Search stopped at Seb's 16:05 cutoff.
+- 16:05-17:00: Seb releases both and funds the rides home. Mostafa is home at 16:38 (104 EGP). Abdelrahman (outside the saved log) makes an unannounced trip downtown to the Thursday arm shop, pays 190 EGP and arrives at 17:00, too late to enter (ledger in-000122).
+
+## 2. Cause of each lamp short of 9 (6 short)
+
+- All 6 are short because there were no more structures. Light sources were not the limit: 4 good strips came back unused.
+- The 3 arms Seb bought were the whole stock of the one downtown shop that had them. That is correct per facts.
+- Where more structures existed (from facts.json):
+  - Thabet, Dokki (worker-b's Thursday start district): 2 metal arms at 500 and 5 tall folding stands at 180.
+  - New Maadi mobile shop 1 (worker-a's home district): 2 tall folding stands at 121.
+  - Hadayek October mobile shop 1 (worker-b's home district): 2 metal arms at 493 and 1 folding stand.
+  - Abbasiya mobile shops: 4 metal arms and 6 folding stands.
+  - Kimo Store (Mokattam, web only): 8 mic-stand holders.
+- Seb never sent anyone to those districts. On Sunday it chose Carrefour and Road 9, which have no tall holders in facts. It also lost the last Thursday hour by its time-zone mistake. These are the agent's decisions.
+- The only place the simulator might have cost something is New Maadi on Sunday (finding 1).

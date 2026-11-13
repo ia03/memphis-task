@@ -1,0 +1,32 @@
+## 1. Timeline (Cairo time, from log.md)
+
+Thursday 1 Oct
+- 13:32: Seb's first design is a USB "finger" light on a flexible USB gooseneck with a heavy base. None of these items exist in facts.json, and every shop reports them absent.
+- 14:27–14:32: Mostafa (New Maadi accessory counter 2) reports one folding holder at 181 and six low cradles at 37, with a photo of the folding holder. Seb asks only about the 37 cradle. At 14:36 Mostafa answers: "light, small and low, not a heavy base."
+- 14:48–14:57: Abdelrahman finds Lampatronics: six white 1 m USB strips at 90 (facts: 90, count 6).
+- 15:09–15:14: El Tamimi: three folding holders at 175 and low cradles at 50 (facts match).
+- 15:21–15:27: Bab El Louk accessory counter 1: two strips at 90 and ten cradles at 35 (facts match).
+- 15:33–15:38: Bab El Louk accessory counter 2: five folding holders at 138 and cradles at 30 (facts match).
+- 15:35: Seb decides the light source will be the strip and issues spend-000003 (720 EGP for 8 strips). It sends Mostafa to Carrefour to look for monitor risers, bookends and rulers.
+- 15:38: Seb to Abdelrahman: "تمام، ماشي كده. ماتشتريش الحامل." This is the decisive design choice.
+- 15:44–15:57: No test socket at the shop and no replacement guarantee. Seb waives the test. Abdelrahman buys 2 strips for 180.
+- 16:05–16:14: Abdelrahman buys 6 strips for 540 at Lampatronics. The ledger rejects the report because the notice was already settled; this is code behaviour.
+- 16:10–16:44: Carrefour has nothing taller than the low cradle (facts: charger, cradle, water, clips, rubber bands). Worker mistake 1 (Mostafa read the height as a width, about 10 minutes).
+- 16:44: Seb plans a cut PVC conduit frame for Sunday. Both workers go home. Noon order requested at 17:05, after the shift ended; it was not placed and was cancelled.
+
+Sunday 4 Oct
+- 13:00–13:30: The New Maadi plumbing counter has 20 mm conduit only. It has no fittings and no cutting service (facts match). Seb drops the pipe design.
+- 13:48–14:27: Both workers search Carrefour and find only the low cradle and binder clips. No tape and no taller support (facts match). Worker mistake 2 (Mostafa thought the "board" meant a whiteboard, 5 minutes).
+- 14:27: Seb's "final decision because of time": eight Carrefour cradles (512) and two boxes of clips (48), plus a short search for anything taller.
+- 14:41–14:57: Purchases done. Worker mistake 3 (Abdelrahman looked for a neck add-on, 6 minutes). Neither search finds a taller support.
+- 15:06–15:57: Assembly at a public food-court table. 15:14, A1: Mostafa reports "the light is low, close to the table." 15:20: "the holder itself is short." Worker mistake 4 (Abdelrahman removed the clips, about 8 minutes). Worker mistake 5 (Abdelrahman left to find a socket without telling Seb, 15:32–15:45). The eighth unit was finished at 15:57.
+- 15:59–16:18: Walk to the door. The 11-minute walk is within the facts' 8–12. Worker mistake 6 (Abdelrahman at the wrong entrance, 6 minutes). Worker mistake 7 (Abdelrahman misunderstood the testing order, 2 minutes).
+- 16:19–16:22: The recipient answers. There is no socket at the door. Worker mistake 8 (Mostafa held back his units, 3 minutes). All eight were handed over at 16:22:04.
+- 16:24–16:25: The 540 EGP Lampatronics payment is recorded on spend-000014.
+
+
+## 2. Cause of each missing lamp
+
+- All 9: each delivered unit uses phone-stand-simple-30, which facts.json marks `height_ok: false` ("Height under 15 cm, so it cannot light a page from above"). The cause is Seb's choice of structure.
+- The ninth lamp: there was no ninth strip. Only 8 white USB strips were stocked in shops (Lampatronics 6, Bab El Louk counter 2). Noon needed 3 days, and Seb asked for that order only after the shift ended. Also Seb's choice.
+- No lamp was lost to a worker mistake, to travel, or to the deadline.

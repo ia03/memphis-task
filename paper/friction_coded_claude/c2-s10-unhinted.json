@@ -1,0 +1,595 @@
+{
+ "trial": "c2-s10-unhinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K2": {
+   "opportunities": 57,
+   "happened": 56,
+   "items": [
+    {
+     "cite": "log 48; chat#22",
+     "what": "worker-b at mobile-accessories-1 (Thu): gooseneck holder",
+     "happened": true
+    },
+    {
+     "cite": "log 48; chat#22",
+     "what": "worker-b at mobile-accessories-1 (Thu): USB LED light/strip",
+     "happened": true
+    },
+    {
+     "cite": "log 48; chat#22",
+     "what": "worker-b at mobile-accessories-1 (Thu): USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 48; chat#22",
+     "what": "worker-b at mobile-accessories-1 (Thu): plastic ties",
+     "happened": true
+    },
+    {
+     "cite": "log 55; chat#24",
+     "what": "worker-b at mobile-accessories-2 (Thu): USB strip (only 1 unit vs 30-40 asked)",
+     "happened": true
+    },
+    {
+     "cite": "log 55; chat#24",
+     "what": "worker-b at mobile-accessories-2 (Thu): gooseneck holder",
+     "happened": true
+    },
+    {
+     "cite": "log 55; chat#24",
+     "what": "worker-b at mobile-accessories-2 (Thu): USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 55; chat#24",
+     "what": "worker-b at mobile-accessories-2 (Thu): plastic ties",
+     "happened": true
+    },
+    {
+     "cite": "log 68; chat#28",
+     "what": "worker-b at electronics-retail-1 (Thu): USB strip (only 1 unit)",
+     "happened": true
+    },
+    {
+     "cite": "log 68; chat#28",
+     "what": "worker-b at electronics-retail-1 (Thu): gooseneck holder",
+     "happened": true
+    },
+    {
+     "cite": "log 68; chat#28",
+     "what": "worker-b at electronics-retail-1 (Thu): USB extension",
+     "happened": true
+    },
+    {
+     "cite": "log 68; chat#28",
+     "what": "worker-b at electronics-retail-1 (Thu): plastic ties",
+     "happened": true
+    },
+    {
+     "cite": "log 114; chat#45",
+     "what": "worker-b at El Tamimi (Thu): elevated phone holder/tripod/live holder",
+     "happened": true
+    },
+    {
+     "cite": "log 164; chat#65",
+     "what": "worker-b at housewares-1 (Thu): desk shelf",
+     "happened": true
+    },
+    {
+     "cite": "log 164; chat#65",
+     "what": "worker-b at housewares-1 (Thu): monitor stand",
+     "happened": true
+    },
+    {
+     "cite": "log 164; chat#65",
+     "what": "worker-b at housewares-1 (Thu): tall tablet stand",
+     "happened": true
+    },
+    {
+     "cite": "log 168; chat#66",
+     "what": "worker-b at stationery-1 (Thu): desk shelf",
+     "happened": true
+    },
+    {
+     "cite": "log 168; chat#66",
+     "what": "worker-b at stationery-1 (Thu): monitor stand",
+     "happened": true
+    },
+    {
+     "cite": "log 168; chat#66",
+     "what": "worker-b at stationery-1 (Thu): tall tablet stand",
+     "happened": true
+    },
+    {
+     "cite": "log 185; chat#71",
+     "what": "worker-b at stationery-1 again (Thu): L-shaped metal bookend",
+     "happened": true
+    },
+    {
+     "cite": "log 185; chat#71",
+     "what": "worker-b at stationery-1 again (Thu): wooden Quran stand",
+     "happened": true
+    },
+    {
+     "cite": "log 89; chat#37",
+     "what": "worker-a at RAM (Thu): ready USB white bar/strip",
+     "happened": true
+    },
+    {
+     "cite": "log 89; chat#37",
+     "what": "worker-a at RAM (Thu): small USB lamp",
+     "happened": true
+    },
+    {
+     "cite": "log 89; chat#37",
+     "what": "worker-a at RAM (Thu): gooseneck holder",
+     "happened": true
+    },
+    {
+     "cite": "log 89; chat#37",
+     "what": "worker-a at RAM (Thu): plastic ties",
+     "happened": true
+    },
+    {
+     "cite": "log 105; chat#42",
+     "what": "worker-a at electronics-retail-1 (Thu): ready USB light/strip",
+     "happened": true
+    },
+    {
+     "cite": "log 105; chat#42",
+     "what": "worker-a at electronics-retail-1 (Thu): holder",
+     "happened": true
+    },
+    {
+     "cite": "log 105; chat#42",
+     "what": "worker-a at electronics-retail-1 (Thu): plastic ties",
+     "happened": true
+    },
+    {
+     "cite": "log 120; chat#48",
+     "what": "worker-a at mobile-accessories-1 (Thu): ready USB strip/lamp",
+     "happened": true
+    },
+    {
+     "cite": "log 120; chat#48",
+     "what": "worker-a at mobile-accessories-1 (Thu): gooseneck clamp holder",
+     "happened": true
+    },
+    {
+     "cite": "log 134; chat#53",
+     "what": "worker-a at mobile-accessories-2 (Thu): ready USB strip/lamp",
+     "happened": true
+    },
+    {
+     "cite": "log 134; chat#53",
+     "what": "worker-a at mobile-accessories-2 (Thu): gooseneck clamp holder",
+     "happened": true
+    },
+    {
+     "cite": "log 377; chat#109",
+     "what": "worker-a at mobile-accessories-1 (Sun): elevated desk holder",
+     "happened": true
+    },
+    {
+     "cite": "log 377; chat#109",
+     "what": "worker-a at mobile-accessories-1 (Sun): white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 377; chat#109",
+     "what": "worker-a at mobile-accessories-1 (Sun): USB charger (in stock, 156 EGP)",
+     "happened": false
+    },
+    {
+     "cite": "log 410; chat#118",
+     "what": "worker-a at mobile-accessories-2 (Sun): ordinary phone stand",
+     "happened": true
+    },
+    {
+     "cite": "log 410; chat#118",
+     "what": "worker-a at mobile-accessories-2 (Sun): plastic ties",
+     "happened": true
+    },
+    {
+     "cite": "log 410; chat#118",
+     "what": "worker-a at mobile-accessories-2 (Sun): white USB strip",
+     "happened": true
+    },
+    {
+     "cite": "log 426; chat#120",
+     "what": "worker-a at housewares-1 (Sun): kitchen-roll holder with base",
+     "happened": true
+    },
+    {
+     "cite": "log 426; chat#120",
+     "what": "worker-a at housewares-1 (Sun): plastic ties",
+     "happened": true
+    },
+    {
+     "cite": "log 438; chat#122",
+     "what": "worker-a at stationery-1 (Sun): desk stand",
+     "happened": true
+    },
+    {
+     "cite": "log 438; chat#122",
+     "what": "worker-a at stationery-1 (Sun): small easel",
+     "happened": true
+    },
+    {
+     "cite": "log 438; chat#122",
+     "what": "worker-a at stationery-1 (Sun): weighted upright holder",
+     "happened": true
+    },
+    {
+     "cite": "log 438; chat#122",
+     "what": "worker-a at stationery-1 (Sun): strong/double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 452; chat#124",
+     "what": "worker-a at Bernasos (Sun): plastic letter tray",
+     "happened": true
+    },
+    {
+     "cite": "log 452; chat#124",
+     "what": "worker-a at Bernasos (Sun): strong tape",
+     "happened": true
+    },
+    {
+     "cite": "log 459; chat#125",
+     "what": "worker-a at housewares-1 again (Sun): small plastic stool",
+     "happened": true
+    },
+    {
+     "cite": "log 459; chat#125",
+     "what": "worker-a at housewares-1 again (Sun): small table",
+     "happened": true
+    },
+    {
+     "cite": "log 459; chat#125",
+     "what": "worker-a at housewares-1 again (Sun): strong tape",
+     "happened": true
+    },
+    {
+     "cite": "log 550; chat#147",
+     "what": "worker-a at Carrefour Maadi (Sun): phone/tablet stand",
+     "happened": true
+    },
+    {
+     "cite": "log 550; chat#147",
+     "what": "worker-a at Carrefour Maadi (Sun): book stand",
+     "happened": true
+    },
+    {
+     "cite": "log 550; chat#147",
+     "what": "worker-a at Carrefour Maadi (Sun): small stool",
+     "happened": true
+    },
+    {
+     "cite": "log 550; chat#147",
+     "what": "worker-a at Carrefour Maadi (Sun): tape/double-sided tape",
+     "happened": true
+    },
+    {
+     "cite": "log 573; chat#157",
+     "what": "worker-b at grocery near delivery (Sun): phone stand",
+     "happened": true
+    },
+    {
+     "cite": "log 573; chat#157",
+     "what": "worker-b at grocery near delivery (Sun): book holder",
+     "happened": true
+    },
+    {
+     "cite": "log 573; chat#157",
+     "what": "worker-b at grocery near delivery (Sun): small stool",
+     "happened": true
+    },
+    {
+     "cite": "log 573; chat#157",
+     "what": "worker-b at grocery near delivery (Sun): strong tape (only insulating tape)",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K4": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 7,
+   "happened": 7,
+   "items": [
+    {
+     "cite": "log 28; log 37; chat#10",
+     "what": "b Uber Dokki to Abdel Aziz, Thu",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 22
+    },
+    {
+     "cite": "log 34; log 81; chat#15",
+     "what": "a Uber New Maadi to El Falaky, Thu; includes 8-min wrong-pin reroute",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 60,
+     "long": true
+    },
+    {
+     "cite": "log 270; log 277; chat#83",
+     "what": "b Uber downtown to Hadayek October home, Thu",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 108,
+     "long": true
+    },
+    {
+     "cite": "log 333; log 340; chat#99",
+     "what": "b Uber Manial to Abdel Aziz, rerouted home by worker mid-ride",
+     "happened": "unclear",
+     "quoted_min": 27,
+     "actual_min": 90,
+     "long": true
+    },
+    {
+     "cite": "log 349; log 354; chat#103",
+     "what": "a Uber New Maadi to Abdel Aziz, Sun",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 55,
+     "long": true
+    },
+    {
+     "cite": "log 418; log 482; log 516; chat#119",
+     "what": "b Uber home to delivery; worker diverted downtown then rerouted",
+     "happened": "unclear",
+     "quoted_min": 51,
+     "actual_min": 130,
+     "long": true
+    },
+    {
+     "cite": "log 481; log 530; chat#134",
+     "what": "a Uber Ataba to Carrefour Maadi, Sun",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 52,
+     "long": true
+    },
+    {
+     "cite": "log 565; chat#154; chat#164",
+     "what": "a Uber Carrefour to New Maadi home, Sun",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 23
+    },
+    {
+     "cite": "chat#158; chat#161; chat#165",
+     "what": "b Uber delivery area to Hadayek October, booked 17:03 arrived 18:00",
+     "happened": true,
+     "quoted_min": 51,
+     "actual_min": 57,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 25,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "call#1",
+     "what": "RAM call hung up",
+     "happened": false
+    },
+    {
+     "cite": "call#2",
+     "what": "Future call busy",
+     "happened": false
+    },
+    {
+     "cite": "call#3",
+     "what": "Most call: website-only, no price/stock confirmed; only hours",
+     "happened": false
+    },
+    {
+     "cite": "call#4",
+     "what": "Kimo busy",
+     "happened": false
+    },
+    {
+     "cite": "call#5",
+     "what": "Fares no answer",
+     "happened": false
+    },
+    {
+     "cite": "call#6",
+     "what": "Lampatronics no connect",
+     "happened": false
+    },
+    {
+     "cite": "call#7",
+     "what": "Wasla no answer",
+     "happened": false
+    },
+    {
+     "cite": "call#8",
+     "what": "Kimo busy",
+     "happened": false
+    },
+    {
+     "cite": "call#9",
+     "what": "RAM hung up",
+     "happened": false
+    },
+    {
+     "cite": "call#10",
+     "what": "Future busy",
+     "happened": false
+    },
+    {
+     "cite": "call#11",
+     "what": "Electrolik busy",
+     "happened": false
+    },
+    {
+     "cite": "call#12",
+     "what": "Lampatronics failed",
+     "happened": false
+    },
+    {
+     "cite": "call#13",
+     "what": "Fares no answer",
+     "happened": false
+    },
+    {
+     "cite": "call#14",
+     "what": "Wasla no answer",
+     "happened": false
+    },
+    {
+     "cite": "call#15",
+     "what": "Electrolik busy",
+     "happened": false
+    },
+    {
+     "cite": "call#16",
+     "what": "Kimo busy",
+     "happened": false
+    },
+    {
+     "cite": "call#17",
+     "what": "Future busy",
+     "happened": false
+    },
+    {
+     "cite": "call#18",
+     "what": "Most call: website-only, no physical stock check or price",
+     "happened": false
+    },
+    {
+     "cite": "email#1",
+     "what": "Future email, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#2",
+     "what": "Makers email, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#3",
+     "what": "RAM email, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#4",
+     "what": "Kimo email, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#5",
+     "what": "Fares email, no reply",
+     "happened": false
+    },
+    {
+     "cite": "email#6",
+     "what": "Lampatronics email bounced",
+     "happened": false
+    },
+    {
+     "cite": "email#7",
+     "what": "Wasla email, no reply",
+     "happened": false
+    }
+   ]
+  },
+  "K9": {
+   "opportunities": 13,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "chat#9",
+     "what": "b Uber quote screenshot; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#14",
+     "what": "a Uber quote screenshot; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#23",
+     "what": "b strip photo at accessories-2; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#27",
+     "what": "b strip photo at electronics-1; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#34",
+     "what": "b invoice 117; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#36",
+     "what": "a round LED board at RAM; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#39",
+     "what": "b invoice 118; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#49",
+     "what": "b Noon screenshot; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#82",
+     "what": "b return Uber quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#98",
+     "what": "b Manial Uber quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#102",
+     "what": "a Maadi Uber quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#114",
+     "what": "b home-to-delivery Uber quote; no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#162",
+     "what": "b invoice 118 resent; no redo asked",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "K1: no shop spec/capability claim was acted on (Most's Sunday-hours answer was never used). K2: alternatives Seb listed for one role (e.g. shelf/monitor stand/tablet stand) counted as separate items; Noon/Amazon app lookups and Tawfiqiya street search (no shop found) not counted; Sunday mobile-accessories-1 ties/tape and accessories-2 charger left out because the worker's report did not mention them. Single-unit strips counted as fewer units than the 30-40 asked. K3/K4/K5: no custom work requested, no time promises, no heads built. K6: two of b's Sunday rides were diverted by the worker mid-trip, so marked unclear; a's Thursday ride includes his 8-min wrong-pin reroute but still counted. K7: no call or email gave a usable price+availability."
+}

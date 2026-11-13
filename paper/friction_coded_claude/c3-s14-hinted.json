@@ -1,0 +1,487 @@
+{
+ "trial": "c3-s14-hinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 2,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 174",
+     "what": "Harby Tech says it can solder two modules per jack, insulate, hold for Sunday; paid and heads came out correct",
+     "happened": false
+    },
+    {
+     "cite": "log 219",
+     "what": "Harby says it can do a second batch of up to ten before Sunday; batch 2 commissioned and delivered",
+     "happened": false
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 35,
+   "happened": 27,
+   "items": [
+    {
+     "cite": "log 37",
+     "what": "Mostafa, New Maadi accessories 1: long-arm/clamp stand not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 37",
+     "what": "New Maadi accessories 1: USB light not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 37",
+     "what": "New Maadi accessories 1: ties/clips not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 49",
+     "what": "New Maadi accessories 2: long holder not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 49",
+     "what": "New Maadi accessories 2: USB light not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 49",
+     "what": "New Maadi accessories 2: ties not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 65",
+     "what": "New Maadi hardware 1: ties/clips not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 65",
+     "what": "New Maadi hardware 1: long holder not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 65",
+     "what": "New Maadi hardware 1: USB light not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 128",
+     "what": "Carrefour City Centre: tall stand not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 128",
+     "what": "Carrefour City Centre: ready USB light not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 128",
+     "what": "Carrefour City Centre: cable ties not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 204",
+     "what": "Street 9 accessories: long holder/tripod/ring-light stand not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 227",
+     "what": "Street 9 hardware: tall holder not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 227",
+     "what": "Street 9 hardware: ties/clips not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 56",
+     "what": "Abdelrahman, Bab El Louk electronics 1: no ready USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 73",
+     "what": "Electronics 1: round LED board available, 14 at 16 EGP",
+     "happened": false
+    },
+    {
+     "cite": "log 73",
+     "what": "Electronics 1: 5-to-12V boost cables available, 8 at 64 EGP (all bought)",
+     "happened": false
+    },
+    {
+     "cite": "log 73",
+     "what": "Electronics 1: housed LED spot not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 121",
+     "what": "Electronics 1: female DC jack pigtails, 8 at 5 EGP, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 95",
+     "what": "Electronics 2: marked-voltage LED modules, 23 at 6 EGP, bought",
+     "happened": false
+    },
+    {
+     "cite": "log 95",
+     "what": "Electronics 2: boost cables not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 95",
+     "what": "Electronics 2: USB 5V LED strip not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 190",
+     "what": "Lampatronics: female jacks 4 EGP, 29 in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 190",
+     "what": "Lampatronics: boost cables 50 EGP, 29 in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 190",
+     "what": "Lampatronics: USB 5V strip available (one), price only asked",
+     "happened": false
+    },
+    {
+     "cite": "log 234",
+     "what": "Lampatronics: 17 matching modules asked, only 13 in stock",
+     "happened": true
+    },
+    {
+     "cite": "log 215",
+     "what": "Downtown accessories 1: 8-10 tall holders wanted, only 3 metal arms",
+     "happened": true
+    },
+    {
+     "cite": "log 415",
+     "what": "Sunday Lampatronics (Mostafa): 4 tape rolls bought",
+     "happened": false
+    },
+    {
+     "cite": "log 415",
+     "what": "Sunday Lampatronics: cable ties not stocked",
+     "happened": true
+    },
+    {
+     "cite": "log 416",
+     "what": "Sunday downtown accessories 1: arms sold out, no tall holder",
+     "happened": true
+    },
+    {
+     "cite": "log 435",
+     "what": "El Tamimi Group: no long arm/tripod/gooseneck",
+     "happened": true
+    },
+    {
+     "cite": "log 381",
+     "what": "Sunday Carrefour (Abdelrahman): handheld selfie stick asked, none",
+     "happened": true
+    },
+    {
+     "cite": "log 432",
+     "what": "Carrefour electronics: no tripod or tablet arm",
+     "happened": true
+    },
+    {
+     "cite": "log 474",
+     "what": "Carrefour: no USB power bank",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 4,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 73",
+     "what": "Bab El Louk electronics 1: no joining service",
+     "happened": false
+    },
+    {
+     "cite": "log 95",
+     "what": "Electronics 2: does not solder",
+     "happened": false
+    },
+    {
+     "cite": "log 159",
+     "what": "Electrician 1 declines soldering the modules",
+     "happened": false
+    },
+    {
+     "cite": "log 182",
+     "what": "Harby Tech agrees and starts joining same day",
+     "happened": true
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 2,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 182",
+     "what": "Harby: first 10 heads ready for Sunday 13:00 pickup; all collected 14:14 Sunday",
+     "happened": false
+    },
+    {
+     "cite": "log 255",
+     "what": "Harby: batch 2 (8 heads) done Friday, ready Sunday 13:00; collected Sunday",
+     "happened": false
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K6": {
+   "opportunities": 10,
+   "happened": 10,
+   "items": [
+    {
+     "cite": "log 30",
+     "what": "Abdelrahman Uber Dokki-Bab El Louk, booked 14:02, arrived 14:22",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 20
+    },
+    {
+     "cite": "log 87",
+     "what": "Mostafa Uber to City Centre Maadi, booked 14:43, arrived 15:05",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 22
+    },
+    {
+     "cite": "log 152",
+     "what": "Mostafa Uber to Street 9, booked 15:31, arrived 16:00",
+     "happened": true,
+     "quoted_min": 19,
+     "actual_min": 29
+    },
+    {
+     "cite": "log 295",
+     "what": "Mostafa DiDi home Thursday, booked 17:04, arrived 17:33",
+     "happened": true,
+     "quoted_min": 18,
+     "actual_min": 29
+    },
+    {
+     "cite": "log 310",
+     "what": "Abdelrahman Uber home Thursday, booked 17:11, arrived 18:47",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 96,
+     "long": true
+    },
+    {
+     "cite": "log 354",
+     "what": "Abdelrahman Uber Manial-delivery Sunday, booked 13:04, arrived 13:47",
+     "happened": true,
+     "quoted_min": 26,
+     "actual_min": 43,
+     "long": true
+    },
+    {
+     "cite": "log 361",
+     "what": "Mostafa DiDi to downtown Sunday, booked 13:17, arrived 14:05",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 48,
+     "long": true
+    },
+    {
+     "cite": "log 449",
+     "what": "Mostafa DiDi downtown-delivery, booked 14:45, arrived 15:29",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 44,
+     "long": true
+    },
+    {
+     "cite": "log 529",
+     "what": "Abdelrahman Uber delivery-Manial, booked 16:15, arrived 16:57 (chat#180)",
+     "happened": true,
+     "quoted_min": 26,
+     "actual_min": 42,
+     "long": true
+    },
+    {
+     "cite": "log 529",
+     "what": "Mostafa DiDi delivery-New Maadi, booked 16:16, arrived 16:38 (chat#179)",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 22
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K9": {
+   "opportunities": 28,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "chat#10",
+     "what": "ride quote; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#12",
+     "what": "folding phone stand; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#17",
+     "what": "round LED board photo; Seb praised it but asked voltage and other shop questions (chat#19)",
+     "happened": "unclear"
+    },
+    {
+     "cite": "chat#23",
+     "what": "ride quote; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#27",
+     "what": "12V LED module; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#32",
+     "what": "module invoice; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#38",
+     "what": "cable invoice; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#40",
+     "what": "binder clips; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#47",
+     "what": "ride quote; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#53",
+     "what": "Harby handover scene; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#57",
+     "what": "DC female jack; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#62",
+     "what": "DC jack purchase; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#64",
+     "what": "USB LED strip; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#66",
+     "what": "Harby handover scene; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#72",
+     "what": "Lampatronics module; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#75",
+     "what": "Lampatronics invoice; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#78",
+     "what": "Harby handover scene; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#83",
+     "what": "metal arm tablet stand; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#87",
+     "what": "stand invoice; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#91",
+     "what": "ride quote; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#95",
+     "what": "inDrive home quote; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#101",
+     "what": "Uber home quote; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#122",
+     "what": "ride quote; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#135",
+     "what": "18 heads collected; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#146",
+     "what": "ride quote; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#161",
+     "what": "lamp 1; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#164",
+     "what": "lamp 2; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#166",
+     "what": "lamp 3; no new photo or photo-driven follow-up",
+     "happened": false
+    },
+    {
+     "cite": "chat#170",
+     "what": "delivery scene; no new photo or photo-driven follow-up",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "comms.md is empty: Seb made no calls or emails, so K7 has no opportunities. No head was ever powered (no outlet, no power bank, Harby does not test), so K5 has no opportunities. K6 actual times run from booking to arrival as the log gives them; the two Sunday home rides use log 529's committed timings, confirmed by arrival messages chat#179/180. K2 counts each item asked per shop once; repeat asks at the same shop (Street 9 referral ask, Lampatronics jacks/cables second time) are not counted again. K9 chat#17 is marked unclear: Seb's follow-up asked about voltage, which the board does not show, but it was mostly a wider script of shop questions."
+}

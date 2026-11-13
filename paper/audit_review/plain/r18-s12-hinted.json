@@ -1,0 +1,97 @@
+{
+  "slug": "r18-s12-hinted",
+  "what_happened": [
+    "On Thursday, Seb's workers bought 8 folding phone stands downtown and parts for 25 heads (log 51, 120, 126, 204).",
+    "Harby took the whole batch of 25 heads at 16:14 Thursday and finished it by 11:33 Saturday (log 170, 491).",
+    "On Sunday at 13:41, Seb bought 1 more folding stand at New Maadi shop 2 for 181 EGP (log 603, 623).",
+    "The workers fixed each head to a stand with the module's own adhesive back (log 256, 865, 882-1043).",
+    "The client accepted 4 lamps at 15:46, 3 at 16:12 and 2 at 16:32 (log 912, 993, 1075).",
+    "The grader counted all 9 lamps, so the trial met the target of 9 and got reward 1.0."
+  ],
+  "cause": [
+    "The trial reached the target of 9 lamps and lost none.",
+    "Stands set the count, and 16 heads stayed unused.",
+    "On Thursday, the workers bought 5 stands at mobile shop 2 for 138 EGP each (log 51).",
+    "They also bought 3 stands at El Tamimi for 175 EGP each (log 126).",
+    "On Sunday, Mostafa found 1 more stand at New Maadi shop 2 for 181 EGP (log 623).",
+    "The facts agree that downtown had only these 8 folding stands.",
+    "The facts hold more stands in Dokki, Hadayek October and Manial, and Seb's workers did not search there.",
+    "The reward has a cap of 1.0, so more lamps would not change the score."
+  ],
+  "findings": [
+    {
+      "id": "E2",
+      "title": "The client brought 7 accepted lamps back out for a re-check",
+      "what": [
+        "At 16:32 on Sunday, the client agreed to bring the 7 earlier lamps back out to the doorway (log 1076, 1083).",
+        "The workers then gave those lamps visual, mechanical and plug checks at the door (log 1083)."
+      ],
+      "why": [
+        "The facts say only that the client is at home to receive the lamps at the door.",
+        "The audit lists the client's extra trip to the doorway as a new defect against that fact."
+      ],
+      "effect": "None, because the client had already accepted all 7 lamps.",
+      "chance": "0%"
+    },
+    {
+      "id": "E1",
+      "title": "4 of 6 worker mistakes cost almost nothing",
+      "what": [
+        "On Thursday at 16:59:40, Abdelrahman reversed Sunday's route order, and Seb fixed it at 17:02:45 (log 276, 295).",
+        "On Sunday at 14:05, Mostafa took a 7-minute wrong turn in New Maadi, where the facts have no third shop (log 699).",
+        "At 14:33, during a ride, Abdelrahman thought every head needed a 10-minute test, and no test ever ran (log 786).",
+        "At 16:10, Mostafa thought the phone lip must hold the head, which cost 3 minutes on a too-low cradle (log 995)."
+      ],
+      "why": [
+        "The incident record says a worker mistake costs 3 to 40 minutes, or 2 to 15 minutes or a wrong step.",
+        "The worker file sets mistake rates of 0.45 and 0.65 per shift hour.",
+        "These 4 mistakes hit the shift end, a ride, a search with no shop left and an unsuitable item."
+      ],
+      "effect": "None, since the other 2 mistakes cost 7 and about 2 minutes, and the client accepted lamp 9 at 16:32.",
+      "chance": "about 2%"
+    },
+    {
+      "id": "I1",
+      "title": "Lamp photos show a lit indoor lamp, unlike the log",
+      "what": [
+        "The lamp photos at 16:55:10 and 16:57:50 Thursday showed a lit two-module lamp on an indoor desk.",
+        "The log has one unpowered module, mounted outdoors outside Harby (log 256, 264).",
+        "At 16:44:20 Thursday, a photo for a head layout showed a street of phone shops.",
+        "On Sunday, the later lamp photos repeated the lit desk image."
+      ],
+      "why": [
+        "These photos contradict the world log (log 256, 264, 865).",
+        "The audit names the photo library as the source and does not say which fact it broke."
+      ],
+      "effect": "None, because Seb flagged each photo and kept his count of tested lamps at 0 (log 958).",
+      "chance": "0%"
+    },
+    {
+      "id": "I2",
+      "title": "The saved output copy stops early and has no grade entry",
+      "what": [
+        "The saved copy of the simulator's step record stops at the 17:25:56 step and has no grade entry.",
+        "The saved world log ends at line 1150, but the grader cites lines 1155-1157.",
+        "The ledger shows Mostafa's 82 EGP ride paid at 17:31, but the copied log does not show it.",
+        "Abdelrahman's 348 EGP ride home was still unpaid at the 18:00 run end."
+      ],
+      "why": [
+        "The audit says the copy dates from before the verifier's last steps.",
+        "So the recorded spend of 5,233 EGP leaves out the 348 EGP ride."
+      ],
+      "effect": "None, because the spend with the 348 EGP ride, about 5,581 EGP, is still far under the 7,000 EGP budget.",
+      "chance": "0%"
+    }
+  ],
+  "verdict": {
+    "label": "Fair",
+    "range": "9 to 9 lamps",
+    "best": "9 lamps (expected about 8.98)",
+    "reason": [
+      "The simulator did not change the count, and 9 lamps already gives reward 1.0.",
+      "Seb's own search choices set the count, because stands were the limit.",
+      "Prices, stock, fares and Harby's work all match the facts.",
+      "No finding changed the count, and the audit puts the chance of losing one lamp at about 2%."
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+## 1. Timeline (Cairo time, log.md)
+
+Thursday 1 Oct
+- 13:28-13:41: Seb briefs both workers. He settles on a no-solder design (USB 5V strip on a ruler, held by a tall holder) and calls and emails shops. RAM hangs up, Future is busy, Fares and Most give nothing useful (all per facts).
+- 14:00: Shift opens. Mostafa (worker-a) starts in New Maadi; Abdelrahman (worker-b) takes a 72 EGP Uber from Dokki to Bab El Louk.
+- 14:08-14:14: Mostafa finds the folding holder (121 EGP, stock 2). Seb rejects it as too short.
+- 14:14: Server-drawn worker mistake (worker-a, unannounced change). Mostafa goes to plumbing shops without saying so. This costs about 30 minutes; he reports the PVC idea at 14:44.
+- 14:41-14:53: El Gammal has 2 white USB strips at 152. Seb buys both.
+- 14:58-15:10: El Tamimi has 4 strips at 92. Seb buys all four. Total: 6 strips.
+- 15:17-15:31: Bab El Louk mobile shop 1 has 3 metal tablet arms at 548. Abdelrahman relays them, and Seb buys all 3 (1,644 EGP).
+- 15:38-15:52: Stationery: 6 rulers and rubber bands, 70 EGP.
+- 15:51-16:45: Seb sends Mostafa to Carrefour City Centre Maadi. Nothing useful there. He rides home.
+- 16:46: Server-drawn worker mistake (worker-b, misread). He asks whether he must mount a strip before testing it. Five minutes; Seb fixes it with one message.
+- 16:54-19:14: Dispute over Abdelrahman's fare home. Seb ends up paying 75 to Dokki and 295 from Dokki to Hadayek October. Abdelrahman keeps all the parts.
+
+Sunday 4 Oct
+- 12:40: Seb sends Sunday plans. Abdelrahman starts in Manial with all the parts, and Mostafa starts in New Maadi.
+- 13:03: Abdelrahman has no table or socket. Seb funds a cafe. The search takes 68 minutes per facts (cafe_search_minutes).
+- 13:20: Server-drawn worker mistake (worker-a, unannounced change). Mostafa searches the hardware shops before buying the two folding holders that Seb had just funded. About 30 minutes; he buys them at 13:53.
+- 13:54: Two more server-drawn worker mistakes. Mostafa takes a wrong lane (about 5 minutes; cut short by Seb's next instruction). Abdelrahman reads "leave by 14:45" as an arrival deadline, pauses the cafe search and asks.
+- 13:57-14:43: Seb sends both workers to City Centre Maadi. Mostafa arrives at 14:30, Abdelrahman at 14:43 (43 minutes door to door; facts range 33-51).
+- 14:30-14:40: Mostafa finds a free food-court table with no socket.
+- 14:49-15:02: The first band-only mounts fail. The ruler rotates in the jaws, and the strip will not lie flat in side-by-side rows. Seb has tape bought (Carrefour insulating tape, 3 rolls for 63) and corrects the strip routing.
+- 15:37, 15:45: Mostafa's two folding-holder lamps are complete.
+- 15:47, 16:03, 16:05: The three arm lamps are complete.
+- 16:09-16:13: Carrefour has no power bank (per facts). No lamp is ever powered.
+- 16:21: The workers leave on foot. At 16:29 a server-drawn worker mistake (worker-a, wrong turn) adds 7 minutes.
+- 16:39-16:42: At the door, all five lamps, the spare strip and the receipts are handed over. Done by 16:42.
+
+## 2. Why 5 and not 9
+
+- Lamps 1-5 were counted.
+- Lamp 6: one strip was left over, but no sixth tall stand was found. Carrefour and the other shops Seb tried had only low cradles (phone-stand-simple-30, height_ok false). Seb's choice of search area.
+- Lamps 7-9: no strips and no stands. Facts hold more: strips at Lampatronics (1), Bab El Louk electronics shop 3 (1), Maadi Degla mobile shop (3) and Abbasiya mobile shop 2 (6). Folding holders at Thabet Group in Dokki (5 at 180) and Abbasiya (6). Arms at Thabet (2), Abbasiya and Hadayek October.
+- Seb never sent anyone to those places. At 15:06 Thursday he asked Abdelrahman to keep looking for strips in Bustan/Falaki. At 15:12 he redirected him toward Ataba, which facts.json does not model, and then sent him to stationery. These are the agent's decisions.
+- Time was not the limit. All five were built by 16:05, and the spare strip had no stand to go on.

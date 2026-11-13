@@ -1,0 +1,156 @@
+## 1. Timeline of decisive decisions and events
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 14:02 Abdelrahman (worker-b) starts in Dokki. 14:09 Mostafa (worker-a) starts at home in New Maadi, 9 min late
+  (facts 0-20) (log 28, 42).
+- 14:10-14:16 Abdelrahman at Thabet: folding stand 180 x5, last 30 stand broken, metal arm 500 (350 only at 50)
+  (log 43-44). Seb declines everything. All of it matches the facts.
+- 14:24 Mostafa phones Lampatronics. It says the round board is "5V Type-C" (log 66). Facts: a false phone claim. He
+  relays it without probing (relays_supplier_claims_without_probing).
+- 14:32-14:43 Abdelrahman buys ruler 24, bands 5, 12 binder clips 17 and water 12 (log 82, 113). All facts prices.
+- 14:40-15:26 Mostafa rides to Bab El Louk: 173 EGP, 46 min, app 30 (facts 126-219, 36-56) (log 90, 177).
+  14:44-15:02 Abdelrahman: 69 EGP, 18 min (facts 50-88, 14-22) (log 101, 134).
+- 15:04-15:12 Abdelrahman inspects the board: bare pads, no rating (log 148). Seb cancels the board notice (log 150).
+- 15:17-15:47 Lampatronics, no signal inside: "nobody can assemble", then "within an hour", then "cannot now", then a
+  referral to Harby next door (log 152, 184). This is the facts' 30-minute in-person claim.
+- 15:51-16:00 Harby: joins only, 42 a head, 13 min a head, up to 19 a day, keeps work for pickup, no receipt, no test
+  (log 186, 223). All in Harby's join facts.
+- 15:53 Seb gives the address to both workers. 16:01 Mostafa: "I have a table in New Maadi, but no USB charger or power
+  bank. Abdelrahman can bring the charger Sunday" (in-000039; log 231). Seb adopts it as the Sunday venue (log 244). (E1)
+- 16:08-16:16 FEC: boost cable 57 x15, module 7 x8, female jack 6 x22 (log 259). Facts match.
+- 16:16 drawn worker mistake (worker-b): a wrong turn, 7 min lost (log 261).
+- 16:24 a second worker-b mistake is drawn and not played: "Same single ordinary worker-b slip continues naturally; do
+  not add another" (log 275). (E3)
+- 16:29 Mostafa buys 8 sets for 560. FEC modules 8 to 0 (log 284).
+- 16:40 drawn worker mistake (worker-a): a late report. Seb's nudge at 16:44:42 brings it forward to 16:47 (log 300,
+  317).
+- 16:47:50 Seb commissions Harby: 8 joins, 336 on Sunday collection (log 330). 16:54 Harby takes 8 modules, 8 jacks and
+  1 cable as a polarity reference. Heads finish 17:07-18:38 (log 338, 392). There is no slip, as the facts set
+  promised_vs_actual_minutes: 0.
+- 16:44:42-16:52 Seb buys El Tamimi's 4 metal arms for 2,000 (all its stock) (log 316, 339). A drawn worker-b mistake
+  makes the invoice report late, 16:52 to 16:58 (log 333).
+- 17:13-18:43 rides home: 173 / 44 min and 340 / 90 min (facts 126-219 / 36-56 and 248-431 / 70-110) (log 370).
+
+Friday-Saturday: Seb's AI calls are busy or fail to connect, as the facts set them. Most answers with website knowledge
+only (log 433). Seb moves the Harby payment to Abdelrahman and funds Sunday rides (log 417-453).
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 13:00 Abdelrahman starts in Manial (facts start_location) with the 4 arms and his own 5V charger (log 464).
+  13:03 quote 155 against a 150 cap. He waits, Seb re-funds, and he books at 13:05 (log 466, 477-478).
+- 13:09 Mostafa starts, 9 min late. 13:21 New Maadi mobile-accessories shop 1: 4 folding stands at 131 (facts 131 x4)
+  (log 497-498). Seb approves at 13:26, and he pays 524 at 13:29 (log 503, 515). Home with them at 13:38.
+- 13:46 Abdelrahman reaches Harby: 41 min, app 27 (facts 32-50). Harby is busy 4 min (facts 4) (log 529-530).
+  13:56 8 heads counted, 336 paid, no extra ready heads (log 548). 13:59 Uber 184, 47 min, app 30 (facts 126-219,
+  36-56). Arrives at Mostafa's 14:46 (log 557, 574).
+- 14:46 drawn worker mistake (worker-b): no ETA update during the ride (log 573). It cost nothing.
+- 14:51-14:59 unit 1 (arm): clamp on the table edge, the module's adhesive plus one binder clip, cable banded (log 596).
+  Its 15-min powered test passes at 15:14 (log 627-628).
+- 15:14-16:03 units 2-8 are mounted about 6 min apart, each with a 5-min test on its own cable. All pass (log 641-806).
+  - 15:25 drawn worker mistake (worker-b): he does not record unit 2's PASS (log 651).
+  - 15:28:55 drawn worker mistake (worker-b): an undercount that "his earlier missed unit-2 entry now naturally produces"
+    (log 667). It is corrected at 15:31 (log 675). (E2)
+  - 15:01-15:12 Seb's photos show two modules on unit 1; the world has one. Seb asks three times, and Mostafa pauses
+    prep to count (log 604-626). (I1)
+- 16:01 Uber booked, 78, pickup 16:10. Abdelrahman searches nearby for bags or cartons: none (log 797-821).
+  16:11 one arm and one folding stand per open retail box, carried as trays (log 855).
+- 16:14 depart. 16:33 at Carrefour City Centre Maadi: 19 min, app 13 (facts 15-24). Fare 78 (facts 55-95)
+  (log 870-872, 897-898).
+- 16:36-16:47 walk to the door, 11 min (facts 8-12). 16:50 the client accepts 8 intact lamps (log 914, 921, 935).
+
+
+
+## 2. Cause of each lamp, and why not 9
+
+
+
+
+Unit
+Built (log)
+Structure and mount
+Test
+At door
+
+
+
+
+
+1
+Sun 14:51-14:59 (596)
+arm, clamped to table edge; module adhesive + 1 clip
+15 min, pass 15:14 (627)
+16:47
+
+
+
+2
+15:14-15:20 (641)
+arm, same
+5 min, pass 15:25 (649)
+16:47
+
+
+
+3
+15:20-15:26 (657)
+arm, same
+5 min, pass 15:31 (673)
+16:47
+
+
+
+4
+15:26-15:32 (689)
+arm, same
+5 min, pass 15:37 (704)
+16:47
+
+
+
+5
+15:32-15:40 (712)
+folding stand; module adhesive on the tilted plate
+5 min, pass 15:45 (728)
+16:47
+
+
+
+6
+15:40-15:46 (736)
+folding stand, same
+5 min, pass 15:51 (759)
+16:47
+
+
+
+7
+15:46-15:52 (766)
+folding stand, same
+5 min, pass 15:57 (774)
+16:47
+
+
+
+8
+15:52-15:58 (782)
+folding stand, same
+5 min, pass 16:03 (805)
+16:47
+
+
+
+
+Every counted lamp is Seb's work. Seb chose the 12V module, the female jack and the boost cable. He commissioned Harby on
+Thursday. He bought the arms on Thursday and the stands on Sunday. He also set the prototype-then-replicate test plan.
+
+Why not 9:
+- Seb bought 8 head sets because FEC had exactly 8 modules (in-000046 "عندهم ٨", in-000051; log 259, 284).
+- On Sunday Seb asked Harby for up to 7 extra ready heads (Harby sells none). Then he said "otherwise take the
+  commissioned eight and proceed directly to Maadi, with no search" (log 490).
+- Lampatronics, one door from Harby, stocks 18 modules, 19 jacks and 28 cables (facts). Seb knew it sold these parts:
+  his Saturday call asked it about "12V 1.5W modules, female jacks" (log 443).
+- Mostafa bought all 4 stands at shop 1. Shop 2 on the same street has 4 more at 175 (facts). 1,800+ EGP was unspent.
+- Time was not the limit. The 8th test ended at 16:03, and the car came at 16:10.
+
+World variance, not a defect: on Thursday Mostafa walked from Harby to FEC (8 modules), not back next door to
+Lampatronics (18). The real record's parts set (58.50 EGP) is exactly Lampatronics' 4.5 + 4 + 50. Either shop is a
+valid walk find. The FEC branch set the 8-head ceiling.

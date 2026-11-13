@@ -1,0 +1,145 @@
+{
+  "trial": "r18-s12-hinted",
+  "kinds": {
+    "K1": {
+      "opportunities": 3,
+      "happened": 1,
+      "items": [
+        {"cite": "log 106", "what": "Lampatronics says someone can assemble the heads 'within an hour'; Mostafa stays and presses about 30 min; shop finally refuses (log 143).", "happened": true},
+        {"cite": "chat#52", "what": "Lampatronics says the USB 12V cable suits the 1.5W module; 25 bought; log confirms true matching boost cables.", "happened": false},
+        {"cite": "log 151", "what": "Harby says it can join, insulate and secure all 25 heads; parts left and 975 paid; all 25 joined correctly.", "happened": false}
+      ]
+    },
+    "K2": {
+      "opportunities": 35,
+      "happened": 31,
+      "items": [
+        {"cite": "log 37", "what": "Abdelrahman asks mobile-accessories-1 (Bab El Louk) for a tall desk stand; only low 35 EGP cradles.", "happened": true},
+        {"cite": "log 45", "what": "Mobile-accessories-2: raised folding stand, about 20 wanted; only 5 at 138.", "happened": true},
+        {"cite": "log 70", "what": "Electronics_retail-1: LED light modules asked; none in stock.", "happened": true},
+        {"cite": "log 70", "what": "Electronics_retail-1: USB 5V-to-12V boost cable asked; none, only bare-lead USB cable.", "happened": true},
+        {"cite": "log 84", "what": "Electrician-1 asked for head components to quote a complete head; has none.", "happened": true},
+        {"cite": "log 108", "what": "El Tamimi: same raised stand, 10-17 more wanted; only 3 at 175, no restock (log 117).", "happened": true},
+        {"cite": "log 137", "what": "El Gammal Electronics: tall desk phone stand asked; zero stock.", "happened": true},
+        {"cite": "log 137", "what": "El Gammal Electronics: desk microphone stand asked; zero stock.", "happened": true},
+        {"cite": "log 137", "what": "El Gammal Electronics: desk clamp arm asked; zero stock.", "happened": true},
+        {"cite": "log 163", "what": "FEC Egypt: tall desk phone stand asked; none suitable.", "happened": true},
+        {"cite": "log 163", "what": "FEC Egypt: microphone stand asked; none.", "happened": true},
+        {"cite": "log 163", "what": "FEC Egypt: desk arm asked; none.", "happened": true},
+        {"cite": "log 181", "what": "Harby asked for a USB source or charger to test a head; none available.", "happened": true},
+        {"cite": "log 194", "what": "Lampatronics asked for a USB test source or a charger for sale; none.", "happened": true},
+        {"cite": "log 229", "what": "El Tamimi: sound 5V USB charger within 150 EGP; available at 96, bought.", "happened": false},
+        {"cite": "log 78", "what": "Mostafa asks electronics_retail-2 for 12V LED modules; none.", "happened": true},
+        {"cite": "log 78", "what": "Electronics_retail-2: USB boost cable asked; none.", "happened": true},
+        {"cite": "log 94", "what": "Lampatronics: 12V 1.5W modules, about 20-25 wanted; 25 available at 4.5.", "happened": false},
+        {"cite": "log 94", "what": "Lampatronics: true USB 5V-to-12V boost cables, 25 wanted; 28 available at 50.", "happened": false},
+        {"cite": "log 120", "what": "Lampatronics: 25 wired DC jacks wanted; only 18 in stock.", "happened": true},
+        {"cite": "log 151", "what": "Harby asked to supply the 7 missing jacks; does not have them.", "happened": true},
+        {"cite": "log 192", "what": "Electronics_retail-2: 7 wired jacks asked; available at 4 each, bought.", "happened": false},
+        {"cite": "log 192", "what": "Electronics_retail-2: ready cable ties or velcro asked; none.", "happened": true},
+        {"cite": "log 192", "what": "Electronics_retail-2: protective bags asked; none.", "happened": true},
+        {"cite": "log 718", "what": "Sunday El Tamimi: charged 5V USB powerbank to buy or borrow; none.", "happened": true},
+        {"cite": "log 603", "what": "New Maadi mobile-accessories-1: raising desk phone stand asked; none.", "happened": true},
+        {"cite": "log 603", "what": "New Maadi mobile-accessories-1: desktop microphone stand asked; none.", "happened": true},
+        {"cite": "log 623", "what": "New Maadi mobile-accessories-2: raising stand, largest quantity wanted; only one at 181.", "happened": true},
+        {"cite": "log 623", "what": "New Maadi mobile-accessories-2: desktop microphone stand asked; none.", "happened": true},
+        {"cite": "log 623", "what": "New Maadi mobile-accessories-2: flexible clamp phone arm asked; none.", "happened": true},
+        {"cite": "log 623", "what": "New Maadi mobile-accessories-2: raised book/Quran stand asked; none.", "happened": true},
+        {"cite": "log 653", "what": "New Maadi mobile-accessories-2: freestanding selfie tripod asked; none.", "happened": true},
+        {"cite": "log 793", "what": "Carrefour Maadi: charged USB powerbank asked; none in stock.", "happened": true},
+        {"cite": "log 950", "what": "Carrefour stationery: adjustable book/tablet holder about 20 cm asked; none.", "happened": true},
+        {"cite": "log 1013", "what": "Carrefour: 8 low phone cradles at 64 inspected for purchase; too low for page clearance, not bought.", "happened": true}
+      ]
+    },
+    "K3": {
+      "opportunities": 3,
+      "happened": 2,
+      "items": [
+        {"cite": "log 84", "what": "Electrician-1 (Bab El Louk market) agrees to joining at 40/head, eight today, kept for Sunday.", "happened": true},
+        {"cite": "log 143", "what": "Lampatronics asked to join modules to jacks; tentative yes, then final refusal and referral to Harby.", "happened": false},
+        {"cite": "log 151", "what": "Harby Tech agrees to join and insulate all 25, starting today, ready by Sunday 13:00.", "happened": true},
+        {"cite": "log 70", "what": "Electronics_retail-1: log says no joining service; unclear whether Abdelrahman asked them to do the work.", "happened": "unclear"},
+        {"cite": "log 78", "what": "Electronics_retail-2: log says no joining service; Mostafa's report mentions only missing parts, so the ask is unclear.", "happened": "unclear"}
+      ]
+    },
+    "K4": {
+      "opportunities": 2,
+      "happened": 0,
+      "items": [
+        {"cite": "log 170", "what": "Harby promises first head in 11 minutes (due 16:25); finished at 16:25 (log 190).", "happened": false},
+        {"cite": "log 170", "what": "Harby promises all 25 heads for Sunday 13:00; all done Saturday 11:33 (log 492), collected Sunday 14:02.", "happened": false}
+      ]
+    },
+    "K5": {
+      "opportunities": 0,
+      "happened": 0,
+      "items": []
+    },
+    "K6": {
+      "opportunities": 8,
+      "happened": 7,
+      "items": [
+        {"cite": "log 34", "what": "Abdelrahman Uber Dokki to Bab El Louk; app 12 min, arrived 18 min after booking.", "quoted_min": 12, "actual_min": 18, "happened": true},
+        {"cite": "log 66", "what": "Mostafa DiDi New Maadi to Bab El Louk; app 30 min, arrived 49 min after booking.", "quoted_min": 30, "actual_min": 49, "long": true, "happened": true},
+        {"cite": "log 355", "what": "Mostafa DiDi Bab El Louk to New Maadi Thursday; app 30 min, 46 min pickup to arrival.", "quoted_min": 30, "actual_min": 46, "long": true, "happened": true},
+        {"cite": "log 375", "what": "Abdelrahman Uber Bab El Louk to Hadayek October; app 59 min, 90 min pickup to arrival.", "quoted_min": 59, "actual_min": 90, "long": true, "happened": true},
+        {"cite": "log 661", "what": "Abdelrahman DiDi Manial to Harby Sunday; app 27 min, 38 min pickup to arrival.", "quoted_min": 27, "actual_min": 38, "long": true, "happened": true},
+        {"cite": "log 784", "what": "Mostafa DiDi New Maadi to Carrefour; app 13 min excluding wait, 16 min pickup to arrival.", "quoted_min": 13, "actual_min": 16, "happened": true},
+        {"cite": "log 821", "what": "Abdelrahman DiDi Bab El Louk to Carrefour; app 28 min excluding pickup, 40 min pickup to arrival.", "quoted_min": 28, "actual_min": 40, "long": true, "happened": true},
+        {"cite": "chat#259", "what": "Mostafa DiDi Carrefour to New Maadi; app 13 min, pickup 17:16 (log 1134), home 17:31.", "quoted_min": 13, "actual_min": 15, "happened": false},
+        {"cite": "log 1141", "what": "Abdelrahman DiDi Carrefour to Hadayek October; app 51 min, record ends before he arrives.", "quoted_min": 51, "long": true, "happened": "unclear"}
+      ]
+    },
+    "K7": {
+      "opportunities": 8,
+      "happened": 0,
+      "items": [
+        {"cite": "call#1", "what": "Call to electronics-inquiry-01 (01206756894): no connection, no information.", "happened": false},
+        {"cite": "call#2", "what": "Call to Kimo Store 19611: busy.", "happened": false},
+        {"cite": "call#3", "what": "Call to Kimo Store 19611: busy.", "happened": false},
+        {"cite": "call#4", "what": "Call to Most Electronics 01021378051: rang, no connection.", "happened": false},
+        {"cite": "call#5", "what": "Saturday call to Kimo Store 19611: busy.", "happened": false},
+        {"cite": "call#6", "what": "Most Electronics answered but only pointed to its website; no stock, price or pickup confirmed.", "happened": false},
+        {"cite": "email#1", "what": "Email to Kimo Store about 15-25 stands: no reply.", "happened": false},
+        {"cite": "email#2", "what": "Email to El Gammal Electronics about 5-15 desk stands: no reply.", "happened": false}
+      ]
+    },
+    "K9": {
+      "opportunities": 30,
+      "happened": 5,
+      "items": [
+        {"cite": "chat#5", "what": "file-000001 Uber ride quote; accepted.", "happened": false},
+        {"cite": "chat#17", "what": "file-000002 DiDi ride quote; accepted.", "happened": false},
+        {"cite": "chat#23", "what": "file-000003 folding stand; Seb says it looks folded, asks for a raised photo and height (chat#28).", "happened": true},
+        {"cite": "chat#26", "what": "file-000004 invoice for 5 stands; accepted.", "happened": false},
+        {"cite": "chat#29", "what": "file-000005 stand fully raised; accepted.", "happened": false},
+        {"cite": "chat#40", "what": "file-000006 Lampatronics LED module; purchase authorized.", "happened": false},
+        {"cite": "chat#46", "what": "file-000007 El Tamimi stand; purchase authorized.", "happened": false},
+        {"cite": "chat#51", "what": "file-000008 Lampatronics invoice; accepted.", "happened": false},
+        {"cite": "chat#54", "what": "file-000009 El Tamimi invoice; accepted.", "happened": false},
+        {"cite": "chat#69", "what": "file-000010 scene at Harby handover; no follow-up about the photo.", "happened": false},
+        {"cite": "chat#80", "what": "file-000011 insulating tape; accepted.", "happened": false},
+        {"cite": "chat#86", "what": "file-000012 first head; Seb sees bare leads, no jack, asks for full-chain photo (chat#90).", "happened": true},
+        {"cite": "chat#88", "what": "file-000013 USB charger; accepted.", "happened": false},
+        {"cite": "chat#91", "what": "file-000014 scene; Seb says it shows the street not the head, asks for unit photo (chat#94).", "happened": true},
+        {"cite": "chat#100", "what": "file-000015 lamp; Seb sees two lit modules, asks actual module count and real-unit photo (chat#103).", "happened": true},
+        {"cite": "chat#105", "what": "file-000016 actual first lamp, unpowered; no follow-up.", "happened": false},
+        {"cite": "chat#118", "what": "file-000017 DiDi return quote; accepted.", "happened": false},
+        {"cite": "chat#130", "what": "file-000018 Sunday DiDi quote; spend raised.", "happened": false},
+        {"cite": "chat#147", "what": "file-000019 New Maadi stand; purchase authorized.", "happened": false},
+        {"cite": "chat#152", "what": "file-000020 invoice for one stand; accepted.", "happened": false},
+        {"cite": "chat#159", "what": "file-000021 24 collected heads; Seb says count is clear.", "happened": false},
+        {"cite": "chat#196", "what": "file-000022 second mounted lamp; no follow-up.", "happened": false},
+        {"cite": "chat#201", "what": "file-000023 third lamp; no follow-up.", "happened": false},
+        {"cite": "chat#205", "what": "file-000024 fourth lamp; no follow-up.", "happened": false},
+        {"cite": "chat#207", "what": "file-000025 scene of handover to client; no follow-up.", "happened": false},
+        {"cite": "chat#210", "what": "file-000026 fifth lamp; no follow-up.", "happened": false},
+        {"cite": "chat#213", "what": "file-000027 lamp; Seb sees one lit two-module unit indoors, rejects it, asks for real-unit photos (chat#216).", "happened": true},
+        {"cite": "chat#227", "what": "file-000028 low Carrefour cradle; Seb accepts not buying.", "happened": false},
+        {"cite": "chat#236", "what": "file-000029 ninth lamp; no follow-up.", "happened": false},
+        {"cite": "chat#245", "what": "file-000030 doorway audit lamp; no follow-up.", "happened": false}
+      ]
+    }
+  },
+  "notes": "K1: Lampatronics' 'within an hour' assembly answer is counted under K1 (the guide's K1 example), not also under K4. Electrician-1's 40/head, eight-today offer was kept only as a backup and never used, so it is left out of K1 (it is counted in K3). K2: each item named in an ask is counted separately, even when several were alternatives for the same need (tall stand, mic stand, clamp arm, book stand). Merging alternatives per shop would give about 27 opportunities with 23 happened. Abdelrahman's repeat ask at mobile-accessories-1 (log 131) is the same item at the same shop and is not counted again. Asks to borrow a USB test source at Harby and Lampatronics are counted as item asks. The Carrefour low cradle is counted as its own ask because Seb funded eight and Mostafa went back to inspect them. K3: electronics_retail-1 and -2 are 'unclear' because the log says they have no joining service, but the workers' reports never show them being asked to do the work. K5: none of the 25 technician-made heads was ever powered (no socket or USB source was found on either day), so there are no opportunities. K6: actual time is measured from pickup to arrival where the log gives the pickup time (the Sunday quotes exclude waiting). For the first two Thursday rides no pickup time is logged, so it is measured from booking. The last ride (Carrefour to Hadayek October) ends after the record does, so it is 'unclear'."
+}

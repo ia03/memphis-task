@@ -1,0 +1,38 @@
+## 1. Timeline (Cairo time, log.md)
+
+### Thursday 1 Oct
+- 13:28-13:40: Seb briefs both workers. His AI call to RAM is hung up (facts: ai_call hangs_up). Worker-a cannot host assembly at home (facts).
+- 14:03-14:21: Worker-b rides Dokki to Bab El Louk (65 EGP, 18 min; facts 50-88, 14-22).
+- 14:22-14:37: RAM has no ready 5V strip. It has a 12V boost cable at 55, a bare-lead USB cable at 25 and a DC jack at 6 (facts).
+- 14:44-14:56: At accessory shop 1, b finds 2 white 1 m USB strips at 90 (facts: 2). Seb buys both (180).
+- 14:12-15:04: Worker-a starts 12 min late (record 0-20). He rides from New Maadi, 165 EGP, 50 min (facts 36-56).
+- 15:05-15:14: Accessory shop 2 has folding holders at 138 (5) and a charger at 187 (facts). Seb first declines the holders.
+- 15:12-15:22: El Tamimi has 3 folding holders at 175, low cradles and chargers (facts). The first report omits counts (a's reporting gap).
+- 15:32-16:08: Together the workers check electronics counters 1 and 2. They find no strips (facts). Worker mistake (a, misread): he takes "quantity 10+" as a filter. It costs 4 min.
+- 16:08-16:26: Seb buys 2 holders and tape. Worker-a checks apps: Noon strip 104 EGP, 20 in stock, due 4 Oct; Jumia 151, due 7 Oct (facts: delivery_days 3 and 6).
+- 16:40-16:57: Seb buys all remaining holders: Tamimi 3 at 525 and shop 2 3 at 414. That makes 8 stands. Worker mistake (b, misread "three more"), resolved in 2 min. Worker-a places the Noon order, 8 strips at 832 COD, delivery Sunday, no time slot.
+- 17:04-18:37: Both ride home inside the fare and time ranges (181 / 49 min; 329 / 92 min). The ledger fixes are done by 18:39.
+
+### Sunday 4 Oct
+- 12:45-12:54: Worker-b starts in Manial (facts start_location) with no table. Seb tells him to head to New Maadi. Worker-a again declines to host (facts).
+- 13:03-13:41: Worker-b rides Manial to New Maadi, 132 EGP, 38 min (facts 97-168, 27-43). Worker-a starts 9 min late.
+- 13:09-13:58: Worker-a searches for a cafe for 45 min (facts cafe_search_minutes 45). New Maadi accessory shop 1 has no strips (facts: empty).
+- 14:09-14:14: The workers meet at the cafe. Both strips light.
+- 14:14-14:23: The first mount fails. A flat spiral is impossible (facts: the strip "bends along its length only"). Worker mistake (a): he winds the cable around the hinge (4 min).
+- 14:23-14:38: Seb sends a front-and-back wrap. Worker mistake (a): his tape covers the LEDs (4 min). Lamp 1 is done and tested at 14:38.
+- 14:38-14:53: Lamp 2. Worker mistake (b): wrong aim (4 min). Done and tested at 14:53.
+- 14:53-15:26: Worker-b searches New Maadi for strips. Shop 1 is empty and shop 2 has holders only (facts). Noon: "today, no time".
+- 15:39-15:45: Worker mistake (b): he packs the spare stands with the lamps (4 min).
+- 15:48-16:09: Worker-b rides to Carrefour Maadi, 82 EGP, 21 min (facts 55-95, 15-24).
+- 16:08-16:11: Worker mistake (b, unannounced change): he plans to go downtown for strips. He books nothing because no notice covers the fare. Seb stops him at 16:11.
+- 16:11-16:23:30: Worker-b walks 10 min to the door (facts 8-12) and hands over both lamps at 16:23:30.
+- 16:15-16:21: Worker mistake (a, navigation): a blank map pin. No cost to lamps.
+- 16:25-16:28: No Noon parcel. Seb cancels the order and the unused notices. Worker mistake (a, at 16:29): he packs the stands to take them to delivery (4 min, after work had ended).
+- 16:55-18:17: Worker-b rides home, 292 EGP, 82 min (facts 214-372, 61-95).
+
+## 2. Why 7 lamps short
+
+- No more strips existed in Seb's hands. Stands were not the limit: 6 empty stands went home with worker-a.
+- Lamps 3-8 depended on the Noon parcel. It did not arrive by 16:25 in the simulation. The simulator never drew an arrival time (finding H1).
+- Lamps 3-8 could also have come from Lampatronics (6 strips). The simulator's Thursday walk did not reach it (H2), and Seb never asked for it (Seb's choice).
+- Lamp 9 needed a ninth stand and strip. Seb's own plan capped at 8 stands.

@@ -1,0 +1,98 @@
+## 1. Timeline of decisive decisions and events
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 14:21-14:27 Mostafa (worker-a), New Maadi accessories shop 1: four folding stands at 131, nothing else (log 40-41).
+  Seb, 14:27:09: "131 is expensive and the quantity is small, don't buy". He asks for cheaper book supports instead
+  (log 48). This is the first decisive choice.
+- 14:24-15:02 Abdelrahman (worker-b) goes to RAM, then El Gammal, then El Tamimi. None has a ready USB light or a
+  preparation service. RAM hangs up by phone (log 43, 54, 61, 72, 86, 101). Facts match.
+- 14:46-15:00 Mostafa at stationery 1: A3 300 gsm at 9 (12 in stock), 100x70 sheets at 60 (3) and 100 (3). He buys 4 A3
+  for 36 (log 70, 90). Facts match. The shop also sells rubber bands at 14, but he was not asked about them then.
+- 14:50 Seb sends B to "mobile-accessory and electrical shops in Bustan/Abdel Aziz". 15:17 he asks for "lighting/LED/
+  signage shops on Abdel Aziz, Ataba". 15:45 he asks for "lighting/chandelier/LED sellers". The simulator walks B along
+  the main market street: electronics 1 at 15:10, electronics 2 at 15:27, electronics 3 at 15:53. It writes "no invented
+  lighting-shop identity" each time (log 102, 127, 217, 229). Lampatronics is never a candidate (H1).
+- 15:12-15:40 Mostafa asks groceries 1, 2 and 3 for glue, tape or clips, and for bands after 15:16. Nothing. He walks
+  home to his table (log 108, 140, 176, 206).
+- 15:28 Drawn slip (b): his report on electronics 2 leaves out that only one boost cable is in stock. Seb asks at 15:34
+  and gets the answer at 15:37. No cost (log 150, 180).
+- 15:45 B buys the only boost cable at 69. 16:07 he buys 4 modules at 4 and 4 jacks at 5 for 36 (log 216, 264). Facts
+  match.
+- 16:09 Mostafa's single-sheet A3 tent, with no fastener, spreads when touched (log 276). This fits the facts
+  (needs_clips).
+- 16:18-16:24 At FEC (19 Youssef El-Gendy), named by Seb: components only, no joining (log 324, 332). Facts: join null.
+- 16:24:45-16:28:42 B's nearby technician walk on Youssef El-Gendy finds nothing in 3 min 57 s (log 333, 365). At
+  16:27:42 Seb switches him to buying clips at Bernasos. Harby (walk, finding_minutes 0) is on the same street (H1).
+- 16:26-16:49 Mostafa finds Noon (136, two days) and Jumia (122, five days) (log 352). The grocery will not hold a
+  parcel. No account deletion method is found, so no order (log 451, 480, 492).
+- 16:39-16:43 Bernasos: clips 18.99 (not the 10.5 listed online), Canson 110. B buys 2 boxes and 1 sheet for 148
+  (log 412, 436). Facts match.
+- 17:03 B reaches Dokki and asks for his ride home to Hadayek October. Seb misses the message. B waits at the drop-off
+  until Friday 10:00 and rides home 10:04-11:25 for 327 (log 516, 550, 575) (I4).
+- 17:05 Seb finds Lampatronics on the web (address and 12V module listing). His call does not connect and his email
+  bounces (log 530, 535). Facts match.
+
+Friday-Saturday
+- Fares answers by phone: "we prepare parts, price after a visit". This is the facts' false phone claim (log 563, 655).
+  Seb builds Sunday around Fares.
+- RAM hangs up. IKEA, Carrefour and Future are busy. Dream2000, 2B and FabLab do not connect. Emails stay silent.
+  Facts match.
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 13:00 Both workers start at their facts start_location. Lateness is set at the top of both ranges, A 20 and B 3. It
+  was fixed on Thursday evening (log 543, 698) (H2).
+- 13:03-13:45 B rides Manial to Fares: 153 EGP, 42 min (log 711, 746). Facts: 113-197, 32-50.
+- 13:28-13:34 Mostafa at accessories shop 1: still only the four stands at 131. 13:37 Seb: "buy nothing there"
+  (log 732, 738). This is the second refusal of the stand.
+- 13:37-13:53 Drawn slip (a): a 4-minute wrong turn to accessories shop 2, which has no strip (log 739, 764).
+- 13:45-13:51 Fares in person: "we don't connect or assemble; board design 21 days" (log 747, 765). Facts match.
+- 13:55 Drawn slip (b), a misread. It is withdrawn because Seb's clarification arrived in the same read. No
+  replacement (log 767, 773) (E2).
+- 13:58-14:15 B's technician search toward Al Bustan finds mobile shop 1 (accessories only) and electrician 1 (join
+  offered false, declines) (log 774, 782, 795). 14:15 Seb narrows the search to inside Bostan Mall. Nothing there
+  (log 803-805).
+- 14:18-14:58 Mostafa rides to Carrefour: 75 EGP, 20 min. The white 1 m USB strip costs 179 and there is 1 in stock. The
+  charger costs 194 (log 789, 847). Seb approves both. Bought 14:58 (log 866, 878). Facts match.
+- 14:30-15:04 Seb sends B to IKEA Cairo Festival City (New Cairo). That place is not in the facts (IKEA is listed only
+  in sixth_october, colour-changing strip). Three times B "cannot confirm the destination or a quote" (log 826, 840,
+  854, 873) (I5).
+- 15:04-15:52 B rides to Carrefour with the Canson and clips: 168 EGP, 43 min (log 894, 984). Carrefour has no strip
+  left and no other shop (log 985, 1012).
+- 15:15 Seb sends the box design: two A3 sheets joined to 82 cm, folds at 11/29/51/69, which gives 22 wide x 18 high
+  x 29.7 deep, plus a third sheet as the back (log 928). Seb, not the world, sets the 18 cm.
+- 15:25 Mostafa buys insulating tape for 22 and rides home: 75 EGP, 16 min (log 921, 939, 963).
+- 15:47-15:49 The strip lights on the charger (log 965). 16:01 The box stands on the first try (log 1017).
+  16:05-16:13 The strip is mounted under the roof and down the walls (log 1027). 16:13-16:23 A 10-minute test passes:
+  steady light, readable page, cool, stable (log 1042, 1095).
+- 16:17 Drawn slip (b): a cancellation confirmation 6 minutes late. No cost (log 1072).
+- 16:23-16:42 Mostafa rides to Carrefour: 82 EGP, 19 min (log 1096, 1136). 16:29 Drawn slip (a): an ETA update not
+  sent. No cost (log 1115).
+- 16:24-16:45 B reads the street off a public map by eye and finds No. [number removed] (log 1091, 1128). Facts: map apps find the
+  street.
+- 16:44-16:57 Mostafa walks 10 + 3 min. 16:58:59 The unit is handed to the client at the door (log 1142, 1164, 1200).
+
+Money: 29 spend notices. 17 were paid within their caps and 12 were cancelled with confirmation. Of the 17, 000029
+(79) was accepted only on its second report, and 000027 (338) was clamped to 18:00. No payment was over its cap or made
+without a notice.
+
+
+## 2. Why 0 lamps (each lamp short of 9)
+
+Lamp 1, the delivered unit, fails on height.
+- Seb's own 15:15 geometry sets the roof at 18 cm.
+- With two A3 sheets and a 21 cm A4 width, height plus width is at most 40 cm, so the height cannot pass 19 cm. Seb had
+  four sheets at home (one creased). Three sheets joined would have allowed 22 wide x 20-25 high. B's 100x70 Canson was
+  another option. Both were Seb's to choose.
+- The facts mark `card-a3-300g-loose` height_ok false. The simulator labelled the unit `low` and the grader followed.
+
+Lamps 2-9 never had a light source.
+- The only ready light Seb found was Carrefour's single strip (count 1).
+- Seb's choices: no Noon order. No search of Manial, B's Sunday start, where the facts hold 6 strips (98 and 155 EGP)
+  and 2 folding stands (126). No Sunday visit to Lampatronics after he knew its address. 30 minutes on IKEA Cairo
+  Festival City.
+- World side: no joiner was ever reached for the 4 modules. Harby, Dokki electrician 1 (offered true, B's Thursday
+  start district) and Hadayek October electrician 1 all do joins. Seb never asked for an electrician in Dokki or
+  Hadayek. In Bab El Louk the simulator never surfaced Harby (H1).
+
+Bodies: Seb bought no body with height_ok true. He turned down 4 stands at 131 twice. New Maadi shop 2 (4 at 175) was
+visited on Sunday but not offered to him. Abdelrahman (Dokki, Thursday) was never sent to look at stands.

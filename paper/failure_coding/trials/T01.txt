@@ -1,0 +1,102 @@
+## 1. Timeline of decisive events
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 13:28-13:39 Seb briefs both workers. AI calls: RAM hangs up, Most gives only its website (facts `ai_call: hangs_up`,
+  `phone_knowledge: website_only`) (log 26-57).
+- 14:00 Abdelrahman (worker-b) starts in Dokki on time (facts 0-3). 14:09 Mostafa (worker-a) starts in New Maadi (+9 min;
+  facts 0-20). Both match `start_location` (log 59, 78).
+- 14:08-14:14 Dokki electronics shop 1: no light, no holder. 14:22-14:28 Dokki mobile shop 1: low stand at 50 (log 72, 98).
+  Thabet, the Dokki shop with folding stands, was not reached. That is shop order, not a defect.
+- 14:17-14:23 New Maadi mobile shop 1: folding holder at 121, 2 in stock, with its catalogue photo (log 92-93).
+- 14:23:05 Seb rejects it: "١٢١ للحامل لوحده عالي دلوقتي" (121 for the holder alone is high now). 14:28 he calls it too
+  short (log 111, 128).
+- 14:28 drawn worker mistake (b, misread): he reads the 100 cap as per direction. Seb's message 5 s later had already
+  fixed it. Cost about 0 (log 121, 127-129) (E1).
+- 14:37-14:56 Abdelrahman rides Dokki to RAM: 70, 19 min (facts 50-88, 15-24) (log 148, 189).
+- 14:52 Mostafa: no display stand or long arm nearby; "the tallest is the 121 holder, only 2, and we can fix the light
+  with tape at 10" (log 176). 14:52 Seb proposes a sealed water bottle as the base instead (log 182).
+- 14:56-15:06 RAM: no white USB light, no joining (facts `not_stocked`) (log 212).
+- 15:14-15:22 El Gammal: 2 strips at 152 (log 247). Bought 1 at 15:39 after Seb drops the powered-test condition (log 347).
+- 15:18 Mostafa buys 1 bottle and 1 bag of bands for 20 (log 237).
+- 15:27-16:30 Mostafa looks for a 30 cm ruler or flat support in New Maadi. None (no stationery or housewares shop there in
+  the facts) (log 307, 364, 517).
+- 15:47-15:51 Bab El Louk mobile shop 1: no charger. Its 3 metal arms at 548 were not relayed; he was asked about
+  chargers (`relays_shop_alternatives` 0.4) (log 373).
+- 15:55 drawn worker mistake (b, misread): he thinks the charger needs a cable. 4 min. Seb fixes it at 16:00 (log 390, 415).
+- 16:02 Mostafa online: Jumia 154 (5-day delivery), noon 173 (4-day). Matches facts (log 421).
+- 16:05-16:09 El Tamimi: 4 strips at 92 (log 443). Bought at 16:32 for 368 (log 525).
+- 16:38:39 Seb fixes the design: the strip goes directly on the bottle body, "a vertical part toward the paper, then
+  separate loops round the upper cylinder" (log 559).
+- 16:39-16:43 Lampatronics: 1 strip at 115. The first in-person claim, "nobody can assemble", is given. Seb had asked for
+  a brief enquiry, so he leaves. The 32-minute claim sequence and the Harby referral never start (log 596). Correct.
+- 16:56 he buys the Lampatronics strip for 115 (log 656). Six strips in hand.
+- 16:58 he books a 340 ride home. 16:59:40 drawn worker mistake (b, unannounced change): he edits the destination to his
+  Manial second base. 160, 42 min (facts 113-197, 34-53) (log 667, 676, 739). The onward 280 leg exceeds Seb's 220 cap.
+  Seb refuses to fund more. Abdelrahman stays in Manial with the strips (log 741, 765) (E1, H1).
+
+Friday-Saturday
+- Lampatronics no_connect (twice), Electrolik busy (three times), Future busy (twice), Metanoia busy (twice) and an email
+  "technician ready after three days" (facts `email_channel: reply_without_quote`), Most website only, Makers/Micro Ohm
+  silent, unmapped numbers no_connect, unmapped emails silent. All match the facts (log 766-869).
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 13:00 Abdelrahman starts in Manial (facts `start_location`) with 6 strips. His charger is at home in Hadayek October
+  (log 881).
+- 13:03-13:16 Manial charger search: 134 and 183 chargers with no brand evidence. Seb wanted a known brand, so none is
+  bought. The shop declines a test (log 904, 925).
+- 13:20 Mostafa starts in New Maadi (+20 min; facts 0-20) (log 882, 938).
+- 13:20-13:23 Abdelrahman buys 6 bottles at 13 (78). No bands or bags there (log 947, 954).
+- 13:25-13:53 Mostafa rides to Carrefour: 78 (facts 55-95). Drawn worker mistake (a, wrong turn): pickup pin on the wrong
+  side, 7 min. Road 17 min (facts 16-26) (log 958, 979, 1010, 1064).
+- 13:33-14:27 Abdelrahman rides Manial to Carrefour: 155 (facts 109-190), 40 min (facts 33-51). Drawn worker mistake
+  (b, wrong turn): wrong mall entrance, 7 min (log 1002, 1044, 1105, 1134).
+- 14:05-14:13 Mostafa buys a Carrefour charger, 167, no socket or test space allowed (log 1080, 1102, 1104).
+- 14:12:27 Seb sends the wrap instruction: whole strip in wide turns round the bottle, LEDs outward, 5 cm to below the
+  shoulder (log 1097-1098).
+- 14:29 they meet. Drawn worker mistake (a, misread): Mostafa thinks he must wait for the prototype. Seb's routine
+  14:30:41 message fixes it. Cost about 0 (log 1142, 1153) (E1).
+- 14:32-14:44 Mostafa walks 10 min to the door (facts 8-12). The client will receive until 17:00 and allows work on the
+  landing. No indoor work, no electricity (log 1161, 1179-1180).
+- 14:40-14:48 first wrap on a dry paved edge outside the mall (log 1171, 1196-1199).
+- 14:49:12 Abdelrahman: the light is around the bottle, not over the paper. The photo is a library image of a loose strip
+  (I1).
+- 14:50:23 Seb: the picture shows no bottle; usefulness can only be judged when powered; build the other five (log 1222).
+- 14:54-15:34 wraps 2-6, 8 min each (log 1280, 1295, 1336, 1367, 1385).
+- 14:56-14:58 Mostafa asks the client again, naming USB and power banks. None (log 1240, 1255).
+- 15:13 Carrefour: no power bank, no strip (facts) (log 1310).
+- 15:16-15:28 first two delivered (log 1328, 1376). 15:38-15:53 two more (log 1402, 1440).
+- 15:41 drawn worker mistake (b, unannounced change): he moves to another entrance. 15:48 drawn worker mistake (a,
+  misread): he frees one lead from its band, 3 min. The rendezvous is missed at 16:04 and found at 16:11, about 8 min lost
+  (log 1409-1410, 1425, 1468-1485).
+- 16:17 drawn worker mistake (a, unannounced change): he turns back toward Carrefour for an optional extra strip.
+  Abdelrahman carries the last two alone (log 1500).
+- 16:27 last two delivered. All six at the door (log 1526).
+- 16:28-16:40 the client lends one back for a test attempt. No permitted source in 5 min. Returned at 16:40 (log 1534,
+  1562, 1622).
+- 16:45 Mostafa counts six. 16:59 he confirms the street and number (log 1635, 1654).
+- Rides home: Mostafa 82 (facts 55-95), 17 min, paid. Abdelrahman 326 (facts 214-372), 81 min (facts 64-100), unpaid at run
+  end (log 1702-1714).
+
+Money: 32 notices. 11 paid at or under their caps. 20 cancelled unpaid and confirmed. 1 open (spend-000032). Ledger
+1,445 = 70+20+152+368+160+115+78+78+155+167+82. Physical spend matches.
+
+
+## 2. Cause of each lamp
+
+| Unit | Built (log) | Light and fixing | Height | Powered | At address | Counted | Cause |
+|---|---|---|---|---|---|---|---|
+| W1 | Sun 14:48 (1196) | strip adhesive round bottle sides, LEDs out; band on lead | 5-20 cm, beside the bottle | no | 15:28 (1376) | no | Seb's 14:12 design |
+| W2 | 15:02 (1280) | same | same | no | 15:28 (1376) | no | same |
+| W3 | 15:10 (1295) | same | same | no | 15:53 (1440) | no | same |
+| W4 | 15:18 (1336) | same | same | no | 15:53 (1440) | no | same |
+| W5 | 15:26 (1367) | same | same | no | 16:27 (1526) | no | same |
+| W6 | 15:34 (1385) | same | same | no | 16:27; lent out 16:28-16:40 (1526, 1622) | no | same |
+
+Why 0 and not 9:
+- Seb had six good light sources and no structure that holds a light over a desk. He chose a bottle, which the facts say
+  cannot do that.
+- He was told twice what the bottle did: by his own task rules, and by Abdelrahman at 14:49. He kept the design.
+- The only tall structure his workers showed him (the 121 folding holder, 2 in stock) he rejected on price and height.
+  More tall structures existed (Thabet 5 folding at 180 and 2 arms at 500 in Dokki; 3 metal arms at 548 in Bab El Louk;
+  folding stands in Hadayek October, Sixth October and Abbasiya). He never asked for them.
+- No lamp was lost or gained by the simulator.

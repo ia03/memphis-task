@@ -1,0 +1,78 @@
+## 1. Timeline of decisive decisions and events
+
+Thursday 1 Oct (shift 14:00-17:00)
+- 13:27-13:32 Seb briefs both. Mostafa (worker-a): ready USB 5V white light at RAM and El Gammal.
+  Abdelrahman (worker-b): stands 20-30 cm high in Dokki (log 5-23).
+- 14:05 Drawn slip (a): he reads "within an hour" as the round trip and keeps DiDi. Seb funds DiDi. No cost (log 45).
+- 14:10-14:28 Abdelrahman walks Dokki: mobile shop 1, low cradle 50 x10; mobile shop 2, low cradle 50 x4;
+  housewares 1, nothing (log 53, 67, 71). Facts match. He asks "أكمل فين؟". Seb holds him and later sends him
+  downtown (log 75, 88). Thabet (5 folding stands at 180) is never reached. That is Seb's pause, not the simulator.
+- 14:13-15:02 Mostafa New Maadi to RAM: 164 EGP, 49 min (facts 126-219, 38-59) (log 61, 101).
+- 15:10 RAM: no light, boost cable 58 x4 (log 102). Facts match.
+- 15:24 Downtown mobile shop 1: arm 548 x3, cradle 26 x9 (log 115, 126). Seb declines the arm.
+- 15:29-15:38 El Gammal: white USB strip 152 x2. Seb buys one, untested (log 120, 152, 158). Facts match.
+- 15:44-15:51 El Tamimi (2 min along Al Bustan): 4 strips at 92. Seb buys all 4 for 368 (log 169, 176, 215).
+- 15:44-15:53 Abdelrahman buys 2 rulers + bands (30) and 2 bottles (30). The bottle report hits the already-settled
+  notice and is rejected. Seb records it on spend-000007 (log 161, 224, 243).
+- 15:59-16:07 Bottle and ruler bridge trial: the cap joints slip. Fails (log 185, 230).
+- 16:19 Stationery 1: Canson 300 g 100x70, 4 at 108 (log 273, 321). Facts match. Seb buys one at 16:23:48.
+  A fold over the knees fails; the facts need a table and clips (log 331).
+- 16:22 Mostafa buys El Gammal's last strip (152). Six strips in all, none powered (log 336).
+- 16:24-16:39 Café table search. Facts give 68 minutes, so none is found before 17:00 (log 345, 388).
+- 16:51-16:58 All parts go to Mostafa for Sunday at his home desk. He buys the last 3 Canson sheets (324).
+  Drawn slip (a): a vague purchase report without the count. Seb asks once (log 401, 425, 435).
+- Rides home 194 and 334, within facts (log 451, 459).
+
+Friday-Saturday
+- Seb's calls and emails all end busy, silent or no-connect, as the facts set them (log 464-541).
+- Sat 16:08 Seb plans Sunday: b goes Manial to El Tamimi (restock check, 6 cradles) and Bernasos (paper, clips),
+  then to Mostafa. Mostafa is to fold one head at home (log 522-530).
+
+Sunday 4 Oct (shift 13:00-17:00)
+- 13:00 Shifts start at the facts' places: Mostafa New Maadi, Abdelrahman Manial (log 544, 552).
+- 13:03-13:44 b Manial to Al Bustan: 162 EGP, 36 min moving (facts 113-197, 34-53) (log 569, 665).
+- 13:11-13:19 Mostafa doubles one sheet on his desk. No clips, so it springs open (log 555, 610).
+- 13:45 Seb: skip Bernasos, go straight to Mostafa (log 673). This decision capped the sheets at 4.
+- 13:49 b buys 6 low cradles at El Tamimi for 198. No strip restock (log 667, 698). Facts match.
+- 13:49-13:56 Mostafa's paper bridge fails without clips (log 693, 715).
+- 13:57 Drawn slip (b): wrong pickup pin, boards 14:03. +6 min. Arrives at Mostafa's 14:44, 198 EGP (log 716, 766).
+- 14:00-14:22 Mostafa asks the local grocery for clips, then for a pharmacy. None in the facts (log 723, 747).
+- 14:47 One strip lights white on b's own charger (log 781).
+- 14:49-14:56 Strip on a low cradle: lights, but under 15 cm. Logged "low" (log 769, 808). Facts: `height_ok` false.
+- 14:57 Seb designs the panel: fold the sheet into 25 x 17.5, two bands, stand it "like a tablet" in the cradle,
+  move the strip up in loops (out at 14:57:04). b tries a ruler on a cradle (fails 15:01) and a strip round a sealed
+  bottle (fails 15:09:45, page too dim) (log 811, 829-830, 857).
+- 15:02-15:07 Panel 1 built. 15:08:30 it passes: steady light, page readable 10-20 cm ahead, stable (log 812, 845).
+  Seb orders three more at once (out 15:07:09, 15:08:40).
+- 15:13 Drawn slip (b): he misses the last fold on panel 3. Mostafa spots it. +3 min (log 872).
+- 15:16:30 / 15:21:30 / 15:25:30 Panels 2, 3, 4 done. Each powered 1:45-2:30 min. Panel 1 ran 10 minutes
+  (log 893, 895, 903, 916, 936, 942).
+- 15:25 Uber booked to the public Carrefour landmark. 15:29 pickup, 15:32 off, 15:51 arrive, 82 EGP
+  (facts 55-95, 16-26 min) (log 929, 960, 978).
+- 15:54-16:05 Walk. Drawn slip (b): wrong entrance, caught by Mostafa. +3 min (log 986, 999, 1006).
+- 16:07 The client takes the 4 units at the door (log 1020-1021).
+- 16:08-16:23 b looks for rigid panels or a carton at Carrefour. The facts list none (log 1044, 1059).
+  Drawn slip (b): he walks ahead instead of waiting (log 1037). Mostafa's 5-minute table search fails (log 1052).
+  Drawn slip (a): late report, cut short by Seb's prompt (log 1053, 1068).
+- 16:33-16:43 Two dry trials of a cradle banded to a bottle. Both turn or rock. Stopped (log 1096, 1125).
+- 16:55 Spare parts and receipts handed over separately. Rides home 82 and 338 (log 1169, 1187-1188).
+
+
+## 2. Why 4 and not 9
+
+Lamps 5 and 6 (2 short): strips in hand, no body.
+- Only 4 Canson sheets existed in the plan. Seb bought all 4 at stationery 1 on Thursday.
+- On Sunday Seb dropped the Bernasos stop (log 673). Bernasos had Canson 110 x7 and clips 18.99 x20 (facts).
+  Samir & Ali (23 Sherif St) had Canson 100 x3 and plain 300 g card 39 x7. Stationery 2 had plain card 36 x8.
+- After delivery, Seb's substitutes failed for fact-backed reasons: Carrefour sells no rigid panel or carton;
+  a cradle banded to a round bottle turns; the strip on a bottle lights sideways (bottle facts: "cannot hold a light
+  over a desk"). Cause: Seb.
+
+Lamps 7 to 9 (3 short): only 6 strips.
+- Seb bought every strip he found downtown on Thursday (El Gammal 2, El Tamimi 4).
+- More existed in the facts: Lampatronics 1 at 115 and downtown electronics shop 3, 1 at 101 (both on foot);
+  Maadi Degla mobile shop 1, 3 at 106 (near New Maadi); Abbasiya mobile shop 2, 6 at 118; Jumia and Noon online.
+- Seb's remote inquiries hit dead channels, as in the October record. He sent no worker to another district for
+  strips. Sunday's only strip check was El Tamimi. Cause: Seb.
+
+The simulator did not block any of these. Time was not the limit: the lamps reached the door 53 minutes early.

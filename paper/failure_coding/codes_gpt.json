@@ -1,0 +1,162 @@
+[
+  {
+    "trial": "T01",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb rejected the two 121-EGP folding holders and persisted with bottle wraps that could not hold light over a desk; C: the cause analysis identifies unbought tall stands in Dokki, Bab El Louk and other districts that he never asked workers to find."
+  },
+  {
+    "trial": "T02",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": true,
+    "evidence": "A: Seb knowingly used low cradles, leaving all nine working strips without a qualifying structure; C: he routed the worker away from both Dokki and Manial without checking their available tall stands; D: the two completed units left at 16:23 and were handed over at 16:58, only two minutes before the deadline."
+  },
+  {
+    "trial": "T03",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": true,
+    "evidence": "A: Seb twice refused four 131-EGP folding stands and chose an 18-cm card body that failed height; C: he omitted Manial's six strips and two stands and never visited Lampatronics on Sunday despite knowing its address; D: after testing until 16:23, he delivered the sole unit at 16:58:59, leaving about one minute."
+  },
+  {
+    "trial": "T04",
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb bought four of Thabet's five stands and the analysis identifies stands as a second limit beyond five lamps; B: he bought the joining parts at 16:59:40 while enforcing a strict 17:00 cutoff, preventing their handover to Harby; C: he never sent the downtown worker along the street for the additional strips listed at FEC, El Gammal and walk-in shops."
+  },
+  {
+    "trial": "T05",
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "evidence": "A: Seb approved seven low fixed stands despite being told they would not aim down; B: his changing cutoffs left Harby idle between the 15:02 head and the next starts after 15:34, costing heads; C: he left a known New Maadi tall holder unbought and sent nobody to other shops with tall stock; D: the last worker reached the door at 16:53:58 and the final two units were handed over at 16:59:38, with only 22 seconds remaining."
+  },
+  {
+    "trial": "T06",
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "evidence": "C: after buying FEC's eight module sets, Seb instructed collection of the commissioned eight with no further search, although the known Lampatronics next door stocked 18 modules, 19 jacks and 28 cables and another nearby shop had additional stands."
+  },
+  {
+    "trial": "T07",
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "evidence": "A: the cause analysis attributes Thursday time to improvised bodies after Seb initially rejected the ready 131-EGP stand; B: he did not leave work with the Thursday electrician available after 17:12 and on Sunday required measuring, joining, insulation and testing within 15 minutes, ruling out partial offers; C: he never searched the Sunday starting district Manial, which held six USB strips; D: the completed lamp's return trip and final walk ended in handover at 16:56:57, about three minutes before the deadline."
+  },
+  {
+    "trial": "T08",
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": true,
+    "evidence": "B: Seb attempted the Thursday batch only at 16:55 and cancelled it with three minutes left, then commissioned just three extra heads on Sunday; D: his schedule allowed only about 7-10 minutes of slack and the two finished lamps were still two minutes short of the door at 17:00."
+  },
+  {
+    "trial": "T09",
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb rejected tall folding stands and delivered a strip mounted on a low cradle instead; B: he ended the downtown worker's shift at 15:49 even though the located electrician could begin joining at 16:02; C: he did not buy the 136-EGP tall stand at the charger shop or find the valid Lampatronics-and-Harby light-head route identified in the analysis."
+  },
+  {
+    "trial": "T10",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb declined the offered metal arm and lamps 5-6 lacked bodies after his bottle-and-cradle substitutes failed; C: he cancelled the Bernasos stop despite its card and clip stock and confined Sunday's strip check to El Tamimi although other nearby shops and districts held more strips."
+  },
+  {
+    "trial": "T11",
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "evidence": "A: Seb refused Thabet's folding holder and used A3 tents with no writing clearance; B: he cancelled the Sunday batch at 14:20, repeatedly imposed cutoffs and finally obtained only one late joined module; C: he left Thabet's offered strip unbought and stopped with Lampatronics' three strips despite additional light sources being reachable there through joining; D: assembly began at 16:12 for a 16:25 departure target, the second unit was handed over at 16:59 and the worker with the extra module arrived at 17:02."
+  },
+  {
+    "trial": "T12",
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "evidence": "A: Seb rejected Dokki's two 126-EGP stands and finished with only four supports; B: he declined Thursday joining to return before 17:00 and ordered only four heads at 14:08-14:12 Sunday; C: he omitted further stands in Thabet, Manial and downtown after a five-minute local search; D: all four lamps were accepted at 16:59:32 and the analysis says a seven-minute rather than five-minute final walk would have lost them all."
+  },
+  {
+    "trial": "T13",
+    "A": false,
+    "B": true,
+    "C": true,
+    "D": false,
+    "evidence": "B: Seb dropped Harby's joining route at 16:38 Thursday and never commissioned a head for the ninth lamp despite capacity for eleven per day; C: after buying eight strips he pursued neither the additional Abbasiya stock nor the online light stock listed in the cause analysis."
+  },
+  {
+    "trial": "T14",
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb turned down Thabet's five folding holders and metal arms and made only one ruler support; B: he refused the Thursday electrician who could finish all eight heads that evening and keep them for Sunday; C: he never returned to Bab El Louk for the known joiner or searched its six Lampatronics strips and two mobile-shop strips, asking the latter shop only about fitting."
+  },
+  {
+    "trial": "T15",
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb rejected Thabet's tall stands and ordered bottle-wall mounts at 10-15 cm that could not illuminate a desk from above; B: he dropped Harby on Thursday over the 39-EGP charge and documentation terms, leaving four module pairs unprepared after Sunday's six heads; C: he never asked again about tall stock available at Thabet, downtown, El Tamimi and New Maadi."
+  },
+  {
+    "trial": "T16",
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb bought only one of Thabet's five tall holders and accepted low cradles, leaving three working strips without tall supports; B: he dropped the in-person technician route on Thursday instead of commissioning heads; C: he left known additional holders unbought and stopped the light search at four strips although FEC, El Gammal and other districts had more."
+  },
+  {
+    "trial": "T17",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb rejected El Tamimi's four offered metal arms and ultimately obtained only eight qualifying holders for twenty strips; C: he skipped the starting districts' New Maadi and Dokki tall stock and recalled the stand-searching worker at 15:20, leaving the ninth lamp without a structure."
+  },
+  {
+    "trial": "T18",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb rejected the offered 548-EGP metal arm and knowingly copied low cradle wraps that failed geometry; C: he never searched New Maadi's two tall folding stands, Dokki's five or Abbasiya's additional stock despite having unused strips."
+  },
+  {
+    "trial": "T19",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb explicitly declined the offered folding holders and built eight lights on cradles under 15 cm; C: he abandoned the available tall stock at New Maadi, El Tamimi and the downtown counter for Carrefour's low cradles, and requested the ninth strip online only after Thursday's shift had ended."
+  },
+  {
+    "trial": "T20",
+    "A": true,
+    "B": false,
+    "C": true,
+    "D": false,
+    "evidence": "A: Seb bought only three tall arms while rejecting known folding supports and trying bottle-and-cradle substitutes that rocked or aimed poorly; C: he never bought the two nearby New Maadi stands or Thabet's additional stock and never searched other districts, leaving ten prepared heads unused."
+  }
+]

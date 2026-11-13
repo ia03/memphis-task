@@ -1,0 +1,460 @@
+{
+ "trial": "c1-s13-hinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 1,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "chat#40",
+     "what": "Harby Tech says it can join and insulate up to 19 heads by Sunday; B leaves batch; all 18 ready",
+     "happened": false
+    },
+    {
+     "cite": "chat#36",
+     "what": "Lampatronics boost cable sold as 5-to-12V step-up; bought 19, never powered",
+     "happened": "unclear"
+    },
+    {
+     "cite": "chat#54",
+     "what": "El Tamimi charger stated 5V 2A; bought for testing, never used",
+     "happened": "unclear"
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 28,
+   "happened": 21,
+   "items": [
+    {
+     "cite": "chat#22",
+     "what": "A shop 1 (Laselky): folding desk stand, 4 in stock, bought",
+     "happened": false
+    },
+    {
+     "cite": "chat#24",
+     "what": "A shop 1: taller arm or tripod stand, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#33",
+     "what": "A shop 2: same folding stand, 4 at 175, bought",
+     "happened": false
+    },
+    {
+     "cite": "chat#33",
+     "what": "A shop 2: taller arm stand, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#36",
+     "what": "B Lampatronics: LED board, 26 in stock but voltage unconfirmed",
+     "happened": false
+    },
+    {
+     "cite": "chat#36",
+     "what": "B Lampatronics: ready 5V USB LED strip, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#36",
+     "what": "B Lampatronics: USB bare-lead pigtail cable, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#36",
+     "what": "B Lampatronics: 5-to-12V USB boost cable, 28 in stock",
+     "happened": false
+    },
+    {
+     "cite": "chat#52",
+     "what": "B Lampatronics: USB wall charger, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#54",
+     "what": "B El Tamimi: 5V charger at 103, above Seb's 100 cap",
+     "happened": true
+    },
+    {
+     "cite": "chat#62",
+     "what": "A Road 9 shop: folding stands, 5 at 185, bought",
+     "happened": false
+    },
+    {
+     "cite": "chat#62",
+     "what": "A Road 9 shop: metal-arm tablet stand available at 513 (Seb declined)",
+     "happened": false
+    },
+    {
+     "cite": "chat#62",
+     "what": "A Road 9 shop: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 232",
+     "what": "A Road 9 shop: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#70",
+     "what": "A Maadi stationery: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#70",
+     "what": "A Maadi stationery: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#74",
+     "what": "A Maadi hardware shop: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#74",
+     "what": "A Maadi hardware shop: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#87",
+     "what": "B Bab El Louk hardware: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#87",
+     "what": "B Bab El Louk hardware: foam double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#88",
+     "what": "B Bab El Louk stationery: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#88",
+     "what": "B Bab El Louk stationery: foam double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#112",
+     "what": "A Carrefour: 6 more matching stands, only low cradles",
+     "happened": true
+    },
+    {
+     "cite": "chat#116",
+     "what": "A Carrefour: insulating tape, 5 rolls at 22",
+     "happened": false
+    },
+    {
+     "cite": "chat#116",
+     "what": "A Carrefour: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#116",
+     "what": "A Carrefour: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#129",
+     "what": "B Lampatronics Sunday: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "chat#164",
+     "what": "A Carrefour: charged USB power bank, none",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 2,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#36",
+     "what": "Lampatronics asked to join board to cable: said maybe, then not now; referred next door",
+     "happened": false
+    },
+    {
+     "cite": "chat#40",
+     "what": "Harby Tech agrees to join/insulate sample same day and 18 heads by Sunday",
+     "happened": true
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 2,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "chat#48",
+     "what": "Harby: sample joined in a quarter hour (due ~15:24); finished 15:21",
+     "happened": false
+    },
+    {
+     "cite": "chat#81",
+     "what": "Harby: 18 heads ready for Sunday 13:00 pickup; finished 11:08, collected 14:05",
+     "happened": false
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 804",
+     "what": "19 Harby-made heads delivered, none ever powered or tested",
+     "happened": "unclear"
+    }
+   ]
+  },
+  "K6": {
+   "opportunities": 7,
+   "happened": 7,
+   "items": [
+    {
+     "cite": "log 38",
+     "what": "B Uber Dokki to Bab El Louk: 12 min quoted, 18 actual",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 18
+    },
+    {
+     "cite": "log 162",
+     "what": "A DiDi to Road 9: 18 min quoted, 27 from booking to arrival",
+     "happened": true,
+     "quoted_min": 18,
+     "actual_min": 27
+    },
+    {
+     "cite": "log 298",
+     "what": "A DiDi Road 9 to home: 18 min quoted, 35 actual incl. wrong-lane detour",
+     "happened": true,
+     "quoted_min": 18,
+     "actual_min": 35
+    },
+    {
+     "cite": "log 358",
+     "what": "B DiDi downtown to Hadayek October: 59 quoted, 92 actual",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 92,
+     "long": true
+    },
+    {
+     "cite": "log 423",
+     "what": "B DiDi Manial to Bab El Louk: 27 quoted, 41 actual",
+     "happened": true,
+     "quoted_min": 27,
+     "actual_min": 41,
+     "long": true
+    },
+    {
+     "cite": "log 438",
+     "what": "A DiDi home to Carrefour Maadi: 13 quoted, 26 actual incl. entrance detour",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 26
+    },
+    {
+     "cite": "log 535",
+     "what": "B DiDi Bab El Louk to delivery area: 28 quoted, 48 actual",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 48,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K9": {
+   "opportunities": 35,
+   "happened": 2,
+   "items": [
+    {
+     "cite": "chat#11",
+     "what": "worker-b file-000001 (ride-quote:dokki:downtown_bab_el_louk:68:12:Uber): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#15",
+     "what": "worker-a file-000002 (ride-quote:new_maadi:downtown_bab_el_louk:173:30:D): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#23",
+     "what": "worker-a file-000003 (item:phone-stand-folding-180): Seb asked stand's extended height and stability, not visible in photo",
+     "happened": true
+    },
+    {
+     "cite": "chat#27",
+     "what": "worker-a file-000004 (invoice:walkin-new_maadi-mobile_accessories-1:phon): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#31",
+     "what": "worker-b file-000005 (item:led-pcb-round-6x7530): Seb asked board voltage and other specs the photo did not show",
+     "happened": true
+    },
+    {
+     "cite": "chat#32",
+     "what": "worker-a file-000006 (item:phone-stand-folding-180): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#38",
+     "what": "worker-a file-000007 (invoice:walkin-new_maadi-mobile_accessories-2:phon): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#43",
+     "what": "worker-a file-000008 (ride-quote:new_maadi:maadi_degla:98:18:DiDi): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#53",
+     "what": "worker-b file-000009 (item:usb-charger-5v): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#61",
+     "what": "worker-a file-000010 (item:metal-arm-tablet-stand): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#68",
+     "what": "worker-a file-000011 (invoice:walkin-maadi_degla-mobile_accessories-1:ph): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#79",
+     "what": "worker-b file-000012 (invoice:lampatronics-downtown:led-pcb-round-6x7530): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#84",
+     "what": "worker-b file-000013 (scene): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#102",
+     "what": "worker-b file-000014 (ride-quote:manial:downtown_bab_el_louk:151:27:DiDi): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#106",
+     "what": "worker-a file-000015 (ride-quote:new_maadi:delivery_area:78:13:DiDi): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#111",
+     "what": "worker-a file-000016 (item:phone-stand-simple-30): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#115",
+     "what": "worker-a file-000017 (item:insulating-tape): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#120",
+     "what": "worker-a file-000018 (invoice:carrefour-city-centre-maadi:insulating-tap): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#124",
+     "what": "worker-b file-000019 (heads:18:led-pcb-round-6x7530): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#130",
+     "what": "worker-b file-000020 (ride-quote:downtown_bab_el_louk:delivery_area:176:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#148",
+     "what": "worker-a file-000021 (lamp:phone-stand-folding-180:led-pcb-round-6x7530:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#152",
+     "what": "worker-b file-000022 (lamp:phone-stand-folding-180:led-pcb-round-6x7530:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#155",
+     "what": "worker-b file-000023 (lamp:phone-stand-folding-180:led-pcb-round-6x7530:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#161",
+     "what": "worker-b file-000024 (lamp:phone-stand-folding-180:led-pcb-round-6x7530:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#167",
+     "what": "worker-b file-000025 (lamp:phone-stand-folding-180:led-pcb-round-6x7530:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#172",
+     "what": "worker-b file-000026 (lamp:phone-stand-folding-180:led-pcb-round-6x7530:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#174",
+     "what": "worker-a file-000027 (lamp:phone-stand-folding-180:led-pcb-round-6x7530:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#177",
+     "what": "worker-a file-000028 (lamp:phone-stand-folding-180:led-pcb-round-6x7530:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#179",
+     "what": "worker-b file-000029 (lamp:phone-stand-folding-180:led-pcb-round-6x7530:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#182",
+     "what": "worker-b file-000030 (lamp:phone-stand-folding-180:led-pcb-round-6x7530:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#184",
+     "what": "worker-a file-000031 (lamp:phone-stand-folding-180:led-pcb-round-6x7530:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#187",
+     "what": "worker-a file-000032 (lamp:phone-stand-folding-180:led-pcb-round-6x7530:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#189",
+     "what": "worker-b file-000033 (lamp:phone-stand-folding-180:led-pcb-round-6x7530:): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#197",
+     "what": "worker-a file-000034 (ride-quote:delivery_area:hadayek_october:286:51:Di): no redo asked",
+     "happened": false
+    },
+    {
+     "cite": "chat#199",
+     "what": "worker-b file-000035 (ride-quote:delivery_area:hadayek_october:294:51:Di): no redo asked",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "comms.md is empty: Seb made no calls or emails, so K7 has no opportunities. No head was ever powered (Harby, shops and recipient refused testing; no power bank), so K5 and the boost-cable and charger claims are unclear. Ride durations measured from booking to arrival as the log gives them; two A rides include worker navigation detours. K2 counts one ask per item per shop; the Thursday batch re-purchase at Lampatronics was not re-counted. Board photo (file-000005) redo is borderline: B asked what to say, and Seb's follow-up asked specs a photo could not show."
+}

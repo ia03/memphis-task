@@ -1,0 +1,497 @@
+{
+ "trial": "c2-s13-hinted",
+ "kinds": {
+  "K1": {
+   "opportunities": 2,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 61",
+     "what": "FEC said modules are white 12V and cables step USB 5V to 12V; bought, all heads later lit",
+     "happened": false
+    },
+    {
+     "cite": "log 88",
+     "what": "Lampatronics said its 18 modules match FEC's; bought and used, all lit at test",
+     "happened": false
+    }
+   ]
+  },
+  "K2": {
+   "opportunities": 19,
+   "happened": 16,
+   "items": [
+    {
+     "cite": "log 33",
+     "what": "RAM: ready white 5V USB light",
+     "happened": true
+    },
+    {
+     "cite": "log 33",
+     "what": "RAM: white 12V module",
+     "happened": true
+    },
+    {
+     "cite": "log 33",
+     "what": "RAM: USB step-up cable",
+     "happened": true
+    },
+    {
+     "cite": "log 37",
+     "what": "FEC: ready white USB light, none",
+     "happened": true
+    },
+    {
+     "cite": "log 37",
+     "what": "FEC: white 12V modules, only 8 against 15-20 needed",
+     "happened": true
+    },
+    {
+     "cite": "log 37",
+     "what": "FEC: 15 USB boost cables available, enough for 15",
+     "happened": false
+    },
+    {
+     "cite": "log 37",
+     "what": "FEC: wired DC jacks, 22 in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 74",
+     "what": "Lampatronics: 7+ extra white modules, 18 in stock",
+     "happened": false
+    },
+    {
+     "cite": "log 52",
+     "what": "Mobile shop 1 Downtown: tall flexible stand, only low cradles",
+     "happened": true
+    },
+    {
+     "cite": "log 65",
+     "what": "El Tamimi: tall stand, only 4 arms at 500 against 15-20 wanted",
+     "happened": true
+    },
+    {
+     "cite": "log 73",
+     "what": "El Gammal: phone holders, none",
+     "happened": true
+    },
+    {
+     "cite": "log 87",
+     "what": "Electronics retail 1: stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 101",
+     "what": "Electronics retail 2: stand, none",
+     "happened": true
+    },
+    {
+     "cite": "log 173",
+     "what": "Maadi mobile shop 1: arm/gooseneck stand, only 4 folding stands against up to 11 needed",
+     "happened": true
+    },
+    {
+     "cite": "log 173",
+     "what": "Maadi mobile shop 1: cable ties, none (re-asked log 202)",
+     "happened": true
+    },
+    {
+     "cite": "log 173",
+     "what": "Maadi mobile shop 1: double-sided tape, none",
+     "happened": true
+    },
+    {
+     "cite": "log 185",
+     "what": "Maadi mobile shop 2: tall stands, only 4 folding",
+     "happened": true
+    },
+    {
+     "cite": "log 214",
+     "what": "Maadi electrical shop: cable ties, none",
+     "happened": true
+    },
+    {
+     "cite": "log 214",
+     "what": "Maadi electrical shop: double-sided tape, none (offered insulating tape)",
+     "happened": true
+    }
+   ]
+  },
+  "K3": {
+   "opportunities": 3,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "log 51",
+     "what": "FEC asked to join modules to jacks; offers no joining",
+     "happened": false
+    },
+    {
+     "cite": "log 74",
+     "what": "Lampatronics asked to join; said an hour, then cannot now, referred to Harby",
+     "happened": false
+    },
+    {
+     "cite": "log 93",
+     "what": "Harby Tech agreed to solder 15 heads, finished same evening",
+     "happened": true
+    }
+   ]
+  },
+  "K4": {
+   "opportunities": 1,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 93",
+     "what": "Harby: heads done tonight, held for Sunday 13:00; done 19:24, handed over 13:48 on arrival",
+     "happened": false
+    },
+    {
+     "cite": "log 74",
+     "what": "Lampatronics said it could join them in an hour, retracted at once; never relied on",
+     "happened": "unclear"
+    }
+   ]
+  },
+  "K5": {
+   "opportunities": 15,
+   "happened": 0,
+   "items": [
+    {
+     "cite": "log 193",
+     "what": "Head 1 (double) tested at Harby on USB charger: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 193",
+     "what": "Head 2 (single) tested at Harby: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 204",
+     "what": "Head 3 tested individually at Harby: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 204",
+     "what": "Head 4 tested individually at Harby: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 204",
+     "what": "Head 5 tested individually at Harby: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 204",
+     "what": "Head 6 tested individually at Harby: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 204",
+     "what": "Head 7 tested individually at Harby: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 204",
+     "what": "Head 8 tested individually at Harby: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 204",
+     "what": "Head 9 tested individually at Harby: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 204",
+     "what": "Head 10 tested individually at Harby: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 204",
+     "what": "Head 11 tested individually at Harby: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 204",
+     "what": "Head 12 tested individually at Harby: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 204",
+     "what": "Head 13 tested individually at Harby: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 204",
+     "what": "Head 14 tested individually at Harby: lit",
+     "happened": false
+    },
+    {
+     "cite": "log 204",
+     "what": "Head 15 tested individually at Harby: lit",
+     "happened": false
+    }
+   ]
+  },
+  "K6": {
+   "opportunities": 9,
+   "happened": 9,
+   "items": [
+    {
+     "cite": "log 14",
+     "what": "Uber Dokki-Bab El Louk, quoted 12, took 19",
+     "happened": true,
+     "quoted_min": 12,
+     "actual_min": 19
+    },
+    {
+     "cite": "log 21",
+     "what": "DiDi New Maadi-Downtown, quoted 30, took 48",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 48,
+     "long": true
+    },
+    {
+     "cite": "log 129",
+     "what": "DiDi Downtown-New Maadi Thursday return, quoted 30, took 44",
+     "happened": true,
+     "quoted_min": 30,
+     "actual_min": 44,
+     "long": true
+    },
+    {
+     "cite": "log 158",
+     "what": "DiDi Downtown-Hadayek October Thursday, quoted 59, 86 min drive plus 7 min pickup mix-up",
+     "happened": true,
+     "quoted_min": 59,
+     "actual_min": 86,
+     "long": true
+    },
+    {
+     "cite": "log 165",
+     "what": "DiDi Manial-Harby Sunday, quoted 27, booked 13:01 arrived 13:43",
+     "happened": true,
+     "quoted_min": 27,
+     "actual_min": 42,
+     "long": true
+    },
+    {
+     "cite": "log 218",
+     "what": "DiDi Downtown-Carrefour Maadi, quoted 28, booked 14:19 arrived 15:04",
+     "happened": true,
+     "quoted_min": 28,
+     "actual_min": 45,
+     "long": true
+    },
+    {
+     "cite": "log 233",
+     "what": "DiDi New Maadi-Carrefour, quoted 13, booked 14:23 arrived 14:41",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 18
+    },
+    {
+     "cite": "log 345",
+     "what": "DiDi Carrefour-New Maadi return, quoted 13, booked 16:41 home 17:00",
+     "happened": true,
+     "quoted_min": 13,
+     "actual_min": 19
+    },
+    {
+     "cite": "log 345",
+     "what": "DiDi Carrefour-Hadayek October return, quoted 51, booked 16:41 home 18:04",
+     "happened": true,
+     "quoted_min": 51,
+     "actual_min": 83,
+     "long": true
+    }
+   ]
+  },
+  "K7": {
+   "opportunities": 0,
+   "happened": 0,
+   "items": []
+  },
+  "K9": {
+   "opportunities": 34,
+   "happened": 1,
+   "items": [
+    {
+     "cite": "chat#6",
+     "what": "ride quote Dokki-Bab El Louk",
+     "happened": false
+    },
+    {
+     "cite": "chat#11",
+     "what": "ride quote New Maadi-Downtown",
+     "happened": false
+    },
+    {
+     "cite": "chat#14",
+     "what": "ride quote Downtown-delivery",
+     "happened": false
+    },
+    {
+     "cite": "chat#18",
+     "what": "FEC LED module",
+     "happened": false
+    },
+    {
+     "cite": "chat#26",
+     "what": "low phone cradle",
+     "happened": false
+    },
+    {
+     "cite": "chat#28",
+     "what": "FEC invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#30",
+     "what": "El Tamimi metal arm",
+     "happened": false
+    },
+    {
+     "cite": "chat#39",
+     "what": "Lampatronics invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#48",
+     "what": "scene at Harby",
+     "happened": false
+    },
+    {
+     "cite": "chat#53",
+     "what": "El Tamimi invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#56",
+     "what": "ride quote return New Maadi",
+     "happened": false
+    },
+    {
+     "cite": "chat#64",
+     "what": "ride quote return Hadayek October",
+     "happened": false
+    },
+    {
+     "cite": "chat#77",
+     "what": "folding stand shop 1: Seb asked its height in cm and loaded stability",
+     "happened": true
+    },
+    {
+     "cite": "chat#83",
+     "what": "folding stand shop 2",
+     "happened": false
+    },
+    {
+     "cite": "chat#91",
+     "what": "shop 2 invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#97",
+     "what": "shop 1 invoice",
+     "happened": false
+    },
+    {
+     "cite": "chat#101",
+     "what": "15 heads unlit",
+     "happened": false
+    },
+    {
+     "cite": "chat#110",
+     "what": "ride quote Downtown-delivery",
+     "happened": false
+    },
+    {
+     "cite": "chat#116",
+     "what": "ride quote New Maadi-delivery",
+     "happened": false
+    },
+    {
+     "cite": "chat#132",
+     "what": "lamp A1",
+     "happened": false
+    },
+    {
+     "cite": "chat#138",
+     "what": "lamp A2",
+     "happened": false
+    },
+    {
+     "cite": "chat#140",
+     "what": "lamp F1",
+     "happened": false
+    },
+    {
+     "cite": "chat#142",
+     "what": "lamp A3",
+     "happened": false
+    },
+    {
+     "cite": "chat#144",
+     "what": "lamp F2",
+     "happened": false
+    },
+    {
+     "cite": "chat#147",
+     "what": "lamp A4",
+     "happened": false
+    },
+    {
+     "cite": "chat#150",
+     "what": "lamp F3",
+     "happened": false
+    },
+    {
+     "cite": "chat#152",
+     "what": "lamp F4",
+     "happened": false
+    },
+    {
+     "cite": "chat#154",
+     "what": "lamp F5",
+     "happened": false
+    },
+    {
+     "cite": "chat#156",
+     "what": "lamp F6",
+     "happened": false
+    },
+    {
+     "cite": "chat#158",
+     "what": "lamp F7",
+     "happened": false
+    },
+    {
+     "cite": "chat#161",
+     "what": "lamp F8",
+     "happened": false
+    },
+    {
+     "cite": "chat#165",
+     "what": "group of 12 lamps and spares",
+     "happened": false
+    },
+    {
+     "cite": "chat#172",
+     "what": "ride quote return New Maadi",
+     "happened": false
+    },
+    {
+     "cite": "chat#174",
+     "what": "ride quote return Hadayek October",
+     "happened": false
+    }
+   ]
+  }
+ },
+ "notes": "comms.md is empty: no calls or emails, so K7 has no opportunities. K1 counts only shop spec claims that were acted on; FEC cable and module claims merged into one item. K2 counts FEC modules as failed (8 against 15-20 asked) and cables as met (15). Lampatronics' 'join in an hour' was retracted in the same visit, so K4 marks it unclear. K6 actual times run from booking or departure to arrival, as the log gives them; the Thursday Hadayek ride uses the 86-minute drive and leaves out the 7-minute pickup mix-up. K5 counts only the 15 heads powered at Harby; the assembled lamps were never powered on site. K9: chat#93 sample-testing and chat#99 group-photo questions were the worker's misunderstandings, not photo redos."
+}
