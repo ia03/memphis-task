@@ -18,7 +18,7 @@ OCTOBER = {  # kind: (label, events, opportunities, Table 1 interval); K3 and K7
     "K4": ("A technician's time promise slips or breaks", 3, 5, (0.27, 0.85)),
     "K5": ("A technician's join fails", 0, 2, (0.02, 0.63)),
     "K6": ("A long car ride takes longer than the app's estimate", 4, 6, (0.34, 0.87)),
-    "K7": ("A remote call or email gives a usable quote", 0, 30, (0.00, 0.09)),
+    "K7": ("A remote call or email gives a usable quote", 0, 63, (0.00, 0.05)),  # 10 calls, 53 outbound emails (communications.json)
     "K9": ("A worker photo needs a redo or a follow-up question", 9, 53, (0.10, 0.27)),
 }
 

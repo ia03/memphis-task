@@ -1,12 +1,18 @@
-"""Share of world-log entries that involve observed vs sampled businesses, per trial."""
+"""Share of world-log entries that involve observed vs sampled businesses, per trial.
+
+Observed businesses are the entries of world/suppliers.yaml that the October record shows the workers or Seb dealing with. The
+entries marked `added:` count as unobserved, with the sampled shops: seven taken from web pages Seb searched and noon, added
+after simulated trials. Carrefour, also added after simulated trials, is left out on both sides: in October it was only a
+meeting point, and in the logs it is mostly the landmark next to the delivery address, not a shop."""
 # Usage, from paper/: python3 coverage.py .. TRIAL_DIR...   (the repo root, then Harbor trial folders, e.g. a release's trials/*)
 import re, sys, json, collections
 from pathlib import Path
 repo, trials = Path(sys.argv[1]), [Path(p) for p in sys.argv[2:]]
 # Observed businesses: key, English name and aliases from world/suppliers.yaml (parsed without PyYAML).
-obs, cur = {}, None
+obs, added, cur = {}, set(), None
 for line in (repo / "world/suppliers.yaml").read_text().splitlines():
     if m := re.match(r'- key: (\S+)', line): cur = m.group(1); obs[cur] = {cur}
+    elif cur and re.match(r'  added: ', line): added.add(cur)
     elif cur and (m := re.match(r'  name: "(.*)"', line)):
         name = m.group(1); obs[cur].add(re.sub(r'\s*\(.*?\)', '', name).strip())
         obs[cur].update(re.findall(r'\(([^)]*)\)', name))
@@ -15,8 +21,13 @@ for line in (repo / "world/suppliers.yaml").read_text().splitlines():
 def pat(names):
     alts = sorted({n.strip().strip('"').lower() for n in names if len(n.strip().strip('"')) >= 3}, key=len, reverse=True)
     return re.compile(r'(?<!\w)(?:' + '|'.join(re.escape(a) for a in alts) + r')(?!\w)')
-OBS = {k: pat(v) for k, v in obs.items()}
-SAMPLED = re.compile(r'walkin-[a-z_]+-[a-z_]+-\d+|\(\d\)|shop \d on the main market street|walk-in|sampled shop', re.I)
+LANDMARK = {"carrefour-city-centre-maadi"}
+OBS = {k: pat(v) for k, v in obs.items() if k not in added | LANDMARK}
+ADDED = [pat(v) for k, v in obs.items() if k in added - LANDMARK]
+# Sampled shops as the world model writes them: their key, their name with a number, or a category with a number.
+CATS = r'(?:electronics[_ -]retail|electrician|stationery|mobile[_ -]accessories|grocery|housewares|plumbing[_ -]hardware)'
+SAMPLED = re.compile(r'walkin-[a-z_]+-[a-z_]+-\d+|\(\d\)|shop \d on the main market street|walk-in|sampled shop'
+                     r'|(?<![\w-])' + CATS + r'[_ -]\d\b|\bmobile shop \d\b', re.I)
 GENERIC = re.compile(r'(?<!\w)(shop|shops|store|stall|kiosk|stationer\w*|grocer\w*|bookshop|vendor|seller|electrician|technician)(?!\w)', re.I)
 rows = []
 for d in sorted(trials):
@@ -34,7 +45,7 @@ for d in sorted(trials):
     for e in entries:
         low = e.lower()
         o = [k for k, p in OBS.items() if p.search(low)]
-        sm = bool(SAMPLED.search(e))
+        sm = bool(SAMPLED.search(e)) or any(p.search(low) for p in ADDED)
         for k in o: hit[k] += 1
         if o and not sm: c['observed_only'] += 1
         elif sm and not o: c['sampled_only'] += 1

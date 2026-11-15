@@ -99,10 +99,10 @@
   "kind": "K7",
   "label": "A remote call or email gives a usable quote",
   "oct_k": 0,
-  "oct_n": 30,
+  "oct_n": 63,
   "oct_interval": [
    0.0,
-   0.09
+   0.05
   ],
   "sim_k": 2,
   "sim_n": 217,

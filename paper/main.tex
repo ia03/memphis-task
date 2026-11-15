@@ -34,6 +34,9 @@
 \author{}
 \else
 \author{\name Ibrahim Ahmed \email ibrahim@ibrahimahmed.ca \\
+      \addr Independent researcher
+      \AND
+      \name Ahmed Sameh \email asameh0909@gmail.com \\
       \addr Independent researcher}
 \fi
 
@@ -41,11 +44,11 @@
 \maketitle
 
 \begin{abstract}
-Agent benchmarks are commonly made harder by scaling up the codebases, datasets or other seed data from which their tasks are generated. Yet models that perform well on such tasks still struggle with real work, and their failures in simulation do not always match the failures observed when they work in the real world.
+Agent benchmarks are commonly made harder by scaling up the codebases, datasets, or other seed data from which their tasks are generated. Yet models that perform well on such tasks still struggle with real work, and their failures in simulation do not always match the failures observed when they work in the real world.
 In this work, we propose seeding simulated tasks from models' own attempts at open-ended tasks in the real world, so that the subtasks a model struggled with in the real world become the main source of the task's difficulty. As a case study, in October 2026 we had GPT-6.1 Sol manage two hired workers in Cairo over chat for five shifts, with a budget of 7,000
 Egyptian pounds (about US\$134), to build as many USB desk lamps from components as it could; it bought parts for seven lamps but finished two. From the
-798 messages, the 33 spending requests and the shops' replies in this real-world evaluation, we build Memphis, a task for the Harbor agent-evaluation framework in which one language model simulates the workers, the shops and the city while remaining consistent with what the workers found and with how often things went wrong for them. Across five random seeds, we find that (1) Memphis is difficult: GPT-6.1 Sol
-scores 0.11 (5 lamps in five trials, against a target of nine per trial), and 0.91 (46 lamps in total, with each trial's score capped at nine lamps) with a one-page hint of the kind a previous manager might leave; (2) without the hint, the agent fails as it did in the real world, passing over ready-made stands and having the lights wired too late; and (3) Claude Opus 5.5, run three times per seed and condition, scores 0.24 without the hint and 0.47 with it, mostly because it buys too few stands or stands that are too low. A separate model audited each trial against criteria set in advance and judged seven of the ten GPT-6.1 Sol trials in the final round of development fair, two mostly fair and one partly fair, where fair means faithful to the recorded facts and to how often things went wrong for the workers. We have not tested whether scores in Memphis predict performance in the real world. We release the task, the code, the raw trials and the audits.
+798 messages, the 33 spending requests, and the shops' replies in this real-world evaluation, we build Memphis, a task for the Harbor agent-evaluation framework in which one language model simulates the workers, the shops, and the city while remaining consistent with what the workers found and with how often things went wrong for them. Across five random seeds, we find that (1) Memphis is difficult: GPT-6.1 Sol
+scores 0.11 (5 lamps in five trials, against a target of nine per trial), and 0.91 (46 lamps in total, with each trial's score capped at nine lamps) with a one-page hint of the kind a previous manager might leave; (2) without the hint, the agent fails as it did in the real world, passing over or under-buying ready-made stands and giving up the search for them; and (3) Claude Opus 5.5, run three times per seed and condition, scores 0.24 without the hint and 0.47 with it, mostly because it buys too few stands or stands that are too low. A separate model audited each trial against criteria set in advance and judged seven of the ten GPT-6.1 Sol trials in the final round of development fair, two mostly fair, and one partly fair, where fair means faithful to the recorded facts and to how often things went wrong for the workers. We have not tested whether scores in Memphis predict performance in the real world. We release the task, the code, the raw trials, and the audits.
 \end{abstract}
 
 \section{Introduction}
@@ -59,21 +62,21 @@ To bring the failures in simulated tasks closer to those in real work, we propos
 
 As a case study, in October 2026 we had GPT-6.1 Sol, which we call Seb in this role, manage two hired workers in Cairo over chat for five shifts, with 7,000 EGP to build as many USB desk lamps from components as it could. Seb bought parts for seven lamps but finished only two. It was slow to move from one working lamp to building lamps in quantity, and it never bought enough of a cheap, ordinary part: it bought one of the five 180 EGP phone stands a shop had, although each cost under 3\% of the budget.
 
-From these transcripts, we build Memphis, a task for the Harbor agent-evaluation framework. We use the chats with the workers and the shops to build the simulated workers and shops, and the workers' phone photos to make the simulated workers' photos look real. One language model, which we call the world model, simulates the world and is instructed to remain consistent with what happened to the hired workers: what the workers observed is fixed, what they did not observe is sampled for each random seed, and external setbacks, those not caused by the manager's decisions, such as late rides, wrong claims made over the phone and refused requests, occur at the rates we counted in the chats. A separate model audits each trial for any point at which the simulator,
+From these transcripts, we build Memphis, a task for the Harbor agent-evaluation framework. We use the chats with the workers and the shops to build the simulated workers and shops, and the workers' phone photos to make the simulated workers' photos look real. One language model, which we call the world model, simulates the world and is instructed to remain consistent with what happened to the hired workers: what the workers observed is fixed, what they did not observe is sampled for each random seed, and external setbacks, those not caused by the manager's decisions, such as late rides, wrong claims made over the phone, and refused requests, occur at the rates we counted in the chats. A separate model audits each trial for any point at which the simulator,
 or the model that grades the trial, changed the number of lamps.
 
 We evaluate two agents, GPT-6.1 Sol (hereafter GPT) and Claude Opus 5.5 (hereafter Claude), on five seeds, with and without a one-page hint of the kind a previous manager might leave. Our experiments reveal three main findings. First, Memphis is difficult: GPT scores 0.11 without the hint and 0.91 with it, which suggests that much of GPT's difficulty without the hint comes from not knowing where to buy parts and how to organize the work. Second, without the hint, GPT repeats Seb's mistakes, buying too few stands and searching too little for them, and Claude often fails as Seb did: it gave up the search for stands or lights while more were within reach in 11 of its 15 trials without the hint, by our classification (Section~\ref{sec:match}). Third, on the same simulator, unchanged, Claude scores 0.24 without the hint and 0.47 with it over three trials per seed and condition (Section~\ref{sec:claude}).
 
-We developed the simulator and the hint in rounds with GPT as the agent. The hint draws on Seb's mistakes, on the mistakes GPT made in an earlier, rule-based simulator, and on a plan we made that reaches the target of nine lamps, so GPT's high score with the hint was expected and does not show that GPT's difficulty lay where Seb struggled. The resemblance between the agents' failures and Seb's is also partly circular: we built the simulator knowing how Seb had failed, so an agent that makes Seb's choices meets Seb's obstacles by design.
+We developed the simulator and the hint in rounds with GPT as the agent. The hint draws on Seb's mistakes, on the mistakes GPT made in an earlier, rule-based simulator, and on a plan we made that reaches the target of nine lamps, so GPT's high score with the hint was expected and does not show that GPT's difficulty lay where Seb struggled. The resemblance between the agents' failures and Seb's is also partly circular: we built the simulator knowing how Seb had failed, so an agent making Seb's choices meets Seb's obstacles by design.
 
-We also expect seeding from real-world evaluations to scale better than generating environments only from task ideas that are cheap to test in a container, since each real-world evaluation supplies the facts for a simulated environment and shows which failures matter in it. We release the chats, receipts and shops' replies together with the task, the code, the trials and the audits.
+We also expect seeding from real-world evaluations to scale better than generating environments only from task ideas that are cheap to test in a container, since each real-world evaluation supplies the facts for a simulated environment and shows which failures matter in it. We release the chats, receipts, and shops' replies together with the task, the code, the trials, and the audits.
 
 \section{The real-world evaluation}
 \label{sec:real}
 
 \paragraph{Setup.} Seb was GPT-6.1 Sol at maximum reasoning effort. A Telegram bot relayed
-messages and photos between Seb and the two workers and posted numbered spending requests, and a worker paid only for what a posted request covered.
-Seb could also email businesses, have an AI voice agent phone them, and search the web, but no call or email produced a usable quote. The two workers, hired in Cairo, were paid for their time from a separate budget, so the 7,000 EGP covered parts, technician fees and transport. The task asked for as many qualifying lamps as possible, delivered to a client's address by 17:00 on the last day. A qualifying lamp is a functioning, stable desk lamp that plugs into a standard 5V USB port, is
+messages and photos between Seb and the two workers and posted numbered spending requests, and a worker was to pay only for what a posted request covered.
+Seb could also email businesses, have an AI voice agent phone them, and search the web, but no call or email produced a usable quote. The two workers, hired in Cairo, were paid for their time from a separate budget, so the 7,000 EGP covered parts, technician fees, and transport. The task asked for as many qualifying lamps as possible, delivered to a client's address by 17:00 on the last day. A qualifying lamp is a functioning, stable desk lamp that plugs into a standard 5V USB port, is
 assembled during the project from components, and has a structure that holds the light in a
 useful position over a desk. Because the workers could not be asked to cut materials or to do work that requires training, every electrical connection had to be made by a technician. The shifts ran on Thursday 1 October from
 14:00 to 17:00 and from Sunday 4 to Wednesday 7 October from 13:00 to 17:00, for 19 shift-hours per worker.
@@ -82,9 +85,9 @@ useful position over a desk. Because the workers could not be asked to cut mater
 phone; the board had no voltage rating and no connector, and it was never used. The
 other worker tried plumbing pipe as a support and then bought a 180 EGP folding phone stand. The shop had five, but Seb bought
 only one. On Sunday, after Seb sent exact part codes, a worker bought a 12V LED module, a DC
-jack and a USB step-up cable (5V to 12V) for 58.50 EGP. The shop said it could connect them within an hour and then refused, but a technician next door wired and insulated them in about 12 minutes for 50 EGP. We call such a wired set of module, jack and cable a \emph{head}. On Monday,
-this head, attached to the stand by the module's adhesive backing, lit a page for over 20 minutes and became the first lamp. Seb then bought
-six more sets and sent them to a technician across the city, paying 865 EGP in rides for 600 EGP of labour, while Seb and a worker designed a card stand
+jack, and a USB step-up cable (5V to 12V) for 58.50 EGP. The shop said it could connect them within an hour and then refused, but a technician next door wired and insulated them in about 12 minutes for 50 EGP. We call such a wired set of module, jack, and cable a \emph{head}. On Monday,
+this head, attached to the stand by the module's adhesive backing, lit a page for over 20 minutes and became the first lamp. A worker then bought
+six more sets, where Seb had allowed up to 25, and Seb sent them to a technician across the city, paying 865 EGP in rides for 600 EGP of labour, while Seb and a worker designed a card stand
 over four rounds of photos and corrections. The heads came back by courier on the last afternoon, and at 15:45
 on Wednesday a head mounted on the card stand became the second lamp. The remaining heads were never used, as there were only two stands.
 
@@ -92,7 +95,7 @@ on Wednesday a head mounted on the card stand became the second lamp. The remain
   \centering
   \begin{subfigure}[t]{0.24\linewidth}
     \includegraphics[width=\linewidth,height=3.9cm,keepaspectratio]{figs/real-head.jpg}
-    \caption{A head wired by the technician next door: 12V module, DC jack and USB step-up cable (real, 4 October).}
+    \caption{A head wired by the technician next door: 12V module, DC jack, and USB step-up cable (real, 4 October).}
   \end{subfigure}\hfill
   \begin{subfigure}[t]{0.24\linewidth}
     \includegraphics[width=\linewidth,height=3.9cm,keepaspectratio]{figs/real-lamp.jpg}
@@ -103,39 +106,38 @@ on Wednesday a head mounted on the card stand became the second lamp. The remain
     \caption{The photo a simulated worker sends for the same kind of lamp in Memphis (generated).}
   \end{subfigure}
   \caption{The working design in the real-world evaluation and in the task. Simulated workers send photos from a library of generated phone
-  photos and 16 real ones that the hired workers sent, which show parts, hands, packaging and a receipt, and no faces.}
+  photos and 16 images made from 14 real photos that the hired workers sent, which show parts, hands, packaging, and a receipt but no faces.}
   \label{fig:photos}
 \end{figure}
 
-\paragraph{External setbacks.} We call a setback external if it was caused by shops, rides or the workers rather than by Seb's decisions. We counted every external setback in the chats and kept the ids of the messages on which each count rests. The list is released with the task (Appendix~\ref{app:files}), and the first column of
+\paragraph{External setbacks.} We call a setback external if it was caused by shops, rides, or the workers rather than by Seb's decisions. We counted every external setback in the chats and kept the ids of the messages on which each count rests. The list is released with the task (Appendix~\ref{app:files}), and the first column of
 Table~\ref{tab:setbacks} gives its counts, most of which are in single digits. A worker's first request for an item at a shop failed in 12 of 19 cases, 4 of about 9 claims that staff made by phone or at a counter about what a part could do turned out to be wrong, and 2 of 8 shops were willing to do the custom
-wiring within two days. About 30 calls, emails and web forms produced no usable quote, and every fact Seb could act on came from a worker standing in a shop. The tools we gave Seb account for part of this. Our email tool showed only the sender and subject of four suppliers' replies, not their text, and the \$30 we set aside for calls ran out after ten calls. The two workers made 0.45 and 0.65 ordinary mistakes per shift-hour, such as misreading an
+wiring within two days. About 60 calls and emails and four web forms produced no usable quote, and every fact Seb could act on came from the workers' own calls and visits. The tools we gave Seb account for part of this. Our email tool showed only the sender and subject of four suppliers' replies, not their text, and our calling tool's \$30 allowance covered only ten calls, eight of which never connected. The two workers made about 0.45 and 0.76 ordinary mistakes per shift-hour, such as misreading an
 instruction or changing route without saying so. The physical work caused little trouble: neither of the two heads that were powered
-failed, and once a head and a stand were in the same place, a worker could assemble a lamp in five to ten minutes.
+failed, and once a head and a stand were in the same place, a worker could assemble a lamp in 5 to 10 minutes.
 
 \paragraph{Seb's own errors.} Seb's decisions explain more of why it finished two lamps than these obstacles do. It sent the parts for the batch of heads to a technician 75 minutes away 24 hours after the first lamp had worked. It bought
-one stand out of five and turned down five sheets of card (550 EGP) that could have been made into stands, so it had only two stands. Car rides took 73\% of its documented spending. Its 33 small spending requests reserved 8,880 EGP against the
-7,000 EGP budget, so on the last afternoon it saw no
-money available and spent 21 of the 78 messages it sent between 13:00 and 16:00 on bookkeeping. By 16:07 on the last day, when a capacity error at the model provider stopped its run, it had not told the workers when to leave for the delivery address; the workers left on their own at 16:25.
+one stand out of five and turned down five sheets of card (550 EGP) that could have been made into stands, so it had only two stands. Rides and a courier took about two thirds of the 3,045 EGP the workers reported paying. Its 33 spending requests, with caps totalling 8,880 EGP over the run, kept most of the
+7,000 EGP budget reserved, so on the last afternoon it saw only about 100 EGP
+available and spent 21 of the 78 messages it sent between 13:00 and 16:00 on bookkeeping. By 16:07 on the last day, when a capacity error at the model provider stopped its run, it had not told the workers when to leave for the delivery address; at 16:25 a worker proposed leaving on their own.
 
 \section{From the real-world evaluation to a simulated task}
 \label{sec:task}
 
-\subsection{Scope, tools and score}
+\subsection{Scope, tools, and score}
 
 Memphis simulates the first two of Seb's five shifts, Thursday 14:00 to 17:00 and Sunday 13:00 to 17:00. With two shifts, a GPT trial takes 4 to 10 hours of wall time, and Seb had settled on how to build the lamps by the end of the second shift, when it still had no lamp. The agent under evaluation takes Seb's place, with the
-original task text, the same budget and simulated versions of the two workers. Its three command-line tools handle messages, spending requests and the clock; email and AI phone calls; and searches of the pages Seb saw and pages generated for each seed's shops. The agent's container can reach only the model API. The target is nine lamps: the score of a trial is the number of qualifying lamps that reach the delivery address by
-17:00 on Sunday, divided by 9 and capped at 1 (Section~\ref{sec:target} explains this choice).
+original task text, the same budget, and simulated versions of the two workers. Its three command-line tools handle messages, spending requests, and the clock; email and AI phone calls; and searches of the pages Seb saw and pages generated for each seed's shops. The agent's container can reach only the simulator and the model API. The target is nine lamps: the score of a trial is the number of qualifying lamps that reach the delivery address by
+17:00 on Sunday, divided by 9 and capped at 1 (Section~\ref{sec:target} explains this choice); a trial that spends more than the 7,000 EGP scores 0.
 
 \subsection{The facts file: what was observed and what is sampled}
 
-Each random seed has a facts file, about 195\,KB of JSON, which the world model (Section~\ref{sec:world}) treats as the complete truth about the city. Everything the hired workers observed is identical across seeds: an entry for each of the 32 businesses they dealt with (what it stocked and charged, what its staff said in person and on the phone, and to whom they referred the workers), the parts for sale with their real sizes and shapes, where each worker lives and starts a shift, and the delivery address,
+Each random seed has a facts file, about 195\,KB of JSON, which the world model (Section~\ref{sec:world}) treats as the complete truth about the city. Everything the October record shows is identical across seeds: an entry for each of the 23 businesses that the workers or Seb dealt with (what they were seen to stock and charge, what their staff said in person and on the phone, and to whom they referred the workers), the parts for sale with their real sizes and shapes, where each worker lives and starts a shift, and the delivery address,
 an ordinary street near a mall in Maadi. On every seed, for example, the phone-accessory shop in Dokki has five folding stands at 180 EGP, and
 the LED shop downtown that sold Seb's module keeps the worker waiting with evasive answers before naming the technician next door.
 
-What the workers did not observe is sampled once per seed from prior distributions, a form of domain randomization \citep{tobin2017domain}. This includes further shops of the same kinds in
-nine districts, with stock and prices drawn from the range of the shops the workers visited, each technician's daily capacity and terms,
-whether a phone call or an email receives an answer, and places where the workers can sit and assemble lamps. Ride times and fares
+What the workers did not observe is sampled once per seed from prior distributions, a form of domain randomization \citep{tobin2017domain}. This includes what nobody saw at the businesses above (unasked prices and stock, each technician's capacity and terms), the stock of nine further businesses that nobody dealt with, more shops of these and other kinds in
+nine districts, whether a shop answers a worker's call, and places where the workers can sit and assemble lamps. Ride times and fares
 come from a model fitted to the 24 rides the hired workers took.
 
 \subsection{The world model}
@@ -172,28 +174,28 @@ come from a model fitted to the 24 rides the hired workers took.
   \label{fig:arch}
 \end{figure}
 
-The world model, a GPT-6.1 Sol instance at medium effort run through Codex CLI, simulates everything outside the agent (Figure~\ref{fig:arch}): both workers, all shops and technicians, the client, the traffic and the passage of time. It works in a folder that holds 65 lines of instructions with no rules about particular plans, shops or outcomes, the agent's task text and the grading standard, the seed's facts file, every chat message between Seb and the workers together with the list of external setbacks, and its own notes on the current state and on everything that has happened.
-A server program between the agent and the world model tracks simulated time and the budget. It calls the world model whenever the agent acts, when a shift starts or ends, and at any time the model has asked to be called again. The model updates its notes and returns outputs with delivery times (worker messages, payments, call transcripts and emails, where each worker message names a photo from a prepared library), and the server delivers each output at the time the model specified. Since each call starts a new session, the notes are the model's only memory.
+The world model, a GPT-6.1 Sol instance at medium effort run through Codex CLI, simulates everything outside the agent (Figure~\ref{fig:arch}): both workers, all shops and technicians, the client, the traffic, and the passage of time. It works in a folder that holds 65 lines of instructions with no rules about particular plans, shops, or outcomes, the agent's task text and the grading standard, the seed's facts file, every chat message between Seb and the workers together with the list of external setbacks, and its own notes on the current state and on everything that has happened.
+A server program between the agent and the world model tracks simulated time and the budget. It calls the world model whenever the agent acts, when a shift starts or ends, and at any time the model has asked to be called again. The model updates its notes and returns outputs with delivery times (worker messages, payments, call transcripts, and emails, where a worker message may name a photo from a prepared library), and the server delivers each output at the time the model specified. Since each call starts a new session, the notes are the model's only memory.
 Simulated time runs at real speed while the agent works, stops while the world model reasons, and jumps ahead when the agent waits.
 
-The instructions forbid the model to add a shop, item, price, service or skill, and a shop does only what its entry in the facts file lists, so it does not store parts, lend anything or do other favours. Workers know only what they learned during the shifts and what an app or a shop shows them; for a ride, for example, they know the app's quoted time, not the true one. They do not wire, solder or cut, but they can
-mount a prepared part and plug things together. Each person is in one place at a time, parts move only when someone carries them, and parts fit together only in ways their sizes and shapes allow. External setbacks occur at about the rates the hired workers met, and the instructions say never to skip one because a plan is good or add one to punish a plan. Apart from the sampling of
-worker mistakes described next, none of the 2,043 lines of Python in the server, the tools and the script that builds each task determines how the world behaves.
+The instructions forbid the model to add a shop, item, price, service, or skill, and a shop does only what its entry in the facts file lists, so it does not store parts, lend anything, or do other favours. Workers know only what they learned during the shifts and what an app or a shop shows them; for a ride, for example, they know the app's quoted time, not the true one. They do not wire, solder, or cut, but they can
+mount a prepared part and plug things together. Each person is in one place at a time, parts move only when someone carries them, and parts fit together only in ways their sizes and shapes allow. External setbacks occur at about the rates the hired workers met, and the instructions say never to skip one because a plan is good or add one to punish a plan. Apart from drawing each seed's facts and sampling the
+worker mistakes described next, none of the 2,043 lines of Python in the server, the tools, the agent adapter, and the script that builds each task determines how the world behaves.
 
 \subsection{Sampled worker mistakes}
 \label{sec:mistakes}
 
 Without further intervention, the world model made the simulated workers more reliable than the hired ones. In an early round of development (Section~\ref{sec:checks}), every audit found
 that the simulated workers never misread an instruction or took a wrong turn, and instructing the world model to include such mistakes did not produce any. Therefore, before each call to the world model, the server decides at random, for the shift time since the previous call,
-whether each worker makes an ordinary mistake, at the rate counted for that worker, and of which kind (a misread, a wrong turn or an unannounced route change), in the proportions the two workers showed. The world model must then incorporate each sampled mistake into the simulation. In the final round, trials had between 5 and 9 sampled mistakes. The server samples the kind because, when the choice was left to the model, all nine mistakes the model chose were a worker reporting late, which is less costly than any of the three kinds above.
+whether each worker makes an ordinary mistake, at a rate set from that worker's counts (Appendix~\ref{sec:lessons}), and of which kind (a misread, a wrong turn, or an unannounced route change), in the proportions the two workers showed. The world model must then incorporate each sampled mistake into the simulation. In the final round, trials had between 5 and 9 sampled mistakes. The server samples the kind because, when the choice was left to the model, all nine mistakes the model chose were late reports or unannounced detours of a few minutes, which cost less than a typical misread, wrong turn, or route change.
 
 \subsection{Grading and the hinted condition}
 \label{sec:hint}
 
 At 17:00 on Sunday, a separate call to GPT-6.1 Sol, used as a judge \citep{zheng2023judging}, reads the world model's folder, lists each unit that reached the
-address and judges it against a written standard (Appendix~\ref{app:grading}). A
+address, and judges it against a written standard (Appendix~\ref{app:grading}). A
 unit counts if it is one object, built from components during the trial, that holds a light over
-an open A4-size area, bright enough to read and write there, stands stably on the desk, is safe to handle and arrives in time. Since the task states that the grader tests each unit under power,
+an open A4-size area, bright enough to read and write there, stands stably on the desk, is safe to handle, and arrives in time. Since the task states that the grader tests each unit under power,
 the grader decides from a unit's parts and connections whether it would light, and units whose wiring or assembly is uncertain do not count.
 
 We also run each seed with a one-page note ``left by a previous project manager'' appended to the task
@@ -204,11 +206,11 @@ and that phone holders make good but scarce stands, and it lists what went wrong
 \section{Simulator error and coverage}
 \label{sec:theory}
 
-In this section, we formalize how the simulator's errors enter an agent's score, which motivates building the task from the model's own attempt. We treat a trial as an episode of $H$ steps. Let $h_t$ be the full history of the world and the agent up to step
-$t$, so that no Markov assumption is needed, and let the agent pick its action $a_t$ from a policy
-$\pi(a_t \mid h_t)$ that depends only on what it has seen. The next history follows $P(\cdot \mid h_t, a_t)$ in the real environment and $\hat P(\cdot \mid h_t, a_t)$ in Memphis. The score
+In this section, we formalize how the simulator's errors enter an agent's score, which motivates building the task from the model's own attempt. We treat a trial as an episode of $H$ steps. Let $h_t$ be the history of everything the agent and the world have done up to step
+$t$ (messages, actions, payments, and deliveries), so that no Markov assumption is needed, and let the agent pick its action $a_t$ from a policy
+$\pi(a_t \mid h_t)$ that depends only on what it has seen. The next history follows $P(\cdot \mid h_t, a_t)$ in the real environment and $\hat P(\cdot \mid h_t, a_t)$ in Memphis, where $\hat P$ averages over the facts drawn for each seed. The score
 $R(h_H) \in [0,1]$ is read off the final history, $J_P(\pi)$ and $J_{\hat P}(\pi)$ are the expected scores in the real environment and in Memphis, and
-$\varepsilon(h,a) = \mathrm{TV}\big(P(\cdot \mid h,a),\, \hat P(\cdot \mid h,a)\big)$ is the simulator's error on one step.
+$\varepsilon(h,a) = \mathrm{TV}\big(P(\cdot \mid h,a),\, \hat P(\cdot \mid h,a)\big)$ is the simulator's error on one step, with $\mathrm{TV}(p,q) = \sup_A |p(A) - q(A)|$.
 
 \begin{proposition}
 \label{prop:sim}
@@ -222,30 +224,30 @@ where the expectation is over the histories and actions of the agent in the real
 
 This is a version of the simulation lemma of \citet{kearns2002near}, proved by coupling in Appendix~\ref{app:proof}. Each error in the bound counts in proportion to how often this agent reaches the situation in which it occurs, so the simulator must be accurate where this agent goes, a requirement that batch reinforcement learning calls coverage \citep{chen2019information}. GPT, the main agent we evaluate, is also the model that managed the hired workers, although it runs here at medium rather than maximum reasoning effort. We therefore expect some overlap with the situations the workers encountered, which we examine below. The value of the bound itself is far too large to say anything about a score.
 
-\paragraph{Three sources of error.} The error on one step is bounded by the sum of three parts (Appendix~\ref{app:proof}): an estimation error in situations the workers observed, such as a shop's stock or a rate we counted, which falls as observations accumulate; a coverage error in situations they did not observe, such as a sampled shop, which falls as more of the city is observed; and the world model's bias, its departure from the facts it was given, which more evaluations do not reduce. For example, technicians missed the time they promised in 3 of 5 cases, a count consistent with any rate from 0.27 to 0.85, and pinning down a rate estimated from five cases per real-world evaluation to $\pm 0.1$ at 90\% would take about 14 evaluations like this one. Audits can detect departures from the facts file and the chats, while comparing simulated and real setback rates checks how well those rates match. Neither check directly measures coverage of situations the workers never observed (Section~\ref{sec:checks}).
+\paragraph{Three sources of error.} The error on one step is bounded by the world model's bias plus one of two other errors, depending on whether the workers observed the situation (Appendix~\ref{app:proof}): an estimation error in situations the workers observed, such as a shop's stock or a rate we counted, which falls as observations accumulate; a coverage error in situations they did not observe, such as a sampled shop, which falls as more of the city is observed; and the world model's bias, its departure from the facts it was given, which more evaluations do not reduce. For example, technicians missed the time they promised in 3 of 5 cases, a 90\% interval of 0.27 to 0.85 (Table~\ref{tab:setbacks}); narrowing it to $\pm 0.1$ would take about 65 cases, or 13 evaluations like this one. Audits can detect departures from the facts file and the chats, while comparing simulated and real setback rates checks how well those rates match. Neither check directly measures coverage of situations the workers never observed (Section~\ref{sec:checks}).
 
 \paragraph{Measured coverage.} We classified all 2,380 entries in the world model's logs
-from the ten trials of the final round (Section~\ref{sec:results}) by the businesses they mention. Among entries that mention a specific business, 93.7\% in the hinted
-trials and 90.1\% in the unhinted trials mention only the 32 that the hired workers dealt with. These figures overstate coverage, since they count mentions rather than decisions, and 60 values for the observed businesses are sampled, such as the batch price, daily capacity and queue of the technician next door, who wired only one head for Seb. An agent from another model
+from the ten trials of the final round (Section~\ref{sec:results}) by the businesses they mention. Among entries that mention a specific business, 75.1\% in the hinted
+trials and 67.3\% in the unhinted trials mention only the 23 that the workers or Seb dealt with (Appendix~\ref{app:files}). These figures overstate coverage, since they count mentions rather than decisions, and 60 values for the observed businesses are sampled, such as the batch price, daily capacity, and queue of the technician next door, who wired only one head for Seb. An agent from another model
 family may spend more of its trial in situations Seb never reached, in which case its score would include more coverage error; we test this in Section~\ref{sec:claude}.
 
 \section{Auditing the simulator and the grader}
 \label{sec:checks}
 
-We developed Memphis in rounds. In each round, we ran the current simulator on seeds 10 to 14, with and without the hint, audited the trials and fixed the problems the audits found. Appendix~\ref{sec:lessons} describes our earlier, rule-based simulators, the errors of the world model that shaped the present design, and one found after the freeze. The three audited rounds reported here are r13, r16 and r18, of which r18 is the final round. A trial is voided and rerun if its run broke down, for example if one world-model call took over 10 minutes (Appendix~\ref{app:audit}); no trial in the final round was voided.
+We developed Memphis in rounds. In each round, we ran the current simulator on seeds 10 to 14, with and without the hint, and in most rounds audited the trials and fixed the problems the audits found. Appendix~\ref{sec:lessons} describes our earlier, rule-based simulators, the errors of the world model that shaped the present design, and one found after the freeze. The three audited rounds reported here are r13, r16, and r18, of which r18 is the final round. A trial is voided and rerun if its run broke down, for example if one world-model call took over 10 minutes (Appendix~\ref{app:audit}); no trial in the final round was voided.
 
 \paragraph{Audits.} A separate Claude instance audited each trial. It read the
-world model's folder at each step and the agent's transcript, and looked for any point at which the simulator or the grader changed what happened,
+input and output of every world-model step, the model's final notes, and the agent's transcript, and looked for any point at which the simulator or the grader changed what happened,
 in the agent's favour or against it (Appendix~\ref{app:audit}). Each report explains why the trial fell short of nine lamps and gives a fair range (the lamp counts the trial could have reached without the errors found), a
-best estimate, and each finding with the probability that it changed the
+best estimate, an expected count, and each finding with the probability that it changed the
 count. Neither the agent's own decisions nor variation that a real person would also show count as findings.
 We call a trial \emph{fair} if nothing outside the agent's control changed the count, \emph{mostly fair} if the auditor names one possible
 error but judges it unlikely to have changed the count, \emph{partly fair} if an error plausibly changed the count, and \emph{not fair}
-if one probably did. Here, fair means faithful to the facts file and to the setback rates of Table~\ref{tab:setbacks}.
+if one probably did. Here, fair means faithful to the facts file and, where the facts leave the outcome open, to the setback rates of Table~\ref{tab:setbacks}.
 
 \paragraph{Acceptance criteria and freeze.} Before the final round, we fixed three acceptance criteria: no audit may list a finding as probably having changed a lamp count (a finding that only plausibly changed one is allowed, with its probability reported), each
-trial's count must lie within one lamp of its fair range, and in each condition the auditors' best estimates must be within half a lamp per
-trial, on average, of the actual counts. The first criterion allows a round to pass with a partly fair trial. When a round fails, we fix the problem with a general rule and run a new round. We stop at the first round that meets the criteria. The final round met them, and we froze the simulator at the version used in that round (tagged v12.0-rc17 in the release). Any agent we evaluate later runs on this frozen version, and we report errors found after the freeze in the Limitations.
+trial's count must lie within one lamp of its fair range, and in each condition the auditors' expected counts must be within half a lamp per
+trial, on average, of the actual counts. The first criterion allows a round to pass with a partly fair trial. When a round fails, we fix the problem with a general rule and run a new round. We tightened these criteria during development and stopped at the first round that met them. The final round met them, and we froze the simulator at the version used in that round (tagged v12.0-rc17 in the release). Any agent we evaluate later runs on this frozen version, and we report errors found after the freeze in the Limitations.
 
 \paragraph{The target.}
 \label{sec:target}
@@ -254,7 +256,7 @@ We set the target at 9 after an earlier round, because 9 was the highest count t
 \paragraph{Setback rates.} The audits cannot determine whether the facts and rates
 themselves match the real-world evaluation. To check this, separate Claude instances listed each opportunity for each kind of setback in the ten trials of the final round, and whether the setback occurred, using the definitions applied to the chats (Table~\ref{tab:setbacks}). For six of the eight kinds of setback, the 90\% interval for the simulated rate overlaps the real one; the other two, late long rides and failed first requests, occur more often in the simulation than in the chats. Each of the 44 long rides (quoted at 25 minutes or more) ran late, compared with
 4 of 6 in the chats; the median ride took 1.57 times its quoted time, within the real range of 1.5 to 2. A worker's first request
-for an item failed 83\% of the time, compared with 63\% in the chats, mostly because the agents asked shop after shop for stands, which are scarce, often for 20 to 80 units at once.
+for an item failed 83\% of the time, compared with 63\% in the chats; asks for stands, which are scarce, failed most, but other first asks also failed more often.
 
 The rate at which technicians missed promised times points to an error in the facts file. All six missed promises were the LED shop downtown withdrawing its offer to wire heads within an hour, while the technicians who did the wiring kept all 20 of their promises. In the facts file, every technician keeps to the promised time except the one across the city who wired Seb's batch, although all of them, sampled ones included, should have been late as often as the real ones. As each simulated technician did what its entry said, no audit
 could flag the error, and the error made plans that rely on
@@ -272,7 +274,7 @@ the technician next door easier than they were for Seb (we estimate its effect i
     \midrule
     A spec claim by phone or at the counter is wrong & 4/9$^{*}$ & 0.22--0.70 & 10/38 & 0.17--0.40 & 12/44 & 0.18--0.40 \\
     The first ask for an item fails & 12/19$^{*}$ & 0.44--0.78 & 289/348 & 0.79--0.86 & 925/1060 & 0.85--0.89 \\
-    A remote call or email gives a usable quote & 0/30$^{*}$ & 0.00--0.09 & 14/251 & 0.04--0.09 & 2/217 & 0.00--0.03 \\
+    A remote call or email gives a usable quote & 0/63$^{*}$ & 0.00--0.05 & 14/251 & 0.04--0.09 & 2/217 & 0.00--0.03 \\
     \addlinespace
     A shop will do small custom wiring in 1--2 days & 2/8 & 0.10--0.55 & 14/56 & 0.17--0.36 & 21/66 & 0.23--0.42 \\
     A technician misses a promised time & 3/5 & 0.27--0.85 & 6/26 & 0.13--0.39 & 11/43 & 0.17--0.38 \\
@@ -282,7 +284,7 @@ the technician next door easier than they were for Seb (we estimate its effect i
     A worker's photo needs a redo or a follow-up question & 9/53$^{*}$ & 0.10--0.27 & 47/330 & 0.11--0.18 & 34/873 & 0.03--0.05 \\
     \bottomrule
   \end{tabularx}
-  \caption{External setbacks in the real-world evaluation and in the simulator. Counts are from the chats, the ten final-round trials and the thirty trials with Claude Opus 5.5 as the
+  \caption{External setbacks in the real-world evaluation and in the simulator. Counts are from the chats, the ten final-round trials, and the thirty trials with Claude Opus 5.5 as the
   agent (Section~\ref{sec:claude}). Each interval is the central 90\% of a Beta posterior under a uniform prior. Starred counts are
   approximate. Worker mistakes are omitted because the server samples them. A long ride is one quoted at 25 minutes or more. In the final round, six of the eight simulated rates overlap the real ones, while long rides overrun and first requests for an item fail more often than in the chats.}
   \label{tab:setbacks}
@@ -295,7 +297,7 @@ In this section, we answer four questions: (1) Are the trials faithful to the fa
 
 \paragraph{Setup.} In the final round (Table~\ref{tab:main}), we ran the frozen simulator on seeds 10 to 14, once with and once without the hint, with
 GPT at medium reasoning effort as both the agent and the world model. The agent ran in Codex CLI 0.162.1 with the three
-task tools and no browser. A trial took roughly 140 to 250 calls to the world model.
+task tools and no browser. A trial took 137 to 255 world-model calls.
 
 \begin{table}[t]
   \centering
@@ -316,47 +318,47 @@ task tools and no browser. A trial took roughly 140 to 250 calls to the world mo
     \bottomrule
   \end{tabular}
   \caption{Results of the final round. Score is lamps delivered by Sunday 17:00 divided by 9, capped at 1; $\pm$ is one standard error over the
-  five seeds. With the hint, GPT reaches the target on three of the five seeds; without it, GPT delivers 5 lamps in total.}
+  five seeds. With the hint, GPT reaches the target on three of the five seeds; without it, 5 lamps in total.}
   \label{tab:main}
 \end{table}
 
 \subsection{Are the trials faithful to the facts?}
 
-The audits judged seven trials fair, two mostly fair and one partly fair, and the round met the acceptance criteria: no finding was listed as having
-changed a count, each count was within a lamp of its fair range, and the auditors' best estimates differed from the
+The audits judged seven trials fair, two mostly fair, and one partly fair, and the round met the acceptance criteria: no finding was listed as having
+changed a count, each count was within a lamp of its fair range, and the auditors' expected counts differed from the
 actual counts by $+0.30$ lamps per trial with the hint and $+0.19$ without it. In the partly fair trial (hinted, seed 11), the facts file's entry for the technician next door gave a fixed number of heads per day and allowed the technician to hold finished work for collection, yet the simulated technician refused three times to commit to a further batch, after which the agent dropped a search for stands that it had planned. The auditor gave a fair range of 7 to 11 lamps and estimated the chance that
 the refusal lowered the count at about 45\%. In the mostly fair unhinted trial on seed 13, the simulated LED shop never referred the worker to the technician next door, as its entry says it should, and the auditor estimated the chance that this cost one to
-three lamps at about 25\%. Apart from these two concerns, each price, stock count, fare, ride time, technician's terms and referral that the
-auditors checked matched the seed's facts file. A collaborator on the project also reviewed four audits (Appendix~\ref{app:audit}), matching the auditor's verdict on three trials and judging 13 of the 19 findings correct, five not to be errors and one correct but with its effect on the count wrong.
+three lamps at about 25\%. Apart from these two concerns and a few smaller departures judged not to have changed a count, each price, stock count, fare, ride time, technician's terms, and referral that the
+auditors checked matched the seed's facts file. One of us also reviewed four audits (Appendix~\ref{app:audit}), matching the auditor's verdict on three trials and judging 13 of the 19 findings correct, five not to be errors, and one correct but misjudged in its effect on the count.
 
 \subsection{How difficult is Memphis, and how much does the hint help?}
 
 The hint raises GPT's mean score from 0.11 to 0.91, with 95\% bootstrap intervals over the five seeds of 0.00 to 0.29 and 0.82 to 1.00. It most directly addresses the misjudgement that led the agent to turn down folding stands (Section~\ref{sec:shortfall}): the agent compared the price of a stand with the price of an electrical part rather than with the whole budget, as Seb may have done when it bought one stand out of five. Without the hint, GPT also wrote about two and a half times as many reasoning tokens as with it.
 
-Each round's general fixes were included in the next version, so the three audited rounds ran on different versions of the simulator. Their mean scores range from 0.91 to 0.96 with the hint and from 0.11 to 0.27 without it (Table~\ref{tab:rounds} in Appendix~\ref{app:audit}). The agent with the hint scored higher than the agent without it on each seed in each round, 15 pairs out of 15, and the gap between the two mean scores, pooled over the rounds, is 0.75 (95\% interval 0.67 to 0.88, from a bootstrap that resamples seeds and keeps each seed's three rounds together).
+Each round's general fixes were included in the next version, so the three audited rounds ran on different versions of the simulator. Their mean scores range from 0.91 to 0.96 with the hint and from 0.11 to 0.27 without it (Table~\ref{tab:rounds} in Appendix~\ref{app:audit}). The agent with the hint scored higher than the agent without it on each seed in each round, 15 pairs out of 15, and the gap between the two mean scores, pooled over the rounds, is 0.75 (95\% interval 0.67 to 0.88, from a bootstrap over seeds that keeps each seed's rounds together).
 
 \subsection{Why do the unhinted trials fall short?}
 \label{sec:shortfall}
 
-A plan that reaches the target (Appendix~\ref{app:golden}) has the technician next to the LED shop wire 12V modules into heads, while the workers buy tall folding phone stands, mount the heads on them and assemble the lamps on the landing outside the client's door with time to spare. In none of the five unhinted trials did the agent find this plan; it failed in three ways.
+A plan that reaches the target (Appendix~\ref{app:golden}) has the technician next to the LED shop wire 12V modules into heads, while the workers buy tall folding phone stands, mount the heads on them, and assemble the lamps on the landing outside the client's door with time to spare. In none of the five unhinted trials did the agent find this plan; it failed in three ways.
 
 \emph{Stands too low to light the page} (seeds 12 and 14). The agent judged a folding stand at 120 to 220 EGP too expensive and
 improvised instead. On seed 12, it was offered five folding stands at 180 EGP and five clamp arms within the first fifteen minutes of
-Thursday and turned down both (``too dear, too few; don't buy''). On Sunday, it had six heads from the technician next door and had the workers strap them to the sides of water bottles with rubber bands, about 11\,cm up, where they lit the desk beside
+Thursday and turned down both (``too dear, too few'' and ``outside a fair cost''). On Sunday, it had six heads from the technician next door and had the workers strap them to the sides of water bottles with rubber bands, about 11\,cm up, where they lit the desk beside
 the page. On seed 14, the agent wrapped a USB light strip around a sealed bottle and kept the design after a worker reported that the light missed the paper.
 
-\emph{Too few lights} (seeds 10 and 13). The agent relied on ready-made USB light strips, which shops stock a few at a time, and stopped looking once the first shops had sold out, without building lamps from the 12V modules that the electronics shops downtown sell by the dozen.
+\emph{Too few lights} (seeds 10 and 13). The agent relied on ready-made USB light strips, which shops stock a few at a time, and stopped looking once the first shops had sold out; its 12V plan stalled (on seed 13, partly because the LED shop never named the technician next door).
 
 \emph{Heads ordered too late} (seed 11). The agent found the right parts and the technician, but it ordered the heads at 14:19 on Sunday instead of on Thursday, from a technician who wires heads one at a time, and its two finished lamps were still two
 minutes from the client's door at 17:00.
 
-On seeds 12 and 14, the decisive error happened in one agent turn, when the agent refused the stands, so a test that replays the situation before that turn could catch it \citep{min2026tracedance}. On seeds 10, 11 and 13, it was an omission or a matter of timing, which no single turn shows. Two hinted trials also fell short of 9 lamps; on seed 14, for example, the
-agent bought three metal desk arms but no tape to fix the heads to them.
+On seeds 12 and 14, the decisive error happened within the first hour of Thursday, when the agent refused the stands, so a test that replays the situation before those turns could catch it \citep{min2026tracedance}. On seeds 10, 11, and 13, it was an omission or a matter of timing, which no single turn shows. Two hinted trials also fell short of 9 lamps; on seed 14, for example, the
+agent bought three metal desk arms but no tape for the heads.
 
 \subsection{Do the agents fail as Seb did?}
 \label{sec:match}
 
-\paragraph{Setup.} Table~\ref{tab:match} sets four of Seb's failures (too few or unsuitable stands, heads wired too late, giving up the search for stands or lights while more were within reach, and too little time left for delivery) beside the fifteen unhinted GPT trials in the three audited rounds and the fifteen unhinted Claude trials (Section~\ref{sec:claude}). We classified each trial from the auditors' explanations of why it fell short. To check our own classification, two model instances, one Claude and one GPT, also performed it blind: they read only each audit's timeline of the trial and its explanation of why it fell short, with the trial names removed, and marked which of the four failures each trial shows.
+\paragraph{Setup.} Table~\ref{tab:match} sets four of Seb's failures (too few or unsuitable stands, heads wired too late, giving up the search for stands or lights while more were within reach, and too little time left for delivery) beside the fifteen unhinted GPT trials in the three audited rounds and the fifteen unhinted Claude trials (Section~\ref{sec:claude}). We classified each trial from the auditors' explanations of why it fell short. To check our own classification, a Claude and a GPT instance also performed it blind, with fresh instances for each of two batches: they read only each audit's timeline of the trial and its explanation of why it fell short, with the trial names removed, and marked which of the four failures each trial shows.
 
 \begin{table}[t]
   \centering
@@ -371,22 +373,12 @@ agent bought three metal desk arms but no tape to fix the heads to them.
     Turns down or under-buys ready stands, improvises stands & Bought 1 of 5 stands at 180 EGP; declined 5 card sheets for 550 EGP & 9 & 10 & 12 & 6 & 7 & 13 \\ \addlinespace
     Gets heads wired late & Batch commissioned 24 hours after the first lamp passed & 5 & 10 & 10 & 2 & 5 & 5 \\ \addlinespace
     Stops looking while a scarce part is still in reach & The stand shop's other four units never bought & 7 & 14 & 14 & 11 & 13 & 14 \\ \addlinespace
-    No margin for the delivery & No departure instruction; workers left on their own at 16:25 & 2 & 3 & 6 & 1 & 0 & 1 \\
+    No margin for the delivery & No departure instruction; at 16:25 a worker proposed leaving & 2 & 3 & 6 & 1 & 0 & 1 \\
     \bottomrule
   \end{tabularx}
-  \caption{Seb's failures in the real-world evaluation and how many of the fifteen unhinted trials of each agent show each one, in our coding (Us) and in the blind coding by a Claude (C) and a GPT (G) instance. GPT's trials are from rounds r13, r16 and r18 (r13 and r16 used earlier versions of the same simulator), Claude's from rounds c1 to c3. A trial can show more than one failure. Appendix~\ref{app:audit} lists the trials behind our counts. Giving up the search while a scarce part is still in reach is the most frequent failure in five of the six codings.}
+  \caption{Seb's failures in the real-world evaluation and how many of the fifteen unhinted trials of each agent show each one, in our coding (Us) and in the blind coding by a Claude (C) and a GPT (G) instance. GPT's trials are from rounds r13, r16, and r18 (r13 and r16 used earlier versions of the same simulator), Claude's from rounds c1 to c3. A trial can show more than one failure. Appendix~\ref{app:audit} lists the trials behind our counts. Giving up the search while a scarce part is still in reach is the most frequent failure in five of the six codings.}
   \label{tab:match}
 \end{table}
-
-\paragraph{Results.} The two blind coders agreed with each other on 107 of the 120 labels (Cohen's $\kappa = 0.78$) and less with us ($\kappa = 0.65$ and $0.50$), because they found each failure in more trials than we did. For GPT, too few or unsuitable stands is the most common failure in our coding (9 of 15) and giving up the search in both blind codings (14 of 15); for Claude, giving up the search comes first in all three codings (11 of 15 in ours, 13 and 14 in the blind codings). In GPT's rounds, the same failure also recurs on a given seed: on seed 11 the heads were wired too late in all three rounds, on seed 13 the agent stopped looking for lights in all three, and on seed 14 it improvised stands in all three. An earlier rule-based simulator, with different code and different models of the workers (Section~\ref{sec:lessons}), produced these
-failures as well in 16 audited trials, most often improvised stands that could not qualify (14 of 16). The failures therefore most likely come from the agent rather than from a particular simulator. Their resemblance to Seb's failures is partly built in, since we built the simulator knowing how Seb had failed (Section~\ref{sec:limits}).
-
-\subsection{Do the results hold for a second agent?}
-\label{sec:claude}
-
-\paragraph{Setup.} Since the simulator was developed with GPT as the agent, we ran Claude on the frozen version to test whether its faithfulness and difficulty carry over to another model family, through Claude Code 2.1.311 at medium effort, with web search and web fetch
-turned off and the same shell and task tools as GPT. The simulator's files, including the facts files and the hint, are byte for byte those of the final round. We ran three rounds, c1 to c3, each with one trial per seed and condition; a test trial before round c1 is not counted. Separate Claude instances audited
-each trial with the audit prompt of the final round and counted setbacks with the same definitions.
 
 \begin{table}[t]
   \centering
@@ -406,60 +398,69 @@ each trial with the audit prompt of the final round and counted setbacks with th
     Mean score & 0.18 & 0.60 & 0.62 & 0.18 & 0.16 & 0.40 && 0.91 & 0.11 \\
     \bottomrule
   \end{tabular}
-  \caption{Lamps delivered on the frozen version, seeds 10 to 14: Claude in three rounds, GPT in the final round. All rounds share the world model, facts and
-  hint. Unmarked trials were audited fair, $^{m}$mostly fair and $^{p}$partly fair; $^{n}$audited as mostly fair, but not fair by the scale in Section~\ref{sec:checks}. Seed 10 hinted in round c1 is the rerun of a void trial. Claude's counts vary widely between rounds on the same seed.}
+  \caption{Lamps delivered on the frozen version, seeds 10 to 14: Claude in three rounds, GPT in the final round. All rounds share the world model, facts, and
+  hint. Unmarked trials were audited fair, $^{m}$mostly fair, and $^{p}$partly fair; $^{n}$audited as mostly fair, but not fair by the scale in Section~\ref{sec:checks}. Seed 10 hinted in round c1 is the rerun of a void trial. Claude's counts vary widely between rounds on the same seed.}
   \label{tab:claude}
 \end{table}
 
-\paragraph{Scores.} With each seed's three trials averaged first, Claude's mean score is 0.47 with the hint (95\% bootstrap over seeds, keeping each seed's trials together, 0.19 to 0.71) and 0.24 without it (0.14 to 0.33), a gap of 0.22 (0.03 to 0.41; Table~\ref{tab:claude}). Round c1 alone showed no gap, whereas the later rounds showed gaps of 0.44 and 0.22. Differences between the three trials of a seed account for 49\% of the variance in hinted scores and 88\% in unhinted scores, so one round of five seeds measures Claude's score poorly. Without the hint, Claude scored within the range of GPT's three audited rounds (0.11 to 0.27). With the hint, GPT scored higher on all five seeds, by 0.44 on average (0.23 to 0.73).
+\paragraph{Results.} The two blind coders agreed with each other on 107 of the 120 labels (Cohen's $\kappa = 0.78$) and less with us ($\kappa = 0.65$ and $0.50$), because they marked failures in many trials where we had not, and almost never the reverse. For GPT, too few or unsuitable stands is the most common failure in our coding (9 of 15) and giving up the search in both blind codings (14 of 15); for Claude, giving up the search comes first in all three codings (11 of 15 in ours, 13 and 14 in the blind codings). In GPT's rounds, the same failure also recurs on a given seed: on seed 11 the heads were wired too late in all three rounds, on seed 13 the agent stopped looking for lights in all three, and on seed 14 it improvised stands in all three. An earlier rule-based simulator, with different code and different models of the workers (Section~\ref{sec:lessons}), produced these
+failures as well in 16 audited trials, most often improvised stands that could not qualify (14 of 16). The failures therefore most likely come from the agent rather than from a particular simulator. Their resemblance to Seb's failures is partly built in, since we built the simulator knowing how Seb had failed (Section~\ref{sec:limits}).
 
-\paragraph{Audits.} The auditors judged 24 trials fair, 5 mostly fair and 1 partly fair, but one mostly fair label contradicts the scale in Section~\ref{sec:checks}. In round c1's hinted trial on seed 12, a worker left a shop without being shown the tall folding stand its
+\subsection{Do the results hold for a second agent?}
+\label{sec:claude}
+
+\paragraph{Setup.} Since the simulator was developed with GPT as the agent, we ran Claude on the frozen version to test whether its faithfulness and difficulty carry over to another model family, through Claude Code 2.1.311 at medium effort, with web search and web fetch
+turned off and the same shell and task tools as GPT. The simulator's files, including the facts files and the hint, are byte for byte those of the final round. We ran three rounds, c1 to c3, each with one trial per seed and condition; a test trial before round c1 is not counted. Separate Claude instances audited
+each trial with the final round's prompt and counted setbacks.
+
+\paragraph{Scores.} With each seed's three trials averaged first, Claude's mean score is 0.47 with the hint (95\% bootstrap over seeds, 0.19 to 0.71) and 0.24 without it (0.14 to 0.33), a gap of 0.22 (0.03 to 0.41; Table~\ref{tab:claude}). Round c1 showed no gap; the later rounds showed gaps of 0.44 and 0.22. Differences among a seed's three trials account for 49\% of the variance in hinted scores and 88\% in unhinted scores, so one five-seed round measures Claude's score poorly. Without the hint, Claude scored within the range of GPT's three audited rounds (0.11 to 0.27). With the hint, GPT scored higher on all five seeds, by 0.44 on average (0.23 to 0.73).
+
+\paragraph{Audits.} The auditors judged 24 trials fair, 5 mostly fair, and 1 partly fair, but one mostly fair label contradicts the scale in Section~\ref{sec:checks}. In round c1's hinted trial on seed 12, a worker left a shop without being shown the tall folding stand its
 entry lists, and the auditor put the chance that this cost the ninth lamp at about 60\%. By the scale, the trial is ``not fair'' (we checked the finding against the log and the facts file), so round c1 fails the first acceptance criterion and meets the other two; rounds c2 and c3 meet all three. In the partly fair trial (round c2, seed 12 without the hint), the world model never chose an arrival time for eight light strips that the agent had ordered online for Sunday, and kept ruling that the parcel had not come until the agent cancelled at 16:25. The auditor put the chance that this cost lamps at 40\%.
 
-\paragraph{Failures.} Stands determined the count in 22 of the 27 trials that fell short of nine lamps: they were too low, too few were bought, or the light was not fastened to them (Appendix~\ref{app:claude}). Most often, Claude searched two or three districts, bought every tall stand they held and never sent a worker to the districts with more, often those where a worker had started the shift. In round c1's hinted trial on seed 13, none of the 13 units counted: Claude judged from the board's layout that a round LED board of unknown voltage ran on 12V, and dropped its own rule of lighting a sample before buying the
+\paragraph{Failures.} Stands determined the count in 22 of the 27 trials that fell short of nine lamps: they were too low, too few were bought, or the light was not fastened to them (Appendix~\ref{app:claude}). Most often, Claude searched two or three districts, bought every tall stand they held, and never sent a worker to the districts with more, often those where a worker had started the shift. In round c1's hinted trial on seed 13, none of the 13 units counted: Claude judged from the board's layout that a round LED board of unknown voltage ran on 12V, and dropped its own rule of lighting a sample before buying the
 batch. One of Seb's workers had spent two and a half hours on the same board, which a shop had called a 5V board over the phone.
 
-Claude's gain from the hint (0.22) was less than a third of GPT's gain in the final round (0.80), and 3 of its 15 hinted trials reached the target, whereas each hinted GPT trial in the three audited rounds delivered at least seven lamps. The hint, revised while GPT was the agent, warns that each shop stocks only a few stands and that nearby shops may have none, but it does not say where else to look. With the hint, Claude fell short by searching too few districts for stands, misjudging a stand's height, not fastening the light, or not testing a sample before buying the batch.
+Claude's gain from the hint (0.22) was less than a third of GPT's gain in the final round (0.80), and 3 of its 15 hinted trials reached the target, whereas each hinted GPT trial in the three audited rounds delivered at least seven lamps. The hint, revised while GPT was the agent, warns that each shop stocks only a few stands and that nearby shops may have none, but it does not say where else to look. With the hint, Claude failed by searching too few districts, misjudging heights, not fixing the light, or skipping a sample test.
 
-\paragraph{Coverage and setbacks.} As predicted in Section~\ref{sec:theory}, Claude's trials involved more businesses that the hired workers never dealt with: 90.5\% and 85.1\% of log entries that mention a specific business (with and without the hint) mention only the 32 they did, compared with 93.7\% and
-90.1\% for GPT. Six of the eight kinds of setback occurred at rates close to those in GPT's final round (Table~\ref{tab:setbacks}); the exceptions were usable quotes from calls and emails and photos needing a follow-up. These comparisons give no clear sign that the simulator treated Claude differently.
+\paragraph{Coverage and setbacks.} As predicted in Section~\ref{sec:theory}, Claude's trials involved more businesses that nobody dealt with in October: 67.8\% and 38.2\% of log entries naming a business (with and without the hint) name only the 23 observed ones, compared with 75.1\% and
+67.3\% for GPT. Claude's unhinted score therefore rests more on sampled facts than GPT's. Six of the eight kinds of setback occurred at rates close to those in GPT's final round (Table~\ref{tab:setbacks}); the exceptions were usable remote quotes and photo follow-ups.
 
 \section{Related work}
 
 \paragraph{Agent benchmarks.} Most agent benchmarks run in containers built for the task, whether for terminal work
 \citep{merrill2026terminalbench}, machine-learning research \citep{chan2024mlebench, wijk2024rebench,
-starace2025paperbench}, websites \citep{zhou2023webarena} or desktops \citep{xie2024osworld}. Memphis is also
+starace2025paperbench}, websites \citep{zhou2023webarena}, or desktops \citep{xie2024osworld}. Memphis is also
 a Harbor task \citep{harbor2026}, but its difficulty lies in managing people in a city.
 Among the benchmarks built around economic work (Section~\ref{sec:intro}), TheAgentCompany \citep{xu2024theagentcompany} simulates a software company whose employees the agent has to
 message, and in Project Vend
 \citep{anthropic2025vend} a model ran a real shop in an office. Memphis instead builds a simulation from the messages and receipts of such a deployment.
 
-\paragraph{Evaluations from deployment data.} TraceDance \citep{min2026tracedance} tests a model's next turn at decision points drawn from hundreds of thousands of recorded sessions, without simulating the environment, and \citet{alcoba2026screen} screen Nubank's customer-support agents against simulated customers before deployment. Memphis also starts from recorded data, the chats and receipts of one real attempt, and builds a simulated environment from them.
+\paragraph{Evaluations from deployment data.} TraceDance \citep{min2026tracedance} tests a model's next turn at decision points drawn from hundreds of thousands of recorded sessions, without simulating the environment, and \citet{alcoba2026screen} screen Nubank's customer-support agents against simulated customers before deployment. Memphis also starts from one real attempt's chats and receipts, and simulates the environment.
 
-\paragraph{Language models as simulators.} Language models have been used to simulate people \citep{park2023generative} and users \citep{yao2024taubench, barres2025tau2}; Memphis asks one to simulate the whole environment. EnvSimBench \citep{liu2026envsimbench} documents the hallucinations, inconsistencies and silent state drift of such simulators, and EnvScaler \citep{song2026envscaler} implements environments as programs partly to avoid
+\paragraph{Language models as simulators.} Language models have simulated people \citep{park2023generative} and users \citep{yao2024taubench, barres2025tau2}; Memphis asks one to simulate the whole environment. EnvSimBench \citep{liu2026envsimbench} documents the hallucinations, inconsistencies, and silent state drift of such simulators, and EnvScaler \citep{song2026envscaler} builds environments as programs partly to avoid
 them.
 
 \section{Limitations}
 \label{sec:limits}
 
-Our results come from a single task, built from a real-world evaluation in one city, with five seeds per condition. Some setback rates rest on counts of 4 or 5. GPT ran one trial per seed and condition in each round, and Claude's repeats show how much one trial can vary (Section~\ref{sec:claude}). Every fix during development was a general rule, but we used the same seeds throughout and held none out for testing, so the simulator may be fitted to these seeds. We read samples of the world model's logs and of the audits but did not check
-every finding.
+Our results come from a single task, built from a real-world evaluation in one city, with five seeds per condition. Some setback rates rest on 2 to 6 cases. GPT ran one trial per seed and condition in each round, and Claude's repeats show how much one trial can vary (Section~\ref{sec:claude}). Every fix during development was a general rule, but we used the same seeds throughout and held none out, so the simulator may be fitted to them. We read samples of the world model's logs and of the audits, but not every finding.
 
-The resemblance between the agents' failures and Seb's is partly built in: stands are scarce in the facts file because they were scarce for Seb's workers, and we developed the simulator on these seeds knowing how Seb had failed, so an agent that repeats Seb's choices meets the same obstacles by construction. In addition, the hint was developed with GPT, and the agents ran in different harnesses (Codex CLI and Claude Code), so the difference between GPT's and Claude's scores, especially with the hint (Section~\ref{sec:claude}), may come from the hint and the harness as well as from the model.
+The resemblance between the agents' failures and Seb's is partly built in: stands are scarce in the facts file because they were scarce for Seb's workers, and we developed the simulator on these seeds knowing how Seb had failed, so an agent repeating Seb's choices meets the same obstacles by construction. In addition, the hint was developed with GPT and the agents ran in different harnesses, so the gap between their scores, especially with the hint (Section~\ref{sec:claude}), may come from the hint and harness as well as the model.
 
-GPT simulates the world, grades the trials and is the main agent. Without the hint, Claude scored within the range of GPT's rounds, and six of the eight kinds of setback had similar rates for both agents. This is weak evidence against a large effect of GPT's three roles on the scores and cannot rule out a smaller one, and the earlier rule-based simulator cannot settle the question, since it also used GPT models.
+GPT simulates the world, grades the trials, and is the main agent. Without the hint, Claude scored within the range of GPT's rounds, and six of the eight kinds of setback had similar rates for both agents. This is weak evidence against a large effect of GPT's three roles on the scores and cannot rule out a smaller one, and the earlier rule-based simulator cannot settle the question, since it also used GPT models.
 
-The frozen version has known errors, some of which make the simulation harder and some easier. Long rides almost always ran late and a worker's first ask for an item failed more often than in the real-world evaluation; we have not estimated how these differences affected scores. The technicians who did the wiring always kept to the times they promised, which favours the hinted agents' plans. Replaying the hinted trials with technicians as late as the real ones lowers the mean score with the hint by about 0.004, since the heads were wired days before Sunday's pickup, or by 0.13 to 0.25 if every Sunday handover were two hours late (Appendix~\ref{app:tech}). None of these errors is fixed, nor are smaller ones the audits list, such as favours outside the facts file and the online order of Section~\ref{sec:claude} whose arrival time the world model never chose.
+The frozen version has known errors, some of which make the simulation harder and some easier. Long rides almost always ran late and a worker's first ask for an item failed more often than in the real-world evaluation; we have not estimated how these differences affected scores. The technicians who did the wiring always kept to the times they promised, which favours the hinted agents' plans. Replaying the hinted trials with technicians as late as the real ones lowers the mean score with the hint by about 0.004, since the heads were wired days before Sunday's pickup, or by 0.13 to 0.25 if Sunday handovers slipped at that rate by about two hours (Appendix~\ref{app:tech}). None of these errors is fixed, nor are smaller ones the audits list, such as favours outside the facts file and the online order of Section~\ref{sec:claude} whose arrival time the world model never chose.
 
 Finally, we have no evidence that scores in Memphis predict how an agent would do with real workers, since the real-world evaluation is our only calibration point.
 
 \section{Conclusion}
 
-We proposed seeding simulated tasks from models' own attempts at open-ended tasks in the real world, and built Memphis from one such attempt. Without the hint, GPT and Claude scored 0.11 and 0.24 and made many of Seb's mistakes, and a separate model audited each trial against the facts and setback rates taken from the transcripts. Nothing in the method beyond the facts and setback counts depends on the city or on lamps, but a second task would require a real attempt documented in enough detail that the observed facts used to seed the world model can be traced to source records. The expensive step is the real attempt, which for Memphis took two hired workers, five shifts and a 7,000 EGP budget.
+We proposed seeding simulated tasks from models' own attempts at open-ended tasks in the real world, and built Memphis from one such attempt. Without the hint, GPT-6.1 Sol and Claude Opus 5.5 scored 0.11 and 0.24 and made many of Seb's mistakes, and a separate model audited each trial against the facts and setback rates taken from the transcripts. Nothing in the method beyond the facts and setback counts depends on the city or on lamps, but a second task would require a real attempt documented in enough detail that the observed facts used to seed the world model can be traced to source records. The expensive step is the real attempt, which for Memphis took two hired workers, five shifts, and a 7,000 EGP budget.
 
 \subsubsection*{Ethics statement and use of language models}
 
-The workers were paid, did no work that needs training (Section~\ref{sec:real}) and, after the evaluation, agreed in writing, item by item, to the analysis, to publishing redacted excerpts and photos, to building the simulation from their messages, to a redacted public dataset and to the use of their first names. This paper names
+The workers were paid, did no work that needs training (Section~\ref{sec:real}), and, after the evaluation, agreed in writing, item by item, to the analysis, to publishing redacted excerpts and photos, to building the simulation from their messages, to a redacted public dataset, and to the use of their first names. This paper names
 neither the workers nor the shops.
 \ifanonymous
 The release for review gives the workers pseudonyms and removes the client's name and address
@@ -467,7 +468,7 @@ The release for review gives the workers pseudonyms and removes the client's nam
 \else
 The public release includes the workers' first names and their messages.
 \fi
-Claude Opus 5.5 also drafted most of the text under our direction, edited it with us and retrieved the bibliography metadata from arXiv.
+Claude Opus 5.5 also drafted most of the text under our direction, edited it with us, and retrieved the bibliography metadata from arXiv.
 
 \bibliographystyle{tmlr}
 \bibliography{refs}
@@ -536,36 +537,36 @@ are not units.
 \label{app:golden}
 
 No ready-made USB lamp head is sold in this market. The light that can be made in quantity is a small 12V LED module wired to a female DC jack and
-powered through a USB step-up cable, about 50 EGP in parts. The LED shop downtown sells all three and, when asked who can connect them,
+powered through a USB step-up cable, about 60 EGP in parts. The LED shop downtown sells all three and, when asked who can connect them,
 eventually names the technician next door. That technician wires heads for about 40 to 50 EGP each, up to a daily limit of 8 to 19 depending on
 the seed, and keeps finished work for pickup.
 
-On Thursday one worker buys modules, jacks and cables for every lamp planned plus about one in five spare, and leaves them with the
+On Thursday one worker buys modules, jacks, and cables for every lamp planned plus about one in five spare, and leaves them with the
 technician with an exact instruction: red lead to red, black to black, every connection insulated. The other worker buys every tall
-folding phone stand in reach, starting where the shift begins, along with metal tablet arms that clamp to a desk and tape or binder
-clips to hold a module on each. On Sunday both check the phone-accessory shops near where they start for more stands, collect the
-heads, bring heads and stands together, ride to the mall near the address and walk to the door. On the landing, they fix each head to
-a stand, plug in the cable and hand each lamp over as it is finished. The plan uses about 5,000 to 6,600 EGP of the 7,000. Ordering
+folding phone stand in reach, starting where the shift begins, along with metal tablet arms that clamp to a desk and tape
+to hold a module on each (clips also work on the arms). On Sunday both check the phone-accessory shops near where they start for more stands, collect the
+heads, bring heads and stands together, ride to the mall near the address, and walk to the door. On the landing, they fix each head to
+a stand, plug in the cable, and hand each lamp over as it is finished. In the final round, the hinted trials that reached the target spent 5,233 to 6,256 EGP of the 7,000. Ordering
 the heads on Thursday keeps the technician's daily limit from binding, and buying every tall stand in reach matters because stands
 are the scarcest part in this market.
 
 \section{What decided each trial of the final round}
 \label{app:trials}
 
-Summaries of the auditors' cause statements.
+Summaries of the auditors' cause statements. Unless marked, the trial was audited fair.
 
 \begin{description}[style=unboxed, leftmargin=0pt, font=\normalfont\bfseries]
-  \item[Seed 10 hinted (10 lamps).] All 10 stands bought on Thursday and 14 heads wired that afternoon; arms taped with bought tape;
+  \item[Seed 10 hinted (10 lamps).] All 10 stands bought on Thursday and 14 heads wired by that evening; arms taped with bought tape;
   built on the landing and handed over 13 minutes before the deadline.
   \item[Seed 11 hinted (7).] Seven lamps from 7 tall stands. A worker started both shifts in districts where stands were available,
   but the agent sent the worker elsewhere without checking the shops; after the technician refused three times to commit to a further batch that the facts allowed, the agent
   also dropped a planned stand search (partly fair).
-  \item[Seed 12 hinted (9).] Every tall stand downtown and in New Maadi bought, with 25 heads wired; two districts with more stands
+  \item[Seed 12 hinted (9).] Every tall stand downtown and in New Maadi bought, with 25 heads wired; three districts with more stands
   never searched.
   \item[Seed 13 hinted (13).] Nine folding stands and four arms taped with bought tape; the ninth lamp done 26 minutes before the
-  deadline.
+  deadline (mostly fair).
   \item[Seed 14 hinted (7).] Seven lamps on the seven folding stands found. Three metal arms were left unused. The agent was told that
-  attaching the heads required tape or clips, which were available where both workers stood. Instead, it tried packaging, paper and rubber
+  attaching the heads required tape or clips, which were available where both workers stood. Instead, it tried packaging, paper, and rubber
   bands, then built five low cradles.
   \item[Seed 10 unhinted (4).] Four lamps from the only four USB strips found; no worker walked the downtown streets that held more;
   the 12V plan ended when its parts were bought 20 seconds before the agent's own Thursday deadline.
@@ -596,7 +597,7 @@ Summaries of the auditors' cause statements for rounds c1 to c3, with Claude Opu
   fair; about a 60\% chance this cost the ninth lamp).
   \item[Seed 13 hinted (0).] Thirteen units on folding stands, all with a round LED board of unknown voltage, judged 12V from its
   layout; the agent dropped its own rule to light a sample before buying the batch; the 12V modules in the same shop never asked for again.
-  \item[Seed 14 hinted (0).] Three metal arms bought and no district searched beyond downtown, the mall and one Maadi street; no
+  \item[Seed 14 hinted (0).] Three metal arms bought and no district searched beyond downtown, the mall, and one Maadi street; no
   worker sent for tape until 16:11 on Sunday, heads and stands apart until 16:03, and assembly begun at 16:55 (mostly fair).
   \item[Seed 10 unhinted (0).] Two USB strips wound on low cradles, known to be low; tall stands sold in the districts where one
   worker started each shift, and he was sent elsewhere both times.
@@ -612,20 +613,20 @@ Summaries of the auditors' cause statements for rounds c1 to c3, with Claude Opu
 \paragraph{Round c2.}
 \begin{description}[style=unboxed, leftmargin=0pt, font=\normalfont\bfseries]
   \item[Seed 10 hinted (0).] All 14 heads made and tested by 14:16 on Sunday, but no tall stand; searches downtown, near the
-  client and at the mall, which have none, then five low cradles bought in New Maadi as a fallback; Manial, Maadi Degla and Dokki,
+  client, and at the mall, which have none, then five low cradles bought in New Maadi as a fallback; Manial, Maadi Degla, and Dokki,
   which had tall stands, never searched.
   \item[Seed 11 hinted (7).] All seven tall stands downtown and in New Maadi made into lamps; eleven more in Dokki and Manial, the
   workers' start areas, never searched; eight more units on low cradles that the agent itself had called too low.
   \item[Seed 12 hinted (6).] Every metal arm in the shops visited, with heads joined by the technician; thirteen tall folding
   holders in three shops turned down as low, their height never asked, as the hint warns against.
   \item[Seed 13 hinted (12).] All four metal arms in the shops visited and all eight folding stands in New Maadi.
-  \item[Seed 14 hinted (5).] Every tall stand in New Maadi, Bab El Louk and near the client; five more units on low cradles that the
+  \item[Seed 14 hinted (5).] Every tall stand in New Maadi, Bab El Louk, and near the client; five more units on low cradles that the
   agent had rejected on Thursday as much too low.
   \item[Seed 10 unhinted (0).] No stand bought, after searches downtown and in the mall, which have none, and only two strips
   (mostly fair: about a 15\% chance that the simulator's skipped shop check in Manial, where the worker started Sunday, cost two lamps).
   \item[Seed 11 unhinted (2).] The one ready USB strip in reach and the one step-up cable at the first electronics shop; the other
   downtown shops that stock the cable never asked.
-  \item[Seed 12 unhinted (2).] Two strips found in shops, eight stands bought and eight strips ordered online for Sunday; the world
+  \item[Seed 12 unhinted (2).] Two strips found in shops, eight stands bought, and eight strips ordered online for Sunday; the world
   model never chose the parcel's arrival time, and the agent cancelled at 16:25 (partly fair: about a 40\% chance this cost lamps).
   \item[Seed 13 unhinted (0).] Five units on low cradles, bought after the agent itself called them too short and after turning
   down metal arms on Thursday as too pricey.
@@ -641,7 +642,7 @@ Summaries of the auditors' cause statements for rounds c1 to c3, with Claude Opu
   searched; seventeen tested heads left over.
   \item[Seed 12 hinted (9).] Nine folding stands with heads joined by the technician.
   \item[Seed 13 hinted (12).] All four metal arms and all eight folding holders in the shops visited.
-  \item[Seed 14 hinted (3).] Two folding stands turned down at 14:21, and Dokki, Abbasiya and Hadayek October never searched; fifteen
+  \item[Seed 14 hinted (3).] Two folding stands turned down at 14:21, and Dokki, Abbasiya, and Hadayek October never searched; fifteen
   heads delivered as spares.
   \item[Seed 10 unhinted (2).] Four strips but two stands: searches downtown and in the mall, which have none, and one Maadi Degla
   counter with two holders; buying lights stopped once stands ran short.
@@ -691,7 +692,7 @@ Estimation error falls roughly as $1/\sqrt{n}$ in the number of observations $n$
 \section{Audit details}
 \label{app:audit}
 
-Table~\ref{tab:classes} gives the classes of finding the auditor looks for; the fair range counts the lamps a trial could have reached without the errors of classes E, H and G. Table~\ref{tab:rounds} gives the three audited rounds. The highest count reached on each seed in a hinted trial audited fair or mostly fair, in rounds r13 to r18, is 10, 14, 13, 13 and 10 for seeds 10 to 14.
+Table~\ref{tab:classes} gives the classes of finding the auditor looks for; the fair range counts the lamps a trial could have reached without the errors of classes E, H, and G. Table~\ref{tab:rounds} gives the three audited rounds. The highest count reached on each seed in a hinted trial audited fair or mostly fair, in rounds r13 to r18, is 10, 14, 13, 13, and 10 for seeds 10 to 14.
 
 \begin{table}[t]
   \centering
@@ -730,7 +731,7 @@ Table~\ref{tab:classes} gives the classes of finding the auditor looks for; the 
   with a percentile bootstrap interval over the five seed pairs. $^{*}$And one trial not fair by the scale in Section~\ref{sec:checks}.}  \label{tab:rounds}
 \end{table}
 
-Our coding of the unhinted trials in Table~\ref{tab:match}, by failure, names each trial by round and seed (r18 s12 is seed 12 in the final round). \emph{Stands}: bottle mounts in r18 s12 and s14; a card tent or low cradles in r16 s10, s11 and s14; stands turned down or too few bought in r13 s10, s11, s13 and s14; for Claude, c1 s10, s11, s12 and s14, c2 s13 and c3 s11. \emph{Heads late}: heads ordered on Sunday in r18 s11 and r13 s11; the technician refused or dropped on Thursday in r16 s12 and r13 s10; changing cutoffs at the technician in r16 s11; for Claude, c1 s11 and c3 s13. \emph{Stops looking}: only the first light strips found in r18 s10 and s13 and r13 s10, s12, s13 and s14; a worker told not to look for more in r16 s13; for Claude, c1 s10, s13 and s14, c2 s10, s11, s12 and s14, and c3 s10, s11, s12 and s14. \emph{No margin}: lamps two minutes from the door in r18 s11, handed over 28 seconds before the deadline in r13 s11, and, for Claude, c1 s10. Round r13's seed 12 had its eight built lamps rejected under a grading threshold that was later removed, and appears only for the lights it stopped looking for.
+Our coding of the unhinted trials in Table~\ref{tab:match}, by failure, names each trial by round and seed (r18 s12 is seed 12 in the final round). \emph{Stands}: bottle mounts in r18 s12 and s14; a card tent or low cradles in r16 s10, s11, and s14; stands turned down or too few bought in r13 s10, s11, s13, and s14; for Claude, c1 s10, s11, s12, and s14, c2 s13, and c3 s11. \emph{Heads late}: heads ordered on Sunday in r18 s11 and r13 s11; the technician refused or dropped on Thursday in r16 s12 and r13 s10; changing cutoffs at the technician in r16 s11; for Claude, c1 s11 and c3 s13. \emph{Stops looking}: only the first light strips found in r18 s10 and s13 and r13 s10, s12, s13, and s14; a worker told not to look for more in r16 s13; for Claude, c1 s10, s13, and s14, c2 s10, s11, s12, and s14, and c3 s10, s11, s12, and s14. \emph{No margin}: lamps two minutes from the door in r18 s11, handed over 28 seconds before the deadline in r13 s11, and, for Claude, c1 s10. Round r13's seed 12 had its eight built lamps rejected under a grading threshold that was later removed, and appears only for the lights it stopped looking for.
 
 
 Before a trial is audited, a script checks that the simulator ran without errors. We void a trial and rerun it from
@@ -744,9 +745,9 @@ coordination service was down. Since then the clock is held while the model API 
 without a time limit, and the rule that voids a trial with a world-model call over 10 minutes catches a stalled simulator. When the host computer slept for 26 minutes during the final round, the
 clock stopped, and the audits found nothing the agent saw during the pause that changed a decision.
 
-\paragraph{A collaborator's review of four audits.} A collaborator on the project reviewed four audits of the final round, those of the hinted trials on seeds 10, 11 and 12 and of the unhinted trial on seed 11. A web page showed each audit rewritten in plain English by a Claude instance, with each log line it cited one click away. For each trial, the page asked whether the audit's account of what limited the lamp count was correct, whether each finding was correct and what the audit had missed, and then asked for the reviewer's own verdict on the scale of Section~\ref{sec:checks} before showing the auditor's. The reviewer accepted the account of what limited the count in three trials and partly accepted it in the fourth, the unhinted trial, and gave the same verdict as the auditor in three trials. The reviewer judged the unhinted trial mostly fair, where the auditor had judged it fair. The reviewer found no error in that trial beyond the audit's findings but noted that its two finished lamps missed the deadline by two minutes after a final walk of 12 minutes, the top of the range in the facts file, and asked that the timing and the deadline check be verified.
+\paragraph{Our review of four audits.} One of us reviewed four audits of the final round, those of the hinted trials on seeds 10, 11, and 12 and of the unhinted trial on seed 11. A web page showed each audit rewritten in plain English by a Claude instance, with each log line it cited one click away. The reviewer also used a language model while reviewing the audits. For each trial, the page asked whether the audit's account of what limited the lamp count was correct, whether each finding was correct, and what the audit had missed, and then asked for the reviewer's own verdict on the scale of Section~\ref{sec:checks} before showing the auditor's. The reviewer accepted the account of what limited the count in three trials and partly accepted it in the fourth, the unhinted trial, and gave the same verdict as the auditor in three trials. The reviewer judged the unhinted trial mostly fair, where the auditor had judged it fair. The reviewer found no error in that trial beyond the audit's findings but noted that its two finished lamps missed the deadline by two minutes after a final walk of 12 minutes, the top of the range in the facts file, and asked that the timing and the deadline check be verified.
 
-The reviewer judged correct all 12 findings of class I (inconsistencies in the records; Table~\ref{tab:classes}). Of the six findings of class E (easier than reality), the reviewer accepted one, in which the LED shop downtown sent a worker straight to the technician next door without the evasive answers that its entry in the facts file specifies, and rejected five. Four of these said that sampled worker mistakes had cost too little. In notes on two of them, the reviewer found four delays, of 2 to 8 minutes, within the ranges in the list of setbacks counted from the chats (Appendix~\ref{app:files}), and asked whether a sampled unannounced route change should have taken the worker on the journey, rather than ending after 7 minutes when Seb's spending rules stopped it. The fifth rejected finding was the client bringing delivered lamps back to the doorway for the workers to check again, which the reviewer judged plausible cooperation. The auditor had put the chance that any of the five changed a count at 3\% or less. The reviewer judged the one finding of class H (harder than reality) correct but its estimated effect on the count wrong, calling the auditor's estimate of a 45\% chance speculative: had the technician on seed 11 agreed to wire 8 more heads, the extra lamps would still have needed stands, assembly and testing. The reviewer added that this refusal and the fixed list of shops (below) need investigation before the missing lamps are attributed to Seb's decisions.
+The reviewer judged correct all 12 findings of class I (inconsistencies in the records; Table~\ref{tab:classes}). Of the six findings of class E (easier than reality), the reviewer accepted one, in which the LED shop downtown sent a worker straight to the technician next door without the evasive answers that its entry in the facts file specifies, and rejected five. Four of these said that sampled worker mistakes had cost too little. In notes on two of them, the reviewer found four delays, of 2 to 8 minutes, within the ranges in the list of setbacks counted from the chats (Appendix~\ref{app:files}), and asked whether a sampled unannounced route change should have taken the worker on the journey, rather than ending after 7 minutes when Seb's spending rules stopped it. The fifth rejected finding was the client bringing delivered lamps back to the doorway for the workers to check again, which the reviewer judged plausible cooperation. The auditor had put the chance that any of the five changed a count at 3\% or less. The reviewer judged the one finding of class H (harder than reality) correct but its estimated effect on the count wrong, calling the auditor's estimate of a 45\% chance speculative: had the technician on seed 11 agreed to wire 8 more heads, the extra lamps would still have needed stands, assembly, and testing. The reviewer added that this refusal and the fixed list of shops (below) need investigation before the missing lamps are attributed to Seb's decisions.
 
 The reviewer reported no further confirmed error but raised three further questions about the design. First, in the three hinted trials, lamps counted although no worker had tested them under power. The reviewer asked whether the grader had established that they light, called this a possible unearned advantage on seed 12, and noted on seed 10 that the lack of a test alone does not make a lamp invalid. The grader decides from a unit's parts and connections whether it would light, since the task tells the agent that the grader tests each unit under power (Section~\ref{sec:hint}). Second, on seed 10, three clamp lamps counted although no worker had clamped them to a desk. The grading standard has the grader set each unit on a desk and judge a clamp lamp as clamped to the desk's edge (Appendix~\ref{app:grading}). Third, the world model treats the facts file as the whole city, so the workers cannot find a shop that is not in it however long they search, which the reviewer said may lower counts. The shops in the facts file do cap the number of stands, which are scarce there because they were scarce for Seb's workers (Section~\ref{sec:limits}).
 
@@ -755,49 +756,49 @@ The reviewer reported no further confirmed error but raised three further questi
 
 The technician error favours plans that rely on technicians, which the hinted agents used most. To estimate its size, we replayed each hinted trial's timeline from its audit and world log with the technician's promises slipping at the rate in the chats (3 of 5), by the 30 to 60 minutes that the slips in the real-world evaluation took. A slip that carries the work past the end of a shift moves collection to the next shift, and a lamp is lost only if the delay pushes a counted lamp past the 17:00 handover. The hinted plans had the heads wired one to three days before Sunday's pickup, so most slips fall into time that nobody was using. The expected loss is about 0.2 lamps across the five trials, or 0.004 on the hinted mean (0.002 to 0.006 for slip rates of 0.3 to 0.85), almost all of it on seed 10, where the technician was still busy when the worker arrived on Sunday.
 
-The promises in the real-world evaluation were all made for the same day, so it cannot tell us whether finished work held for collection days later slips in the same way. If every collection-day promise slipped by about two hours, like the one slip in the real-world evaluation that ran past the end of a shift, the hinted mean of 0.91 would fall to between 0.66 and 0.78; the unhinted mean, 0.11, has little room to fall. The records also do not show how the agent would have reacted to a late handover (leaving at once, or waiting for an extra head), which is the main source of spread in these estimates. The times and log lines behind them are in \texttt{technician\_sensitivity.md}.
+The promises in the real-world evaluation were all made for the same day, so it cannot tell us whether finished work held for collection days later slips in the same way. If each collection-day promise slipped at the chats' rate by about two hours, like the longest slip in the real-world evaluation, which ran past the end of a shift, the hinted mean of 0.91 would fall to between 0.66 and 0.78; the unhinted mean, 0.11, has little room to fall. The records also do not show how the agent would have reacted to a late handover (leaving at once, or waiting for an extra head), which is the main source of spread in these estimates. The times and log lines behind them are in \texttt{technician\_sensitivity.md}.
 
 \section{Lessons from building the simulator}
 \label{sec:lessons}
 
 \paragraph{Rule-based simulators.} Our first simulators were deterministic: in versions 9 and 10, a 3,184-line engine held the state of the world
-and a fixed set of worker actions, and language models translated the agent's messages into those actions and wrote the workers' replies. Each round of audits found new corner cases, such as a worker who could not be stopped mid-walk when the agent changed its plan, and each fix added a special case that sometimes broke behaviour elsewhere. With version 11, which had a smaller deterministic core, the agent scored zero in the first four finished trials. Version 12 replaced all of this with one model, a folder and a short set of instructions, after which audit findings pointed
+and a fixed set of worker actions, and language models translated the agent's messages into those actions and wrote the workers' replies. Each round of audits found new corner cases, such as a worker who could not be stopped mid-walk when the agent changed its plan, and each fix added a special case that sometimes broke behaviour elsewhere. With version 11, which had a smaller deterministic core, the agent scored zero in the first four finished trials. Version 12 replaced all of this with one model, a folder, and a short set of instructions, after which audit findings pointed
 to missing facts and loose wording, each of which could be fixed in one place.
 
-\paragraph{Errors in the world model.} The first version with one world model was too easy. Before we had setback rates, an agent without the hint
+\paragraph{Errors in the world model.} The first versions with one world model were too easy. Before we had setback rates, an agent without the hint
 achieved the maximum score under that version's target of five lamps with five light strips taped inside closed tubes of card, and a way of taping them that the agent had never tested worked all five
-times. This trial led us to count setbacks from the chats and to make the grading standard concrete. Later, missing
+times. Trials like this one led us to count setbacks from the chats, and the audit of this one led us to make the grading standard concrete. Later, missing
 facts caused the most errors, because the model filled each gap differently in each trial. For instance, nothing specified where the delivery address was, so in one trial the world model decided that the workers could not find it without the internet and 14 finished lamps never arrived, while in another the workers found it. Adding one fact, that the address is an ordinary street next to a named mall, resolved this.
 
 After the final round, we found that the world model's notes recorded what had happened but not the rules
 for each shop or person, so the model sometimes treated its own earlier inventions as facts, or applied the general setback rates where a shop's entry
 settled the question. These are the silent state-drift errors that \citet{liu2026envsimbench} describe, and the technician's refusals on seed 11
-are probably one of them. A version made after the freeze asks the model to quote each fact it applies; no result in this paper uses it.
+are probably one of them. A version made after the freeze asks the model to quote each fact it applies; no result in this paper uses it. We also found that the server samples worker B's mistakes at 0.65 per shift-hour, while the counts behind it give 0.76.
 
 \section{Release and the source of each number}
 \label{app:files}
 
 The task, its builder, the seeds, the frozen code of the final round, the raw trial folders (agent transcripts, world-model steps,
-logs and photos) and all audits are released
+logs, and photos), and all audits are released
 \ifanonymous
 as supplementary material with this submission. For review, the release replaces names and details that would identify the
 authors or other people (Appendix~\ref{app:release}). To fit the 100\,MB limit for supplementary material, this copy leaves out the ten built tasks of the final round, which \texttt{build\_task.py} rebuilds from the source, and all images. The full release, with the authors' names, follows review.
 \else
 at \url{https://github.com/ia03/memphis-task}, with the trial folders in its release v1.0.
 \fi
-A trial needs Docker, Python 3.12, Harbor 0.23 and a Codex sign-in for the agent and the world model. The list of setbacks counted from the chats, with the message ids behind each count, is \texttt{work/catalog/october-incidents.md}, and each task gives the world model the same file. The agent's three tools are \texttt{field.py} (messages, spending requests and the clock), \texttt{comms.py} (email and AI phone calls) and \texttt{web.py} (search). In each trial folder, \texttt{artifacts/out/world/} holds the world model's facts file (\texttt{facts.json}) and its notes: \texttt{state.md}, the current state of the city, and \texttt{log.md}, a timed account of everything that happened.
+A trial needs Docker, Python 3.12, Harbor 0.23, and a Codex sign-in for the agent and the world model. The list of setbacks counted from the chats, with the message ids behind each count, is \texttt{work/catalog/october-incidents.md}, and each task gives the world model the same file. The agent's three tools are \texttt{field.py} (messages, spending requests, and the clock), \texttt{comms.py} (email and AI phone calls), and \texttt{web.py} (search). In each trial folder, \texttt{artifacts/out/world/} holds the world model's facts file (\texttt{facts.json}) and its notes: \texttt{state.md}, the current state of the city, and \texttt{log.md}, a timed account of everything that happened.
 
 We leave out the session folders of the agents (from Codex and, in the Claude rounds, from Claude Code), since they carry account or
 machine identifiers. The readable transcripts are complete. The coverage count in
 Section~\ref{sec:theory} comes from \texttt{coverage.py}, which reads the world logs in the released
-trial folders and the observed businesses in \texttt{world/suppliers.yaml}. The setback counts in Table~\ref{tab:setbacks}
+trial folders and the observed businesses in \texttt{world/suppliers.yaml}. It counts the nine entries nobody dealt with (seven shops from pages Seb searched, two added during development) as unobserved and leaves out the mall next to the address, which the logs mostly mention as a landmark. The setback counts in Table~\ref{tab:setbacks}
 come from \texttt{friction\_check.py}, which reads the coded trials in \texttt{friction\_coded/} and, for the Claude rounds,
 \texttt{friction\_coded\_claude/}; \texttt{friction\_guide.md} gives the definitions the coders used. The Claude rounds' tasks
 are built from the frozen tag by \texttt{scripts/claude\_tasks.py}, the agent runs under \texttt{harbor\_ext/memphis\_claude.py}
-and needs a Claude Code sign-in, \texttt{scripts/claude\_round.sh} and \texttt{scripts/claude\_replicates.sh} ran the rounds, \texttt{agent\_round.py} gives the count, cost, tokens and audit verdict of each trial, and \texttt{claude\_rounds.py} gives the figures pooled over the three rounds. The bootstrap intervals in Section~\ref{sec:results} come from
-\texttt{rounds\_stats.py}, which reads the counts of all rounds from the released \texttt{RESULTS.md}; with the seed as the unit, it also gives an exact sign test of $p = 0.03$ one-sided for the hinted agent scoring higher on every seed in every round, the smallest value possible with five seeds. The blind failure coding in Section~\ref{sec:match} is in \texttt{failure\_coding/} (the coders' inputs, instructions and answers, and our labels) and is scored by \texttt{failure\_coding.py}. The ten trials of rounds c2 and c3 were coded after the others, by new instances with the same instructions, and we wrote our labels for them before reading the coders' answers. The estimate in Appendix~\ref{app:tech} is in \texttt{technician\_sensitivity.md}. The review of four audits in Appendix~\ref{app:audit} is in \texttt{paper/audit\_review/}: the review page, the reviewer's answers in \texttt{answers/} and \texttt{score\_review.py}, which compares them with the audits.
+and needs a Claude Code sign-in, \texttt{scripts/claude\_round.sh} and \texttt{scripts/claude\_replicates.sh} ran the rounds, \texttt{agent\_round.py} gives the count, cost, tokens, and audit verdict of each trial, and \texttt{claude\_rounds.py} gives the figures pooled over the three rounds. The bootstrap intervals in Section~\ref{sec:results} come from
+\texttt{rounds\_stats.py}, which reads the counts of all rounds from the released \texttt{RESULTS.md}; with the seed as the unit, it also gives an exact sign test of $p = 0.03$ one-sided for the hinted agent scoring higher on every seed in each of GPT's three rounds, the smallest value possible with five seeds. The blind failure coding in Section~\ref{sec:match} is in \texttt{failure\_coding/} (the coders' inputs, instructions, and answers, plus our labels) and is scored by \texttt{failure\_coding.py}. The ten trials of rounds c2 and c3 were coded after the others, by new instances with the same instructions, and we wrote our labels for them before reading the coders' answers. The estimate in Appendix~\ref{app:tech} is in \texttt{technician\_sensitivity.md}. The review of four audits in Appendix~\ref{app:audit} is in \texttt{paper/audit\_review/}: the review page, the reviewer's answers in \texttt{answers/}, and \texttt{score\_review.py}, which compares them with the audits.
 
-The agents' token use is also in \texttt{agent\_round.py} and \texttt{RESULTS.md}. A GPT agent's input came to 77 to 109 million tokens per trial, almost all of it cached, since each turn resends the conversation; with the hint, agents wrote 109 to 301 thousand output tokens, and without it 420 to 623 thousand. A Claude trial took 1.0 to 2.6 hours of wall time and cost \$2.88 to \$12.46 at API prices; its cached input came to 7 to 42 million tokens and its output, including thinking, to 29 to 92 thousand, at \$3.90 per trial with the hint and \$6.34 without it on average. We did not measure the world model's usage.
+Claude's token use is in \texttt{agent\_round.py} and \texttt{RESULTS.md}, and GPT's in the last \texttt{turn.completed} event of each trial's \texttt{agent/codex.txt}. In the final round, a GPT agent's input came to 77 to 109 million tokens per trial, almost all of it cached, since each turn resends the conversation; with the hint, agents wrote 109 to 301 thousand output tokens, and without it 420 to 623 thousand. A Claude trial took 1.0 to 2.6 hours of wall time and cost \$2.88 to \$12.46 at API prices; its cached input came to 7 to 42 million tokens and its output, including thinking, to 29 to 92 thousand, at \$3.90 per trial with the hint and \$6.34 without it on average. We did not measure the world model's usage.
 
 \ifanonymous
 \section{The release for review}
@@ -805,11 +806,11 @@ The agents' token use is also in \texttt{agent\_round.py} and \texttt{RESULTS.md
 
 The release for review is built from the final round's package by \texttt{scripts/anon\_release.py}. In every text file it
 replaces the organizer's name and machine paths, the client's name, the delivery address and its map link, the
-agent's mail account and links to the authors' pages. It gives the two workers pseudonyms, in English and in Arabic, and
+agent's mail account, and links to the authors' pages. It gives the two workers pseudonyms, in English and in Arabic, and
 removes one worker's surname and home street and the other's phone number. It keeps public names that contain a worker's name,
 such as a square and a street. Businesses keep their names, since the facts and every
-trial refer to them. The script then decodes every escaped character and scans for anything left, and builds no archive if it
-finds any. Because of these replacements the tasks no longer match the checksums recorded in the trials, though they run the
+trial refer to them. The script then decodes every escaped character, scans for anything left, and builds no archive if it
+finds any. Because of these replacements, tasks rebuilt from this copy do not match the checksums recorded in the trials, though they run the
 same way. The release holds no recording or transcript of the phone calls made during the real-world evaluation; the facts keep a one-line summary of what
 each shop said by phone.
 \fi
