@@ -28,7 +28,7 @@ def cairo(day: int, hh: int, mm: int) -> datetime:
 
 
 def make(tmp_path, *outputs: dict) -> Sim:
-    sim = Sim(10, tmp_path, 5, simulator=Script(*outputs))
+    sim = Sim(10, tmp_path, simulator=Script(*outputs))
     sim.advance(cairo(1, 13, 28))  # the run-start wake
     return sim
 
@@ -76,7 +76,7 @@ def test_a_photo_label_becomes_an_attachment_and_finish_scores_from_the_grade(tm
     sim.advance(cairo(1, 14, 6))
     inbox = sim.ledger.agent_inbox()
     assert len(inbox) == 1 and inbox[0]["attachment_id"]
-    assert sim.finish()["reward"] == 0.6 and sim.clock.now() >= cairo(4, 17, 0) + timedelta(minutes=0)
+    assert sim.finish()["reward"] == 3 and sim.clock.now() >= cairo(4, 17, 0) + timedelta(minutes=0)
 
 
 def test_a_worker_confirming_a_cancelled_notice_releases_its_money(tmp_path) -> None:
@@ -135,7 +135,7 @@ class Flaky(Script):
 
 
 def test_a_failed_step_keeps_its_events_for_the_next_step(tmp_path) -> None:
-    sim = Sim(10, tmp_path, 5, simulator=Flaky())
+    sim = Sim(10, tmp_path, simulator=Flaky())
     sim.event({"type": "telegram_from_seb", "worker": "worker-a", "text": "روح لمباترونكس"})
     sim.step()
     assert sim.errors and sim.events

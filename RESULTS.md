@@ -29,7 +29,7 @@ changed the count. Each audit gives its probabilities. Trial names read round, s
 ### What decided each trial
 
 <!--FINAL_CAUSES-->
-- **Seed 10 hinted** (10): Ten lamps: all 10 stands bought on Thursday, 14 heads joined that afternoon, and the arms taped with bought tape; built on the landing and handed over 13 minutes before the deadline.
+- **Seed 10 hinted** (10): Ten lamps: all 10 stands bought on Thursday, 14 heads joined that afternoon, and the arms taped with bought tape; built on the landing and handed over 12 minutes before the deadline.
 - **Seed 11 hinted** (7): Seven lamps from 7 tall holders. Abdelrahman started both shifts in districts with holders for sale and Seb sent him on without a look; after the technician refused, three times, to commit to a further batch of heads, which his facts allowed, Seb also dropped a planned holder search (partly fair).
 - **Seed 12 hinted** (9): Nine lamps: every tall stand downtown and in New Maadi bought, with 25 heads joined; Seb never looked in Dokki or Hadayek October, where more stands were.
 - **Seed 13 hinted** (13): Thirteen lamps: nine folding stands and four arms taped with bought tape; the ninth lamp was done 26 minutes before the deadline.
@@ -108,7 +108,7 @@ Claude delivered 69 lamps in the 15 hinted trials and 33 in the 15 unhinted ones
 hint (95% bootstrap over seeds, keeping each seed's three trials together, 0.19 to 0.71) and 0.24 without it (0.14 to 0.33). The
 hint gap is +0.22 (+0.03 to +0.41): the hint was ahead on seeds 11, 12 and 13, behind on seed 10 and level on seed 14. Round c1
 alone gave a gap of 0.00; rounds c2 and c3 gave +0.44 and +0.22. Repeats of the same task vary a lot:
-49% of the variance in hinted scores and 88% of that in unhinted scores lies between the three trials of a seed. Three hinted
+51% of the variance in hinted scores and 88% of that in unhinted scores lies between the three trials of a seed. Three hinted
 trials reached the target (12, 9 and 12 lamps), none in c1; no unhinted trial did. On the same version and seeds GPT-6.1 Sol
 scored 0.91 hinted and 0.11 unhinted (the final round above). `paper/claude_rounds.py` and `paper/rounds_stats.py` compute these.
 
@@ -185,9 +185,9 @@ Rounds c2 and c3 meet all three conditions:
 
 All 30 trials:
 
-- **Coverage** (`paper/coverage.py`): of the world-log entries that name a specific business, 90.5% in the hinted trials (50%
-  to 98% per trial) and 85.1% in the unhinted ones (50% to 100%) name only businesses from October, against 93.7% and 90.1% for
-  GPT in r18. Round c1 alone: 88.2% and 85.3%.
+- **Coverage** (`paper/coverage.py`): of the world-log entries that name a specific business, 67.8% in the hinted trials (0%
+  to 87% per trial) and 38.2% in the unhinted ones (9% to 68%) name only the 23 businesses the workers or Seb dealt with in
+  October, against 75.1% and 67.3% for GPT in r18. Round c1 alone: 64.2% and 40.8%.
 - **Friction** (`paper/friction_check.py paper/friction_coded_claude`): the kinds the world decides came out close to GPT's
   round. A wrong counter claim 12 of 44, a failed first ask 925 of 1060, custom electrical work 21 of 66, a slipped technician
   promise 11 of 43 (mostly the LED shop's within-the-hour offer, as in r18), long rides late 140 of 141 (median 1.60 times the

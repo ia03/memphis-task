@@ -32,10 +32,9 @@ SETTLE_SECONDS = 5  # let a burst of Seb's calls (a spend notice and its message
 
 
 class Sim:
-    def __init__(self, seed: int, out: Path, target: int, simulator: Any = None) -> None:
+    def __init__(self, seed: int, out: Path, simulator: Any = None) -> None:
         self.world = build(seed)
         self.out = out
-        self.target = target
         self.clock = SimClock(START, END)
         self.ledger = Ledger(self.clock, 7000, list(self.world.workers), DEADLINE.isoformat())
         self.ledger.names = {w.id: w.name for w in self.world.workers.values()}
@@ -200,7 +199,7 @@ class Sim:
         reported = sum(r.reported_paid_egp or 0 for r in self.ledger.snapshot().spend_requests)
         spent = max(reported, grade.get("spent_egp", 0))
         n = grade["qualifying_delivered"] if spent <= 7000 else 0
-        result = {"qualifying_delivered": grade["qualifying_delivered"], "reward": min(n / self.target, 1.0), "spent_egp": spent,
+        result = {"qualifying_delivered": grade["qualifying_delivered"], "reward": n, "spent_egp": spent,
                   "reported_spend_egp": reported, "over_budget": spent > 7000, "sim_errors": len(self.errors)}
         export = {"score": result, "seed": self.world.seed, "grade": grade, "errors": self.errors,
                   "ledger": self.ledger.snapshot().model_dump(), "emails": [e.model_dump() for e in self.comms.emails],
@@ -324,14 +323,13 @@ def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("--seed", type=int, required=True)
     p.add_argument("--out", type=Path, required=True)
-    p.add_argument("--target", type=int, required=True)
     p.add_argument("--host", default="0.0.0.0")
     p.add_argument("--port", type=int, default=8787)
     p.add_argument("--agent-token", required=True)
     p.add_argument("--grader-token", required=True)
     a = p.parse_args()
     a.out.mkdir(parents=True, exist_ok=True)
-    sim = Sim(a.seed, a.out, a.target)
+    sim = Sim(a.seed, a.out)
     sim.clock.detect_freezes(30.0)
     threading.Thread(target=sim.tick_forever, daemon=True).start()
     ThreadingHTTPServer((a.host, a.port), make_handler(sim, a.agent_token, a.grader_token)).serve_forever()

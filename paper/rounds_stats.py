@@ -3,7 +3,7 @@ the frozen version (c1, c2, c3) set against r18: sign tests and bootstrap interv
 
     python3 rounds_stats.py ../RESULTS.md
 
-Reads each round's per-seed lamp counts from RESULTS.md. A trial's score is lamps / 9, capped at 1. For each round it gives the
+Reads each round's per-seed lamp counts from RESULTS.md. A trial's score is its number of lamps. For each round it gives the
 mean score per condition, the hinted-minus-unhinted gap with a paired bootstrap interval over the five seeds, and an exact sign
 test on the five seed pairs. Pooled over the rounds it resamples seeds, keeping all three rounds of a seed together, because the
 rounds share seeds and so are not independent. For c1, c2 and c3 it gives the same per-round figures, the same figures pooled
@@ -16,7 +16,6 @@ import re
 import sys
 from math import comb
 
-TARGET = 9
 B = 20000
 ROUND_HEADINGS = {"r18": "## Final round", "r16": "### Round r16", "r13": "### Round r13"}
 CLAUDE_HEADINGS = {"c1": "### Round c1", "c2": "### Round c2", "c3": "### Round c3"}
@@ -37,7 +36,7 @@ def counts(text: str, heading: str) -> dict:
 
 
 def score(lamps: int) -> float:
-    return min(lamps / TARGET, 1.0)
+    return float(lamps)
 
 
 def sign_p(wins: int, n: int) -> tuple:

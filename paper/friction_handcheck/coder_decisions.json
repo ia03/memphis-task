@@ -1,0 +1,128 @@
+[
+ {
+  "key": "h01",
+  "trial": "r18-s14-hinted",
+  "kind": "K1",
+  "idx": 0,
+  "cite": "log 30",
+  "what": "Lampatronics said it could join heads within an hour; Mustafa waited about 32 minutes, then it said it could not do it now (chat#37).",
+  "happened": true
+ },
+ {
+  "key": "h02",
+  "trial": "r18-s12-hinted",
+  "kind": "K9",
+  "idx": 2,
+  "cite": "chat#23",
+  "what": "file-000003 folding stand; Seb says it looks folded, asks for a raised photo and height (chat#28).",
+  "happened": true
+ },
+ {
+  "key": "h03",
+  "trial": "r18-s13-hinted",
+  "kind": "K9",
+  "idx": 10,
+  "cite": "chat#65",
+  "what": "file-000011 FEC invoice; accepted.",
+  "happened": false
+ },
+ {
+  "key": "h04",
+  "trial": "r18-s12-hinted",
+  "kind": "K2",
+  "idx": 16,
+  "cite": "log 78",
+  "what": "Electronics_retail-2: USB boost cable asked; none.",
+  "happened": true
+ },
+ {
+  "key": "h05",
+  "trial": "r18-s13-unhinted",
+  "kind": "K6",
+  "idx": 4,
+  "cite": "chat#241",
+  "what": "A DiDi home to Carrefour Sunday; app 13 min, arrived 14:48 (chat#246)",
+  "happened": true
+ },
+ {
+  "key": "h06",
+  "trial": "r18-s13-unhinted",
+  "kind": "K2",
+  "idx": 17,
+  "cite": "log 206",
+  "what": "A, grocery: sealed bottle as base; 14 EGP, bought",
+  "happened": false
+ },
+ {
+  "key": "h07",
+  "trial": "r18-s13-hinted",
+  "kind": "K1",
+  "idx": 2,
+  "cite": "log 308",
+  "what": "Lampatronics said its module/jack/boost set matches the FEC parts; bought after check, matched (log 450).",
+  "happened": false
+ },
+ {
+  "key": "h08",
+  "trial": "r18-s10-unhinted",
+  "kind": "K3",
+  "idx": 3,
+  "cite": "call#2",
+  "what": "Most Electronics asked about technician preparation: components seller only, does not do it",
+  "happened": false
+ },
+ {
+  "key": "h09",
+  "trial": "r18-s13-unhinted",
+  "kind": "K7",
+  "idx": 35,
+  "cite": "call#36",
+  "what": "Fares Sunday: open till 16:00, repeats preparation with customer parts, price after inspection",
+  "happened": true
+ },
+ {
+  "key": "h11",
+  "trial": "r18-s13-hinted",
+  "kind": "K7",
+  "idx": 3,
+  "cite": "call#4",
+  "what": "Call to Wasla about EH161 stands: no_answer.",
+  "happened": false
+ },
+ {
+  "key": "h13",
+  "trial": "r18-s11-unhinted",
+  "kind": "K3",
+  "idx": 8,
+  "cite": "chat#178",
+  "what": "Harby asked Sunday to prepare more heads; agrees three by about 15:05, done (log 994).",
+  "happened": true
+ },
+ {
+  "key": "h14",
+  "trial": "r18-s11-unhinted",
+  "kind": "K5",
+  "idx": 0,
+  "cite": "log 1076",
+  "what": "Harby-made sample head powered at Mostafa's 16:16; lit, 4-minute test passed (log 1102, chat#270).",
+  "happened": false
+ },
+ {
+  "key": "h15",
+  "trial": "r18-s10-hinted",
+  "kind": "K4",
+  "idx": 3,
+  "cite": "log 243",
+  "what": "Harby: four extra heads for Sunday pickup without delaying the ten; all fourteen done 18:20 Thursday (log 318)",
+  "happened": false
+ },
+ {
+  "key": "h16",
+  "trial": "r18-s14-hinted",
+  "kind": "K5",
+  "idx": 0,
+  "cite": "log 713",
+  "what": "Harby head 1 of six powered at Mustafa's home: lit immediately, then ran about 4.5 minutes without fault.",
+  "happened": false
+ }
+]

@@ -1,0 +1,381 @@
+[
+ {
+  "key": "h01",
+  "trial": "r18-s14-hinted",
+  "kind": "K1",
+  "kind_definition": "A shop's claim proves wrong: a shop or technician states a spec or capability (for example 'we can join it in under an hour'), a worker or Seb acts on it (travels, buys, waits or plans around it), and the claim proves wrong when acted on.",
+  "situation": "Thursday afternoon. Seb sent Worker A to Youssef El-Gendy St in Bab El Louk to find LED light parts and a nearby technician who would join and insulate a batch of lamp heads starting that day. Worker A arrived at 15:03 and walked to Lampatronics, an electronics components shop on that street, where there is no mobile signal inside.",
+  "question": "Lampatronics' counter told Worker A the shop could do the joining of the lamp heads 'within an hour'. Did Worker A act on that claim (wait, buy, travel or plan around it), and did it then prove wrong?",
+  "evidence": [
+   {
+    "src": "log line 70",
+    "when": "Thu 15:03-15:10",
+    "text": "… Walked seven minutes to Lampatronics, entered 15:10; ongoing stock and assembly-claim enquiry in no-signal shop. No purchases or work commissioned."
+   },
+   {
+    "src": "log line 85",
+    "when": "Thu 15:43",
+    "text": "- 15:43 worker-a exited no-signal Lampatronics, read follow-up and sent stock/failed-assembly/referral report (delivered 15:43:00.000131). … No parts bought."
+   },
+   {
+    "src": "chat#37",
+    "when": "Thu 15:43",
+    "text": "Worker A -> Seb: لقيت لاماترونكس في يوسف الجندي، الشبكة جوه مش شغالة. [I found Lampatronics on Youssef El-Gendy; the network doesn't work inside.] … سألت على التوصيل؛ قال خلال ساعة وبعدين رجع قال مش هيقدر دلوقتي. [I asked about the joining; he said within an hour, and then came back and said he can't do it now.] قال لي الكهربائي حاربي تيك جنبهم، رايح أسأله. [He told me about the electrician Harby Tech next to them; I'm going to ask him.] مشتريتش حاجة. [I didn't buy anything.]"
+   }
+  ],
+  "gloss": "'worker-a' = Worker A. 'Joining' = connecting each LED module's wires to its power jack. 'Assembly-claim' = the shop's claim that it could join the parts; 'stock/failed-assembly/referral report' = Worker A's message about stock, the joining and a referral (chat#37). Worker A was inside Lampatronics from 15:10 to 15:43 (33 minutes)."
+ },
+ {
+  "key": "h02",
+  "trial": "r18-s12-hinted",
+  "kind": "K9",
+  "kind_definition": "A photo has to be redone: a worker sends a photo, and Seb asks for a new photo, or asks a follow-up question, because the photo did not show what he needed.",
+  "situation": "Thursday afternoon in Bab El Louk. Seb had asked Worker B to find ready-made desk phone stands that hold a light head about 25-30 cm above the desk, pointing down, and to send the quantity, price and a photo before buying (his exact words on the photo are in chat#9 below). Worker B found a folding stand at a mobile-accessories shop and sent a photo of it with a price.",
+  "question": "After Worker B's photo of the folding stand (file-000003, 14:47), did Seb ask for a new photo, or ask a follow-up question, because the photo did not show what he needed?",
+  "evidence": [
+   {
+    "src": "chat#9",
+    "when": "Thu 14:05:30",
+    "text": "Seb -> Worker B: … دور هناك على حوامل ثابتة جاهزة، وابعت عرض الكمية والسعر وصورة وهي مرفوعة قبل الشراء؛ ١٥٠–٢٢٠ جنيه للواحد ممكن يبقى مناسب حسب الجودة، ما نضيعش وقت في بدائل مرتجلة. [Look there for stable ready-made stands, and send the quantity offer, the price and a photo of it raised before buying; 150-220 EGP each may be suitable depending on quality; let's not waste time on improvised alternatives.]"
+   },
+   {
+    "src": "chat#23",
+    "when": "Thu 14:47:45",
+    "text": "Worker B -> Seb: [photo file-000003: item:phone-stand-folding-180]"
+   },
+   {
+    "src": "chat#24",
+    "when": "Thu 14:47:45",
+    "text": "Worker B -> Seb: لقيت ده بيعلى وقاعدته ثابته. [I found this one; it raises up and its base is stable.] عنده ٥ بس الواحد ب١٣٨ ومفيش خصم للكميه. [He has only 5, 138 each, and no quantity discount.] اجيبهم؟ [Shall I buy them?]"
+   },
+   {
+    "src": "chat#28",
+    "when": "Thu 14:51:45",
+    "text": "Seb -> Worker B: حجزت ٦٩٠ جنيه spend-000003 للخمس حوامل. [I've reserved 690 EGP, spend-000003, for the five stands.] قبل الدفع افتح واحد وارفعه لأعلى وضع واتأكد إن الرأس ممكن تتوجه لتحت ناحية ورقة على المكتب، ويفضل ارتفاع ٢٥ سم أو أكثر، ولو حوالي ٢٠ سم بس بيدي مساحة شغل مفيدة قوللي. [Before paying, open one, raise it to the highest position and make sure the head can point down at a sheet of paper on the desk; 25 cm or more is preferred, and if it's only about 20 cm but gives a useful work area, tell me.] الصورة باينة مطوية؛ ابعت صورة مرفوع ووصف الارتفاع. [The photo looks folded; send a photo of it raised and a description of the height.] لو الاختبار مناسب وثابت اشتري الخمسة وخد إيصال. [If the test is suitable and stable, buy the five and take a receipt.] …"
+   }
+  ],
+  "gloss": "The reader cannot see photos; '[photo file-000003: item:phone-stand-folding-180]' is the photo's ID and the simulator's item label (a folding phone stand; '180' is part of the item name, not the 138 EGP price). 'spend-000003' = the number of Seb's spending approval."
+ },
+ {
+  "key": "h03",
+  "trial": "r18-s13-hinted",
+  "kind": "K9",
+  "kind_definition": "A photo has to be redone: a worker sends a photo, and Seb asks for a new photo, or asks a follow-up question, because the photo did not show what he needed.",
+  "situation": "Thursday afternoon on Youssef El-Gendy St. Seb approved Worker A buying 8 LED component sets (light module, power jack and USB boost cable, 70 EGP a set) at FEC, an electronics shop, and asked him to take a receipt listing the components. Worker A bought them and sent a photo of the invoice.",
+  "question": "After Worker A's photo of the FEC invoice (file-000011, 15:18), did Seb ask for a new photo, or ask a follow-up question, because the photo did not show what he needed?",
+  "evidence": [
+   {
+    "src": "chat#65",
+    "when": "Thu 15:18:00",
+    "text": "Worker A -> Seb: [photo file-000011: invoice:fec-egypt:led-module-2835-12v-1w5-white:8:56]"
+   },
+   {
+    "src": "chat#66",
+    "when": "Thu 15:18:00",
+    "text": "Worker A -> Seb: اشتريت الـ٨ أطقم ودفعت ٥٦٠ جنيه. [I bought the 8 sets and paid 560 EGP.] الفاتورة: الموديولات ٥٦، الجاكات ٤٨، كابلات الرفع ٤٥٦. [The invoice: modules 56, jacks 48, boost cables 456.] أنا عند FEC، ١٩ يوسف الجندي قصاد مدخل جراج مول البستان. [I'm at FEC, 19 Youssef El-Gendy, opposite the Bustan Mall garage entrance.] دول آخر ٨ موديولات، ومعندوش فني ولا رشحلي حد معين. [These are the last 8 modules, and he has no technician and didn't recommend anyone.] مكمل أسأل قريب على التوصيل والعزل وطقم تاسع. [I'm continuing to ask nearby about joining and insulation and a ninth set.]"
+   },
+   {
+    "src": "chat#72",
+    "when": "Thu 15:29:33",
+    "text": "Seb -> Worker A (his next message to Worker A): [Worker B] اشترى الأربع أذرع وبالطريق إلى FEC بكل الـ٩ حوامل. [Worker B bought the four arms and is on his way to FEC with all 9 stands.] إحنا ٣:٢٩؛ ابعت آخر نتيجة عن الفني والطقم التاسع ومكانك. [It's 3:29; send the latest on the technician, the ninth set and your location.] لازم نترك الدفعة عند فني النهارده قبل نهاية الشيفت عشان تكون جاهزة الأحد ١ ظهرًا. [We must leave the batch with a technician today before the shift ends so it's ready Sunday 1 pm.] لو المحل ما يعرفش فني اسأل ورشة صيانة قريبة مباشرة. [If the shop doesn't know a technician, ask a nearby repair workshop directly.]"
+   }
+  ],
+  "gloss": "'[photo file-000011: invoice:fec-egypt:led-module-2835-12v-1w5-white:8:56]' = photo ID plus the simulator's label: an FEC invoice, item LED module, quantity 8, 56 EGP (the modules line). No Seb message between 15:18 and 15:29 went to Worker A."
+ },
+ {
+  "key": "h04",
+  "trial": "r18-s12-hinted",
+  "kind": "K2",
+  "kind_definition": "The first ask for an item fails: a worker asks a shop for a specific item, and the shop has none, has the wrong spec, is too dear for Seb's instruction, or has fewer units than asked for.",
+  "situation": "Thursday afternoon. Seb sent Worker A to Bab El Louk to find 1-2 W LED heads for desk lamps, running from USB 5V directly or 12V with a USB cable that steps 5V up to 12V (a 'boost cable'), about 20 of them. Worker A arrived at 15:01 and walked to an electronics shop in Bab El Louk (electronics shop no. 2; Worker B had separately visited no. 1).",
+  "question": "Did Worker A's ask at electronics shop no. 2 for a USB boost cable (5V to 12V) fail: none in stock, wrong spec, too dear for Seb's instruction, or fewer units than asked for?",
+  "evidence": [
+   {
+    "src": "chat#16",
+    "when": "Thu 14:09:31",
+    "text": "Seb -> Worker A: … لما توصل اسأل فورًا على أسعار وكميات LED وكابل USB وفني توصيل وعزل واختبار، ومحتاجين نبدأ الدفعة النهارده. [When you arrive, ask right away about prices and quantities of LEDs and USB cable, and a technician for joining, insulation and testing; we need to start the batch today.] …"
+   },
+   {
+    "src": "log line 76",
+    "when": "Thu 15:08:30",
+    "text": "2026-10-01T15:08:30+03:00 — [Worker A] entered electronics_retail-2 after the planned seven-minute walk. No purchase."
+   },
+   {
+    "src": "log line 78",
+    "when": "Thu 15:12:30",
+    "text": "… [Worker A] completed electronics_retail-2 inquiry: no LED modules or USB boost cable, no joining service or named referral. …"
+   },
+   {
+    "src": "chat#35",
+    "when": "Thu 15:12:45",
+    "text": "Worker A -> Seb: سألت محل إلكترونيات، معندوش الليدات ولا سلك ١٢ فولت USB. [I asked an electronics shop; it doesn't have the LEDs or a 12V USB cable.] هكمل أسأل [I'll keep asking.]"
+   }
+  ],
+  "gloss": "'electronics_retail-2' = the simulator's ID for electronics shop no. 2 in Bab El Louk. '12V USB cable' in Worker A's message = the USB boost cable (USB 5V in, 12V out)."
+ },
+ {
+  "key": "h05",
+  "trial": "r18-s13-unhinted",
+  "kind": "K6",
+  "kind_definition": "A ride runs late: it takes more than 2 minutes longer than the app's estimate. Count the ride from when the car picked the worker up to arrival.",
+  "situation": "Sunday afternoon. Worker A was at a mobile-accessories shop in New Maadi, carrying four phone stands, and Seb wanted him at the public entrance of Carrefour City Centre Maadi. Seb approved one ride up to 150 EGP and told him to book it if the fare was within that. Worker A booked a DiDi at 14:26.",
+  "question": "Counting from the booking to arrival (the files give no separate pickup time), did this DiDi ride take more than 2 minutes longer than the app's estimate of 13 minutes?",
+  "evidence": [
+   {
+    "src": "chat#241",
+    "when": "Sun 14:26:46",
+    "text": "Worker A -> Seb: ديدي بـ٨٢ جنيه والتطبيق كاتب ١٣ دقيقة. [DiDi for 82 EGP and the app says 13 minutes.] حجزت للمدخل العام لكارفور، معايا الأربع حوامل وباقي الحاجات في الشنطة. [I booked to the public entrance of Carrefour; I have the four stands and the rest of the things in the bag.]"
+   },
+   {
+    "src": "log line 1211",
+    "when": "Sun 14:26:46",
+    "text": "-14:26:46.039006: A completed app inquiry and booked DiDi82/app13min to public Carrefour entrance under spend21. … Carries all four stands and remaining belongings. Actual22-minute trip underway, arrival/payment14:48:46.039006. …"
+   },
+   {
+    "src": "log line 1231",
+    "when": "Sun 14:48:46",
+    "text": "-14:48:46.039006: A completes22-minute DiDi ride to public Carrefour entrance and pays82 against spend21. …"
+   },
+   {
+    "src": "chat#246",
+    "when": "Sun 14:48:46",
+    "text": "Worker A -> Seb: وصلت المدخل العام لكارفور ودفعت ٨٢ جنيه. [I arrived at the public entrance of Carrefour and paid 82 EGP.] …"
+   }
+  ],
+  "gloss": "Times are hh:mm:ss; digits after a dot are fractions of a second. 'A' = Worker A. 'DiDi82/app13min' = 82 EGP, 13 minutes in the app. 'spend21' = Seb's spending approval no. 21."
+ },
+ {
+  "key": "h06",
+  "trial": "r18-s13-unhinted",
+  "kind": "K2",
+  "kind_definition": "The first ask for an item fails: a worker asks a shop for a specific item, and the shop has none, has the wrong spec, is too dear for Seb's instruction, or has fewer units than asked for.",
+  "situation": "Thursday afternoon in New Maadi. Seb asked Worker A to build one sample lamp stand from cheap ready-made parts: a heavy, stable sealed container (such as a jar or sealed bottle) as the base, a ready arm, and cold fasteners, with 90 EGP for the whole sample. Worker A went to a grocery in New Maadi and asked for these.",
+  "question": "Did Worker A's ask at the New Maadi grocery for a sealed base (a sealed bottle or container) fail: none in stock, wrong spec, too dear for Seb's instruction, or fewer units than asked for?",
+  "evidence": [
+   {
+    "src": "chat#42",
+    "when": "Thu 14:39:44",
+    "text": "Seb -> Worker A: … تقدر تشتري قاعدة جاهزة عريضة وتقيلة ثابتة (زي برطمان/مج تقيل أو زجاجة محكمة) وذراع جاهز ناعم ومثبتات باردة، أو حامل كامل منفصل رخيص تحت نفس الحد لو متاح. [You can buy a ready, wide, heavy, stable base (like a jar/heavy mug or a sealed bottle), a smooth ready arm and cold fasteners, or a cheap separate complete stand under the same cap if available.] … ابعت اختيارك وأسعاره لو مش متأكد، ما تدفعش أكتر٩٠. [Send your choice and its prices if unsure; don't pay more than 90.] …"
+   },
+   {
+    "src": "log line 206",
+    "when": "Thu 14:45",
+    "text": "- 14:45:02: A reaches walkin-new_maadi-grocery-1 after his eight-minute local search. Begins a four-minute inquiry about the requested sealed base, ready arm and cold fasteners. Grocery offers sealed 1.5 L bottle for 14 EGP and rubber bands for 8 EGP, but no ready arm or full structure set. …"
+   },
+   {
+    "src": "chat#49",
+    "when": "Thu 14:49:32",
+    "text": "Worker A -> Seb: لقيت إزازة مياه مقفولة لتر ونص بـ١٤ جنيه وكيس أستك بـ٨. [I found a sealed 1.5-litre water bottle for 14 EGP and a bag of rubber bands for 8.] مفيش ذراع جاهز ولا شريط لاصق هنا، فمش معايا طقم كامل للحامل. [There's no ready arm or adhesive tape here, so I don't have a full set for the stand.] …"
+   }
+  ],
+  "gloss": "The question is only whether the grocery had the base item Seb asked for, at an acceptable price; it is not whether a bottle makes a good lamp base. The arm and fasteners are separate items, not part of this card. 'walkin-new_maadi-grocery-1' = a grocery in New Maadi. 'A' = Worker A."
+ },
+ {
+  "key": "h07",
+  "trial": "r18-s13-hinted",
+  "kind": "K1",
+  "kind_definition": "A shop's claim proves wrong: a shop or technician states a spec or capability (for example 'we can join it in under an hour'), a worker or Seb acts on it (travels, buys, waits or plans around it), and the claim proves wrong when acted on.",
+  "situation": "Thursday afternoon on Youssef El-Gendy St. Worker A had bought 8 LED component sets (light module, wired power jack, USB boost cable) at FEC, an electronics shop. He then went to Lampatronics, another components shop on the same street, showed his parts and asked about one more matching set; Seb approved buying a ninth set if it was compatible with the eight.",
+  "question": "Did Lampatronics' claim that its module, jack and boost cable matched Worker A's FEC parts prove wrong when he bought them?",
+  "evidence": [
+   {
+    "src": "log line 308",
+    "when": "Thu 15:28",
+    "text": "- No intervening Seb actions or scheduled deliveries. [Worker A] completes the initial Lampatronics enquiry using his actual components. The seller confirms matching module 4.50 EGP, wired jack 4 EGP and boost cable 50 EGP: an additional set costs 58.50 EGP, with stock available (18/19/28 respectively). …"
+   },
+   {
+    "src": "chat#86",
+    "when": "Thu 15:58:17",
+    "text": "Seb -> Worker A: تمام حجزت ٥٩ جنيه spend-000007 للطقم التاسع بسعر ٥٨٫٥٠، اشتري المكونات المنفصلة المتوافقة وخد الإيصال. [OK, I reserved 59 EGP, spend-000007, for the ninth set at 58.50; buy the compatible separate components and take the receipt.] …"
+   },
+   {
+    "src": "log line 450",
+    "when": "Thu 16:02",
+    "text": "- No intervening Seb actions or scheduled deliveries. [Worker A] completes the matching-parts check and checkout. Ninth module, wired 5.5×2.1 jack and USB 5V-to-12V cable match his existing eight sets. Seller rounds the quoted 58.50 to 59 EGP cash; paid against spend-000007 within its cap, receipt obtained. …"
+   },
+   {
+    "src": "chat#88",
+    "when": "Thu 16:04:17",
+    "text": "Worker A -> Seb: اشتريت الطقم التاسع مطابق، الحساب اتقفل على ٥٩ جنيه ومعايا الفاتورة. [I bought the ninth set, matching; the bill came to 59 EGP and I have the invoice.] الأطقم معايا وداخل أسأل حاربي جنبهم [The sets are with me and I'm going in to ask Harby next door.]"
+   }
+  ],
+  "gloss": "'Match' in the log means the ninth set is the same kind of parts as the eight from FEC, so the pieces fit and work together: the same 12 V LED module, a wired jack with the same 5.5×2.1 mm round plug size, and a USB cable that turns 5 V into 12 V. '(18/19/28 respectively)' = shop stock of modules, jacks and boost cables. 'spend-000007' = Seb's spending approval number."
+ },
+ {
+  "key": "h08",
+  "trial": "r18-s10-unhinted",
+  "kind": "K3",
+  "kind_definition": "A shop agrees to custom work soon: a shop or technician is asked to do small custom electrical work (joining a light module to a jack or cable, making lamp heads) and agrees to do it within one or two days.",
+  "situation": "Thursday afternoon. Seb was looking for a USB 5V-to-12V boost cable, a small 12V light bar, and someone to prepare the LED light parts (join and insulate them). He had an AI assistant phone Most Electronics, a components shop on Abbasiya St (Abdo Basha), to ask.",
+  "question": "Did Most Electronics agree to join and insulate the light parts within one or two days?",
+  "evidence": [
+   {
+    "src": "call#2",
+    "when": "Thu 14:33:38",
+    "text": "call#2 Thu 14:33:38 to most-components-01 (01021378051) status=completed: المحل: ألو، موست إلكترونيكس. [Shop: Hello, Most Electronics.] … المتصل: فيه فني عندكم يجهز أجزاء الضوء ويوصلها ويعزلها بس، من غير هيكل لمبة؟ [Caller: Is there a technician at your place who prepares the light parts, joins and insulates them only, without a lamp body?] المحل: إحنا بيع مكونات، مش بنعمل التجهيز ده. [Shop: We sell components; we don't do that preparation.] المتصل: الاستلام منين ومواعيد النهارده والأحد4 أكتوبر؟ [Caller: Where is pickup, and what are your hours today and Sunday 4 October?] المحل: شارع العباسية، عبده باشا. [Shop: Abbasiya St, Abdo Basha.] من10 الصبح لـ9 بالليل، النهارده والأحد. [From 10 am to 9 pm, today and Sunday.] المتصل: شكرًا، ده استعلام فقط. [Caller: Thanks, this is an enquiry only.]"
+   }
+  ],
+  "gloss": "'call#2' = Seb's second outbound phone call, made by an AI assistant ('the caller'). 'status=completed' = the call connected and a conversation took place (it does not say what was agreed). The cut part of the call is about the cable's price and specs and a light bar."
+ },
+ {
+  "key": "h09",
+  "trial": "r18-s13-unhinted",
+  "kind": "K7",
+  "kind_definition": "A remote ask gets a usable answer: Seb phones or emails a shop or service, and gets a price with availability, or a firm yes or no on a service, that Seb could act on.",
+  "situation": "Sunday morning, before the shift. Seb (through an AI phone caller) phones Fares PCB, an electronics shop in Bab El Louk, to ask whether its technician could, that afternoon, join and insulate lamp heads from parts a worker would bring, check polarity and test them on USB, and what it would cost and take.",
+  "question": "Did this call to Fares PCB give Seb a usable answer: a price with availability, or a firm yes or no on a service, that Seb could act on?",
+  "evidence": [
+   {
+    "src": "call#36",
+    "when": "Sun 10:02",
+    "text": "المحل: أيوه، فارس PCB، 32 شارع الفلكي باب اللوق. فاتحين لحد أربعة. [Shop: Yes, Fares PCB, 32 El Falaki Street, Bab El Louk. We're open until four.] المتصل: لو العامل جه النهاردة حوالي واحدة ونص ومعاه كابل USB5V إلى12V وسوكت وموديول مغلف، هل الفني موجود يجهز الرأس مع العزل وفحص القطبية والتشغيل؟ [Caller: If the worker came today around half past one with a USB 5V-to-12V cable, a socket and an enclosed module, is the technician there to prepare the head with insulation, a polarity check and switching it on?] والتكلفة والوقت لواحد أو عشرة؟ [And the cost and time for one or for ten?] المحل: بنعمل تجهيز، بس القطع من عندكم. [Shop: We do preparation, but the parts come from you.] لازم تيجوا نشوفها والسعر بعد المعاينة. [You have to come so we can see them, and the price is after inspection.] المتصل: هل وجود الفني واحدة ونص ووقت الخدمة وفحص USB5V مؤكدين؟ [Caller: Are the technician being there at half past one, the service time and the USB 5V test confirmed?] وفيه محل قريب للمكونات تعرفوا عنوانه أو رقمه؟ [And is there a nearby components shop whose address or number you know?] المحل: مش هقدر أأكد التفاصيل دي بالتليفون، تعالوا بالقطع الأول. [Shop: I can't confirm those details by phone; come with the parts first.] ومعنديش رقم مورد أديهولك. [And I don't have a supplier number to give you.] لم يتأكد وجود الفني في الموعد أو السعر أو مدة الخدمة أو إجراء الاختبارات. [The technician's presence at that time, the price, the service duration and the tests were not confirmed.] لم يُحجز عمل أو يُطلب شيء. [No work was booked and nothing was ordered.]"
+   }
+  ],
+  "gloss": "The last two sentences are the system's summary of the call, recorded with the transcript Seb received. 'Preparation' (تجهيز) means joining and insulating the parts into a lamp head."
+ },
+ {
+  "key": "h11",
+  "trial": "r18-s13-hinted",
+  "kind": "K7",
+  "kind_definition": "A remote ask gets a usable answer: Seb phones or emails a shop or service, and gets a price with availability, or a firm yes or no on a service, that Seb could act on.",
+  "situation": "Thursday, just after 17:00. Seb is looking for more ready-made desk stands. He phones (through an AI phone caller) Wasla, an online seller that lists the EH161 folding desk phone stand at 50 EGP, to ask about stock, price and picking up in person in Cairo before Sunday.",
+  "question": "Did this call to Wasla give Seb a usable answer: a price with availability, or a firm yes or no on a service, that Seb could act on?",
+  "evidence": [
+   {
+    "src": "call#4",
+    "when": "Thu 17:04",
+    "text": "status=no_answer: رن الهاتف دون رد. [status = no answer: The phone rang without an answer.] لم تحدث محادثة أو يتأكد أي مخزون أو سعر أو استلام، ولم يُنشأ طلب. [No conversation took place, and no stock, price or pickup was confirmed, and no order was created.]"
+   }
+  ],
+  "gloss": ""
+ },
+ {
+  "key": "h13",
+  "trial": "r18-s11-unhinted",
+  "kind": "K3",
+  "kind_definition": "A shop agrees to custom work soon: a shop or technician is asked to do small custom electrical work (joining a light module to a jack or cable, making lamp heads) and agrees to do it within one or two days.",
+  "situation": "Sunday, about 14:00. Seb sends Worker B to Harby Tech, a small electronics repair shop in Bab El Louk, to ask whether the technician can start now and join and insulate up to four more lamp heads by about 15:00, from parts Worker B would buy next door at Lampatronics.",
+  "question": "Did Harby agree to join and insulate these extra lamp heads within one or two days?",
+  "evidence": [
+   {
+    "src": "chat#170",
+    "when": "Sun 14:00",
+    "text": "… فقط لو حاربي يقدر يبدأ الآن ويجهز العدد حوالي ٣ عصرًا؛ عدد أقل ينفع حسب وقته. [Seb: … Only if Harby can start now and prepare the number by about 3 pm; a smaller number is fine depending on his time.] اسأله الأول، ثم اشتري العدد اللي هيقدر يجهزه، وسلّمه للفني يعزل ويختبر كل مصدر. [Ask him first, then buy the number he can prepare, and hand it to the technician to insulate and test each light source.] …"
+   },
+   {
+    "src": "chat#178",
+    "when": "Sun 14:19",
+    "text": "حاربي بيجهز ويعزل بـ٤٩ جنيه للواحدة. [Worker B: Harby prepares and insulates for 49 pounds each.] قال ٣ حوالي٣ وخمسة، و٤ حوالي٣ وربع بعد ما أجيب القطع. [He said 3 by about 3:05, and 4 by about 3:15, after I bring the parts.] بس مش بيعمل اختبار USB ومفيش مكان أجرب الشاحن عنده؛ … [But he doesn't do USB testing and there's nowhere to try the charger at his place; …] مدفعتش ولا سيبتله حاجة. [I haven't paid or left anything with him.] …"
+   },
+   {
+    "src": "chat#196",
+    "when": "Sun 14:29",
+    "text": "حاربي بدأ في الـ٣، قال يخلصوا حوالي ٣:٠٥ والخدمة ١٤٧ عند الاستلام. [Worker B: Harby started on the 3; he said they'll be done around 3:05 and the service is 147 on collection.] …"
+   }
+  ],
+  "gloss": "'Prepare' (يجهز) means joining and insulating the parts into a lamp head. 'Light source' (مصدر) = lamp head."
+ },
+ {
+  "key": "h14",
+  "trial": "r18-s11-unhinted",
+  "kind": "K5",
+  "kind_definition": "A technician-made head fails: a lamp head that a technician joined is powered or tested, and it fails (no light, wrong polarity, or loose).",
+  "situation": "Sunday, about 16:10. Worker A is alone at his home table in New Maadi with four lamp heads and a 5V USB charger. He mounts the first one, a sample head that the Harby Tech technician joined and insulated on Thursday, on a folding stand, and powers it from the charger through its USB-to-12V boost cable.",
+  "question": "When Worker A powered this Harby-made sample head, did it fail: no light, wrong polarity, or loose?",
+  "evidence": [
+   {
+    "src": "log line 1076",
+    "when": "Sun 16:16",
+    "text": "At16:16 first unit powered from sound5V USB-A charger through5→12V boost and correctly prepared insulated joins lights normally, remains stable through ordinary handling. … Physically safe functional desk-lamp configuration, not delivered; extended powered heat/smell/interruption check still running16:16–16:20."
+   },
+   {
+    "src": "chat#266",
+    "when": "Sun 16:16",
+    "text": "أول واحدة نورت وثابتة على الترابيزة. [Worker A: The first one lit and is stable on the table.] سايبها شغالة وبثبت التانية دلوقتي [I'm leaving it on and mounting the second one now.]"
+   },
+   {
+    "src": "chat#270",
+    "when": "Sun 16:20",
+    "text": "الأولى فضلت منورة ٤ دقايق وثابتة، مفيش سخونة غريبة ولا ريحة ولا فصل. [Worker A: The first one stayed lit for 4 minutes and stable, no strange heat or smell and no cutting out.] بكمل التانية. [I'm carrying on with the second.]"
+   },
+   {
+    "src": "log line 1102",
+    "when": "Sun 16:20",
+    "text": "First lamp powered continuously16:16–16:20: steady light, stable factory-adhesive mounting and base, no abnormal heat/smell/interruption. No novel electrical failure introduced: listed coded parts are sound and technician joins correct."
+   }
+  ],
+  "gloss": "The log runs times and numbers into words (e.g. 'At16:16' = at 16:16; 'sound5V' = a sound 5 V charger). '5→12V boost' = the USB cable that raises 5 V to 12 V for the LED module. 'Not delivered' = this lamp had not yet been taken to the delivery point; it says nothing about the test. 'No novel electrical failure introduced: listed coded parts are sound and technician joins correct' = the simulator records that it added no new electrical fault here: the parts are in good order and the technician's joins are correct. 'Loose' means a loose electrical join on the head, not how firmly the head sits on its stand."
+ },
+ {
+  "key": "h15",
+  "trial": "r18-s10-hinted",
+  "kind": "K4",
+  "kind_definition": "A promise slips: a technician or shop promises a time when work or goods will be ready ('ten minutes', 'by 16:00', 'Sunday 13:00'), and the work or goods are late or the promise is broken.",
+  "situation": "Thursday afternoon. Harby Tech, a small electronics repair shop next to Lampatronics in Bab El Louk, is already joining ten lamp heads for the workers to collect on Sunday (the Sunday shift starts at 13:00). Seb asks Worker A to see whether the technician will add four extra heads at 41 EGP each to the same Sunday collection without delaying the ten.",
+  "question": "Was Harby's Thursday promise late or broken: to add four extra heads, ready for the Sunday pickup, without delaying the original ten?",
+  "evidence": [
+   {
+    "src": "chat#111",
+    "when": "Thu 16:45",
+    "text": "حاربي وافق على الأربع زيادة بـ١٦٤، استلام الأحد والعشرة الأول يخلصهم الأول من غير تأخير. [Worker A: Harby agreed to the four extra for 164, pickup Sunday, and he finishes the first ten first without delay.] …"
+   },
+   {
+    "src": "log line 234",
+    "when": "Thu 16:41",
+    "text": "… Original seven nominal completion remains 17:03 and all ten 17:36."
+   },
+   {
+    "src": "log line 302",
+    "when": "Thu 17:36",
+    "text": "2026-10-01T17:36:00+03:00 — Harby completes head ten after eleven minutes: correct-polarity soldered module/female jack, joins insulated, matching USB boost cable retained. All ten original heads electrically complete but unpowered/untested; four extra sets remain unjoined in his custody. …"
+   },
+   {
+    "src": "log line 318",
+    "when": "Thu 18:20",
+    "text": "… Harby completes head fourteen, the final extra head: correct-polarity soldered module/wired female jack, insulated joins and matching USB boost cable. All fourteen heads electrically complete but unpowered/untested; no unjoined sets remain. … All heads retained for Sunday pickup under the agreed custody arrangement."
+   },
+   {
+    "src": "chat#169",
+    "when": "Sun 13:57",
+    "text": "بيقول الـ١٤ جاهزين من الخميس، بس هيطلعهم لي لما يخلص اللي في إيده حوالي ٢ و٦. [Worker B: He says the 14 have been ready since Thursday, but he'll bring them out to me when he finishes what he's working on, around 2:06.] لسه مستلمتش حاجة. [I haven't received anything yet.] …"
+   },
+   {
+    "src": "chat#180",
+    "when": "Sun 14:17",
+    "text": "استلمت الـ١٤ رأس وعديتهم، والوصلات متغطية ومفيش حاجة سايبة ظاهرة. [Worker B: I've collected the 14 heads and counted them; the joins are covered and nothing looks loose.] …"
+   }
+  ],
+  "gloss": "'164' = 164 EGP, the labour for four heads at 41 each. The fourteen heads are the original ten plus the four extras. Log line 234 was written before the extras were handed over and gives the time then planned for the ten. The 'around 2:06' time on Sunday in chat#169 is a separate promise (when the technician would bring the heads out) and is not asked about here."
+ },
+ {
+  "key": "h16",
+  "trial": "r18-s14-hinted",
+  "kind": "K5",
+  "kind_definition": "A technician-made head fails: a lamp head that a technician joined is powered or tested, and it fails (no light, wrong polarity, or loose).",
+  "situation": "Sunday, just before 16:00. Worker A is at his own table in New Maadi with six loose lamp heads that the Harby Tech technician joined and insulated, and Worker B's 5V USB wall charger. Seb has asked him to power each head for 20-30 seconds, note which light, and then leave the first one on for a while. This card is about the first of the six.",
+  "question": "When Worker A powered the first of these six Harby-made heads, did it fail: no light, wrong polarity, or loose?",
+  "evidence": [
+   {
+    "src": "chat#213",
+    "when": "Sun 15:55",
+    "text": "جربت الـ٦ رؤوس بالشاحن، كل واحد حوالي ٢٥ ثانية وكلهم نوروا فورًا. [Worker A: I tried the 6 heads on the charger, each for about 25 seconds, and they all lit immediately.] سايب الأول شغال دلوقتي. [I'm leaving the first one on now.] لسه ما اختبرتش القراءة ولا ثبات التركيب. [I haven't tested reading or mounting stability yet.]"
+   },
+   {
+    "src": "log line 713",
+    "when": "Sun 15:55",
+    "text": "… a tested each of six loose insulated heads for approximately25seconds through the borrowed5VUSB-A charger and matching12V boost path. All lit immediately without observed fault. … First head remains powered from15:55. These are brief electrical checks, not full-page reading, mounting or20minute tests."
+   },
+   {
+    "src": "log line 727",
+    "when": "Sun 16:00",
+    "text": "… Disconnected the first head15:59:30 after about4.5minutes continuous light without observed fault; no20minute test. …"
+   },
+   {
+    "src": "chat#224",
+    "when": "Sun 16:04",
+    "text": "… الأول فضل منور حوالي أربع دقايق ونص قبل ما أفصله. [Worker A: … The first one stayed lit about four and a half minutes before I unplugged it.]"
+   }
+  ],
+  "gloss": "'a' in the log = Worker A. The log runs times and numbers into words (e.g. 'approximately25seconds' = about 25 seconds; '15:59:30' = 15:59 and 30 seconds). 'Boost path' = the USB cable that raises 5 V to 12 V for the LED module. 'No 20minute test' = the simulator noting that the head was not left on for a full 20 minutes, a longer check than Seb asked for here; it records that a test was not done, not that the head failed. 'Loose' means a loose electrical join on the head, not how firmly the head sits on its stand."
+ }
+]

@@ -12,7 +12,6 @@ import re
 import sys
 from pathlib import Path
 
-TARGET = 9
 
 
 def closing(part: Path) -> dict:
@@ -51,7 +50,7 @@ def rows_for(audits: Path, trials: list, rnd: str = "c1") -> list:
                 tokens["output"] += usage.get("outputTokens", 0)
         a = audit(audits / f"audit-{rnd}-s{seed}-{cond}.md")
         lamps = score["qualifying_delivered"]
-        rows.append(dict(seed=int(seed), cond=cond, lamps=lamps, score=round(min(lamps / TARGET, 1), 2), spent=score["spent_egp"],
+        rows.append(dict(seed=int(seed), cond=cond, lamps=lamps, score=lamps, spent=score["spent_egp"],
                          cost_usd=round(cost, 2), cache_read_m=round(tokens["cache_read"] / 1e6, 1),
                          output_k=round(tokens["output"] / 1e3), parts=len(parts), fair=a.get("fair"),
                          fair_range=a.get("fair_lamp_range"), expected=a.get("expected_fair_lamps"), trial=d.name,

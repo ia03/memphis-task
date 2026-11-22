@@ -30,7 +30,7 @@ RUN pip install --no-cache-dir "pydantic==2.11.7" "pyyaml==6.0.2" "jsonschema==4
 COPY app/ /app/
 WORKDIR /app
 ENV PYTHONPATH=/app
-CMD ["sh", "-c", "python -m hsim.server --seed $SIM_SEED --target $SIM_TARGET --out /out --agent-token $SIM_AGENT_TOKEN --grader-token $SIM_GRADER_TOKEN --port 8787"]
+CMD ["sh", "-c", "python -m hsim.server --seed $SIM_SEED --out /out --agent-token $SIM_AGENT_TOKEN --grader-token $SIM_GRADER_TOKEN --port 8787"]
 """
 
 SQUID = """http_port 3128
@@ -72,7 +72,6 @@ COMPOSE = """services:
       context: ./sim
     environment:
       SIM_SEED: "{seed}"
-      SIM_TARGET: "{target}"
       SIM_AGENT_TOKEN: ${{SIM_AGENT_TOKEN}}
       SIM_GRADER_TOKEN: ${{SIM_GRADER_TOKEN}}
       CODEX_HOME: /run/codex
@@ -111,7 +110,6 @@ TASK_TOML = """schema_version = "1.3"
 [metadata]
 name = "memphis-first-batch-hidden-state"
 seed = {seed}
-target = {target}
 
 [agent]
 timeout_sec = 43200
@@ -139,7 +137,7 @@ cat /logs/verifier/score.json
 """
 
 
-def build(seed: int, target: int, out: Path, auth: Path, hint: Path | None = None) -> None:
+def build(seed: int, out: Path, auth: Path, hint: Path | None = None) -> None:
     if out.exists():
         shutil.rmtree(out)
     env = out / "environment"
@@ -157,8 +155,8 @@ def build(seed: int, target: int, out: Path, auth: Path, hint: Path | None = Non
     (env / "sim" / "Dockerfile").write_text(SIM_DOCKERFILE)
     (env / "proxy" / "Dockerfile").write_text(PROXY_DOCKERFILE)
     (env / "proxy" / "squid.conf").write_text(SQUID)
-    (env / "docker-compose.yaml").write_text(COMPOSE.format(seed=seed, target=target, auth=auth))
-    (out / "task.toml").write_text(TASK_TOML.format(seed=seed, target=target))
+    (env / "docker-compose.yaml").write_text(COMPOSE.format(seed=seed, auth=auth))
+    (out / "task.toml").write_text(TASK_TOML.format(seed=seed))
     prompt = (ROOT / "world" / "agent_prompt.md").read_text()
     if hint is not None:
         prompt += hint.read_text()
@@ -170,9 +168,8 @@ def build(seed: int, target: int, out: Path, auth: Path, hint: Path | None = Non
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("--seed", type=int, required=True)
-    p.add_argument("--target", type=int, required=True)
     p.add_argument("--out", type=Path, required=True)
     p.add_argument("--auth", type=Path, default=Path.home() / ".codex" / "auth.json")
     p.add_argument("--hint-file", type=Path, dest="hint_file")
     a = p.parse_args()
-    build(a.seed, a.target, a.out, a.auth, a.hint_file)
+    build(a.seed, a.out, a.auth, a.hint_file)
