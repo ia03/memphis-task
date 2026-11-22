@@ -121,6 +121,9 @@ def main():
         left = [l for l in (OUT / "arxiv" / "main.tex").read_text().splitlines() if re.search(r"(?<!\\)%.", l)]
         if left:
             fail("comment text left in arxiv/main.tex:\n  " + "\n  ".join(left[:5]))
+        # arXiv asks for this in the first lines so pdflatex writes PDF. Added after the build: XeTeX (tectonic) lacks it.
+        arxiv_main = OUT / "arxiv" / "main.tex"
+        arxiv_main.write_text("\\pdfoutput=1\n" + arxiv_main.read_text())
 
         if shutil.which("pdflatex"):
             check = work / "arxiv-check"
