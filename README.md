@@ -22,7 +22,7 @@ release `v1.0`.
 ## Running
 
 A trial needs Docker, Python 3.12, Harbor 0.23 (`pip install -r requirements-lock.txt`), and a Codex sign-in with access to
-GPT-6.1 Sol for the world model (and for the agent, if it is GPT). `python3 build_task.py --seed 10 --target 9 --out tasks/s10`
+GPT-6.1 Sol for the world model (and for the agent, if it is GPT). `python3 build_task.py --seed 10 --out tasks/memphis-seed10`
 builds a task; `example-config.yaml` runs one.
 
 ## What is removed
