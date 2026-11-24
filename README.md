@@ -5,7 +5,7 @@ workers in Cairo over chat for five shifts with 7,000 EGP, to get USB desk lamps
 a [Harbor](https://github.com/harbor-framework/harbor) task: one language model plays the city (both workers and every shop) from
 the shops, prices and stock the workers found, the real chats, and how often things went wrong in October.
 
-The paper is `paper/main.pdf`.
+The paper is on arXiv: [2611.29824](https://arxiv.org/abs/2611.29824). Its source and data are in `paper/`.
 
 | Path | What |
 |---|---|
@@ -33,6 +33,20 @@ dataset. In every file, worker A's surname and home street, worker B's phone num
 `[map link removed]`. Tokens in URLs, the agent's mail account and machine paths are replaced too. Because the address is
 replaced, built tasks do not match the checksums recorded in the trials; they run the same way. The transcripts of the phone
 calls made in October are removed; each call's summary stays. Businesses keep their names.
+
+## Citation
+
+```bibtex
+@misc{ahmed2026memphiscasestudyseeding,
+  title={Memphis: A Case Study in Seeding an Agent Task from a Model's Real-World Attempt},
+  author={Ibrahim A. Ahmed and Ahmed Sameh Khalil},
+  year={2026},
+  eprint={2611.29824},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2611.29824}
+}
+```
 
 ## License
 
